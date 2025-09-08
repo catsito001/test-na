@@ -1,0 +1,1802 @@
+[
+  {
+    "word": "Elizabeth",
+    "start": 0,
+    "end": 0.569
+  },
+  {
+    "word": "Bennet",
+    "start": 0.627,
+    "end": 0.975
+  },
+  {
+    "word": "lived",
+    "start": 1.091,
+    "end": 1.37
+  },
+  {
+    "word": "in",
+    "start": 1.416,
+    "end": 1.486
+  },
+  {
+    "word": "a",
+    "start": 1.544,
+    "end": 1.567
+  },
+  {
+    "word": "small",
+    "start": 1.649,
+    "end": 2.148
+  },
+  {
+    "word": "English",
+    "start": 2.264,
+    "end": 2.694
+  },
+  {
+    "word": "village",
+    "start": 2.775,
+    "end": 3.344
+  },
+  {
+    "word": "She",
+    "start": 3.68,
+    "end": 3.82
+  },
+  {
+    "word": "had",
+    "start": 3.866,
+    "end": 3.982
+  },
+  {
+    "word": "four",
+    "start": 4.063,
+    "end": 4.354
+  },
+  {
+    "word": "sisters",
+    "start": 4.435,
+    "end": 5.039
+  },
+  {
+    "word": "and",
+    "start": 5.097,
+    "end": 5.224
+  },
+  {
+    "word": "loving",
+    "start": 5.341,
+    "end": 5.677
+  },
+  {
+    "word": "parents",
+    "start": 5.759,
+    "end": 6.339
+  },
+  {
+    "word": "Her",
+    "start": 6.873,
+    "end": 7.012
+  },
+  {
+    "word": "family",
+    "start": 7.082,
+    "end": 7.512
+  },
+  {
+    "word": "was",
+    "start": 7.581,
+    "end": 7.732
+  },
+  {
+    "word": "lively",
+    "start": 7.848,
+    "end": 8.417
+  },
+  {
+    "word": "joyful",
+    "start": 8.626,
+    "end": 9.149
+  },
+  {
+    "word": "full",
+    "start": 9.474,
+    "end": 9.694
+  },
+  {
+    "word": "of",
+    "start": 9.752,
+    "end": 9.81
+  },
+  {
+    "word": "quiet",
+    "start": 9.892,
+    "end": 10.379
+  },
+  {
+    "word": "hope",
+    "start": 10.437,
+    "end": 10.693
+  },
+  {
+    "word": "for",
+    "start": 10.728,
+    "end": 10.844
+  },
+  {
+    "word": "the",
+    "start": 10.89,
+    "end": 10.96
+  },
+  {
+    "word": "future",
+    "start": 11.018,
+    "end": 11.587
+  },
+  {
+    "word": "At",
+    "start": 12.307,
+    "end": 12.469
+  },
+  {
+    "word": "a",
+    "start": 12.516,
+    "end": 12.55
+  },
+  {
+    "word": "grand",
+    "start": 12.608,
+    "end": 12.98
+  },
+  {
+    "word": "ball",
+    "start": 13.073,
+    "end": 13.444
+  },
+  {
+    "word": "Elizabeth",
+    "start": 13.56,
+    "end": 14.118
+  },
+  {
+    "word": "met",
+    "start": 14.199,
+    "end": 14.454
+  },
+  {
+    "word": "Mr",
+    "start": 14.571,
+    "end": 14.872
+  },
+  {
+    "word": "Darcy",
+    "start": 14.93,
+    "end": 15.488
+  },
+  {
+    "word": "He",
+    "start": 15.964,
+    "end": 16.08
+  },
+  {
+    "word": "seemed",
+    "start": 16.138,
+    "end": 16.44
+  },
+  {
+    "word": "proud",
+    "start": 16.521,
+    "end": 17.032
+  },
+  {
+    "word": "and",
+    "start": 17.101,
+    "end": 17.218
+  },
+  {
+    "word": "distant",
+    "start": 17.299,
+    "end": 17.845
+  },
+  {
+    "word": "She",
+    "start": 18.24,
+    "end": 18.379
+  },
+  {
+    "word": "formed",
+    "start": 18.472,
+    "end": 18.878
+  },
+  {
+    "word": "an",
+    "start": 18.925,
+    "end": 18.994
+  },
+  {
+    "word": "instant",
+    "start": 19.076,
+    "end": 19.517
+  },
+  {
+    "word": "opinion",
+    "start": 19.563,
+    "end": 20.039
+  },
+  {
+    "word": "thinking",
+    "start": 20.364,
+    "end": 20.724
+  },
+  {
+    "word": "he",
+    "start": 20.794,
+    "end": 20.875
+  },
+  {
+    "word": "was",
+    "start": 20.945,
+    "end": 21.096
+  },
+  {
+    "word": "cold",
+    "start": 21.177,
+    "end": 21.618
+  },
+  {
+    "word": "and",
+    "start": 21.688,
+    "end": 21.827
+  },
+  {
+    "word": "unkind",
+    "start": 21.943,
+    "end": 22.721
+  },
+  {
+    "word": "Soon",
+    "start": 23.441,
+    "end": 23.871
+  },
+  {
+    "word": "Darcy",
+    "start": 23.975,
+    "end": 24.451
+  },
+  {
+    "word": "helped",
+    "start": 24.521,
+    "end": 24.799
+  },
+  {
+    "word": "secretly",
+    "start": 24.869,
+    "end": 25.38
+  },
+  {
+    "word": "with",
+    "start": 25.45,
+    "end": 25.6
+  },
+  {
+    "word": "her",
+    "start": 25.635,
+    "end": 25.728
+  },
+  {
+    "word": "family",
+    "start": 25.798,
+    "end": 26.32
+  },
+  {
+    "word": "Elizabeth",
+    "start": 26.936,
+    "end": 27.47
+  },
+  {
+    "word": "learned",
+    "start": 27.528,
+    "end": 27.83
+  },
+  {
+    "word": "kindness",
+    "start": 27.899,
+    "end": 28.352
+  },
+  {
+    "word": "can",
+    "start": 28.387,
+    "end": 28.503
+  },
+  {
+    "word": "hide",
+    "start": 28.573,
+    "end": 28.898
+  },
+  {
+    "word": "beneath",
+    "start": 28.944,
+    "end": 29.281
+  },
+  {
+    "word": "quiet",
+    "start": 29.35,
+    "end": 29.768
+  },
+  {
+    "word": "manners",
+    "start": 29.85,
+    "end": 30.361
+  },
+  {
+    "word": "First",
+    "start": 31.046,
+    "end": 31.359
+  },
+  {
+    "word": "impressions",
+    "start": 31.405,
+    "end": 31.998
+  },
+  {
+    "word": "can",
+    "start": 32.044,
+    "end": 32.183
+  },
+  {
+    "word": "be",
+    "start": 32.241,
+    "end": 32.334
+  },
+  {
+    "word": "wrong",
+    "start": 32.381,
+    "end": 32.741
+  },
+  {
+    "word": "and",
+    "start": 32.822,
+    "end": 33.031
+  },
+  {
+    "word": "hurt",
+    "start": 33.309,
+    "end": 33.6
+  },
+  {
+    "word": "feelings",
+    "start": 33.681,
+    "end": 34.134
+  },
+  {
+    "word": "deeply",
+    "start": 34.203,
+    "end": 34.714
+  },
+  {
+    "word": "Darcy",
+    "start": 35.329,
+    "end": 35.736
+  },
+  {
+    "word": "realized",
+    "start": 35.817,
+    "end": 36.351
+  },
+  {
+    "word": "his",
+    "start": 36.397,
+    "end": 36.502
+  },
+  {
+    "word": "pride",
+    "start": 36.572,
+    "end": 37.024
+  },
+  {
+    "word": "drove",
+    "start": 37.082,
+    "end": 37.384
+  },
+  {
+    "word": "Elizabeth",
+    "start": 37.431,
+    "end": 37.895
+  },
+  {
+    "word": "away",
+    "start": 37.93,
+    "end": 38.383
+  },
+  {
+    "word": "He",
+    "start": 38.882,
+    "end": 38.986
+  },
+  {
+    "word": "wrote",
+    "start": 39.033,
+    "end": 39.254
+  },
+  {
+    "word": "an",
+    "start": 39.288,
+    "end": 39.346
+  },
+  {
+    "word": "honest",
+    "start": 39.404,
+    "end": 39.753
+  },
+  {
+    "word": "letter",
+    "start": 39.846,
+    "end": 40.194
+  },
+  {
+    "word": "explaining",
+    "start": 40.275,
+    "end": 40.832
+  },
+  {
+    "word": "truths",
+    "start": 40.902,
+    "end": 41.436
+  },
+  {
+    "word": "He",
+    "start": 41.97,
+    "end": 42.086
+  },
+  {
+    "word": "showed",
+    "start": 42.144,
+    "end": 42.435
+  },
+  {
+    "word": "humility",
+    "start": 42.481,
+    "end": 43.085
+  },
+  {
+    "word": "and",
+    "start": 43.154,
+    "end": 43.271
+  },
+  {
+    "word": "respect",
+    "start": 43.352,
+    "end": 43.99
+  },
+  {
+    "word": "hoping",
+    "start": 44.315,
+    "end": 44.629
+  },
+  {
+    "word": "for",
+    "start": 44.687,
+    "end": 44.85
+  },
+  {
+    "word": "a",
+    "start": 44.908,
+    "end": 44.942
+  },
+  {
+    "word": "new",
+    "start": 45.012,
+    "end": 45.151
+  },
+  {
+    "word": "understanding",
+    "start": 45.221,
+    "end": 45.918
+  },
+  {
+    "word": "between",
+    "start": 45.987,
+    "end": 46.347
+  },
+  {
+    "word": "them",
+    "start": 46.405,
+    "end": 46.637
+  },
+  {
+    "word": "Elizabeth",
+    "start": 47.415,
+    "end": 47.961
+  },
+  {
+    "word": "read",
+    "start": 48.042,
+    "end": 48.228
+  },
+  {
+    "word": "the",
+    "start": 48.263,
+    "end": 48.332
+  },
+  {
+    "word": "letter",
+    "start": 48.391,
+    "end": 48.658
+  },
+  {
+    "word": "by",
+    "start": 48.716,
+    "end": 48.867
+  },
+  {
+    "word": "candlelight",
+    "start": 48.948,
+    "end": 49.621
+  },
+  {
+    "word": "She",
+    "start": 50.237,
+    "end": 50.364
+  },
+  {
+    "word": "felt",
+    "start": 50.422,
+    "end": 50.655
+  },
+  {
+    "word": "surprise",
+    "start": 50.713,
+    "end": 51.374
+  },
+  {
+    "word": "and",
+    "start": 51.421,
+    "end": 51.549
+  },
+  {
+    "word": "regret",
+    "start": 51.63,
+    "end": 52.106
+  },
+  {
+    "word": "She",
+    "start": 52.605,
+    "end": 52.744
+  },
+  {
+    "word": "saw",
+    "start": 52.814,
+    "end": 53.035
+  },
+  {
+    "word": "her",
+    "start": 53.104,
+    "end": 53.22
+  },
+  {
+    "word": "own",
+    "start": 53.29,
+    "end": 53.453
+  },
+  {
+    "word": "mistakes",
+    "start": 53.499,
+    "end": 53.975
+  },
+  {
+    "word": "and",
+    "start": 54.01,
+    "end": 54.103
+  },
+  {
+    "word": "recognized",
+    "start": 54.172,
+    "end": 54.811
+  },
+  {
+    "word": "the",
+    "start": 54.846,
+    "end": 54.916
+  },
+  {
+    "word": "value",
+    "start": 54.974,
+    "end": 55.392
+  },
+  {
+    "word": "of",
+    "start": 55.426,
+    "end": 55.496
+  },
+  {
+    "word": "humility",
+    "start": 55.566,
+    "end": 56.088
+  },
+  {
+    "word": "and",
+    "start": 56.169,
+    "end": 56.285
+  },
+  {
+    "word": "true",
+    "start": 56.344,
+    "end": 56.611
+  },
+  {
+    "word": "kindness",
+    "start": 56.669,
+    "end": 57.249
+  },
+  {
+    "word": "Meanwhile",
+    "start": 57.864,
+    "end": 58.41
+  },
+  {
+    "word": "her",
+    "start": 58.48,
+    "end": 58.607
+  },
+  {
+    "word": "sister",
+    "start": 58.677,
+    "end": 58.979
+  },
+  {
+    "word": "Jane",
+    "start": 59.049,
+    "end": 59.49
+  },
+  {
+    "word": "loved",
+    "start": 59.618,
+    "end": 59.919
+  },
+  {
+    "word": "Mr",
+    "start": 59.977,
+    "end": 60.256
+  },
+  {
+    "word": "Bingley",
+    "start": 60.303,
+    "end": 60.767
+  },
+  {
+    "word": "They",
+    "start": 61.359,
+    "end": 61.522
+  },
+  {
+    "word": "faced",
+    "start": 61.58,
+    "end": 61.893
+  },
+  {
+    "word": "small",
+    "start": 61.974,
+    "end": 62.299
+  },
+  {
+    "word": "obstacles",
+    "start": 62.381,
+    "end": 62.95
+  },
+  {
+    "word": "of",
+    "start": 63.008,
+    "end": 63.077
+  },
+  {
+    "word": "distance",
+    "start": 63.159,
+    "end": 63.669
+  },
+  {
+    "word": "and",
+    "start": 63.704,
+    "end": 63.867
+  },
+  {
+    "word": "gossip",
+    "start": 63.96,
+    "end": 64.447
+  },
+  {
+    "word": "Love",
+    "start": 65.039,
+    "end": 65.341
+  },
+  {
+    "word": "grew",
+    "start": 65.388,
+    "end": 65.632
+  },
+  {
+    "word": "between",
+    "start": 65.713,
+    "end": 66.073
+  },
+  {
+    "word": "them",
+    "start": 66.119,
+    "end": 66.27
+  },
+  {
+    "word": "with",
+    "start": 66.328,
+    "end": 66.502
+  },
+  {
+    "word": "gentle",
+    "start": 66.583,
+    "end": 66.92
+  },
+  {
+    "word": "patience",
+    "start": 66.966,
+    "end": 67.5
+  },
+  {
+    "word": "and",
+    "start": 67.547,
+    "end": 67.756
+  },
+  {
+    "word": "honest",
+    "start": 67.872,
+    "end": 68.302
+  },
+  {
+    "word": "hearts",
+    "start": 68.371,
+    "end": 68.754
+  },
+  {
+    "word": "Elizabeth",
+    "start": 69.602,
+    "end": 70.159
+  },
+  {
+    "word": "and",
+    "start": 70.206,
+    "end": 70.287
+  },
+  {
+    "word": "Darcy",
+    "start": 70.357,
+    "end": 70.833
+  },
+  {
+    "word": "met",
+    "start": 70.914,
+    "end": 71.088
+  },
+  {
+    "word": "again",
+    "start": 71.134,
+    "end": 71.448
+  },
+  {
+    "word": "at",
+    "start": 71.529,
+    "end": 71.645
+  },
+  {
+    "word": "Darcy",
+    "start": 71.715,
+    "end": 72.133
+  },
+  {
+    "word": "s",
+    "start": 72.179,
+    "end": 72.214
+  },
+  {
+    "word": "estate",
+    "start": 72.272,
+    "end": 72.725
+  },
+  {
+    "word": "Pemberley",
+    "start": 72.795,
+    "end": 73.398
+  },
+  {
+    "word": "The",
+    "start": 73.932,
+    "end": 74.048
+  },
+  {
+    "word": "house",
+    "start": 74.107,
+    "end": 74.35
+  },
+  {
+    "word": "was",
+    "start": 74.397,
+    "end": 74.524
+  },
+  {
+    "word": "grand",
+    "start": 74.606,
+    "end": 75.059
+  },
+  {
+    "word": "but",
+    "start": 75.14,
+    "end": 75.302
+  },
+  {
+    "word": "welcoming",
+    "start": 75.372,
+    "end": 75.929
+  },
+  {
+    "word": "Elizabeth",
+    "start": 76.579,
+    "end": 77.125
+  },
+  {
+    "word": "s",
+    "start": 77.172,
+    "end": 77.206
+  },
+  {
+    "word": "respect",
+    "start": 77.264,
+    "end": 77.671
+  },
+  {
+    "word": "for",
+    "start": 77.729,
+    "end": 77.833
+  },
+  {
+    "word": "Darcy",
+    "start": 77.891,
+    "end": 78.344
+  },
+  {
+    "word": "grew",
+    "start": 78.414,
+    "end": 78.704
+  },
+  {
+    "word": "with",
+    "start": 78.762,
+    "end": 78.913
+  },
+  {
+    "word": "each",
+    "start": 78.971,
+    "end": 79.168
+  },
+  {
+    "word": "kind",
+    "start": 79.238,
+    "end": 79.586
+  },
+  {
+    "word": "word",
+    "start": 79.668,
+    "end": 80.074
+  },
+  {
+    "word": "and",
+    "start": 80.132,
+    "end": 80.283
+  },
+  {
+    "word": "honest",
+    "start": 80.399,
+    "end": 80.829
+  },
+  {
+    "word": "smile",
+    "start": 80.91,
+    "end": 81.595
+  },
+  {
+    "word": "When",
+    "start": 82.059,
+    "end": 82.257
+  },
+  {
+    "word": "Elizabeth",
+    "start": 82.315,
+    "end": 82.791
+  },
+  {
+    "word": "discovered",
+    "start": 82.849,
+    "end": 83.348
+  },
+  {
+    "word": "Darcy",
+    "start": 83.429,
+    "end": 83.824
+  },
+  {
+    "word": "s",
+    "start": 83.882,
+    "end": 83.917
+  },
+  {
+    "word": "true",
+    "start": 83.975,
+    "end": 84.242
+  },
+  {
+    "word": "help",
+    "start": 84.3,
+    "end": 84.509
+  },
+  {
+    "word": "to",
+    "start": 84.578,
+    "end": 84.671
+  },
+  {
+    "word": "her",
+    "start": 84.753,
+    "end": 84.846
+  },
+  {
+    "word": "sister",
+    "start": 84.904,
+    "end": 85.217
+  },
+  {
+    "word": "s",
+    "start": 85.263,
+    "end": 85.287
+  },
+  {
+    "word": "family",
+    "start": 85.345,
+    "end": 85.821
+  },
+  {
+    "word": "she",
+    "start": 86.169,
+    "end": 86.308
+  },
+  {
+    "word": "thanked",
+    "start": 86.366,
+    "end": 86.657
+  },
+  {
+    "word": "him",
+    "start": 86.703,
+    "end": 86.889
+  },
+  {
+    "word": "Her",
+    "start": 87.446,
+    "end": 87.597
+  },
+  {
+    "word": "heart",
+    "start": 87.667,
+    "end": 87.922
+  },
+  {
+    "word": "opened",
+    "start": 87.98,
+    "end": 88.352
+  },
+  {
+    "word": "She",
+    "start": 88.781,
+    "end": 88.909
+  },
+  {
+    "word": "saw",
+    "start": 88.967,
+    "end": 89.153
+  },
+  {
+    "word": "love",
+    "start": 89.246,
+    "end": 89.513
+  },
+  {
+    "word": "shines",
+    "start": 89.559,
+    "end": 89.942
+  },
+  {
+    "word": "through",
+    "start": 89.989,
+    "end": 90.233
+  },
+  {
+    "word": "good",
+    "start": 90.279,
+    "end": 90.476
+  },
+  {
+    "word": "deeds",
+    "start": 90.534,
+    "end": 90.941
+  },
+  {
+    "word": "and",
+    "start": 90.999,
+    "end": 91.127
+  },
+  {
+    "word": "caring",
+    "start": 91.243,
+    "end": 91.695
+  },
+  {
+    "word": "actions",
+    "start": 91.765,
+    "end": 92.38
+  },
+  {
+    "word": "At",
+    "start": 92.996,
+    "end": 93.17
+  },
+  {
+    "word": "a",
+    "start": 93.205,
+    "end": 93.24
+  },
+  {
+    "word": "happy",
+    "start": 93.298,
+    "end": 93.565
+  },
+  {
+    "word": "gathering",
+    "start": 93.623,
+    "end": 94.157
+  },
+  {
+    "word": "Elizabeth",
+    "start": 94.238,
+    "end": 94.749
+  },
+  {
+    "word": "and",
+    "start": 94.795,
+    "end": 94.877
+  },
+  {
+    "word": "Darcy",
+    "start": 94.946,
+    "end": 95.306
+  },
+  {
+    "word": "spoke",
+    "start": 95.376,
+    "end": 95.701
+  },
+  {
+    "word": "openly",
+    "start": 95.747,
+    "end": 96.339
+  },
+  {
+    "word": "They",
+    "start": 96.897,
+    "end": 97.059
+  },
+  {
+    "word": "shared",
+    "start": 97.117,
+    "end": 97.466
+  },
+  {
+    "word": "dreams",
+    "start": 97.547,
+    "end": 98
+  },
+  {
+    "word": "of",
+    "start": 98.046,
+    "end": 98.116
+  },
+  {
+    "word": "family",
+    "start": 98.232,
+    "end": 98.847
+  },
+  {
+    "word": "respect",
+    "start": 99.195,
+    "end": 99.904
+  },
+  {
+    "word": "and",
+    "start": 100.136,
+    "end": 100.333
+  },
+  {
+    "word": "trust",
+    "start": 100.391,
+    "end": 100.96
+  },
+  {
+    "word": "Both",
+    "start": 101.517,
+    "end": 101.796
+  },
+  {
+    "word": "felt",
+    "start": 101.877,
+    "end": 102.179
+  },
+  {
+    "word": "joy",
+    "start": 102.295,
+    "end": 102.69
+  },
+  {
+    "word": "and",
+    "start": 102.771,
+    "end": 102.887
+  },
+  {
+    "word": "hope",
+    "start": 102.98,
+    "end": 103.294
+  },
+  {
+    "word": "for",
+    "start": 103.352,
+    "end": 103.526
+  },
+  {
+    "word": "a",
+    "start": 103.584,
+    "end": 103.607
+  },
+  {
+    "word": "lasting",
+    "start": 103.688,
+    "end": 104.106
+  },
+  {
+    "word": "future",
+    "start": 104.188,
+    "end": 104.571
+  },
+  {
+    "word": "together",
+    "start": 104.617,
+    "end": 105.128
+  },
+  {
+    "word": "Jane",
+    "start": 105.778,
+    "end": 106.138
+  },
+  {
+    "word": "and",
+    "start": 106.173,
+    "end": 106.254
+  },
+  {
+    "word": "Bingley",
+    "start": 106.324,
+    "end": 106.695
+  },
+  {
+    "word": "announced",
+    "start": 106.753,
+    "end": 107.171
+  },
+  {
+    "word": "their",
+    "start": 107.218,
+    "end": 107.38
+  },
+  {
+    "word": "engagement",
+    "start": 107.427,
+    "end": 108.054
+  },
+  {
+    "word": "Everyone",
+    "start": 108.506,
+    "end": 108.971
+  },
+  {
+    "word": "celebrated",
+    "start": 109.029,
+    "end": 109.644
+  },
+  {
+    "word": "with",
+    "start": 109.691,
+    "end": 109.842
+  },
+  {
+    "word": "laughter",
+    "start": 109.911,
+    "end": 110.352
+  },
+  {
+    "word": "and",
+    "start": 110.434,
+    "end": 110.55
+  },
+  {
+    "word": "warm",
+    "start": 110.643,
+    "end": 110.956
+  },
+  {
+    "word": "wishes",
+    "start": 111.026,
+    "end": 111.502
+  },
+  {
+    "word": "Elizabeth",
+    "start": 112.001,
+    "end": 112.535
+  },
+  {
+    "word": "watched",
+    "start": 112.593,
+    "end": 112.942
+  },
+  {
+    "word": "her",
+    "start": 112.988,
+    "end": 113.081
+  },
+  {
+    "word": "sister",
+    "start": 113.139,
+    "end": 113.441
+  },
+  {
+    "word": "s",
+    "start": 113.487,
+    "end": 113.51
+  },
+  {
+    "word": "happiness",
+    "start": 113.557,
+    "end": 114.149
+  },
+  {
+    "word": "and",
+    "start": 114.358,
+    "end": 114.555
+  },
+  {
+    "word": "felt",
+    "start": 114.637,
+    "end": 114.904
+  },
+  {
+    "word": "love",
+    "start": 115.031,
+    "end": 115.38
+  },
+  {
+    "word": "fill",
+    "start": 115.438,
+    "end": 115.67
+  },
+  {
+    "word": "her",
+    "start": 115.752,
+    "end": 115.868
+  },
+  {
+    "word": "heart",
+    "start": 115.937,
+    "end": 116.274
+  },
+  {
+    "word": "Finally",
+    "start": 116.889,
+    "end": 117.447
+  },
+  {
+    "word": "Darcy",
+    "start": 117.528,
+    "end": 117.981
+  },
+  {
+    "word": "asked",
+    "start": 118.05,
+    "end": 118.352
+  },
+  {
+    "word": "Elizabeth",
+    "start": 118.41,
+    "end": 118.863
+  },
+  {
+    "word": "to",
+    "start": 118.909,
+    "end": 118.968
+  },
+  {
+    "word": "marry",
+    "start": 119.037,
+    "end": 119.304
+  },
+  {
+    "word": "him",
+    "start": 119.362,
+    "end": 119.478
+  },
+  {
+    "word": "again",
+    "start": 119.536,
+    "end": 119.908
+  },
+  {
+    "word": "with",
+    "start": 120.175,
+    "end": 120.349
+  },
+  {
+    "word": "a",
+    "start": 120.396,
+    "end": 120.43
+  },
+  {
+    "word": "gentle",
+    "start": 120.488,
+    "end": 120.779
+  },
+  {
+    "word": "gesture",
+    "start": 120.825,
+    "end": 121.382
+  },
+  {
+    "word": "She",
+    "start": 121.986,
+    "end": 122.125
+  },
+  {
+    "word": "said",
+    "start": 122.195,
+    "end": 122.427
+  },
+  {
+    "word": "yes",
+    "start": 122.485,
+    "end": 122.868
+  },
+  {
+    "word": "seeing",
+    "start": 123.17,
+    "end": 123.507
+  },
+  {
+    "word": "his",
+    "start": 123.588,
+    "end": 123.728
+  },
+  {
+    "word": "caring",
+    "start": 123.797,
+    "end": 124.227
+  },
+  {
+    "word": "nature",
+    "start": 124.297,
+    "end": 124.738
+  },
+  {
+    "word": "and",
+    "start": 124.807,
+    "end": 125.016
+  },
+  {
+    "word": "her",
+    "start": 125.086,
+    "end": 125.214
+  },
+  {
+    "word": "own",
+    "start": 125.307,
+    "end": 125.574
+  },
+  {
+    "word": "changed",
+    "start": 125.655,
+    "end": 126.061
+  },
+  {
+    "word": "heart",
+    "start": 126.119,
+    "end": 126.444
+  },
+  {
+    "word": "They",
+    "start": 127.095,
+    "end": 127.257
+  },
+  {
+    "word": "planned",
+    "start": 127.303,
+    "end": 127.652
+  },
+  {
+    "word": "a",
+    "start": 127.698,
+    "end": 127.721
+  },
+  {
+    "word": "simple",
+    "start": 127.791,
+    "end": 128.139
+  },
+  {
+    "word": "wedding",
+    "start": 128.186,
+    "end": 128.523
+  },
+  {
+    "word": "at",
+    "start": 128.592,
+    "end": 128.673
+  },
+  {
+    "word": "home",
+    "start": 128.743,
+    "end": 129.219
+  },
+  {
+    "word": "Family",
+    "start": 129.823,
+    "end": 130.31
+  },
+  {
+    "word": "and",
+    "start": 130.369,
+    "end": 130.461
+  },
+  {
+    "word": "friends",
+    "start": 130.554,
+    "end": 131.019
+  },
+  {
+    "word": "came",
+    "start": 131.088,
+    "end": 131.39
+  },
+  {
+    "word": "from",
+    "start": 131.437,
+    "end": 131.634
+  },
+  {
+    "word": "near",
+    "start": 131.727,
+    "end": 131.982
+  },
+  {
+    "word": "and",
+    "start": 132.052,
+    "end": 132.156
+  },
+  {
+    "word": "far",
+    "start": 132.249,
+    "end": 132.667
+  },
+  {
+    "word": "The",
+    "start": 133.201,
+    "end": 133.329
+  },
+  {
+    "word": "day",
+    "start": 133.387,
+    "end": 133.619
+  },
+  {
+    "word": "was",
+    "start": 133.712,
+    "end": 133.863
+  },
+  {
+    "word": "sunny",
+    "start": 133.944,
+    "end": 134.374
+  },
+  {
+    "word": "joyful",
+    "start": 134.606,
+    "end": 135.163
+  },
+  {
+    "word": "filled",
+    "start": 135.488,
+    "end": 135.837
+  },
+  {
+    "word": "with",
+    "start": 135.883,
+    "end": 136.034
+  },
+  {
+    "word": "laughter",
+    "start": 136.115,
+    "end": 136.568
+  },
+  {
+    "word": "and",
+    "start": 136.638,
+    "end": 136.765
+  },
+  {
+    "word": "soft",
+    "start": 136.858,
+    "end": 137.253
+  },
+  {
+    "word": "music",
+    "start": 137.334,
+    "end": 137.799
+  },
+  {
+    "word": "Elizabeth",
+    "start": 138.414,
+    "end": 138.948
+  },
+  {
+    "word": "learned",
+    "start": 139.006,
+    "end": 139.331
+  },
+  {
+    "word": "life",
+    "start": 139.412,
+    "end": 139.668
+  },
+  {
+    "word": "is",
+    "start": 139.703,
+    "end": 139.784
+  },
+  {
+    "word": "about",
+    "start": 139.842,
+    "end": 140.132
+  },
+  {
+    "word": "understanding",
+    "start": 140.248,
+    "end": 141.084
+  },
+  {
+    "word": "forgiveness",
+    "start": 141.409,
+    "end": 142.025
+  },
+  {
+    "word": "and",
+    "start": 142.071,
+    "end": 142.176
+  },
+  {
+    "word": "growth",
+    "start": 142.268,
+    "end": 142.733
+  },
+  {
+    "word": "True",
+    "start": 143.325,
+    "end": 143.708
+  },
+  {
+    "word": "love",
+    "start": 143.766,
+    "end": 144.172
+  },
+  {
+    "word": "respects",
+    "start": 144.242,
+    "end": 144.741
+  },
+  {
+    "word": "choices",
+    "start": 144.823,
+    "end": 145.31
+  },
+  {
+    "word": "and",
+    "start": 145.368,
+    "end": 145.519
+  },
+  {
+    "word": "sees",
+    "start": 145.635,
+    "end": 145.984
+  },
+  {
+    "word": "beyond",
+    "start": 146.053,
+    "end": 146.425
+  },
+  {
+    "word": "pride",
+    "start": 146.518,
+    "end": 147.121
+  },
+  {
+    "word": "Kindness",
+    "start": 147.551,
+    "end": 148.224
+  },
+  {
+    "word": "and",
+    "start": 148.282,
+    "end": 148.398
+  },
+  {
+    "word": "honesty",
+    "start": 148.48,
+    "end": 149.002
+  },
+  {
+    "word": "build",
+    "start": 149.118,
+    "end": 149.443
+  },
+  {
+    "word": "strong",
+    "start": 149.513,
+    "end": 149.989
+  },
+  {
+    "word": "lasting",
+    "start": 150.198,
+    "end": 150.674
+  },
+  {
+    "word": "bonds",
+    "start": 150.755,
+    "end": 151.254
+  },
+  {
+    "word": "In",
+    "start": 151.788,
+    "end": 151.916
+  },
+  {
+    "word": "a",
+    "start": 151.962,
+    "end": 151.986
+  },
+  {
+    "word": "quiet",
+    "start": 152.044,
+    "end": 152.427
+  },
+  {
+    "word": "evening",
+    "start": 152.496,
+    "end": 152.787
+  },
+  {
+    "word": "by",
+    "start": 152.856,
+    "end": 152.984
+  },
+  {
+    "word": "the",
+    "start": 153.054,
+    "end": 153.123
+  },
+  {
+    "word": "fire",
+    "start": 153.193,
+    "end": 153.634
+  },
+  {
+    "word": "Elizabeth",
+    "start": 153.715,
+    "end": 154.261
+  },
+  {
+    "word": "and",
+    "start": 154.308,
+    "end": 154.389
+  },
+  {
+    "word": "Darcy",
+    "start": 154.459,
+    "end": 154.876
+  },
+  {
+    "word": "sat",
+    "start": 154.958,
+    "end": 155.236
+  },
+  {
+    "word": "together",
+    "start": 155.318,
+    "end": 155.817
+  },
+  {
+    "word": "They",
+    "start": 156.351,
+    "end": 156.513
+  },
+  {
+    "word": "held",
+    "start": 156.56,
+    "end": 156.804
+  },
+  {
+    "word": "hands",
+    "start": 156.873,
+    "end": 157.28
+  },
+  {
+    "word": "feeling",
+    "start": 157.349,
+    "end": 157.698
+  },
+  {
+    "word": "gratitude",
+    "start": 157.756,
+    "end": 158.406
+  },
+  {
+    "word": "and",
+    "start": 158.441,
+    "end": 158.557
+  },
+  {
+    "word": "peace",
+    "start": 158.65,
+    "end": 159.265
+  },
+  {
+    "word": "Love",
+    "start": 159.671,
+    "end": 160.124
+  },
+  {
+    "word": "respect",
+    "start": 160.205,
+    "end": 160.763
+  },
+  {
+    "word": "and",
+    "start": 160.832,
+    "end": 160.983
+  },
+  {
+    "word": "friendship",
+    "start": 161.099,
+    "end": 161.622
+  },
+  {
+    "word": "guided",
+    "start": 162.005,
+    "end": 162.411
+  },
+  {
+    "word": "their",
+    "start": 162.458,
+    "end": 162.644
+  },
+  {
+    "word": "days",
+    "start": 162.702,
+    "end": 163.178
+  }
+]

@@ -1,0 +1,837 @@
+[
+  {
+    "word": "One",
+    "start": 0,
+    "end": 0.197
+  },
+  {
+    "word": "sunny",
+    "start": 0.244,
+    "end": 0.511
+  },
+  {
+    "word": "morning",
+    "start": 0.569,
+    "end": 0.929
+  },
+  {
+    "word": "a",
+    "start": 1.254,
+    "end": 1.312
+  },
+  {
+    "word": "little",
+    "start": 1.405,
+    "end": 1.625
+  },
+  {
+    "word": "kitten",
+    "start": 1.672,
+    "end": 1.997
+  },
+  {
+    "word": "named",
+    "start": 2.055,
+    "end": 2.299
+  },
+  {
+    "word": "Leo",
+    "start": 2.368,
+    "end": 2.67
+  },
+  {
+    "word": "woke",
+    "start": 2.74,
+    "end": 2.972
+  },
+  {
+    "word": "up",
+    "start": 3.03,
+    "end": 3.204
+  },
+  {
+    "word": "Good",
+    "start": 3.924,
+    "end": 4.11
+  },
+  {
+    "word": "morning",
+    "start": 4.156,
+    "end": 4.47
+  },
+  {
+    "word": "world",
+    "start": 4.516,
+    "end": 4.923
+  },
+  {
+    "word": "he",
+    "start": 5.224,
+    "end": 5.283
+  },
+  {
+    "word": "purred",
+    "start": 5.364,
+    "end": 5.747
+  },
+  {
+    "word": "softly",
+    "start": 5.805,
+    "end": 6.316
+  },
+  {
+    "word": "Leo",
+    "start": 7.187,
+    "end": 7.465
+  },
+  {
+    "word": "felt",
+    "start": 7.523,
+    "end": 7.697
+  },
+  {
+    "word": "a",
+    "start": 7.744,
+    "end": 7.767
+  },
+  {
+    "word": "bit",
+    "start": 7.814,
+    "end": 7.941
+  },
+  {
+    "word": "lonely",
+    "start": 8.011,
+    "end": 8.336
+  },
+  {
+    "word": "in",
+    "start": 8.371,
+    "end": 8.429
+  },
+  {
+    "word": "the",
+    "start": 8.464,
+    "end": 8.533
+  },
+  {
+    "word": "big",
+    "start": 8.568,
+    "end": 8.719
+  },
+  {
+    "word": "garden",
+    "start": 8.789,
+    "end": 9.242
+  },
+  {
+    "word": "He",
+    "start": 9.671,
+    "end": 9.787
+  },
+  {
+    "word": "wanted",
+    "start": 9.834,
+    "end": 10.101
+  },
+  {
+    "word": "a",
+    "start": 10.136,
+    "end": 10.17
+  },
+  {
+    "word": "friend",
+    "start": 10.217,
+    "end": 10.426
+  },
+  {
+    "word": "to",
+    "start": 10.472,
+    "end": 10.519
+  },
+  {
+    "word": "play",
+    "start": 10.588,
+    "end": 10.809
+  },
+  {
+    "word": "with",
+    "start": 10.879,
+    "end": 11.146
+  },
+  {
+    "word": "He",
+    "start": 11.761,
+    "end": 11.865
+  },
+  {
+    "word": "decided",
+    "start": 11.935,
+    "end": 12.365
+  },
+  {
+    "word": "to",
+    "start": 12.399,
+    "end": 12.446
+  },
+  {
+    "word": "walk",
+    "start": 12.492,
+    "end": 12.69
+  },
+  {
+    "word": "around",
+    "start": 12.736,
+    "end": 12.957
+  },
+  {
+    "word": "the",
+    "start": 12.992,
+    "end": 13.061
+  },
+  {
+    "word": "flowers",
+    "start": 13.108,
+    "end": 13.677
+  },
+  {
+    "word": "Maybe",
+    "start": 14.362,
+    "end": 14.617
+  },
+  {
+    "word": "he",
+    "start": 14.652,
+    "end": 14.698
+  },
+  {
+    "word": "could",
+    "start": 14.733,
+    "end": 14.907
+  },
+  {
+    "word": "find",
+    "start": 14.954,
+    "end": 15.232
+  },
+  {
+    "word": "someone",
+    "start": 15.29,
+    "end": 15.801
+  },
+  {
+    "word": "Suddenly",
+    "start": 16.486,
+    "end": 17.032
+  },
+  {
+    "word": "he",
+    "start": 17.264,
+    "end": 17.322
+  },
+  {
+    "word": "saw",
+    "start": 17.38,
+    "end": 17.566
+  },
+  {
+    "word": "another",
+    "start": 17.624,
+    "end": 17.902
+  },
+  {
+    "word": "fluffy",
+    "start": 17.96,
+    "end": 18.274
+  },
+  {
+    "word": "kitten",
+    "start": 18.332,
+    "end": 18.634
+  },
+  {
+    "word": "hiding",
+    "start": 18.692,
+    "end": 18.97
+  },
+  {
+    "word": "behind",
+    "start": 19.017,
+    "end": 19.272
+  },
+  {
+    "word": "a",
+    "start": 19.319,
+    "end": 19.342
+  },
+  {
+    "word": "bush",
+    "start": 19.4,
+    "end": 19.737
+  },
+  {
+    "word": "Hello",
+    "start": 20.294,
+    "end": 20.747
+  },
+  {
+    "word": "said",
+    "start": 21.141,
+    "end": 21.339
+  },
+  {
+    "word": "Leo",
+    "start": 21.397,
+    "end": 21.652
+  },
+  {
+    "word": "bravely",
+    "start": 21.722,
+    "end": 22.186
+  },
+  {
+    "word": "The",
+    "start": 22.546,
+    "end": 22.686
+  },
+  {
+    "word": "other",
+    "start": 22.744,
+    "end": 22.929
+  },
+  {
+    "word": "kitten",
+    "start": 22.987,
+    "end": 23.22
+  },
+  {
+    "word": "peeked",
+    "start": 23.278,
+    "end": 23.533
+  },
+  {
+    "word": "out",
+    "start": 23.58,
+    "end": 23.823
+  },
+  {
+    "word": "Hi",
+    "start": 24.16,
+    "end": 24.439
+  },
+  {
+    "word": "My",
+    "start": 24.532,
+    "end": 24.613
+  },
+  {
+    "word": "name",
+    "start": 24.659,
+    "end": 24.799
+  },
+  {
+    "word": "is",
+    "start": 24.833,
+    "end": 24.891
+  },
+  {
+    "word": "Luna",
+    "start": 24.95,
+    "end": 25.275
+  },
+  {
+    "word": "What",
+    "start": 25.542,
+    "end": 25.716
+  },
+  {
+    "word": "is",
+    "start": 25.762,
+    "end": 25.809
+  },
+  {
+    "word": "your",
+    "start": 25.855,
+    "end": 25.948
+  },
+  {
+    "word": "name",
+    "start": 25.994,
+    "end": 26.343
+  },
+  {
+    "word": "she",
+    "start": 26.563,
+    "end": 26.679
+  },
+  {
+    "word": "asked",
+    "start": 26.749,
+    "end": 26.993
+  },
+  {
+    "word": "kindly",
+    "start": 27.051,
+    "end": 27.504
+  },
+  {
+    "word": "My",
+    "start": 28.107,
+    "end": 28.224
+  },
+  {
+    "word": "name",
+    "start": 28.282,
+    "end": 28.421
+  },
+  {
+    "word": "is",
+    "start": 28.456,
+    "end": 28.514
+  },
+  {
+    "word": "Leo",
+    "start": 28.595,
+    "end": 28.909
+  },
+  {
+    "word": "It",
+    "start": 29.326,
+    "end": 29.477
+  },
+  {
+    "word": "s",
+    "start": 29.512,
+    "end": 29.535
+  },
+  {
+    "word": "nice",
+    "start": 29.582,
+    "end": 29.768
+  },
+  {
+    "word": "to",
+    "start": 29.791,
+    "end": 29.837
+  },
+  {
+    "word": "meet",
+    "start": 29.895,
+    "end": 30.058
+  },
+  {
+    "word": "you",
+    "start": 30.104,
+    "end": 30.186
+  },
+  {
+    "word": "Luna",
+    "start": 30.232,
+    "end": 30.546
+  },
+  {
+    "word": "he",
+    "start": 30.871,
+    "end": 30.917
+  },
+  {
+    "word": "replied",
+    "start": 30.999,
+    "end": 31.393
+  },
+  {
+    "word": "happily",
+    "start": 31.428,
+    "end": 31.869
+  },
+  {
+    "word": "They",
+    "start": 32.38,
+    "end": 32.554
+  },
+  {
+    "word": "started",
+    "start": 32.612,
+    "end": 32.926
+  },
+  {
+    "word": "to",
+    "start": 32.961,
+    "end": 33.007
+  },
+  {
+    "word": "chase",
+    "start": 33.054,
+    "end": 33.332
+  },
+  {
+    "word": "butterflies",
+    "start": 33.367,
+    "end": 33.924
+  },
+  {
+    "word": "together",
+    "start": 33.971,
+    "end": 34.389
+  },
+  {
+    "word": "They",
+    "start": 34.784,
+    "end": 34.958
+  },
+  {
+    "word": "laughed",
+    "start": 35.039,
+    "end": 35.422
+  },
+  {
+    "word": "and",
+    "start": 35.457,
+    "end": 35.527
+  },
+  {
+    "word": "tumbled",
+    "start": 35.596,
+    "end": 35.968
+  },
+  {
+    "word": "in",
+    "start": 36.003,
+    "end": 36.061
+  },
+  {
+    "word": "the",
+    "start": 36.095,
+    "end": 36.165
+  },
+  {
+    "word": "grass",
+    "start": 36.2,
+    "end": 36.711
+  },
+  {
+    "word": "Playing",
+    "start": 36.978,
+    "end": 37.303
+  },
+  {
+    "word": "together",
+    "start": 37.349,
+    "end": 37.686
+  },
+  {
+    "word": "was",
+    "start": 37.744,
+    "end": 37.872
+  },
+  {
+    "word": "much",
+    "start": 37.953,
+    "end": 38.162
+  },
+  {
+    "word": "more",
+    "start": 38.22,
+    "end": 38.383
+  },
+  {
+    "word": "fun",
+    "start": 38.441,
+    "end": 38.789
+  },
+  {
+    "word": "Later",
+    "start": 39.346,
+    "end": 39.753
+  },
+  {
+    "word": "an",
+    "start": 39.938,
+    "end": 40.089
+  },
+  {
+    "word": "old",
+    "start": 40.147,
+    "end": 40.322
+  },
+  {
+    "word": "wise",
+    "start": 40.38,
+    "end": 40.705
+  },
+  {
+    "word": "cat",
+    "start": 40.751,
+    "end": 41.006
+  },
+  {
+    "word": "watched",
+    "start": 41.076,
+    "end": 41.401
+  },
+  {
+    "word": "them",
+    "start": 41.436,
+    "end": 41.587
+  },
+  {
+    "word": "from",
+    "start": 41.668,
+    "end": 41.819
+  },
+  {
+    "word": "a",
+    "start": 41.866,
+    "end": 41.9
+  },
+  {
+    "word": "fence",
+    "start": 41.982,
+    "end": 42.609
+  },
+  {
+    "word": "Good",
+    "start": 42.969,
+    "end": 43.166
+  },
+  {
+    "word": "afternoon",
+    "start": 43.201,
+    "end": 43.63
+  },
+  {
+    "word": "little",
+    "start": 43.677,
+    "end": 43.897
+  },
+  {
+    "word": "ones",
+    "start": 43.955,
+    "end": 44.304
+  },
+  {
+    "word": "the",
+    "start": 44.617,
+    "end": 44.71
+  },
+  {
+    "word": "wise",
+    "start": 44.78,
+    "end": 45.058
+  },
+  {
+    "word": "cat",
+    "start": 45.105,
+    "end": 45.314
+  },
+  {
+    "word": "smiled",
+    "start": 45.383,
+    "end": 45.917
+  },
+  {
+    "word": "Hello",
+    "start": 46.591,
+    "end": 47.032
+  },
+  {
+    "word": "they",
+    "start": 47.415,
+    "end": 47.566
+  },
+  {
+    "word": "both",
+    "start": 47.624,
+    "end": 47.822
+  },
+  {
+    "word": "chirped",
+    "start": 47.88,
+    "end": 48.309
+  },
+  {
+    "word": "After",
+    "start": 48.669,
+    "end": 48.983
+  },
+  {
+    "word": "chatting",
+    "start": 49.052,
+    "end": 49.377
+  },
+  {
+    "word": "for",
+    "start": 49.435,
+    "end": 49.54
+  },
+  {
+    "word": "a",
+    "start": 49.586,
+    "end": 49.609
+  },
+  {
+    "word": "while",
+    "start": 49.656,
+    "end": 49.911
+  },
+  {
+    "word": "it",
+    "start": 49.969,
+    "end": 50.027
+  },
+  {
+    "word": "was",
+    "start": 50.062,
+    "end": 50.167
+  },
+  {
+    "word": "time",
+    "start": 50.236,
+    "end": 50.503
+  },
+  {
+    "word": "to",
+    "start": 50.538,
+    "end": 50.585
+  },
+  {
+    "word": "go",
+    "start": 50.643,
+    "end": 50.77
+  },
+  {
+    "word": "home",
+    "start": 50.852,
+    "end": 51.27
+  },
+  {
+    "word": "Goodbye",
+    "start": 52.001,
+    "end": 52.489
+  },
+  {
+    "word": "wise",
+    "start": 52.547,
+    "end": 52.837
+  },
+  {
+    "word": "cat",
+    "start": 52.883,
+    "end": 53.232
+  },
+  {
+    "word": "said",
+    "start": 53.452,
+    "end": 53.673
+  },
+  {
+    "word": "Luna",
+    "start": 53.731,
+    "end": 53.986
+  },
+  {
+    "word": "and",
+    "start": 54.044,
+    "end": 54.114
+  },
+  {
+    "word": "Leo",
+    "start": 54.172,
+    "end": 54.462
+  },
+  {
+    "word": "Leo",
+    "start": 55.31,
+    "end": 55.623
+  },
+  {
+    "word": "wasn",
+    "start": 55.693,
+    "end": 55.879
+  },
+  {
+    "word": "t",
+    "start": 55.914,
+    "end": 55.948
+  },
+  {
+    "word": "lonely",
+    "start": 56.007,
+    "end": 56.32
+  },
+  {
+    "word": "anymore",
+    "start": 56.378,
+    "end": 56.912
+  },
+  {
+    "word": "He",
+    "start": 57.191,
+    "end": 57.318
+  },
+  {
+    "word": "learned",
+    "start": 57.388,
+    "end": 57.609
+  },
+  {
+    "word": "that",
+    "start": 57.632,
+    "end": 57.736
+  },
+  {
+    "word": "sharing",
+    "start": 57.783,
+    "end": 58.12
+  },
+  {
+    "word": "moments",
+    "start": 58.189,
+    "end": 58.549
+  },
+  {
+    "word": "makes",
+    "start": 58.607,
+    "end": 58.816
+  },
+  {
+    "word": "life",
+    "start": 58.886,
+    "end": 59.118
+  },
+  {
+    "word": "beautiful",
+    "start": 59.164,
+    "end": 59.745
+  },
+  {
+    "word": "Friends",
+    "start": 60.302,
+    "end": 60.732
+  },
+  {
+    "word": "bring",
+    "start": 60.813,
+    "end": 61.034
+  },
+  {
+    "word": "sunshine",
+    "start": 61.15,
+    "end": 61.742
+  },
+  {
+    "word": "to",
+    "start": 61.788,
+    "end": 61.858
+  },
+  {
+    "word": "our",
+    "start": 61.951,
+    "end": 62.079
+  },
+  {
+    "word": "days",
+    "start": 62.148,
+    "end": 62.601
+  }
+]

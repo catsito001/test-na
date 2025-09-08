@@ -1,0 +1,1937 @@
+[
+  {
+    "word": "Alice",
+    "start": 0,
+    "end": 0.372
+  },
+  {
+    "word": "is",
+    "start": 0.406,
+    "end": 0.488
+  },
+  {
+    "word": "a",
+    "start": 0.546,
+    "end": 0.58
+  },
+  {
+    "word": "curious",
+    "start": 0.65,
+    "end": 1.149
+  },
+  {
+    "word": "girl",
+    "start": 1.219,
+    "end": 1.544
+  },
+  {
+    "word": "who",
+    "start": 1.591,
+    "end": 1.718
+  },
+  {
+    "word": "likes",
+    "start": 1.8,
+    "end": 2.043
+  },
+  {
+    "word": "to",
+    "start": 2.09,
+    "end": 2.171
+  },
+  {
+    "word": "explore",
+    "start": 2.252,
+    "end": 2.961
+  },
+  {
+    "word": "One",
+    "start": 3.39,
+    "end": 3.622
+  },
+  {
+    "word": "day",
+    "start": 3.669,
+    "end": 3.889
+  },
+  {
+    "word": "she",
+    "start": 3.959,
+    "end": 4.087
+  },
+  {
+    "word": "sees",
+    "start": 4.156,
+    "end": 4.377
+  },
+  {
+    "word": "a",
+    "start": 4.435,
+    "end": 4.47
+  },
+  {
+    "word": "white",
+    "start": 4.528,
+    "end": 4.783
+  },
+  {
+    "word": "rabbit",
+    "start": 4.865,
+    "end": 5.213
+  },
+  {
+    "word": "rushing",
+    "start": 5.283,
+    "end": 5.619
+  },
+  {
+    "word": "by",
+    "start": 5.689,
+    "end": 6.072
+  },
+  {
+    "word": "The",
+    "start": 6.687,
+    "end": 6.815
+  },
+  {
+    "word": "rabbit",
+    "start": 6.885,
+    "end": 7.187
+  },
+  {
+    "word": "looks",
+    "start": 7.233,
+    "end": 7.454
+  },
+  {
+    "word": "at",
+    "start": 7.488,
+    "end": 7.57
+  },
+  {
+    "word": "its",
+    "start": 7.616,
+    "end": 7.744
+  },
+  {
+    "word": "pocket",
+    "start": 7.79,
+    "end": 8.139
+  },
+  {
+    "word": "watch",
+    "start": 8.197,
+    "end": 8.545
+  },
+  {
+    "word": "and",
+    "start": 8.603,
+    "end": 8.719
+  },
+  {
+    "word": "hurries",
+    "start": 8.8,
+    "end": 9.207
+  },
+  {
+    "word": "into",
+    "start": 9.253,
+    "end": 9.404
+  },
+  {
+    "word": "the",
+    "start": 9.474,
+    "end": 9.543
+  },
+  {
+    "word": "forest",
+    "start": 9.601,
+    "end": 10.124
+  },
+  {
+    "word": "Alice",
+    "start": 10.716,
+    "end": 11.076
+  },
+  {
+    "word": "feels",
+    "start": 11.111,
+    "end": 11.378
+  },
+  {
+    "word": "excited",
+    "start": 11.424,
+    "end": 11.935
+  },
+  {
+    "word": "and",
+    "start": 11.993,
+    "end": 12.121
+  },
+  {
+    "word": "follows",
+    "start": 12.214,
+    "end": 12.574
+  },
+  {
+    "word": "the",
+    "start": 12.62,
+    "end": 12.69
+  },
+  {
+    "word": "rabbit",
+    "start": 12.759,
+    "end": 13.073
+  },
+  {
+    "word": "into",
+    "start": 13.119,
+    "end": 13.282
+  },
+  {
+    "word": "the",
+    "start": 13.351,
+    "end": 13.421
+  },
+  {
+    "word": "trees",
+    "start": 13.468,
+    "end": 13.99
+  },
+  {
+    "word": "As",
+    "start": 14.582,
+    "end": 14.779
+  },
+  {
+    "word": "Alice",
+    "start": 14.849,
+    "end": 15.174
+  },
+  {
+    "word": "runs",
+    "start": 15.232,
+    "end": 15.662
+  },
+  {
+    "word": "the",
+    "start": 15.732,
+    "end": 15.813
+  },
+  {
+    "word": "ground",
+    "start": 15.871,
+    "end": 16.243
+  },
+  {
+    "word": "suddenly",
+    "start": 16.324,
+    "end": 16.742
+  },
+  {
+    "word": "breaks",
+    "start": 16.811,
+    "end": 17.148
+  },
+  {
+    "word": "under",
+    "start": 17.206,
+    "end": 17.404
+  },
+  {
+    "word": "her",
+    "start": 17.462,
+    "end": 17.566
+  },
+  {
+    "word": "feet",
+    "start": 17.624,
+    "end": 17.926
+  },
+  {
+    "word": "She",
+    "start": 18.402,
+    "end": 18.541
+  },
+  {
+    "word": "falls",
+    "start": 18.611,
+    "end": 18.924
+  },
+  {
+    "word": "straight",
+    "start": 18.971,
+    "end": 19.319
+  },
+  {
+    "word": "into",
+    "start": 19.366,
+    "end": 19.54
+  },
+  {
+    "word": "a",
+    "start": 19.633,
+    "end": 19.668
+  },
+  {
+    "word": "hidden",
+    "start": 19.726,
+    "end": 20.004
+  },
+  {
+    "word": "hole",
+    "start": 20.074,
+    "end": 20.55
+  },
+  {
+    "word": "She",
+    "start": 20.84,
+    "end": 20.979
+  },
+  {
+    "word": "tumbles",
+    "start": 21.037,
+    "end": 21.421
+  },
+  {
+    "word": "down",
+    "start": 21.479,
+    "end": 21.804
+  },
+  {
+    "word": "and",
+    "start": 21.862,
+    "end": 21.955
+  },
+  {
+    "word": "down",
+    "start": 22.024,
+    "end": 22.396
+  },
+  {
+    "word": "feeling",
+    "start": 22.477,
+    "end": 22.779
+  },
+  {
+    "word": "surprised",
+    "start": 22.849,
+    "end": 23.58
+  },
+  {
+    "word": "She",
+    "start": 24.079,
+    "end": 24.219
+  },
+  {
+    "word": "wonders",
+    "start": 24.277,
+    "end": 24.637
+  },
+  {
+    "word": "where",
+    "start": 24.683,
+    "end": 24.904
+  },
+  {
+    "word": "she",
+    "start": 24.938,
+    "end": 25.055
+  },
+  {
+    "word": "will",
+    "start": 25.113,
+    "end": 25.275
+  },
+  {
+    "word": "land",
+    "start": 25.322,
+    "end": 25.612
+  },
+  {
+    "word": "and",
+    "start": 25.681,
+    "end": 25.774
+  },
+  {
+    "word": "why",
+    "start": 25.844,
+    "end": 26.065
+  },
+  {
+    "word": "the",
+    "start": 26.134,
+    "end": 26.204
+  },
+  {
+    "word": "rabbit",
+    "start": 26.274,
+    "end": 26.564
+  },
+  {
+    "word": "is",
+    "start": 26.622,
+    "end": 26.703
+  },
+  {
+    "word": "so",
+    "start": 26.75,
+    "end": 26.912
+  },
+  {
+    "word": "important",
+    "start": 26.993,
+    "end": 27.655
+  },
+  {
+    "word": "Alice",
+    "start": 28.305,
+    "end": 28.665
+  },
+  {
+    "word": "lands",
+    "start": 28.723,
+    "end": 29.048
+  },
+  {
+    "word": "in",
+    "start": 29.095,
+    "end": 29.164
+  },
+  {
+    "word": "a",
+    "start": 29.211,
+    "end": 29.234
+  },
+  {
+    "word": "small",
+    "start": 29.304,
+    "end": 29.629
+  },
+  {
+    "word": "room",
+    "start": 29.71,
+    "end": 29.954
+  },
+  {
+    "word": "at",
+    "start": 30.024,
+    "end": 30.117
+  },
+  {
+    "word": "the",
+    "start": 30.163,
+    "end": 30.233
+  },
+  {
+    "word": "bottom",
+    "start": 30.279,
+    "end": 30.581
+  },
+  {
+    "word": "of",
+    "start": 30.639,
+    "end": 30.697
+  },
+  {
+    "word": "the",
+    "start": 30.744,
+    "end": 30.813
+  },
+  {
+    "word": "hole",
+    "start": 30.871,
+    "end": 31.312
+  },
+  {
+    "word": "She",
+    "start": 31.684,
+    "end": 31.812
+  },
+  {
+    "word": "looks",
+    "start": 31.87,
+    "end": 32.079
+  },
+  {
+    "word": "around",
+    "start": 32.125,
+    "end": 32.543
+  },
+  {
+    "word": "and",
+    "start": 32.613,
+    "end": 32.729
+  },
+  {
+    "word": "finds",
+    "start": 32.81,
+    "end": 33.147
+  },
+  {
+    "word": "a",
+    "start": 33.182,
+    "end": 33.216
+  },
+  {
+    "word": "bottle",
+    "start": 33.275,
+    "end": 33.623
+  },
+  {
+    "word": "that",
+    "start": 33.658,
+    "end": 33.797
+  },
+  {
+    "word": "says",
+    "start": 33.855,
+    "end": 34.192
+  },
+  {
+    "word": "DRINK",
+    "start": 34.517,
+    "end": 34.83
+  },
+  {
+    "word": "ME",
+    "start": 34.912,
+    "end": 35.213
+  },
+  {
+    "word": "She",
+    "start": 35.806,
+    "end": 35.945
+  },
+  {
+    "word": "thinks",
+    "start": 36.003,
+    "end": 36.235
+  },
+  {
+    "word": "about",
+    "start": 36.27,
+    "end": 36.514
+  },
+  {
+    "word": "what",
+    "start": 36.572,
+    "end": 36.723
+  },
+  {
+    "word": "will",
+    "start": 36.769,
+    "end": 36.92
+  },
+  {
+    "word": "happen",
+    "start": 36.967,
+    "end": 37.245
+  },
+  {
+    "word": "if",
+    "start": 37.315,
+    "end": 37.396
+  },
+  {
+    "word": "she",
+    "start": 37.431,
+    "end": 37.535
+  },
+  {
+    "word": "drinks",
+    "start": 37.605,
+    "end": 37.895
+  },
+  {
+    "word": "the",
+    "start": 37.965,
+    "end": 38.046
+  },
+  {
+    "word": "liquid",
+    "start": 38.104,
+    "end": 38.522
+  },
+  {
+    "word": "She",
+    "start": 38.998,
+    "end": 39.138
+  },
+  {
+    "word": "decides",
+    "start": 39.207,
+    "end": 39.695
+  },
+  {
+    "word": "to",
+    "start": 39.753,
+    "end": 39.834
+  },
+  {
+    "word": "try",
+    "start": 39.915,
+    "end": 40.252
+  },
+  {
+    "word": "it",
+    "start": 40.322,
+    "end": 40.449
+  },
+  {
+    "word": "and",
+    "start": 40.531,
+    "end": 40.74
+  },
+  {
+    "word": "waits",
+    "start": 40.833,
+    "end": 41.134
+  },
+  {
+    "word": "to",
+    "start": 41.193,
+    "end": 41.285
+  },
+  {
+    "word": "see",
+    "start": 41.402,
+    "end": 41.866
+  },
+  {
+    "word": "After",
+    "start": 42.481,
+    "end": 42.748
+  },
+  {
+    "word": "drinking",
+    "start": 42.806,
+    "end": 43.224
+  },
+  {
+    "word": "Alice",
+    "start": 43.34,
+    "end": 43.7
+  },
+  {
+    "word": "feels",
+    "start": 43.747,
+    "end": 44.06
+  },
+  {
+    "word": "her",
+    "start": 44.13,
+    "end": 44.211
+  },
+  {
+    "word": "body",
+    "start": 44.281,
+    "end": 44.571
+  },
+  {
+    "word": "change",
+    "start": 44.652,
+    "end": 45.314
+  },
+  {
+    "word": "She",
+    "start": 45.697,
+    "end": 45.837
+  },
+  {
+    "word": "suddenly",
+    "start": 45.895,
+    "end": 46.266
+  },
+  {
+    "word": "grows",
+    "start": 46.324,
+    "end": 46.626
+  },
+  {
+    "word": "very",
+    "start": 46.707,
+    "end": 46.974
+  },
+  {
+    "word": "tall",
+    "start": 47.032,
+    "end": 47.381
+  },
+  {
+    "word": "and",
+    "start": 47.45,
+    "end": 47.566
+  },
+  {
+    "word": "cannot",
+    "start": 47.648,
+    "end": 48.019
+  },
+  {
+    "word": "fit",
+    "start": 48.089,
+    "end": 48.309
+  },
+  {
+    "word": "in",
+    "start": 48.368,
+    "end": 48.437
+  },
+  {
+    "word": "the",
+    "start": 48.472,
+    "end": 48.542
+  },
+  {
+    "word": "room",
+    "start": 48.6,
+    "end": 48.902
+  },
+  {
+    "word": "Her",
+    "start": 49.436,
+    "end": 49.598
+  },
+  {
+    "word": "head",
+    "start": 49.668,
+    "end": 49.877
+  },
+  {
+    "word": "touches",
+    "start": 49.935,
+    "end": 50.33
+  },
+  {
+    "word": "the",
+    "start": 50.388,
+    "end": 50.469
+  },
+  {
+    "word": "ceiling",
+    "start": 50.527,
+    "end": 50.968
+  },
+  {
+    "word": "and",
+    "start": 51.038,
+    "end": 51.166
+  },
+  {
+    "word": "she",
+    "start": 51.235,
+    "end": 51.351
+  },
+  {
+    "word": "feels",
+    "start": 51.444,
+    "end": 51.816
+  },
+  {
+    "word": "strange",
+    "start": 51.874,
+    "end": 52.652
+  },
+  {
+    "word": "Alice",
+    "start": 53.081,
+    "end": 53.499
+  },
+  {
+    "word": "then",
+    "start": 53.534,
+    "end": 53.72
+  },
+  {
+    "word": "finds",
+    "start": 53.836,
+    "end": 54.207
+  },
+  {
+    "word": "a",
+    "start": 54.242,
+    "end": 54.277
+  },
+  {
+    "word": "cake",
+    "start": 54.335,
+    "end": 54.695
+  },
+  {
+    "word": "that",
+    "start": 54.741,
+    "end": 54.927
+  },
+  {
+    "word": "says",
+    "start": 54.985,
+    "end": 55.333
+  },
+  {
+    "word": "EAT",
+    "start": 55.693,
+    "end": 55.914
+  },
+  {
+    "word": "ME",
+    "start": 55.995,
+    "end": 56.297
+  },
+  {
+    "word": "She",
+    "start": 56.762,
+    "end": 56.912
+  },
+  {
+    "word": "eats",
+    "start": 56.994,
+    "end": 57.238
+  },
+  {
+    "word": "it",
+    "start": 57.307,
+    "end": 57.423
+  },
+  {
+    "word": "and",
+    "start": 57.481,
+    "end": 57.609
+  },
+  {
+    "word": "watches",
+    "start": 57.702,
+    "end": 58.085
+  },
+  {
+    "word": "herself",
+    "start": 58.143,
+    "end": 58.561
+  },
+  {
+    "word": "become",
+    "start": 58.619,
+    "end": 58.991
+  },
+  {
+    "word": "small",
+    "start": 59.037,
+    "end": 59.409
+  },
+  {
+    "word": "again",
+    "start": 59.467,
+    "end": 59.815
+  },
+  {
+    "word": "Now",
+    "start": 60.43,
+    "end": 60.674
+  },
+  {
+    "word": "small",
+    "start": 60.767,
+    "end": 61.208
+  },
+  {
+    "word": "Alice",
+    "start": 61.371,
+    "end": 61.765
+  },
+  {
+    "word": "leaves",
+    "start": 61.823,
+    "end": 62.102
+  },
+  {
+    "word": "the",
+    "start": 62.148,
+    "end": 62.218
+  },
+  {
+    "word": "room",
+    "start": 62.288,
+    "end": 62.566
+  },
+  {
+    "word": "and",
+    "start": 62.648,
+    "end": 62.799
+  },
+  {
+    "word": "walks",
+    "start": 62.891,
+    "end": 63.217
+  },
+  {
+    "word": "into",
+    "start": 63.275,
+    "end": 63.472
+  },
+  {
+    "word": "a",
+    "start": 63.588,
+    "end": 63.611
+  },
+  {
+    "word": "strange",
+    "start": 63.669,
+    "end": 64.134
+  },
+  {
+    "word": "forest",
+    "start": 64.192,
+    "end": 64.784
+  },
+  {
+    "word": "She",
+    "start": 65.109,
+    "end": 65.248
+  },
+  {
+    "word": "meets",
+    "start": 65.306,
+    "end": 65.539
+  },
+  {
+    "word": "a",
+    "start": 65.585,
+    "end": 65.608
+  },
+  {
+    "word": "smiling",
+    "start": 65.678,
+    "end": 66.224
+  },
+  {
+    "word": "cat",
+    "start": 66.293,
+    "end": 66.595
+  },
+  {
+    "word": "who",
+    "start": 66.641,
+    "end": 66.758
+  },
+  {
+    "word": "can",
+    "start": 66.804,
+    "end": 66.932
+  },
+  {
+    "word": "vanish",
+    "start": 67.001,
+    "end": 67.466
+  },
+  {
+    "word": "The",
+    "start": 68.023,
+    "end": 68.139
+  },
+  {
+    "word": "Cheshire",
+    "start": 68.197,
+    "end": 68.546
+  },
+  {
+    "word": "Cat",
+    "start": 68.58,
+    "end": 68.836
+  },
+  {
+    "word": "tells",
+    "start": 68.917,
+    "end": 69.277
+  },
+  {
+    "word": "Alice",
+    "start": 69.347,
+    "end": 69.683
+  },
+  {
+    "word": "that",
+    "start": 69.718,
+    "end": 69.869
+  },
+  {
+    "word": "everything",
+    "start": 69.927,
+    "end": 70.299
+  },
+  {
+    "word": "here",
+    "start": 70.368,
+    "end": 70.659
+  },
+  {
+    "word": "is",
+    "start": 70.717,
+    "end": 70.809
+  },
+  {
+    "word": "not",
+    "start": 70.891,
+    "end": 71.076
+  },
+  {
+    "word": "what",
+    "start": 71.123,
+    "end": 71.285
+  },
+  {
+    "word": "it",
+    "start": 71.332,
+    "end": 71.402
+  },
+  {
+    "word": "seems",
+    "start": 71.46,
+    "end": 71.97
+  },
+  {
+    "word": "Alice",
+    "start": 72.505,
+    "end": 72.876
+  },
+  {
+    "word": "feels",
+    "start": 72.922,
+    "end": 73.224
+  },
+  {
+    "word": "confused",
+    "start": 73.282,
+    "end": 73.921
+  },
+  {
+    "word": "but",
+    "start": 73.979,
+    "end": 74.142
+  },
+  {
+    "word": "keeps",
+    "start": 74.211,
+    "end": 74.478
+  },
+  {
+    "word": "going",
+    "start": 74.525,
+    "end": 74.85
+  },
+  {
+    "word": "hoping",
+    "start": 75.152,
+    "end": 75.465
+  },
+  {
+    "word": "to",
+    "start": 75.523,
+    "end": 75.581
+  },
+  {
+    "word": "find",
+    "start": 75.662,
+    "end": 75.895
+  },
+  {
+    "word": "her",
+    "start": 75.953,
+    "end": 76.046
+  },
+  {
+    "word": "way",
+    "start": 76.127,
+    "end": 76.487
+  },
+  {
+    "word": "Soon",
+    "start": 77.021,
+    "end": 77.485
+  },
+  {
+    "word": "Alice",
+    "start": 77.602,
+    "end": 77.95
+  },
+  {
+    "word": "arrives",
+    "start": 77.973,
+    "end": 78.426
+  },
+  {
+    "word": "at",
+    "start": 78.472,
+    "end": 78.554
+  },
+  {
+    "word": "a",
+    "start": 78.6,
+    "end": 78.635
+  },
+  {
+    "word": "tea",
+    "start": 78.693,
+    "end": 78.867
+  },
+  {
+    "word": "party",
+    "start": 78.925,
+    "end": 79.297
+  },
+  {
+    "word": "with",
+    "start": 79.355,
+    "end": 79.517
+  },
+  {
+    "word": "very",
+    "start": 79.598,
+    "end": 79.9
+  },
+  {
+    "word": "odd",
+    "start": 79.97,
+    "end": 80.202
+  },
+  {
+    "word": "hosts",
+    "start": 80.283,
+    "end": 80.934
+  },
+  {
+    "word": "The",
+    "start": 81.224,
+    "end": 81.34
+  },
+  {
+    "word": "Mad",
+    "start": 81.41,
+    "end": 81.7
+  },
+  {
+    "word": "Hatter",
+    "start": 81.77,
+    "end": 82.211
+  },
+  {
+    "word": "and",
+    "start": 82.292,
+    "end": 82.408
+  },
+  {
+    "word": "the",
+    "start": 82.455,
+    "end": 82.524
+  },
+  {
+    "word": "March",
+    "start": 82.594,
+    "end": 82.919
+  },
+  {
+    "word": "Hare",
+    "start": 82.977,
+    "end": 83.383
+  },
+  {
+    "word": "talk",
+    "start": 83.441,
+    "end": 83.755
+  },
+  {
+    "word": "in",
+    "start": 83.848,
+    "end": 83.941
+  },
+  {
+    "word": "confusing",
+    "start": 84.01,
+    "end": 84.591
+  },
+  {
+    "word": "riddles",
+    "start": 84.684,
+    "end": 85.102
+  },
+  {
+    "word": "and",
+    "start": 85.427,
+    "end": 85.566
+  },
+  {
+    "word": "the",
+    "start": 85.601,
+    "end": 85.67
+  },
+  {
+    "word": "Dormouse",
+    "start": 85.717,
+    "end": 86.297
+  },
+  {
+    "word": "sleeps",
+    "start": 86.414,
+    "end": 86.831
+  },
+  {
+    "word": "in",
+    "start": 86.878,
+    "end": 86.948
+  },
+  {
+    "word": "a",
+    "start": 87.006,
+    "end": 87.029
+  },
+  {
+    "word": "teapot",
+    "start": 87.087,
+    "end": 87.644
+  },
+  {
+    "word": "Alice",
+    "start": 88.236,
+    "end": 88.643
+  },
+  {
+    "word": "pours",
+    "start": 88.689,
+    "end": 89.049
+  },
+  {
+    "word": "tea",
+    "start": 89.119,
+    "end": 89.455
+  },
+  {
+    "word": "and",
+    "start": 89.537,
+    "end": 89.699
+  },
+  {
+    "word": "tries",
+    "start": 89.757,
+    "end": 90.164
+  },
+  {
+    "word": "to",
+    "start": 90.222,
+    "end": 90.291
+  },
+  {
+    "word": "join",
+    "start": 90.373,
+    "end": 90.628
+  },
+  {
+    "word": "the",
+    "start": 90.674,
+    "end": 90.744
+  },
+  {
+    "word": "conversation",
+    "start": 90.79,
+    "end": 91.615
+  },
+  {
+    "word": "She",
+    "start": 92.149,
+    "end": 92.288
+  },
+  {
+    "word": "learns",
+    "start": 92.369,
+    "end": 92.695
+  },
+  {
+    "word": "that",
+    "start": 92.764,
+    "end": 92.927
+  },
+  {
+    "word": "time",
+    "start": 92.973,
+    "end": 93.309
+  },
+  {
+    "word": "here",
+    "start": 93.367,
+    "end": 93.669
+  },
+  {
+    "word": "does",
+    "start": 93.727,
+    "end": 93.89
+  },
+  {
+    "word": "not",
+    "start": 93.948,
+    "end": 94.134
+  },
+  {
+    "word": "follow",
+    "start": 94.203,
+    "end": 94.598
+  },
+  {
+    "word": "normal",
+    "start": 94.714,
+    "end": 95.155
+  },
+  {
+    "word": "rules",
+    "start": 95.248,
+    "end": 95.806
+  },
+  {
+    "word": "After",
+    "start": 96.456,
+    "end": 96.758
+  },
+  {
+    "word": "the",
+    "start": 96.816,
+    "end": 96.885
+  },
+  {
+    "word": "tea",
+    "start": 96.932,
+    "end": 97.118
+  },
+  {
+    "word": "party",
+    "start": 97.187,
+    "end": 97.594
+  },
+  {
+    "word": "Alice",
+    "start": 97.686,
+    "end": 98.023
+  },
+  {
+    "word": "spots",
+    "start": 98.046,
+    "end": 98.395
+  },
+  {
+    "word": "a",
+    "start": 98.441,
+    "end": 98.464
+  },
+  {
+    "word": "field",
+    "start": 98.557,
+    "end": 98.917
+  },
+  {
+    "word": "where",
+    "start": 98.975,
+    "end": 99.207
+  },
+  {
+    "word": "a",
+    "start": 99.242,
+    "end": 99.265
+  },
+  {
+    "word": "croquet",
+    "start": 99.323,
+    "end": 99.788
+  },
+  {
+    "word": "game",
+    "start": 99.857,
+    "end": 100.194
+  },
+  {
+    "word": "begins",
+    "start": 100.241,
+    "end": 100.786
+  },
+  {
+    "word": "The",
+    "start": 101.344,
+    "end": 101.448
+  },
+  {
+    "word": "Queen",
+    "start": 101.506,
+    "end": 101.75
+  },
+  {
+    "word": "of",
+    "start": 101.796,
+    "end": 101.854
+  },
+  {
+    "word": "Hearts",
+    "start": 101.936,
+    "end": 102.272
+  },
+  {
+    "word": "calls",
+    "start": 102.342,
+    "end": 102.667
+  },
+  {
+    "word": "the",
+    "start": 102.714,
+    "end": 102.783
+  },
+  {
+    "word": "game",
+    "start": 102.83,
+    "end": 103.282
+  },
+  {
+    "word": "and",
+    "start": 103.399,
+    "end": 103.666
+  },
+  {
+    "word": "orders",
+    "start": 103.747,
+    "end": 104.06
+  },
+  {
+    "word": "Alice",
+    "start": 104.118,
+    "end": 104.42
+  },
+  {
+    "word": "to",
+    "start": 104.455,
+    "end": 104.525
+  },
+  {
+    "word": "play",
+    "start": 104.606,
+    "end": 105.094
+  },
+  {
+    "word": "Alice",
+    "start": 105.709,
+    "end": 106.092
+  },
+  {
+    "word": "uses",
+    "start": 106.15,
+    "end": 106.464
+  },
+  {
+    "word": "a",
+    "start": 106.522,
+    "end": 106.545
+  },
+  {
+    "word": "flamingo",
+    "start": 106.603,
+    "end": 107.253
+  },
+  {
+    "word": "as",
+    "start": 107.346,
+    "end": 107.485
+  },
+  {
+    "word": "a",
+    "start": 107.543,
+    "end": 107.578
+  },
+  {
+    "word": "mallet",
+    "start": 107.648,
+    "end": 108.042
+  },
+  {
+    "word": "and",
+    "start": 108.101,
+    "end": 108.205
+  },
+  {
+    "word": "a",
+    "start": 108.275,
+    "end": 108.298
+  },
+  {
+    "word": "hedgehog",
+    "start": 108.379,
+    "end": 108.913
+  },
+  {
+    "word": "as",
+    "start": 108.971,
+    "end": 109.064
+  },
+  {
+    "word": "a",
+    "start": 109.122,
+    "end": 109.145
+  },
+  {
+    "word": "ball",
+    "start": 109.215,
+    "end": 109.575
+  },
+  {
+    "word": "It",
+    "start": 110.132,
+    "end": 110.272
+  },
+  {
+    "word": "is",
+    "start": 110.318,
+    "end": 110.4
+  },
+  {
+    "word": "hard",
+    "start": 110.469,
+    "end": 110.69
+  },
+  {
+    "word": "to",
+    "start": 110.725,
+    "end": 110.783
+  },
+  {
+    "word": "play",
+    "start": 110.853,
+    "end": 111.12
+  },
+  {
+    "word": "because",
+    "start": 111.189,
+    "end": 111.456
+  },
+  {
+    "word": "the",
+    "start": 111.479,
+    "end": 111.549
+  },
+  {
+    "word": "Queen",
+    "start": 111.607,
+    "end": 111.886
+  },
+  {
+    "word": "shouts",
+    "start": 111.955,
+    "end": 112.292
+  },
+  {
+    "word": "at",
+    "start": 112.327,
+    "end": 112.397
+  },
+  {
+    "word": "everyone",
+    "start": 112.455,
+    "end": 113.024
+  },
+  {
+    "word": "Later",
+    "start": 113.79,
+    "end": 114.196
+  },
+  {
+    "word": "Alice",
+    "start": 114.289,
+    "end": 114.649
+  },
+  {
+    "word": "is",
+    "start": 114.684,
+    "end": 114.765
+  },
+  {
+    "word": "taken",
+    "start": 114.812,
+    "end": 115.09
+  },
+  {
+    "word": "to",
+    "start": 115.148,
+    "end": 115.23
+  },
+  {
+    "word": "a",
+    "start": 115.311,
+    "end": 115.334
+  },
+  {
+    "word": "courtroom",
+    "start": 115.404,
+    "end": 115.903
+  },
+  {
+    "word": "for",
+    "start": 115.973,
+    "end": 116.112
+  },
+  {
+    "word": "a",
+    "start": 116.17,
+    "end": 116.205
+  },
+  {
+    "word": "trial",
+    "start": 116.251,
+    "end": 116.716
+  },
+  {
+    "word": "The",
+    "start": 117.366,
+    "end": 117.482
+  },
+  {
+    "word": "Queen",
+    "start": 117.528,
+    "end": 117.795
+  },
+  {
+    "word": "yells",
+    "start": 117.865,
+    "end": 118.225
+  },
+  {
+    "word": "that",
+    "start": 118.283,
+    "end": 118.422
+  },
+  {
+    "word": "Alice",
+    "start": 118.492,
+    "end": 118.817
+  },
+  {
+    "word": "is",
+    "start": 118.852,
+    "end": 118.933
+  },
+  {
+    "word": "guilty",
+    "start": 119.003,
+    "end": 119.374
+  },
+  {
+    "word": "of",
+    "start": 119.444,
+    "end": 119.502
+  },
+  {
+    "word": "nonsense",
+    "start": 119.583,
+    "end": 120.431
+  },
+  {
+    "word": "Card",
+    "start": 120.837,
+    "end": 121.151
+  },
+  {
+    "word": "guards",
+    "start": 121.209,
+    "end": 121.557
+  },
+  {
+    "word": "stand",
+    "start": 121.592,
+    "end": 121.859
+  },
+  {
+    "word": "around",
+    "start": 121.917,
+    "end": 122.184
+  },
+  {
+    "word": "the",
+    "start": 122.219,
+    "end": 122.288
+  },
+  {
+    "word": "room",
+    "start": 122.346,
+    "end": 122.637
+  },
+  {
+    "word": "Alice",
+    "start": 123.252,
+    "end": 123.635
+  },
+  {
+    "word": "tries",
+    "start": 123.67,
+    "end": 123.972
+  },
+  {
+    "word": "to",
+    "start": 124.018,
+    "end": 124.076
+  },
+  {
+    "word": "explain",
+    "start": 124.158,
+    "end": 124.564
+  },
+  {
+    "word": "herself",
+    "start": 124.622,
+    "end": 125.017
+  },
+  {
+    "word": "but",
+    "start": 125.319,
+    "end": 125.458
+  },
+  {
+    "word": "the",
+    "start": 125.493,
+    "end": 125.562
+  },
+  {
+    "word": "Queen",
+    "start": 125.609,
+    "end": 125.888
+  },
+  {
+    "word": "shouts",
+    "start": 125.957,
+    "end": 126.282
+  },
+  {
+    "word": "louder",
+    "start": 126.364,
+    "end": 126.758
+  },
+  {
+    "word": "Off",
+    "start": 127.466,
+    "end": 127.722
+  },
+  {
+    "word": "with",
+    "start": 127.78,
+    "end": 127.931
+  },
+  {
+    "word": "her",
+    "start": 127.989,
+    "end": 128.105
+  },
+  {
+    "word": "head",
+    "start": 128.175,
+    "end": 128.511
+  },
+  {
+    "word": "Alice",
+    "start": 129.533,
+    "end": 129.905
+  },
+  {
+    "word": "feels",
+    "start": 129.951,
+    "end": 130.241
+  },
+  {
+    "word": "scared",
+    "start": 130.299,
+    "end": 130.799
+  },
+  {
+    "word": "but",
+    "start": 130.88,
+    "end": 131.089
+  },
+  {
+    "word": "stays",
+    "start": 131.182,
+    "end": 131.611
+  },
+  {
+    "word": "brave",
+    "start": 131.681,
+    "end": 132.261
+  },
+  {
+    "word": "Suddenly",
+    "start": 132.819,
+    "end": 133.353
+  },
+  {
+    "word": "Alice",
+    "start": 133.422,
+    "end": 133.782
+  },
+  {
+    "word": "wakes",
+    "start": 133.829,
+    "end": 134.119
+  },
+  {
+    "word": "up",
+    "start": 134.189,
+    "end": 134.351
+  },
+  {
+    "word": "under",
+    "start": 134.421,
+    "end": 134.653
+  },
+  {
+    "word": "a",
+    "start": 134.711,
+    "end": 134.746
+  },
+  {
+    "word": "tree",
+    "start": 134.816,
+    "end": 135.257
+  },
+  {
+    "word": "She",
+    "start": 135.768,
+    "end": 135.907
+  },
+  {
+    "word": "sees",
+    "start": 135.965,
+    "end": 136.197
+  },
+  {
+    "word": "her",
+    "start": 136.267,
+    "end": 136.348
+  },
+  {
+    "word": "sister",
+    "start": 136.406,
+    "end": 136.731
+  },
+  {
+    "word": "reading",
+    "start": 136.824,
+    "end": 137.114
+  },
+  {
+    "word": "a",
+    "start": 137.172,
+    "end": 137.196
+  },
+  {
+    "word": "book",
+    "start": 137.265,
+    "end": 137.509
+  },
+  {
+    "word": "nearby",
+    "start": 137.625,
+    "end": 138.264
+  },
+  {
+    "word": "The",
+    "start": 138.798,
+    "end": 138.914
+  },
+  {
+    "word": "forest",
+    "start": 138.984,
+    "end": 139.483
+  },
+  {
+    "word": "and",
+    "start": 139.541,
+    "end": 139.645
+  },
+  {
+    "word": "the",
+    "start": 139.703,
+    "end": 139.773
+  },
+  {
+    "word": "strange",
+    "start": 139.819,
+    "end": 140.284
+  },
+  {
+    "word": "world",
+    "start": 140.33,
+    "end": 140.725
+  },
+  {
+    "word": "vanish",
+    "start": 140.818,
+    "end": 141.224
+  },
+  {
+    "word": "like",
+    "start": 141.306,
+    "end": 141.503
+  },
+  {
+    "word": "a",
+    "start": 141.526,
+    "end": 141.561
+  },
+  {
+    "word": "dream",
+    "start": 141.619,
+    "end": 142.06
+  },
+  {
+    "word": "Alice",
+    "start": 142.78,
+    "end": 143.175
+  },
+  {
+    "word": "smiles",
+    "start": 143.256,
+    "end": 143.871
+  },
+  {
+    "word": "and",
+    "start": 143.941,
+    "end": 144.069
+  },
+  {
+    "word": "remembers",
+    "start": 144.15,
+    "end": 144.614
+  },
+  {
+    "word": "her",
+    "start": 144.684,
+    "end": 144.8
+  },
+  {
+    "word": "adventure",
+    "start": 144.858,
+    "end": 145.346
+  },
+  {
+    "word": "as",
+    "start": 145.404,
+    "end": 145.52
+  },
+  {
+    "word": "a",
+    "start": 145.578,
+    "end": 145.613
+  },
+  {
+    "word": "wonderful",
+    "start": 145.706,
+    "end": 146.251
+  },
+  {
+    "word": "curious",
+    "start": 146.576,
+    "end": 147.169
+  },
+  {
+    "word": "dream",
+    "start": 147.25,
+    "end": 147.668
+  }
+]

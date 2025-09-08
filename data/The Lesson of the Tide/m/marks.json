@@ -1,0 +1,2218 @@
+[
+  {
+    "word": "In",
+    "start": 0,
+    "end": 0.174
+  },
+  {
+    "word": "a",
+    "start": 0.221,
+    "end": 0.255
+  },
+  {
+    "word": "remote",
+    "start": 0.337,
+    "end": 0.755
+  },
+  {
+    "word": "corner",
+    "start": 0.801,
+    "end": 1.184
+  },
+  {
+    "word": "of",
+    "start": 1.254,
+    "end": 1.324
+  },
+  {
+    "word": "the",
+    "start": 1.393,
+    "end": 1.486
+  },
+  {
+    "word": "world",
+    "start": 1.567,
+    "end": 2.009
+  },
+  {
+    "word": "by",
+    "start": 2.078,
+    "end": 2.287
+  },
+  {
+    "word": "a",
+    "start": 2.368,
+    "end": 2.403
+  },
+  {
+    "word": "deep",
+    "start": 2.496,
+    "end": 2.752
+  },
+  {
+    "word": "blue",
+    "start": 2.833,
+    "end": 3.181
+  },
+  {
+    "word": "sea",
+    "start": 3.251,
+    "end": 3.611
+  },
+  {
+    "word": "there",
+    "start": 3.68,
+    "end": 3.866
+  },
+  {
+    "word": "was",
+    "start": 3.901,
+    "end": 4.04
+  },
+  {
+    "word": "a",
+    "start": 4.11,
+    "end": 4.133
+  },
+  {
+    "word": "dreamlike",
+    "start": 4.214,
+    "end": 5.004
+  },
+  {
+    "word": "village",
+    "start": 5.074,
+    "end": 5.77
+  },
+  {
+    "word": "It",
+    "start": 6.734,
+    "end": 6.908
+  },
+  {
+    "word": "had",
+    "start": 6.966,
+    "end": 7.14
+  },
+  {
+    "word": "eighty",
+    "start": 7.233,
+    "end": 7.581
+  },
+  {
+    "word": "houses",
+    "start": 7.651,
+    "end": 8.231
+  },
+  {
+    "word": "painted",
+    "start": 8.324,
+    "end": 8.754
+  },
+  {
+    "word": "red",
+    "start": 8.835,
+    "end": 9.114
+  },
+  {
+    "word": "green",
+    "start": 9.195,
+    "end": 9.601
+  },
+  {
+    "word": "and",
+    "start": 9.659,
+    "end": 9.764
+  },
+  {
+    "word": "yellow",
+    "start": 9.845,
+    "end": 10.263
+  },
+  {
+    "word": "shining",
+    "start": 10.368,
+    "end": 10.948
+  },
+  {
+    "word": "in",
+    "start": 11.018,
+    "end": 11.099
+  },
+  {
+    "word": "the",
+    "start": 11.146,
+    "end": 11.238
+  },
+  {
+    "word": "morning",
+    "start": 11.308,
+    "end": 11.703
+  },
+  {
+    "word": "sun",
+    "start": 11.807,
+    "end": 12.26
+  },
+  {
+    "word": "Every",
+    "start": 13.328,
+    "end": 13.688
+  },
+  {
+    "word": "day",
+    "start": 13.758,
+    "end": 14.071
+  },
+  {
+    "word": "the",
+    "start": 14.153,
+    "end": 14.257
+  },
+  {
+    "word": "breeze",
+    "start": 14.327,
+    "end": 14.721
+  },
+  {
+    "word": "brought",
+    "start": 14.779,
+    "end": 15.058
+  },
+  {
+    "word": "the",
+    "start": 15.105,
+    "end": 15.197
+  },
+  {
+    "word": "smell",
+    "start": 15.267,
+    "end": 15.581
+  },
+  {
+    "word": "of",
+    "start": 15.639,
+    "end": 15.708
+  },
+  {
+    "word": "olive",
+    "start": 15.79,
+    "end": 16.115
+  },
+  {
+    "word": "trees",
+    "start": 16.138,
+    "end": 16.637
+  },
+  {
+    "word": "and",
+    "start": 16.695,
+    "end": 16.788
+  },
+  {
+    "word": "the",
+    "start": 16.858,
+    "end": 16.951
+  },
+  {
+    "word": "song",
+    "start": 17.021,
+    "end": 17.381
+  },
+  {
+    "word": "of",
+    "start": 17.45,
+    "end": 17.52
+  },
+  {
+    "word": "seagulls",
+    "start": 17.613,
+    "end": 18.46
+  },
+  {
+    "word": "and",
+    "start": 19.203,
+    "end": 19.401
+  },
+  {
+    "word": "peace",
+    "start": 19.494,
+    "end": 19.888
+  },
+  {
+    "word": "reigned",
+    "start": 19.97,
+    "end": 20.388
+  },
+  {
+    "word": "in",
+    "start": 20.457,
+    "end": 20.55
+  },
+  {
+    "word": "every",
+    "start": 20.631,
+    "end": 20.91
+  },
+  {
+    "word": "cobbled",
+    "start": 21.003,
+    "end": 21.537
+  },
+  {
+    "word": "street",
+    "start": 21.618,
+    "end": 22.164
+  },
+  {
+    "word": "The",
+    "start": 23.395,
+    "end": 23.522
+  },
+  {
+    "word": "governor",
+    "start": 23.604,
+    "end": 24.01
+  },
+  {
+    "word": "was",
+    "start": 24.068,
+    "end": 24.196
+  },
+  {
+    "word": "a",
+    "start": 24.265,
+    "end": 24.3
+  },
+  {
+    "word": "wise",
+    "start": 24.393,
+    "end": 24.869
+  },
+  {
+    "word": "old",
+    "start": 24.927,
+    "end": 25.148
+  },
+  {
+    "word": "man",
+    "start": 25.229,
+    "end": 25.554
+  },
+  {
+    "word": "of",
+    "start": 25.624,
+    "end": 25.705
+  },
+  {
+    "word": "ninety",
+    "start": 25.798,
+    "end": 26.181
+  },
+  {
+    "word": "years",
+    "start": 26.251,
+    "end": 26.541
+  },
+  {
+    "word": "old",
+    "start": 26.634,
+    "end": 27.075
+  },
+  {
+    "word": "who",
+    "start": 27.609,
+    "end": 27.771
+  },
+  {
+    "word": "had",
+    "start": 27.841,
+    "end": 27.957
+  },
+  {
+    "word": "led",
+    "start": 28.027,
+    "end": 28.236
+  },
+  {
+    "word": "the",
+    "start": 28.282,
+    "end": 28.375
+  },
+  {
+    "word": "village",
+    "start": 28.445,
+    "end": 28.886
+  },
+  {
+    "word": "for",
+    "start": 28.921,
+    "end": 29.06
+  },
+  {
+    "word": "sixty",
+    "start": 29.13,
+    "end": 29.548
+  },
+  {
+    "word": "years",
+    "start": 29.617,
+    "end": 30.117
+  },
+  {
+    "word": "Every",
+    "start": 31.347,
+    "end": 31.661
+  },
+  {
+    "word": "Monday",
+    "start": 31.742,
+    "end": 32.148
+  },
+  {
+    "word": "he",
+    "start": 32.218,
+    "end": 32.299
+  },
+  {
+    "word": "left",
+    "start": 32.392,
+    "end": 32.636
+  },
+  {
+    "word": "his",
+    "start": 32.694,
+    "end": 32.81
+  },
+  {
+    "word": "house",
+    "start": 32.868,
+    "end": 33.182
+  },
+  {
+    "word": "holding",
+    "start": 33.228,
+    "end": 33.588
+  },
+  {
+    "word": "a",
+    "start": 33.646,
+    "end": 33.681
+  },
+  {
+    "word": "red",
+    "start": 33.762,
+    "end": 33.948
+  },
+  {
+    "word": "apple",
+    "start": 34.018,
+    "end": 34.401
+  },
+  {
+    "word": "and",
+    "start": 34.447,
+    "end": 34.54
+  },
+  {
+    "word": "walked",
+    "start": 34.633,
+    "end": 34.958
+  },
+  {
+    "word": "slowly",
+    "start": 35.005,
+    "end": 35.503
+  },
+  {
+    "word": "through",
+    "start": 35.573,
+    "end": 35.852
+  },
+  {
+    "word": "the",
+    "start": 35.898,
+    "end": 35.991
+  },
+  {
+    "word": "main",
+    "start": 36.037,
+    "end": 36.293
+  },
+  {
+    "word": "square",
+    "start": 36.374,
+    "end": 37.106
+  },
+  {
+    "word": "Children",
+    "start": 37.791,
+    "end": 38.336
+  },
+  {
+    "word": "ran",
+    "start": 38.406,
+    "end": 38.661
+  },
+  {
+    "word": "after",
+    "start": 38.719,
+    "end": 39.044
+  },
+  {
+    "word": "him",
+    "start": 39.114,
+    "end": 39.219
+  },
+  {
+    "word": "to",
+    "start": 39.288,
+    "end": 39.358
+  },
+  {
+    "word": "get",
+    "start": 39.416,
+    "end": 39.579
+  },
+  {
+    "word": "a",
+    "start": 39.613,
+    "end": 39.648
+  },
+  {
+    "word": "piece",
+    "start": 39.718,
+    "end": 39.985
+  },
+  {
+    "word": "of",
+    "start": 40.02,
+    "end": 40.078
+  },
+  {
+    "word": "the",
+    "start": 40.147,
+    "end": 40.24
+  },
+  {
+    "word": "apple",
+    "start": 40.322,
+    "end": 40.67
+  },
+  {
+    "word": "and",
+    "start": 40.728,
+    "end": 40.844
+  },
+  {
+    "word": "his",
+    "start": 40.914,
+    "end": 41.03
+  },
+  {
+    "word": "gentle",
+    "start": 41.123,
+    "end": 41.471
+  },
+  {
+    "word": "voice",
+    "start": 41.517,
+    "end": 41.889
+  },
+  {
+    "word": "gave",
+    "start": 41.935,
+    "end": 42.156
+  },
+  {
+    "word": "them",
+    "start": 42.202,
+    "end": 42.342
+  },
+  {
+    "word": "hope",
+    "start": 42.411,
+    "end": 42.748
+  },
+  {
+    "word": "and",
+    "start": 42.783,
+    "end": 43.015
+  },
+  {
+    "word": "order",
+    "start": 43.131,
+    "end": 43.596
+  },
+  {
+    "word": "But",
+    "start": 44.884,
+    "end": 45.082
+  },
+  {
+    "word": "fortune",
+    "start": 45.151,
+    "end": 45.674
+  },
+  {
+    "word": "is",
+    "start": 45.72,
+    "end": 45.825
+  },
+  {
+    "word": "fragile",
+    "start": 45.918,
+    "end": 46.672
+  },
+  {
+    "word": "On",
+    "start": 47.566,
+    "end": 47.752
+  },
+  {
+    "word": "Tuesday",
+    "start": 47.822,
+    "end": 48.274
+  },
+  {
+    "word": "July",
+    "start": 48.356,
+    "end": 48.646
+  },
+  {
+    "word": "16",
+    "start": 48.75,
+    "end": 49.331
+  },
+  {
+    "word": "the",
+    "start": 49.482,
+    "end": 49.575
+  },
+  {
+    "word": "governor",
+    "start": 49.644,
+    "end": 50.028
+  },
+  {
+    "word": "fell",
+    "start": 50.097,
+    "end": 50.318
+  },
+  {
+    "word": "very",
+    "start": 50.399,
+    "end": 50.713
+  },
+  {
+    "word": "ill",
+    "start": 50.794,
+    "end": 51.119
+  },
+  {
+    "word": "In",
+    "start": 51.757,
+    "end": 51.897
+  },
+  {
+    "word": "the",
+    "start": 51.943,
+    "end": 52.036
+  },
+  {
+    "word": "market",
+    "start": 52.094,
+    "end": 52.535
+  },
+  {
+    "word": "a",
+    "start": 52.605,
+    "end": 52.64
+  },
+  {
+    "word": "loaf",
+    "start": 52.709,
+    "end": 52.953
+  },
+  {
+    "word": "of",
+    "start": 53.023,
+    "end": 53.081
+  },
+  {
+    "word": "bread",
+    "start": 53.185,
+    "end": 53.487
+  },
+  {
+    "word": "cost",
+    "start": 53.569,
+    "end": 53.94
+  },
+  {
+    "word": "1",
+    "start": 54.056,
+    "end": 54.172
+  },
+
+  {
+    "word": "and",
+    "start": 54.753,
+    "end": 54.846
+  },
+  {
+    "word": "a",
+    "start": 54.904,
+    "end": 54.927
+  },
+  {
+    "word": "bunch",
+    "start": 54.997,
+    "end": 55.252
+  },
+  {
+    "word": "of",
+    "start": 55.287,
+    "end": 55.345
+  },
+  {
+    "word": "grapes",
+    "start": 55.426,
+    "end": 55.786
+  },
+  {
+    "word": "cost",
+    "start": 55.856,
+    "end": 56.204
+  },
+  {
+    "word": "2",
+    "start": 56.297,
+    "end": 56.576
+  },
+  {
+    "word": "but",
+    "start": 57.876,
+    "end": 58.097
+  },
+  {
+    "word": "no",
+    "start": 58.178,
+    "end": 58.34
+  },
+  {
+    "word": "one",
+    "start": 58.48,
+    "end": 58.677
+  },
+  {
+    "word": "cared",
+    "start": 58.747,
+    "end": 59.095
+  },
+  {
+    "word": "about",
+    "start": 59.141,
+    "end": 59.455
+  },
+  {
+    "word": "prices",
+    "start": 59.525,
+    "end": 60.117
+  },
+  {
+    "word": "they",
+    "start": 60.175,
+    "end": 60.337
+  },
+  {
+    "word": "only",
+    "start": 60.419,
+    "end": 60.686
+  },
+  {
+    "word": "whispered",
+    "start": 60.755,
+    "end": 61.208
+  },
+  {
+    "word": "about",
+    "start": 61.231,
+    "end": 61.51
+  },
+  {
+    "word": "the",
+    "start": 61.545,
+    "end": 61.638
+  },
+  {
+    "word": "governor",
+    "start": 61.707,
+    "end": 62.125
+  },
+  {
+    "word": "s",
+    "start": 62.172,
+    "end": 62.207
+  },
+  {
+    "word": "health",
+    "start": 62.265,
+    "end": 62.624
+  },
+  {
+    "word": "In",
+    "start": 63.588,
+    "end": 63.739
+  },
+  {
+    "word": "the",
+    "start": 63.797,
+    "end": 63.878
+  },
+  {
+    "word": "shadows",
+    "start": 63.948,
+    "end": 64.482
+  },
+  {
+    "word": "five",
+    "start": 64.563,
+    "end": 65.028
+  },
+  {
+    "word": "dishonest",
+    "start": 65.086,
+    "end": 65.724
+  },
+  {
+    "word": "men",
+    "start": 65.806,
+    "end": 66.015
+  },
+  {
+    "word": "waited",
+    "start": 66.096,
+    "end": 66.456
+  },
+  {
+    "word": "for",
+    "start": 66.514,
+    "end": 66.63
+  },
+  {
+    "word": "their",
+    "start": 66.676,
+    "end": 66.862
+  },
+  {
+    "word": "chance",
+    "start": 66.932,
+    "end": 67.675
+  },
+  {
+    "word": "They",
+    "start": 68.093,
+    "end": 68.29
+  },
+  {
+    "word": "spoke",
+    "start": 68.348,
+    "end": 68.697
+  },
+  {
+    "word": "cheap",
+    "start": 68.743,
+    "end": 69.022
+  },
+  {
+    "word": "promises",
+    "start": 69.103,
+    "end": 69.695
+  },
+  {
+    "word": "of",
+    "start": 69.765,
+    "end": 69.834
+  },
+  {
+    "word": "gold",
+    "start": 69.927,
+    "end": 70.357
+  },
+  {
+    "word": "and",
+    "start": 70.426,
+    "end": 70.542
+  },
+  {
+    "word": "fun",
+    "start": 70.635,
+    "end": 70.949
+  },
+  {
+    "word": "and",
+    "start": 71.019,
+    "end": 71.123
+  },
+  {
+    "word": "in",
+    "start": 71.204,
+    "end": 71.286
+  },
+  {
+    "word": "September",
+    "start": 71.355,
+    "end": 72.006
+  },
+  {
+    "word": "with",
+    "start": 72.087,
+    "end": 72.249
+  },
+  {
+    "word": "lies",
+    "start": 72.342,
+    "end": 72.818
+  },
+  {
+    "word": "they",
+    "start": 72.876,
+    "end": 73.039
+  },
+  {
+    "word": "won",
+    "start": 73.12,
+    "end": 73.375
+  },
+  {
+    "word": "the",
+    "start": 73.445,
+    "end": 73.538
+  },
+  {
+    "word": "election",
+    "start": 73.608,
+    "end": 74.188
+  },
+  {
+    "word": "By",
+    "start": 75.407,
+    "end": 75.605
+  },
+  {
+    "word": "October",
+    "start": 75.674,
+    "end": 76.208
+  },
+  {
+    "word": "they",
+    "start": 76.266,
+    "end": 76.394
+  },
+  {
+    "word": "took",
+    "start": 76.429,
+    "end": 76.615
+  },
+  {
+    "word": "control",
+    "start": 76.661,
+    "end": 77.067
+  },
+  {
+    "word": "of",
+    "start": 77.137,
+    "end": 77.195
+  },
+  {
+    "word": "the",
+    "start": 77.242,
+    "end": 77.323
+  },
+  {
+    "word": "town",
+    "start": 77.381,
+    "end": 77.671
+  },
+  {
+    "word": "hall",
+    "start": 77.741,
+    "end": 77.95
+  },
+  {
+    "word": "and",
+    "start": 78.019,
+    "end": 78.112
+  },
+  {
+    "word": "corruption",
+    "start": 78.182,
+    "end": 78.716
+  },
+  {
+    "word": "spread",
+    "start": 78.786,
+    "end": 79.134
+  },
+  {
+    "word": "in",
+    "start": 79.18,
+    "end": 79.25
+  },
+  {
+    "word": "every",
+    "start": 79.32,
+    "end": 79.552
+  },
+  {
+    "word": "office",
+    "start": 79.622,
+    "end": 80.214
+  },
+  {
+    "word": "Schools",
+    "start": 80.992,
+    "end": 81.561
+  },
+  {
+    "word": "once",
+    "start": 81.642,
+    "end": 81.897
+  },
+  {
+    "word": "beacons",
+    "start": 81.967,
+    "end": 82.42
+  },
+  {
+    "word": "of",
+    "start": 82.478,
+    "end": 82.547
+  },
+  {
+    "word": "knowledge",
+    "start": 82.617,
+    "end": 83.128
+  },
+  {
+    "word": "stood",
+    "start": 83.174,
+    "end": 83.592
+  },
+  {
+    "word": "empty",
+    "start": 83.65,
+    "end": 84.138
+  },
+  {
+    "word": "Culture",
+    "start": 85.357,
+    "end": 85.891
+  },
+  {
+    "word": "and",
+    "start": 85.926,
+    "end": 86.019
+  },
+  {
+    "word": "values",
+    "start": 86.1,
+    "end": 86.599
+  },
+  {
+    "word": "began",
+    "start": 86.681,
+    "end": 87.029
+  },
+  {
+    "word": "to",
+    "start": 87.075,
+    "end": 87.133
+  },
+  {
+    "word": "fade",
+    "start": 87.215,
+    "end": 87.807
+  },
+  {
+    "word": "No",
+    "start": 88.306,
+    "end": 88.445
+  },
+  {
+    "word": "one",
+    "start": 88.527,
+    "end": 88.677
+  },
+  {
+    "word": "celebrated",
+    "start": 88.724,
+    "end": 89.362
+  },
+  {
+    "word": "May",
+    "start": 89.444,
+    "end": 89.629
+  },
+  {
+    "word": "1",
+    "start": 89.746,
+    "end": 90.036
+  },
+  {
+    "word": "or",
+    "start": 90.117,
+    "end": 90.222
+  },
+  {
+    "word": "remembered",
+    "start": 90.291,
+    "end": 90.779
+  },
+  {
+    "word": "the",
+    "start": 90.814,
+    "end": 90.907
+  },
+  {
+    "word": "August",
+    "start": 90.999,
+    "end": 91.429
+  },
+  {
+    "word": "festival",
+    "start": 91.499,
+    "end": 92.184
+  },
+  {
+    "word": "Cheap",
+    "start": 93.217,
+    "end": 93.507
+  },
+  {
+    "word": "television",
+    "start": 93.577,
+    "end": 94.192
+  },
+  {
+    "word": "shows",
+    "start": 94.262,
+    "end": 94.668
+  },
+  {
+    "word": "filled",
+    "start": 94.749,
+    "end": 95.133
+  },
+  {
+    "word": "every",
+    "start": 95.202,
+    "end": 95.481
+  },
+  {
+    "word": "home",
+    "start": 95.562,
+    "end": 96.05
+  },
+  {
+    "word": "One",
+    "start": 96.967,
+    "end": 97.257
+  },
+  {
+    "word": "morning",
+    "start": 97.304,
+    "end": 97.652
+  },
+  {
+    "word": "in",
+    "start": 97.722,
+    "end": 97.791
+  },
+  {
+    "word": "October",
+    "start": 97.873,
+    "end": 98.499
+  },
+  {
+    "word": "a",
+    "start": 98.569,
+    "end": 98.616
+  },
+  {
+    "word": "strong",
+    "start": 98.708,
+    "end": 99.126
+  },
+  {
+    "word": "earthquake",
+    "start": 99.196,
+    "end": 99.777
+  },
+  {
+    "word": "shook",
+    "start": 99.823,
+    "end": 100.055
+  },
+  {
+    "word": "a",
+    "start": 100.125,
+    "end": 100.148
+  },
+  {
+    "word": "neighboring",
+    "start": 100.241,
+    "end": 100.752
+  },
+  {
+    "word": "country",
+    "start": 100.845,
+    "end": 101.414
+  },
+  {
+    "word": "Authorities",
+    "start": 102.273,
+    "end": 102.993
+  },
+  {
+    "word": "warned",
+    "start": 103.074,
+    "end": 103.445
+  },
+  {
+    "word": "of",
+    "start": 103.48,
+    "end": 103.55
+  },
+  {
+    "word": "a",
+    "start": 103.619,
+    "end": 103.678
+  },
+  {
+    "word": "tsunami",
+    "start": 103.701,
+    "end": 104.328
+  },
+  {
+    "word": "but",
+    "start": 104.397,
+    "end": 104.548
+  },
+  {
+    "word": "the",
+    "start": 104.595,
+    "end": 104.688
+  },
+  {
+    "word": "villagers",
+    "start": 104.757,
+    "end": 105.291
+  },
+  {
+    "word": "laughed",
+    "start": 105.373,
+    "end": 105.883
+  },
+  {
+    "word": "It",
+    "start": 106.417,
+    "end": 106.614
+  },
+  {
+    "word": "is",
+    "start": 106.684,
+    "end": 106.823
+  },
+  {
+    "word": "too",
+    "start": 106.893,
+    "end": 107.102
+  },
+  {
+    "word": "far",
+    "start": 107.218,
+    "end": 107.822
+  },
+  {
+    "word": "They",
+    "start": 109.029,
+    "end": 109.203
+  },
+  {
+    "word": "walked",
+    "start": 109.273,
+    "end": 109.587
+  },
+  {
+    "word": "to",
+    "start": 109.61,
+    "end": 109.679
+  },
+  {
+    "word": "the",
+    "start": 109.749,
+    "end": 109.83
+  },
+  {
+    "word": "beach",
+    "start": 109.912,
+    "end": 110.248
+  },
+  {
+    "word": "to",
+    "start": 110.306,
+    "end": 110.399
+  },
+  {
+    "word": "watch",
+    "start": 110.469,
+    "end": 110.771
+  },
+  {
+    "word": "the",
+    "start": 110.84,
+    "end": 110.933
+  },
+  {
+    "word": "waves",
+    "start": 111.003,
+    "end": 111.398
+  },
+  {
+    "word": "without",
+    "start": 111.444,
+    "end": 111.816
+  },
+  {
+    "word": "fear",
+    "start": 111.897,
+    "end": 112.327
+  },
+  {
+    "word": "Three",
+    "start": 112.849,
+    "end": 113.139
+  },
+  {
+    "word": "months",
+    "start": 113.209,
+    "end": 113.499
+  },
+  {
+    "word": "later",
+    "start": 113.569,
+    "end": 113.882
+  },
+  {
+    "word": "on",
+    "start": 113.952,
+    "end": 114.08
+  },
+  {
+    "word": "Wednesday",
+    "start": 114.149,
+    "end": 114.66
+  },
+  {
+    "word": "January",
+    "start": 114.741,
+    "end": 115.334
+  },
+  {
+    "word": "20",
+    "start": 115.426,
+    "end": 115.833
+  },
+  {
+    "word": "the",
+    "start": 115.96,
+    "end": 116.053
+  },
+  {
+    "word": "sea",
+    "start": 116.135,
+    "end": 116.413
+  },
+  {
+    "word": "retreated",
+    "start": 116.529,
+    "end": 117.098
+  },
+  {
+    "word": "hundreds",
+    "start": 117.168,
+    "end": 117.667
+  },
+  {
+    "word": "of",
+    "start": 117.714,
+    "end": 117.783
+  },
+  {
+    "word": "meters",
+    "start": 117.888,
+    "end": 118.445
+  },
+  {
+    "word": "Fish",
+    "start": 119.2,
+    "end": 119.606
+  },
+  {
+    "word": "crabs",
+    "start": 119.722,
+    "end": 120.303
+  },
+  {
+    "word": "and",
+    "start": 120.361,
+    "end": 120.465
+  },
+  {
+    "word": "oysters",
+    "start": 120.581,
+    "end": 121.15
+  },
+  {
+    "word": "lay",
+    "start": 121.22,
+    "end": 121.394
+  },
+  {
+    "word": "on",
+    "start": 121.475,
+    "end": 121.556
+  },
+  {
+    "word": "the",
+    "start": 121.591,
+    "end": 121.673
+  },
+  {
+    "word": "sand",
+    "start": 121.754,
+    "end": 122.3
+  },
+  {
+    "word": "Excited",
+    "start": 123.402,
+    "end": 124.029
+  },
+  {
+    "word": "many",
+    "start": 124.099,
+    "end": 124.32
+  },
+  {
+    "word": "villagers",
+    "start": 124.401,
+    "end": 124.912
+  },
+  {
+    "word": "gathered",
+    "start": 124.993,
+    "end": 125.446
+  },
+  {
+    "word": "this",
+    "start": 125.492,
+    "end": 125.655
+  },
+  {
+    "word": "gift",
+    "start": 125.759,
+    "end": 126.107
+  },
+  {
+    "word": "of",
+    "start": 126.177,
+    "end": 126.247
+  },
+  {
+    "word": "the",
+    "start": 126.293,
+    "end": 126.398
+  },
+  {
+    "word": "ocean",
+    "start": 126.479,
+    "end": 126.862
+  },
+  {
+    "word": "ignoring",
+    "start": 126.932,
+    "end": 127.559
+  },
+  {
+    "word": "the",
+    "start": 127.628,
+    "end": 127.721
+  },
+  {
+    "word": "old",
+    "start": 127.803,
+    "end": 128.058
+  },
+  {
+    "word": "warnings",
+    "start": 128.139,
+    "end": 128.697
+  },
+  {
+    "word": "from",
+    "start": 128.755,
+    "end": 128.929
+  },
+  {
+    "word": "the",
+    "start": 128.975,
+    "end": 129.056
+  },
+  {
+    "word": "elders",
+    "start": 129.126,
+    "end": 129.672
+  },
+  {
+    "word": "Then",
+    "start": 130.693,
+    "end": 130.891
+  },
+  {
+    "word": "on",
+    "start": 130.96,
+    "end": 131.053
+  },
+  {
+    "word": "the",
+    "start": 131.088,
+    "end": 131.169
+  },
+  {
+    "word": "horizon",
+    "start": 131.251,
+    "end": 131.878
+  },
+  {
+    "word": "they",
+    "start": 131.936,
+    "end": 132.075
+  },
+  {
+    "word": "saw",
+    "start": 132.145,
+    "end": 132.4
+  },
+  {
+    "word": "a",
+    "start": 132.458,
+    "end": 132.505
+  },
+  {
+    "word": "giant",
+    "start": 132.621,
+    "end": 133.073
+  },
+  {
+    "word": "wave",
+    "start": 133.143,
+    "end": 133.631
+  },
+  {
+    "word": "rushing",
+    "start": 133.689,
+    "end": 134.107
+  },
+  {
+    "word": "toward",
+    "start": 134.176,
+    "end": 134.49
+  },
+  {
+    "word": "them",
+    "start": 134.525,
+    "end": 134.664
+  },
+  {
+    "word": "at",
+    "start": 134.71,
+    "end": 134.792
+  },
+  {
+    "word": "great",
+    "start": 134.873,
+    "end": 135.152
+  },
+  {
+    "word": "speed",
+    "start": 135.221,
+    "end": 135.813
+  },
+  {
+    "word": "Some",
+    "start": 137.102,
+    "end": 137.369
+  },
+  {
+    "word": "tried",
+    "start": 137.404,
+    "end": 137.752
+  },
+  {
+    "word": "to",
+    "start": 137.787,
+    "end": 137.845
+  },
+  {
+    "word": "save",
+    "start": 137.926,
+    "end": 138.298
+  },
+  {
+    "word": "the",
+    "start": 138.344,
+    "end": 138.426
+  },
+  {
+    "word": "fish",
+    "start": 138.507,
+    "end": 138.878
+  },
+  {
+    "word": "others",
+    "start": 139.262,
+    "end": 139.645
+  },
+  {
+    "word": "ran",
+    "start": 139.714,
+    "end": 139.935
+  },
+  {
+    "word": "in",
+    "start": 139.993,
+    "end": 140.074
+  },
+  {
+    "word": "panic",
+    "start": 140.156,
+    "end": 140.632
+  },
+  {
+    "word": "In",
+    "start": 141.92,
+    "end": 142.071
+  },
+  {
+    "word": "seconds",
+    "start": 142.152,
+    "end": 142.628
+  },
+  {
+    "word": "the",
+    "start": 142.687,
+    "end": 142.791
+  },
+  {
+    "word": "tsunami",
+    "start": 142.826,
+    "end": 143.325
+  },
+  {
+    "word": "destroyed",
+    "start": 143.395,
+    "end": 143.975
+  },
+  {
+    "word": "their",
+    "start": 144.01,
+    "end": 144.196
+  },
+  {
+    "word": "houses",
+    "start": 144.254,
+    "end": 144.683
+  },
+  {
+    "word": "and",
+    "start": 144.753,
+    "end": 144.857
+  },
+  {
+    "word": "dreams",
+    "start": 144.939,
+    "end": 145.554
+  },
+  {
+    "word": "The",
+    "start": 146.889,
+    "end": 147.04
+  },
+  {
+    "word": "next",
+    "start": 147.11,
+    "end": 147.377
+  },
+  {
+    "word": "morning",
+    "start": 147.47,
+    "end": 147.841
+  },
+  {
+    "word": "revealed",
+    "start": 147.922,
+    "end": 148.352
+  },
+  {
+    "word": "a",
+    "start": 148.387,
+    "end": 148.433
+  },
+  {
+    "word": "desolate",
+    "start": 148.526,
+    "end": 149.13
+  },
+  {
+    "word": "scene",
+    "start": 149.165,
+    "end": 149.757
+  },
+  {
+    "word": "many",
+    "start": 150.198,
+    "end": 150.477
+  },
+  {
+    "word": "people",
+    "start": 150.558,
+    "end": 150.906
+  },
+  {
+    "word": "had",
+    "start": 150.941,
+    "end": 151.057
+  },
+  {
+    "word": "disappeared",
+    "start": 151.104,
+    "end": 151.858
+  },
+  {
+    "word": "for",
+    "start": 151.928,
+    "end": 152.067
+  },
+  {
+    "word": "only",
+    "start": 152.148,
+    "end": 152.404
+  },
+  {
+    "word": "a",
+    "start": 152.474,
+    "end": 152.508
+  },
+  {
+    "word": "few",
+    "start": 152.578,
+    "end": 152.775
+  },
+  {
+    "word": "elders",
+    "start": 152.857,
+    "end": 153.321
+  },
+  {
+    "word": "who",
+    "start": 153.356,
+    "end": 153.472
+  },
+  {
+    "word": "had",
+    "start": 153.542,
+    "end": 153.658
+  },
+  {
+    "word": "taken",
+    "start": 153.693,
+    "end": 154.053
+  },
+  {
+    "word": "precautions",
+    "start": 154.134,
+    "end": 154.854
+  },
+  {
+    "word": "survived",
+    "start": 154.912,
+    "end": 155.69
+  },
+  {
+    "word": "the",
+    "start": 156.316,
+    "end": 156.433
+  },
+  {
+    "word": "majority",
+    "start": 156.502,
+    "end": 157.176
+  },
+  {
+    "word": "trusting",
+    "start": 157.257,
+    "end": 157.803
+  },
+  {
+    "word": "too",
+    "start": 157.884,
+    "end": 158.046
+  },
+  {
+    "word": "much",
+    "start": 158.139,
+    "end": 158.441
+  },
+  {
+    "word": "did",
+    "start": 158.522,
+    "end": 158.72
+  },
+  {
+    "word": "not",
+    "start": 158.766,
+    "end": 158.94
+  },
+  {
+    "word": "react",
+    "start": 159.01,
+    "end": 159.567
+  },
+  {
+    "word": "Amid",
+    "start": 160.868,
+    "end": 161.228
+  },
+  {
+    "word": "the",
+    "start": 161.274,
+    "end": 161.367
+  },
+  {
+    "word": "ruins",
+    "start": 161.448,
+    "end": 161.924
+  },
+  {
+    "word": "they",
+    "start": 161.994,
+    "end": 162.145
+  },
+  {
+    "word": "learned",
+    "start": 162.226,
+    "end": 162.54
+  },
+  {
+    "word": "the",
+    "start": 162.574,
+    "end": 162.667
+  },
+  {
+    "word": "hardest",
+    "start": 162.737,
+    "end": 163.201
+  },
+  {
+    "word": "lesson",
+    "start": 163.294,
+    "end": 163.782
+  },
+  {
+    "word": "without",
+    "start": 164.583,
+    "end": 165.036
+  },
+  {
+    "word": "education",
+    "start": 165.117,
+    "end": 165.918
+  },
+  {
+    "word": "without",
+    "start": 165.988,
+    "end": 166.382
+  },
+  {
+    "word": "values",
+    "start": 166.464,
+    "end": 167.056
+  },
+  {
+    "word": "and",
+    "start": 167.126,
+    "end": 167.23
+  },
+  {
+    "word": "without",
+    "start": 167.276,
+    "end": 167.648
+  },
+  {
+    "word": "culture",
+    "start": 167.729,
+    "end": 168.298
+  },
+  {
+    "word": "they",
+    "start": 168.368,
+    "end": 168.542
+  },
+  {
+    "word": "could",
+    "start": 168.612,
+    "end": 168.855
+  },
+  {
+    "word": "not",
+    "start": 168.925,
+    "end": 169.157
+  },
+  {
+    "word": "act",
+    "start": 169.239,
+    "end": 169.68
+  },
+  {
+    "word": "when",
+    "start": 170.272,
+    "end": 170.527
+  },
+  {
+    "word": "danger",
+    "start": 170.609,
+    "end": 171.05
+  },
+  {
+    "word": "was",
+    "start": 171.119,
+    "end": 171.259
+  },
+  {
+    "word": "real",
+    "start": 171.352,
+    "end": 171.723
+  },
+  {
+    "word": "Over",
+    "start": 173,
+    "end": 173.232
+  },
+  {
+    "word": "the",
+    "start": 173.279,
+    "end": 173.372
+  },
+  {
+    "word": "years",
+    "start": 173.43,
+    "end": 173.755
+  },
+  {
+    "word": "the",
+    "start": 173.824,
+    "end": 173.917
+  },
+  {
+    "word": "village",
+    "start": 173.975,
+    "end": 174.347
+  },
+  {
+    "word": "rose",
+    "start": 174.428,
+    "end": 174.927
+  },
+  {
+    "word": "from",
+    "start": 174.962,
+    "end": 175.148
+  },
+  {
+    "word": "the",
+    "start": 175.194,
+    "end": 175.287
+  },
+  {
+    "word": "ashes",
+    "start": 175.369,
+    "end": 175.972
+  },
+  {
+    "word": "Only",
+    "start": 177.168,
+    "end": 177.47
+  },
+  {
+    "word": "four",
+    "start": 177.563,
+    "end": 177.876
+  },
+  {
+    "word": "veteran",
+    "start": 177.969,
+    "end": 178.41
+  },
+  {
+    "word": "survivors",
+    "start": 178.492,
+    "end": 179.235
+  },
+  {
+    "word": "remained",
+    "start": 179.328,
+    "end": 179.78
+  },
+  {
+    "word": "to",
+    "start": 179.827,
+    "end": 179.896
+  },
+  {
+    "word": "tell",
+    "start": 179.966,
+    "end": 180.21
+  },
+  {
+    "word": "the",
+    "start": 180.279,
+    "end": 180.372
+  },
+  {
+    "word": "tale",
+    "start": 180.442,
+    "end": 181.057
+  },
+  {
+    "word": "They",
+    "start": 182.044,
+    "end": 182.23
+  },
+  {
+    "word": "taught",
+    "start": 182.276,
+    "end": 182.567
+  },
+  {
+    "word": "their",
+    "start": 182.613,
+    "end": 182.822
+  },
+  {
+    "word": "grandchildren",
+    "start": 182.892,
+    "end": 183.728
+  },
+  {
+    "word": "every",
+    "start": 183.797,
+    "end": 184.053
+  },
+  {
+    "word": "Monday",
+    "start": 184.146,
+    "end": 184.575
+  },
+  {
+    "word": "every",
+    "start": 184.645,
+    "end": 184.9
+  },
+  {
+    "word": "July",
+    "start": 184.981,
+    "end": 185.411
+  },
+  {
+    "word": "and",
+    "start": 185.492,
+    "end": 185.597
+  },
+  {
+    "word": "every",
+    "start": 185.666,
+    "end": 185.875
+  },
+  {
+    "word": "color",
+    "start": 185.957,
+    "end": 186.328
+  },
+  {
+    "word": "of",
+    "start": 186.386,
+    "end": 186.456
+  },
+  {
+    "word": "the",
+    "start": 186.514,
+    "end": 186.607
+  },
+  {
+    "word": "houses",
+    "start": 186.688,
+    "end": 187.187
+  },
+  {
+    "word": "that",
+    "start": 187.269,
+    "end": 187.443
+  },
+  {
+    "word": "solidarity",
+    "start": 187.524,
+    "end": 188.534
+  },
+  {
+    "word": "truth",
+    "start": 188.615,
+    "end": 189.068
+  },
+  {
+    "word": "and",
+    "start": 189.138,
+    "end": 189.266
+  },
+  {
+    "word": "knowledge",
+    "start": 189.358,
+    "end": 189.927
+  },
+  {
+    "word": "are",
+    "start": 189.962,
+    "end": 190.113
+  },
+  {
+    "word": "the",
+    "start": 190.16,
+    "end": 190.264
+  },
+  {
+    "word": "only",
+    "start": 190.38,
+    "end": 190.74
+  },
+  {
+    "word": "walls",
+    "start": 190.833,
+    "end": 191.297
+  },
+  {
+    "word": "strong",
+    "start": 191.367,
+    "end": 191.773
+  },
+  {
+    "word": "enough",
+    "start": 191.831,
+    "end": 192.098
+  },
+  {
+    "word": "to",
+    "start": 192.145,
+    "end": 192.226
+  },
+  {
+    "word": "protect",
+    "start": 192.331,
+    "end": 192.923
+  },
+  {
+    "word": "them",
+    "start": 192.969,
+    "end": 193.143
+  },
+  {
+    "word": "from",
+    "start": 193.213,
+    "end": 193.399
+  },
+  {
+    "word": "any",
+    "start": 193.468,
+    "end": 193.677
+  },
+  {
+    "word": "tide",
+    "start": 193.77,
+    "end": 194.536
+  },
+  {
+    "word": "And",
+    "start": 195.825,
+    "end": 196.046
+  },
+  {
+    "word": "so",
+    "start": 196.139,
+    "end": 196.348
+  },
+  {
+    "word": "the",
+    "start": 196.441,
+    "end": 196.545
+  },
+  {
+    "word": "village",
+    "start": 196.638,
+    "end": 197.044
+  },
+  {
+    "word": "was",
+    "start": 197.091,
+    "end": 197.242
+  },
+  {
+    "word": "reborn",
+    "start": 197.323,
+    "end": 198.101
+  },
+  {
+    "word": "a",
+    "start": 199.03,
+    "end": 199.111
+  },
+  {
+    "word": "place",
+    "start": 199.204,
+    "end": 199.54
+  },
+  {
+    "word": "of",
+    "start": 199.575,
+    "end": 199.656
+  },
+  {
+    "word": "peace",
+    "start": 199.784,
+    "end": 200.632
+  },
+  {
+    "word": "unity",
+    "start": 201.108,
+    "end": 201.688
+  },
+  {
+    "word": "and",
+    "start": 202.373,
+    "end": 202.617
+  },
+  {
+    "word": "hope",
+    "start": 202.71,
+    "end": 203.29
+  }
+]

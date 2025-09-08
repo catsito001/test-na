@@ -1,0 +1,2287 @@
+[
+  {
+    "word": "In",
+    "start": 0,
+    "end": 0.139
+  },
+  {
+    "word": "the",
+    "start": 0.186,
+    "end": 0.255
+  },
+  {
+    "word": "first",
+    "start": 0.313,
+    "end": 0.569
+  },
+  {
+    "word": "light",
+    "start": 0.65,
+    "end": 0.859
+  },
+  {
+    "word": "of",
+    "start": 0.882,
+    "end": 0.94
+  },
+  {
+    "word": "day",
+    "start": 1.033,
+    "end": 1.416
+  },
+  {
+    "word": "a",
+    "start": 1.614,
+    "end": 1.695
+  },
+  {
+    "word": "gentle",
+    "start": 1.788,
+    "end": 2.101
+  },
+  {
+    "word": "beam",
+    "start": 2.159,
+    "end": 2.519
+  },
+  {
+    "word": "of",
+    "start": 2.601,
+    "end": 2.67
+  },
+  {
+    "word": "warm",
+    "start": 2.763,
+    "end": 3.1
+  },
+  {
+    "word": "sunlight",
+    "start": 3.193,
+    "end": 3.715
+  },
+  {
+    "word": "through",
+    "start": 3.866,
+    "end": 4.145
+  },
+  {
+    "word": "the",
+    "start": 4.18,
+    "end": 4.249
+  },
+  {
+    "word": "curtains",
+    "start": 4.296,
+    "end": 4.737
+  },
+  {
+    "word": "invites",
+    "start": 4.795,
+    "end": 5.213
+  },
+  {
+    "word": "us",
+    "start": 5.283,
+    "end": 5.399
+  },
+  {
+    "word": "to",
+    "start": 5.457,
+    "end": 5.55
+  },
+  {
+    "word": "wake",
+    "start": 5.631,
+    "end": 6.049
+  },
+  {
+    "word": "Looking",
+    "start": 6.409,
+    "end": 6.734
+  },
+  {
+    "word": "around",
+    "start": 6.792,
+    "end": 7.245
+  },
+  {
+    "word": "we",
+    "start": 7.372,
+    "end": 7.5
+  },
+  {
+    "word": "notice",
+    "start": 7.581,
+    "end": 7.883
+  },
+  {
+    "word": "simple",
+    "start": 7.918,
+    "end": 8.301
+  },
+  {
+    "word": "yet",
+    "start": 8.359,
+    "end": 8.568
+  },
+  {
+    "word": "powerful",
+    "start": 8.661,
+    "end": 9.172
+  },
+  {
+    "word": "details",
+    "start": 9.253,
+    "end": 9.892
+  },
+  {
+    "word": "our",
+    "start": 10.368,
+    "end": 10.6
+  },
+  {
+    "word": "slippers",
+    "start": 10.693,
+    "end": 11.18
+  },
+  {
+    "word": "neatly",
+    "start": 11.262,
+    "end": 11.622
+  },
+  {
+    "word": "placed",
+    "start": 11.691,
+    "end": 12.016
+  },
+  {
+    "word": "by",
+    "start": 12.063,
+    "end": 12.179
+  },
+  {
+    "word": "the",
+    "start": 12.237,
+    "end": 12.307
+  },
+  {
+    "word": "bed",
+    "start": 12.376,
+    "end": 12.69
+  },
+  {
+    "word": "a",
+    "start": 12.992,
+    "end": 13.073
+  },
+  {
+    "word": "nightstand",
+    "start": 13.189,
+    "end": 13.886
+  },
+  {
+    "word": "holding",
+    "start": 13.955,
+    "end": 14.292
+  },
+  {
+    "word": "a",
+    "start": 14.35,
+    "end": 14.373
+  },
+  {
+    "word": "silenced",
+    "start": 14.443,
+    "end": 14.965
+  },
+  {
+    "word": "phone",
+    "start": 15.023,
+    "end": 15.581
+  },
+  {
+    "word": "a",
+    "start": 15.917,
+    "end": 15.987
+  },
+  {
+    "word": "bottle",
+    "start": 16.103,
+    "end": 16.428
+  },
+  {
+    "word": "of",
+    "start": 16.463,
+    "end": 16.521
+  },
+  {
+    "word": "water",
+    "start": 16.602,
+    "end": 16.927
+  },
+  {
+    "word": "waiting",
+    "start": 17.009,
+    "end": 17.357
+  },
+  {
+    "word": "on",
+    "start": 17.427,
+    "end": 17.519
+  },
+  {
+    "word": "the",
+    "start": 17.566,
+    "end": 17.636
+  },
+  {
+    "word": "table",
+    "start": 17.694,
+    "end": 18.158
+  },
+  {
+    "word": "James",
+    "start": 18.82,
+    "end": 19.284
+  },
+  {
+    "word": "Clear",
+    "start": 19.365,
+    "end": 19.772
+  },
+  {
+    "word": "reminds",
+    "start": 19.888,
+    "end": 20.341
+  },
+  {
+    "word": "us",
+    "start": 20.399,
+    "end": 20.503
+  },
+  {
+    "word": "that",
+    "start": 20.561,
+    "end": 20.724
+  },
+  {
+    "word": "each",
+    "start": 20.84,
+    "end": 21.13
+  },
+  {
+    "word": "of",
+    "start": 21.188,
+    "end": 21.258
+  },
+  {
+    "word": "these",
+    "start": 21.327,
+    "end": 21.571
+  },
+  {
+    "word": "elements",
+    "start": 21.618,
+    "end": 22.036
+  },
+  {
+    "word": "belongs",
+    "start": 22.094,
+    "end": 22.558
+  },
+  {
+    "word": "to",
+    "start": 22.605,
+    "end": 22.674
+  },
+  {
+    "word": "our",
+    "start": 22.756,
+    "end": 22.872
+  },
+  {
+    "word": "habit",
+    "start": 22.93,
+    "end": 23.232
+  },
+  {
+    "word": "stage",
+    "start": 23.301,
+    "end": 23.893
+  },
+  {
+    "word": "if",
+    "start": 24.044,
+    "end": 24.218
+  },
+  {
+    "word": "we",
+    "start": 24.288,
+    "end": 24.404
+  },
+  {
+    "word": "design",
+    "start": 24.474,
+    "end": 24.903
+  },
+  {
+    "word": "it",
+    "start": 24.95,
+    "end": 25.031
+  },
+  {
+    "word": "intentionally",
+    "start": 25.089,
+    "end": 25.867
+  },
+  {
+    "word": "we",
+    "start": 25.937,
+    "end": 26.041
+  },
+  {
+    "word": "can",
+    "start": 26.099,
+    "end": 26.25
+  },
+  {
+    "word": "guide",
+    "start": 26.32,
+    "end": 26.68
+  },
+  {
+    "word": "our",
+    "start": 26.715,
+    "end": 26.842
+  },
+  {
+    "word": "behavior",
+    "start": 26.9,
+    "end": 27.423
+  },
+  {
+    "word": "without",
+    "start": 27.492,
+    "end": 27.852
+  },
+  {
+    "word": "conscious",
+    "start": 27.945,
+    "end": 28.433
+  },
+  {
+    "word": "effort",
+    "start": 28.491,
+    "end": 28.886
+  },
+  {
+    "word": "When",
+    "start": 29.605,
+    "end": 29.78
+  },
+  {
+    "word": "we",
+    "start": 29.826,
+    "end": 29.919
+  },
+  {
+    "word": "turn",
+    "start": 29.977,
+    "end": 30.267
+  },
+  {
+    "word": "everyday",
+    "start": 30.383,
+    "end": 30.906
+  },
+  {
+    "word": "objects",
+    "start": 30.976,
+    "end": 31.428
+  },
+  {
+    "word": "into",
+    "start": 31.475,
+    "end": 31.649
+  },
+  {
+    "word": "friendly",
+    "start": 31.765,
+    "end": 32.172
+  },
+  {
+    "word": "reminders",
+    "start": 32.241,
+    "end": 32.973
+  },
+  {
+    "word": "our",
+    "start": 33.843,
+    "end": 34.087
+  },
+  {
+    "word": "actions",
+    "start": 34.18,
+    "end": 34.749
+  },
+  {
+    "word": "flow",
+    "start": 34.819,
+    "end": 35.202
+  },
+  {
+    "word": "naturally",
+    "start": 35.48,
+    "end": 36.142
+  },
+  {
+    "word": "A",
+    "start": 36.618,
+    "end": 36.711
+  },
+  {
+    "word": "book",
+    "start": 36.792,
+    "end": 37.001
+  },
+  {
+    "word": "resting",
+    "start": 37.094,
+    "end": 37.466
+  },
+  {
+    "word": "on",
+    "start": 37.524,
+    "end": 37.593
+  },
+  {
+    "word": "the",
+    "start": 37.628,
+    "end": 37.698
+  },
+  {
+    "word": "pillow",
+    "start": 37.756,
+    "end": 38.058
+  },
+  {
+    "word": "whispers",
+    "start": 38.116,
+    "end": 38.557
+  },
+  {
+    "word": "an",
+    "start": 38.603,
+    "end": 38.662
+  },
+  {
+    "word": "invitation",
+    "start": 38.72,
+    "end": 39.358
+  },
+  {
+    "word": "to",
+    "start": 39.416,
+    "end": 39.497
+  },
+  {
+    "word": "read",
+    "start": 39.614,
+    "end": 39.95
+  },
+  {
+    "word": "a",
+    "start": 40.159,
+    "end": 40.252
+  },
+  {
+    "word": "few",
+    "start": 40.345,
+    "end": 40.531
+  },
+  {
+    "word": "pages",
+    "start": 40.6,
+    "end": 41.053
+  },
+  {
+    "word": "before",
+    "start": 41.123,
+    "end": 41.471
+  },
+  {
+    "word": "sleep",
+    "start": 41.529,
+    "end": 41.877
+  },
+  {
+    "word": "A",
+    "start": 42.493,
+    "end": 42.574
+  },
+  {
+    "word": "yoga",
+    "start": 42.69,
+    "end": 43.027
+  },
+  {
+    "word": "mat",
+    "start": 43.062,
+    "end": 43.317
+  },
+  {
+    "word": "unrolled",
+    "start": 43.433,
+    "end": 43.99
+  },
+  {
+    "word": "beside",
+    "start": 44.049,
+    "end": 44.478
+  },
+  {
+    "word": "the",
+    "start": 44.525,
+    "end": 44.606
+  },
+  {
+    "word": "sofa",
+    "start": 44.675,
+    "end": 45.128
+  },
+  {
+    "word": "encourages",
+    "start": 45.453,
+    "end": 46.243
+  },
+  {
+    "word": "us",
+    "start": 46.312,
+    "end": 46.429
+  },
+  {
+    "word": "to",
+    "start": 46.487,
+    "end": 46.58
+  },
+  {
+    "word": "stretch",
+    "start": 46.672,
+    "end": 47.032
+  },
+  {
+    "word": "our",
+    "start": 47.09,
+    "end": 47.218
+  },
+  {
+    "word": "bodies",
+    "start": 47.276,
+    "end": 47.682
+  },
+  {
+    "word": "at",
+    "start": 47.741,
+    "end": 47.833
+  },
+  {
+    "word": "the",
+    "start": 47.868,
+    "end": 47.949
+  },
+  {
+    "word": "end",
+    "start": 48.019,
+    "end": 48.17
+  },
+  {
+    "word": "of",
+    "start": 48.228,
+    "end": 48.298
+  },
+  {
+    "word": "the",
+    "start": 48.367,
+    "end": 48.437
+  },
+  {
+    "word": "day",
+    "start": 48.495,
+    "end": 48.843
+  },
+  {
+    "word": "Thus",
+    "start": 49.319,
+    "end": 49.586
+  },
+  {
+    "word": "without",
+    "start": 49.656,
+    "end": 50.016
+  },
+  {
+    "word": "imposing",
+    "start": 50.062,
+    "end": 50.62
+  },
+  {
+    "word": "endless",
+    "start": 50.747,
+    "end": 51.235
+  },
+  {
+    "word": "checklists",
+    "start": 51.281,
+    "end": 52.001
+  },
+  {
+    "word": "we",
+    "start": 52.21,
+    "end": 52.407
+  },
+  {
+    "word": "create",
+    "start": 52.477,
+    "end": 52.849
+  },
+  {
+    "word": "easy",
+    "start": 52.918,
+    "end": 53.336
+  },
+  {
+    "word": "pathways",
+    "start": 53.418,
+    "end": 54.079
+  },
+  {
+    "word": "that",
+    "start": 54.137,
+    "end": 54.277
+  },
+  {
+    "word": "lead",
+    "start": 54.323,
+    "end": 54.497
+  },
+  {
+    "word": "us",
+    "start": 54.555,
+    "end": 54.66
+  },
+  {
+    "word": "directly",
+    "start": 54.729,
+    "end": 55.356
+  },
+  {
+    "word": "to",
+    "start": 55.414,
+    "end": 55.496
+  },
+  {
+    "word": "the",
+    "start": 55.565,
+    "end": 55.635
+  },
+  {
+    "word": "habit",
+    "start": 55.693,
+    "end": 55.983
+  },
+  {
+    "word": "we",
+    "start": 56.041,
+    "end": 56.181
+  },
+  {
+    "word": "wish",
+    "start": 56.25,
+    "end": 56.471
+  },
+  {
+    "word": "to",
+    "start": 56.541,
+    "end": 56.61
+  },
+  {
+    "word": "cultivate",
+    "start": 56.68,
+    "end": 57.295
+  },
+  {
+    "word": "Removing",
+    "start": 57.957,
+    "end": 58.503
+  },
+  {
+    "word": "temptations",
+    "start": 58.584,
+    "end": 59.35
+  },
+  {
+    "word": "is",
+    "start": 59.431,
+    "end": 59.675
+  },
+  {
+    "word": "just",
+    "start": 59.849,
+    "end": 60.163
+  },
+  {
+    "word": "as",
+    "start": 60.221,
+    "end": 60.325
+  },
+  {
+    "word": "important",
+    "start": 60.384,
+    "end": 60.894
+  },
+  {
+    "word": "Storing",
+    "start": 61.486,
+    "end": 62.021
+  },
+  {
+    "word": "the",
+    "start": 62.09,
+    "end": 62.16
+  },
+  {
+    "word": "TV",
+    "start": 62.218,
+    "end": 62.52
+  },
+  {
+    "word": "remote",
+    "start": 62.729,
+    "end": 63.1
+  },
+  {
+    "word": "in",
+    "start": 63.147,
+    "end": 63.263
+  },
+  {
+    "word": "a",
+    "start": 63.321,
+    "end": 63.344
+  },
+  {
+    "word": "drawer",
+    "start": 63.402,
+    "end": 63.785
+  },
+  {
+    "word": "replacing",
+    "start": 63.855,
+    "end": 64.389
+  },
+  {
+    "word": "sugary",
+    "start": 64.505,
+    "end": 64.958
+  },
+  {
+    "word": "snacks",
+    "start": 65.027,
+    "end": 65.538
+  },
+  {
+    "word": "with",
+    "start": 66.049,
+    "end": 66.258
+  },
+  {
+    "word": "fresh",
+    "start": 66.328,
+    "end": 66.618
+  },
+  {
+    "word": "fruit",
+    "start": 66.688,
+    "end": 66.966
+  },
+  {
+    "word": "in",
+    "start": 67.048,
+    "end": 67.164
+  },
+  {
+    "word": "a",
+    "start": 67.222,
+    "end": 67.245
+  },
+  {
+    "word": "visible",
+    "start": 67.326,
+    "end": 67.779
+  },
+  {
+    "word": "bowl",
+    "start": 67.825,
+    "end": 68.209
+  },
+  {
+    "word": "or",
+    "start": 68.65,
+    "end": 68.812
+  },
+  {
+    "word": "muting",
+    "start": 68.894,
+    "end": 69.242
+  },
+  {
+    "word": "unnecessary",
+    "start": 69.323,
+    "end": 70.136
+  },
+  {
+    "word": "phone",
+    "start": 70.205,
+    "end": 70.484
+  },
+  {
+    "word": "notifications",
+    "start": 70.519,
+    "end": 71.366
+  },
+  {
+    "word": "reduces",
+    "start": 71.575,
+    "end": 72.191
+  },
+  {
+    "word": "willpower",
+    "start": 72.272,
+    "end": 72.864
+  },
+  {
+    "word": "drain",
+    "start": 72.934,
+    "end": 73.363
+  },
+  {
+    "word": "Each",
+    "start": 73.758,
+    "end": 74.072
+  },
+  {
+    "word": "obstacle",
+    "start": 74.222,
+    "end": 74.815
+  },
+  {
+    "word": "we",
+    "start": 74.849,
+    "end": 74.977
+  },
+  {
+    "word": "remove",
+    "start": 75.07,
+    "end": 75.616
+  },
+  {
+    "word": "simplifies",
+    "start": 75.743,
+    "end": 76.533
+  },
+  {
+    "word": "the",
+    "start": 76.626,
+    "end": 76.719
+  },
+  {
+    "word": "choice",
+    "start": 76.788,
+    "end": 77.334
+  },
+  {
+    "word": "instead",
+    "start": 77.357,
+    "end": 77.798
+  },
+  {
+    "word": "of",
+    "start": 77.833,
+    "end": 77.891
+  },
+  {
+    "word": "expending",
+    "start": 77.961,
+    "end": 78.507
+  },
+  {
+    "word": "energy",
+    "start": 78.565,
+    "end": 78.901
+  },
+  {
+    "word": "resisting",
+    "start": 78.983,
+    "end": 79.505
+  },
+  {
+    "word": "impulses",
+    "start": 79.575,
+    "end": 80.236
+  },
+  {
+    "word": "we",
+    "start": 80.678,
+    "end": 80.875
+  },
+  {
+    "word": "invest",
+    "start": 80.933,
+    "end": 81.339
+  },
+  {
+    "word": "it",
+    "start": 81.397,
+    "end": 81.502
+  },
+  {
+    "word": "in",
+    "start": 81.583,
+    "end": 81.723
+  },
+  {
+    "word": "moving",
+    "start": 81.792,
+    "end": 82.129
+  },
+  {
+    "word": "toward",
+    "start": 82.199,
+    "end": 82.582
+  },
+  {
+    "word": "our",
+    "start": 82.628,
+    "end": 82.756
+  },
+  {
+    "word": "goals",
+    "start": 82.826,
+    "end": 83.302
+  },
+  {
+    "word": "Over",
+    "start": 83.917,
+    "end": 84.254
+  },
+  {
+    "word": "time",
+    "start": 84.323,
+    "end": 84.695
+  },
+  {
+    "word": "this",
+    "start": 84.753,
+    "end": 84.95
+  },
+  {
+    "word": "intentional",
+    "start": 85.043,
+    "end": 85.658
+  },
+  {
+    "word": "environment",
+    "start": 85.728,
+    "end": 86.309
+  },
+  {
+    "word": "quietly",
+    "start": 86.355,
+    "end": 86.889
+  },
+  {
+    "word": "shapes",
+    "start": 86.959,
+    "end": 87.412
+  },
+  {
+    "word": "our",
+    "start": 87.586,
+    "end": 87.864
+  },
+  {
+    "word": "identity",
+    "start": 87.946,
+    "end": 88.503
+  },
+  {
+    "word": "A",
+    "start": 88.932,
+    "end": 89.025
+  },
+  {
+    "word": "tidy",
+    "start": 89.107,
+    "end": 89.501
+  },
+  {
+    "word": "desk",
+    "start": 89.594,
+    "end": 89.943
+  },
+  {
+    "word": "inspires",
+    "start": 90.012,
+    "end": 90.593
+  },
+  {
+    "word": "clear",
+    "start": 90.674,
+    "end": 90.976
+  },
+  {
+    "word": "thinking",
+    "start": 91.057,
+    "end": 91.463
+  },
+  {
+    "word": "and",
+    "start": 91.521,
+    "end": 91.626
+  },
+  {
+    "word": "reminds",
+    "start": 91.696,
+    "end": 92.16
+  },
+  {
+    "word": "us",
+    "start": 92.23,
+    "end": 92.415
+  },
+  {
+    "word": "that",
+    "start": 92.59,
+    "end": 92.775
+  },
+  {
+    "word": "we",
+    "start": 92.833,
+    "end": 92.996
+  },
+  {
+    "word": "are",
+    "start": 93.066,
+    "end": 93.24
+  },
+  {
+    "word": "organized",
+    "start": 93.298,
+    "end": 94.006
+  },
+  {
+    "word": "people",
+    "start": 94.076,
+    "end": 94.528
+  },
+  {
+    "word": "A",
+    "start": 95.028,
+    "end": 95.121
+  },
+  {
+    "word": "reading",
+    "start": 95.237,
+    "end": 95.597
+  },
+  {
+    "word": "corner",
+    "start": 95.678,
+    "end": 96.015
+  },
+  {
+    "word": "with",
+    "start": 96.073,
+    "end": 96.235
+  },
+  {
+    "word": "good",
+    "start": 96.293,
+    "end": 96.491
+  },
+  {
+    "word": "light",
+    "start": 96.56,
+    "end": 96.816
+  },
+  {
+    "word": "reinforces",
+    "start": 96.932,
+    "end": 97.756
+  },
+  {
+    "word": "the",
+    "start": 97.826,
+    "end": 97.919
+  },
+  {
+    "word": "idea",
+    "start": 98.011,
+    "end": 98.487
+  },
+  {
+    "word": "that",
+    "start": 98.58,
+    "end": 98.743
+  },
+  {
+    "word": "we",
+    "start": 98.801,
+    "end": 98.928
+  },
+  {
+    "word": "are",
+    "start": 98.986,
+    "end": 99.126
+  },
+  {
+    "word": "consistent",
+    "start": 99.172,
+    "end": 99.845
+  },
+  {
+    "word": "readers",
+    "start": 99.915,
+    "end": 100.38
+  },
+  {
+    "word": "Trusting",
+    "start": 100.809,
+    "end": 101.32
+  },
+  {
+    "word": "external",
+    "start": 101.39,
+    "end": 101.854
+  },
+  {
+    "word": "cues",
+    "start": 101.924,
+    "end": 102.353
+  },
+  {
+    "word": "frees",
+    "start": 102.434,
+    "end": 102.829
+  },
+  {
+    "word": "our",
+    "start": 102.911,
+    "end": 103.061
+  },
+  {
+    "word": "minds",
+    "start": 103.131,
+    "end": 103.526
+  },
+  {
+    "word": "from",
+    "start": 103.584,
+    "end": 103.746
+  },
+  {
+    "word": "trivial",
+    "start": 103.828,
+    "end": 104.478
+  },
+  {
+    "word": "decisions",
+    "start": 104.548,
+    "end": 105.174
+  },
+  {
+    "word": "and",
+    "start": 105.453,
+    "end": 105.709
+  },
+  {
+    "word": "conserves",
+    "start": 105.79,
+    "end": 106.37
+  },
+  {
+    "word": "energy",
+    "start": 106.486,
+    "end": 106.962
+  },
+  {
+    "word": "for",
+    "start": 107.032,
+    "end": 107.183
+  },
+  {
+    "word": "what",
+    "start": 107.241,
+    "end": 107.438
+  },
+  {
+    "word": "truly",
+    "start": 107.485,
+    "end": 107.938
+  },
+  {
+    "word": "matters",
+    "start": 108.007,
+    "end": 108.518
+  },
+  {
+    "word": "At",
+    "start": 108.948,
+    "end": 109.122
+  },
+  {
+    "word": "night",
+    "start": 109.191,
+    "end": 109.447
+  },
+  {
+    "word": "when",
+    "start": 109.505,
+    "end": 109.691
+  },
+  {
+    "word": "golden",
+    "start": 109.772,
+    "end": 110.236
+  },
+  {
+    "word": "light",
+    "start": 110.306,
+    "end": 110.538
+  },
+  {
+    "word": "spills",
+    "start": 110.62,
+    "end": 111.084
+  },
+  {
+    "word": "over",
+    "start": 111.142,
+    "end": 111.305
+  },
+  {
+    "word": "the",
+    "start": 111.363,
+    "end": 111.432
+  },
+  {
+    "word": "furniture",
+    "start": 111.49,
+    "end": 111.943
+  },
+  {
+    "word": "and",
+    "start": 111.978,
+    "end": 112.071
+  },
+  {
+    "word": "walls",
+    "start": 112.14,
+    "end": 112.512
+  },
+  {
+    "word": "take",
+    "start": 112.57,
+    "end": 112.779
+  },
+  {
+    "word": "on",
+    "start": 112.825,
+    "end": 112.93
+  },
+  {
+    "word": "a",
+    "start": 112.976,
+    "end": 113.011
+  },
+  {
+    "word": "cozy",
+    "start": 113.081,
+    "end": 113.534
+  },
+  {
+    "word": "hue",
+    "start": 113.603,
+    "end": 114.056
+  },
+  {
+    "word": "we",
+    "start": 114.23,
+    "end": 114.428
+  },
+  {
+    "word": "understand",
+    "start": 114.509,
+    "end": 115.229
+  },
+  {
+    "word": "that",
+    "start": 115.299,
+    "end": 115.438
+  },
+  {
+    "word": "a",
+    "start": 115.473,
+    "end": 115.508
+  },
+  {
+    "word": "carefully",
+    "start": 115.577,
+    "end": 116.065
+  },
+  {
+    "word": "arranged",
+    "start": 116.123,
+    "end": 116.553
+  },
+  {
+    "word": "space",
+    "start": 116.599,
+    "end": 117.075
+  },
+  {
+    "word": "not",
+    "start": 117.122,
+    "end": 117.307
+  },
+  {
+    "word": "only",
+    "start": 117.365,
+    "end": 117.574
+  },
+  {
+    "word": "facilitates",
+    "start": 117.644,
+    "end": 118.387
+  },
+  {
+    "word": "action",
+    "start": 118.433,
+    "end": 118.875
+  },
+  {
+    "word": "but",
+    "start": 119.049,
+    "end": 119.223
+  },
+  {
+    "word": "also",
+    "start": 119.258,
+    "end": 119.536
+  },
+  {
+    "word": "nurtures",
+    "start": 119.652,
+    "end": 120.175
+  },
+  {
+    "word": "our",
+    "start": 120.245,
+    "end": 120.419
+  },
+  {
+    "word": "inner",
+    "start": 120.5,
+    "end": 120.732
+  },
+  {
+    "word": "well",
+    "start": 120.802,
+    "end": 121.034
+  },
+  {
+    "word": "being",
+    "start": 121.104,
+    "end": 121.464
+  },
+  {
+    "word": "The",
+    "start": 121.963,
+    "end": 122.102
+  },
+  {
+    "word": "order",
+    "start": 122.172,
+    "end": 122.392
+  },
+  {
+    "word": "we",
+    "start": 122.45,
+    "end": 122.555
+  },
+  {
+    "word": "see",
+    "start": 122.625,
+    "end": 122.81
+  },
+  {
+    "word": "around",
+    "start": 122.857,
+    "end": 123.17
+  },
+  {
+    "word": "us",
+    "start": 123.252,
+    "end": 123.391
+  },
+  {
+    "word": "is",
+    "start": 123.472,
+    "end": 123.611
+  },
+  {
+    "word": "mirrored",
+    "start": 123.728,
+    "end": 124.146
+  },
+  {
+    "word": "in",
+    "start": 124.192,
+    "end": 124.262
+  },
+  {
+    "word": "the",
+    "start": 124.308,
+    "end": 124.378
+  },
+  {
+    "word": "calm",
+    "start": 124.436,
+    "end": 124.784
+  },
+  {
+    "word": "we",
+    "start": 124.854,
+    "end": 124.958
+  },
+  {
+    "word": "feel",
+    "start": 125.028,
+    "end": 125.283
+  },
+  {
+    "word": "within",
+    "start": 125.341,
+    "end": 125.783
+  },
+  {
+    "word": "Thus",
+    "start": 126.34,
+    "end": 126.677
+  },
+  {
+    "word": "transforming",
+    "start": 126.746,
+    "end": 127.489
+  },
+  {
+    "word": "our",
+    "start": 127.559,
+    "end": 127.71
+  },
+  {
+    "word": "environment",
+    "start": 127.779,
+    "end": 128.36
+  },
+  {
+    "word": "is",
+    "start": 128.43,
+    "end": 128.569
+  },
+  {
+    "word": "transforming",
+    "start": 128.639,
+    "end": 129.417
+  },
+  {
+    "word": "our",
+    "start": 129.498,
+    "end": 129.626
+  },
+  {
+    "word": "life",
+    "start": 129.695,
+    "end": 130.195
+  },
+  {
+    "word": "every",
+    "start": 130.241,
+    "end": 130.706
+  },
+  {
+    "word": "detail",
+    "start": 130.798,
+    "end": 131.263
+  },
+  {
+    "word": "designed",
+    "start": 131.356,
+    "end": 131.832
+  },
+  {
+    "word": "with",
+    "start": 131.878,
+    "end": 132.041
+  },
+  {
+    "word": "purpose",
+    "start": 132.11,
+    "end": 132.795
+  },
+  {
+    "word": "propels",
+    "start": 132.911,
+    "end": 133.492
+  },
+  {
+    "word": "us",
+    "start": 133.585,
+    "end": 133.713
+  },
+  {
+    "word": "toward",
+    "start": 133.782,
+    "end": 134.189
+  },
+  {
+    "word": "the",
+    "start": 134.247,
+    "end": 134.328
+  },
+  {
+    "word": "best",
+    "start": 134.421,
+    "end": 134.711
+  },
+  {
+    "word": "version",
+    "start": 134.827,
+    "end": 135.233
+  },
+  {
+    "word": "of",
+    "start": 135.28,
+    "end": 135.338
+  },
+  {
+    "word": "ourselves",
+    "start": 135.408,
+    "end": 136.151
+  },
+  {
+    "word": "In",
+    "start": 136.65,
+    "end": 136.789
+  },
+  {
+    "word": "the",
+    "start": 136.836,
+    "end": 136.905
+  },
+  {
+    "word": "same",
+    "start": 136.975,
+    "end": 137.265
+  },
+  {
+    "word": "way",
+    "start": 137.312,
+    "end": 137.555
+  },
+  {
+    "word": "we",
+    "start": 137.672,
+    "end": 137.799
+  },
+  {
+    "word": "care",
+    "start": 137.869,
+    "end": 138.159
+  },
+  {
+    "word": "for",
+    "start": 138.217,
+    "end": 138.368
+  },
+  {
+    "word": "our",
+    "start": 138.438,
+    "end": 138.554
+  },
+  {
+    "word": "physical",
+    "start": 138.624,
+    "end": 139.053
+  },
+  {
+    "word": "space",
+    "start": 139.134,
+    "end": 139.808
+  },
+  {
+    "word": "our",
+    "start": 139.901,
+    "end": 140.11
+  },
+  {
+    "word": "digital",
+    "start": 140.191,
+    "end": 140.609
+  },
+  {
+    "word": "environment",
+    "start": 140.69,
+    "end": 141.305
+  },
+  {
+    "word": "deserves",
+    "start": 141.352,
+    "end": 141.921
+  },
+  {
+    "word": "the",
+    "start": 142.002,
+    "end": 142.095
+  },
+  {
+    "word": "same",
+    "start": 142.153,
+    "end": 142.443
+  },
+  {
+    "word": "attention",
+    "start": 142.49,
+    "end": 143.07
+  },
+  {
+    "word": "An",
+    "start": 143.604,
+    "end": 143.755
+  },
+  {
+    "word": "inspiring",
+    "start": 143.825,
+    "end": 144.591
+  },
+  {
+    "word": "wallpaper",
+    "start": 144.672,
+    "end": 145.264
+  },
+  {
+    "word": "icons",
+    "start": 145.357,
+    "end": 145.985
+  },
+  {
+    "word": "organized",
+    "start": 146.368,
+    "end": 147.146
+  },
+  {
+    "word": "into",
+    "start": 147.204,
+    "end": 147.378
+  },
+  {
+    "word": "folders",
+    "start": 147.494,
+    "end": 148.04
+  },
+  {
+    "word": "based",
+    "start": 148.121,
+    "end": 148.423
+  },
+  {
+    "word": "on",
+    "start": 148.481,
+    "end": 148.597
+  },
+  {
+    "word": "priority",
+    "start": 148.678,
+    "end": 149.398
+  },
+  {
+    "word": "and",
+    "start": 149.723,
+    "end": 149.932
+  },
+  {
+    "word": "alerts",
+    "start": 149.99,
+    "end": 150.42
+  },
+  {
+    "word": "limited",
+    "start": 150.536,
+    "end": 150.919
+  },
+  {
+    "word": "to",
+    "start": 150.965,
+    "end": 151.035
+  },
+  {
+    "word": "the",
+    "start": 151.105,
+    "end": 151.174
+  },
+  {
+    "word": "essentials",
+    "start": 151.244,
+    "end": 151.917
+  },
+  {
+    "word": "turn",
+    "start": 152.301,
+    "end": 152.626
+  },
+  {
+    "word": "our",
+    "start": 152.695,
+    "end": 152.823
+  },
+  {
+    "word": "phone",
+    "start": 152.893,
+    "end": 153.276
+  },
+  {
+    "word": "and",
+    "start": 153.311,
+    "end": 153.403
+  },
+  {
+    "word": "computer",
+    "start": 153.462,
+    "end": 153.984
+  },
+  {
+    "word": "into",
+    "start": 154.065,
+    "end": 154.274
+  },
+  {
+    "word": "allies",
+    "start": 154.448,
+    "end": 155.04
+  },
+  {
+    "word": "of",
+    "start": 155.11,
+    "end": 155.18
+  },
+  {
+    "word": "our",
+    "start": 155.249,
+    "end": 155.366
+  },
+  {
+    "word": "progress",
+    "start": 155.424,
+    "end": 156.027
+  },
+  {
+    "word": "Each",
+    "start": 156.712,
+    "end": 157.014
+  },
+  {
+    "word": "notification",
+    "start": 157.095,
+    "end": 157.838
+  },
+  {
+    "word": "you",
+    "start": 157.908,
+    "end": 158.013
+  },
+  {
+    "word": "disable",
+    "start": 158.094,
+    "end": 158.628
+  },
+  {
+    "word": "or",
+    "start": 158.686,
+    "end": 158.883
+  },
+  {
+    "word": "each",
+    "start": 158.965,
+    "end": 159.197
+  },
+  {
+    "word": "useful",
+    "start": 159.278,
+    "end": 159.696
+  },
+  {
+    "word": "app",
+    "start": 159.777,
+    "end": 160.033
+  },
+  {
+    "word": "you",
+    "start": 160.102,
+    "end": 160.207
+  },
+  {
+    "word": "place",
+    "start": 160.277,
+    "end": 160.602
+  },
+  {
+    "word": "on",
+    "start": 160.66,
+    "end": 160.753
+  },
+  {
+    "word": "your",
+    "start": 160.811,
+    "end": 160.962
+  },
+  {
+    "word": "home",
+    "start": 161.02,
+    "end": 161.229
+  },
+  {
+    "word": "screen",
+    "start": 161.252,
+    "end": 161.647
+  },
+  {
+    "word": "reinforces",
+    "start": 162.088,
+    "end": 162.982
+  },
+  {
+    "word": "the",
+    "start": 163.063,
+    "end": 163.156
+  },
+  {
+    "word": "habit",
+    "start": 163.225,
+    "end": 163.527
+  },
+  {
+    "word": "you",
+    "start": 163.574,
+    "end": 163.667
+  },
+  {
+    "word": "want",
+    "start": 163.736,
+    "end": 163.922
+  },
+  {
+    "word": "to",
+    "start": 163.969,
+    "end": 164.027
+  },
+  {
+    "word": "establish",
+    "start": 164.119,
+    "end": 164.654
+  },
+  {
+    "word": "preventing",
+    "start": 164.712,
+    "end": 165.199
+  },
+  {
+    "word": "distractions",
+    "start": 165.269,
+    "end": 166.14
+  },
+  {
+    "word": "and",
+    "start": 166.465,
+    "end": 166.708
+  },
+  {
+    "word": "encouraging",
+    "start": 166.79,
+    "end": 167.44
+  },
+  {
+    "word": "focus",
+    "start": 167.533,
+    "end": 168.055
+  },
+  {
+    "word": "on",
+    "start": 168.171,
+    "end": 168.38
+  },
+  {
+    "word": "what",
+    "start": 168.45,
+    "end": 168.671
+  },
+  {
+    "word": "really",
+    "start": 168.798,
+    "end": 169.181
+  },
+  {
+    "word": "matters",
+    "start": 169.251,
+    "end": 169.774
+  },
+  {
+    "word": "And",
+    "start": 170.226,
+    "end": 170.377
+  },
+  {
+    "word": "just",
+    "start": 170.435,
+    "end": 170.667
+  },
+  {
+    "word": "as",
+    "start": 170.726,
+    "end": 170.83
+  },
+  {
+    "word": "in",
+    "start": 170.9,
+    "end": 170.981
+  },
+  {
+    "word": "nature",
+    "start": 171.039,
+    "end": 171.445
+  },
+  {
+    "word": "our",
+    "start": 171.538,
+    "end": 171.77
+  },
+  {
+    "word": "environment",
+    "start": 171.852,
+    "end": 172.467
+  },
+  {
+    "word": "should",
+    "start": 172.502,
+    "end": 172.722
+  },
+  {
+    "word": "renew",
+    "start": 172.769,
+    "end": 173.082
+  },
+  {
+    "word": "itself",
+    "start": 173.14,
+    "end": 173.57
+  },
+  {
+    "word": "with",
+    "start": 173.686,
+    "end": 173.941
+  },
+  {
+    "word": "the",
+    "start": 174.023,
+    "end": 174.116
+  },
+  {
+    "word": "seasons",
+    "start": 174.185,
+    "end": 174.847
+  },
+  {
+    "word": "Moving",
+    "start": 175.462,
+    "end": 175.799
+  },
+  {
+    "word": "a",
+    "start": 175.857,
+    "end": 175.892
+  },
+  {
+    "word": "painting",
+    "start": 175.962,
+    "end": 176.368
+  },
+  {
+    "word": "adding",
+    "start": 176.484,
+    "end": 176.821
+  },
+  {
+    "word": "a",
+    "start": 176.867,
+    "end": 176.89
+  },
+  {
+    "word": "new",
+    "start": 176.96,
+    "end": 177.099
+  },
+  {
+    "word": "plant",
+    "start": 177.169,
+    "end": 177.564
+  },
+  {
+    "word": "or",
+    "start": 177.645,
+    "end": 177.773
+  },
+  {
+    "word": "adjusting",
+    "start": 177.842,
+    "end": 178.353
+  },
+  {
+    "word": "lighting",
+    "start": 178.411,
+    "end": 178.724
+  },
+  {
+    "word": "to",
+    "start": 178.794,
+    "end": 178.864
+  },
+  {
+    "word": "the",
+    "start": 178.945,
+    "end": 179.015
+  },
+  {
+    "word": "time",
+    "start": 179.073,
+    "end": 179.375
+  },
+  {
+    "word": "of",
+    "start": 179.421,
+    "end": 179.491
+  },
+  {
+    "word": "year",
+    "start": 179.572,
+    "end": 179.885
+  },
+  {
+    "word": "refreshes",
+    "start": 180.396,
+    "end": 181.058
+  },
+  {
+    "word": "our",
+    "start": 181.151,
+    "end": 181.36
+  },
+  {
+    "word": "motivation",
+    "start": 181.441,
+    "end": 182.08
+  },
+  {
+    "word": "and",
+    "start": 182.138,
+    "end": 182.231
+  },
+  {
+    "word": "reminds",
+    "start": 182.3,
+    "end": 182.776
+  },
+  {
+    "word": "us",
+    "start": 182.846,
+    "end": 183.032
+  },
+  {
+    "word": "that",
+    "start": 183.357,
+    "end": 183.566
+  },
+  {
+    "word": "change",
+    "start": 183.624,
+    "end": 184.286
+  },
+  {
+    "word": "is",
+    "start": 184.32,
+    "end": 184.506
+  },
+  {
+    "word": "an",
+    "start": 184.553,
+    "end": 184.622
+  },
+  {
+    "word": "ongoing",
+    "start": 184.68,
+    "end": 185.214
+  },
+  {
+    "word": "process",
+    "start": 185.296,
+    "end": 185.911
+  },
+  {
+    "word": "Celebrating",
+    "start": 186.445,
+    "end": 187.118
+  },
+  {
+    "word": "each",
+    "start": 187.234,
+    "end": 187.501
+  },
+  {
+    "word": "small",
+    "start": 187.71,
+    "end": 188.105
+  },
+  {
+    "word": "advance",
+    "start": 188.163,
+    "end": 188.93
+  },
+  {
+    "word": "a",
+    "start": 189.208,
+    "end": 189.324
+  },
+  {
+    "word": "cleared",
+    "start": 189.417,
+    "end": 189.777
+  },
+  {
+    "word": "desk",
+    "start": 189.847,
+    "end": 190.218
+  },
+  {
+    "word": "a",
+    "start": 190.659,
+    "end": 190.752
+  },
+  {
+    "word": "reorganized",
+    "start": 190.868,
+    "end": 191.681
+  },
+  {
+    "word": "app",
+    "start": 191.797,
+    "end": 192.122
+  },
+  {
+    "word": "a",
+    "start": 192.273,
+    "end": 192.354
+  },
+  {
+    "word": "meditation",
+    "start": 192.471,
+    "end": 193.097
+  },
+  {
+    "word": "corner",
+    "start": 193.179,
+    "end": 193.492
+  },
+  {
+    "word": "reaffirms",
+    "start": 193.562,
+    "end": 194.212
+  },
+  {
+    "word": "our",
+    "start": 194.293,
+    "end": 194.444
+  },
+  {
+    "word": "commitment",
+    "start": 194.526,
+    "end": 195.094
+  },
+  {
+    "word": "and",
+    "start": 195.419,
+    "end": 195.687
+  },
+  {
+    "word": "keeps",
+    "start": 195.779,
+    "end": 196.116
+  },
+  {
+    "word": "alive",
+    "start": 196.174,
+    "end": 196.685
+  },
+  {
+    "word": "the",
+    "start": 196.743,
+    "end": 196.813
+  },
+  {
+    "word": "momentum",
+    "start": 196.871,
+    "end": 197.416
+  },
+  {
+    "word": "that",
+    "start": 197.474,
+    "end": 197.625
+  },
+  {
+    "word": "drives",
+    "start": 197.672,
+    "end": 198.113
+  },
+  {
+    "word": "us",
+    "start": 198.183,
+    "end": 198.368
+  },
+  {
+    "word": "toward",
+    "start": 198.519,
+    "end": 198.961
+  },
+  {
+    "word": "a",
+    "start": 199.053,
+    "end": 199.135
+  },
+  {
+    "word": "fuller",
+    "start": 199.216,
+    "end": 199.518
+  },
+  {
+    "word": "life",
+    "start": 199.587,
+    "end": 200.052
+  }
+]
