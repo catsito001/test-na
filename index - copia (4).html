@@ -5,17 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive English Stories</title>
     
+    <!-- Enlace al Manifest para la PWA -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Color de la barra de estado en móviles -->
+    <meta name="theme-color" content="#111827">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #111827; }
+        /* Estilos base para el cuerpo, optimizados para la vista de escritorio */
+        :root {
+            --story-font-size-multiplier: 1.0; /* Variable CSS para el tamaño de la fuente */
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #111827; 
+        }
+        /* En pantallas md y superiores, usamos flexbox para centrar el contenedor de la app */
+        @media (min-width: 768px) {
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                padding: 2rem;
+            }
+        }
+
+        #install-app-btn {
+            display: none; /* Oculto por defecto, se mostrará con JS si es instalable */
+        }
+
         .hidden { display: none; }
-        .story-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.2), 0 4px 6px -4px rgba(139, 92, 246, 0.2); }
+        .story-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2), 0 4px 6px -4px rgba(79, 70, 229, 0.2);
+            border-color: #4A5568;
+        }        
         .filter-btn { transition: all 0.2s ease-in-out; }
-        .filter-btn.active { background-color: #8B5CF6; color: white; }
+        .filter-btn.active { background-color: #4f46e5; color: white; border-color: #6d28d9; }
         button:disabled { opacity: 0.5; cursor: not-allowed; }
 
         .word { position: relative; transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; padding: 2px 1px; border-radius: 3px; cursor: pointer; }
@@ -69,6 +100,17 @@
             border-style: solid;
             border-color: #3B82F6 transparent transparent transparent;
         }
+
+        #story-text-en {
+            font-size: calc(1.25rem * var(--story-font-size-multiplier));
+            line-height: calc(1.6 * var(--story-font-size-multiplier));
+        }
+        @media (min-width: 768px) {
+            #story-text-en {
+                font-size: calc(1.5rem * var(--story-font-size-multiplier));
+            }
+        }
+
 
         #modal-content .grammar-section h3, #modal-content .vocabulary-section h3 {
             color: #a78bfa; font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem;
@@ -183,7 +225,7 @@
             .card-back-translation { font-size: 0.6rem; }
             .letter-slot { width: 32px; height: 40px; font-size: 1.25rem; }
             .letter-choice { width: 38px; height: 38px; font-size: 1rem; }
-            #fill-blanks-sentence { font-size: 1.1rem; }
+            #fill-blanks-sentence { font-size: 2.1rem; }
         }
     </style>
 </head>
@@ -191,7 +233,6 @@
 
     <audio id="story-audio"></audio>
     
-    <!-- Generic Modal for Grammar, Vocabulary, etc. -->
     <div id="modal-overlay" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-40 hidden"></div>
     <div id="modal-container" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 w-11/12 max-w-lg p-4 sm:p-6 hidden flex-col max-h-[85vh]">
         <div class="flex items-center justify-between mb-4 flex-shrink-0">
@@ -203,8 +244,26 @@
             <button id="modal-ok-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-lg transition-colors">OK</button>
         </div>
     </div>
+
+    <!-- Modal de Configuración -->
+    <div id="settings-modal-container" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 w-11/12 max-w-sm p-4 sm:p-6 hidden flex-col">
+        <div class="flex items-center justify-between mb-6 flex-shrink-0">
+            <h3 class="text-xl font-bold text-white">Configuración</h3>
+            <button id="settings-modal-close-btn" class="text-gray-400 hover:text-white text-3xl leading-none">&times;</button>
+        </div>
+        <div class="flex-grow space-y-4">
+            <div class="flex items-center justify-between">
+                <label class="text-gray-300 font-semibold">Tamaño de letra</label>
+                <div class="flex items-center gap-2 bg-gray-900 rounded-full p-1">
+                    <button id="decrease-font-btn" class="w-8 h-8 rounded-full bg-indigo-600 hover:bg-indigo-700 flex items-center justify-center text-lg font-bold">-</button>
+                    <span id="font-size-display" class="w-16 text-center font-mono text-indigo-300">100%</span>
+                    <button id="increase-font-btn" class="w-8 h-8 rounded-full bg-indigo-600 hover:bg-indigo-700 flex items-center justify-center text-lg font-bold">+</button>
+                </div>
+            </div>
+            <!-- Aquí se pueden agregar más opciones de configuración en el futuro -->
+        </div>
+    </div>
     
-    <!-- Word Detail Modal -->
     <div id="word-modal-container" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-[60] hidden items-center justify-center p-4">
         <div id="word-modal-content" class="bg-gray-800 border border-gray-700 rounded-lg shadow-xl w-full max-w-sm flex flex-col text-white">
             <div class="p-4 sm:p-5 border-b border-gray-700">
@@ -228,14 +287,13 @@
         </div>
     </div>
         
-    <!-- Game Templates -->
     <template id="jumbled-sentence-template">
         <div class="h-full flex flex-col text-center gap-6">
             <div class="flex-shrink-0">
                 <p class="text-base text-gray-300 mb-1">Ordena las palabras para formar la oración correcta:</p>
                 <p id="jumbled-progress" class="font-mono text-indigo-300 text-sm"></p>
             </div>
-            <div id="jumbled-drop-zone" class="min-h-[100px] w-full max-w-3xl mx-auto bg-gray-900/50 border-2 border-dashed border-gray-600 rounded-lg p-3 flex-wrap items-center justify-center gap-3 transition-colors"></div>
+<div id="jumbled-drop-zone" class="min-h-[100px] w-full max-w-3xl mx-auto bg-gray-900/50 border-2 border-dashed border-gray-600 rounded-lg p-3 flex flex-wrap items-center justify-start gap-2 transition-colors"></div>
             <div class="flex-grow flex items-center justify-center">
                 <div id="jumbled-word-bank" class="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-4"></div>
             </div>
@@ -252,7 +310,7 @@
                 <div id="quiz-timer-container"><div id="quiz-timer-bar"></div></div>
                 <div>
                     <p id="quiz-progress" class="text-center font-mono text-indigo-300 text-sm mb-2"></p>
-                    <h3 id="quiz-question" class="text-xl md:text-2xl font-bold text-center text-white"></h3>
+<h3 id="quiz-question" class="text-3xl md:text-4xl font-bold text-center text-white"></h3>
                     <p id="quiz-question-sub" class="text-center text-gray-400 mt-1"></p>
                 </div>
             </div>
@@ -298,26 +356,30 @@
         </div>
     </template>
 
-    <div id="app-container">
-        <!-- View: Main Menu -->
-        <div id="main-menu" class="h-screen flex flex-col">
-            <div class="max-w-xl mx-auto w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
-                <header class="text-center mb-6">
+    <div id="app-container" class="w-full h-screen bg-gray-800 md:max-w-3xl md:h-[90vh] md:max-h-[850px] md:rounded-2xl md:shadow-2xl md:border md:border-gray-700 relative overflow-hidden transition-all duration-300">
+        <div id="main-menu" class="h-full flex flex-col bg-gray-900">
+    <div class="w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
+                <header class="text-center mb-6 relative"> <!-- Añadido relative -->
+                    <!-- Botón de Descarga PWA -->
+                    <button id="install-app-btn" class="absolute top-0 right-0 bg-indigo-600 text-white font-semibold py-2 px-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        <span>Descargar App</span>
+                    </button>
+                    
                     <img src="banner.png" alt="Story Books Banner" class="mx-auto mb-2 w-full max-w-[7rem]">
                     <p class="text-gray-400 mt-1">Select a story to begin</p>
                 </header>
-                <div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
+<div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
                     <button data-filter="todos" class="filter-btn active px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Todos</button>
                     <button data-filter="fundamental" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Fundamental</button>
                     <button data-filter="básico" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Básico</button>
                     <button data-filter="intermedio" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Intermedio</button>
                     <button data-filter="avanzado" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Avanzado</button>
                 </div>
-                <main id="story-list" class="flex flex-col gap-6 overflow-y-auto pb-24 flex-grow">
-                    <p id="loading-stories" class="text-center text-gray-400">Loading stories...</p>
-                </main>
+                <main id="story-list" class="flex flex-col gap-6 overflow-y-auto pb-24 flex-grow"></main>
+                <p id="loading-stories" class="text-center text-gray-400">Loading stories...</p>
             </div>
-            <footer id="main-menu-footer" class="fixed bottom-0 left-0 right-0 bg-gray-900 bg-opacity-70 backdrop-blur-sm border-t border-gray-700 z-10">
+            <footer id="main-menu-footer" class="absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-70 backdrop-blur-sm border-t border-gray-700 z-10">
                 <div class="max-w-xl mx-auto p-2 flex items-center justify-around text-center text-xs text-gray-400">
                     <a href="https://chat.whatsapp.com/FjsQxrL3qnu32P8mdZHY0C" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center gap-1 hover:text-white transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg><span>Comunidad</span></a>
                     <a href="https://www.facebook.com/sharer/sharer.php?u=URL_DE_TU_APP" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center gap-1 hover:text-white transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12s-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367 2.684z"></path></svg><span>Compartir</span></a>
@@ -330,12 +392,14 @@
             </footer>
         </div>
 
-        <!-- View: Story -->
-        <div id="story-view" class="hidden h-screen flex-col">
+        <div id="story-view" class="hidden h-full flex-col">
             <div class="h-1/2 relative overflow-hidden">
                 <header class="absolute top-0 left-0 right-0 z-20 p-2 sm:p-4 flex items-center justify-between gap-2 sm:gap-4 bg-gradient-to-b from-black/60 to-transparent">
-                    <button id="back-btn" class="flex-shrink-0 p-2 bg-black/30 backdrop-blur-sm rounded-full hover:bg-black/50 transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
-                    <button id="activities-btn" class="flex-shrink-0 flex items-center gap-1.5 px-3 py-[0.2rem] text-[0.6rem] font-bold tracking-wider uppercase bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg><span>Actividades</span></button>
+                    <button id="back-btn" class="flex-shrink-0 p-2 bg-gradient-to-br from-gray-700 to-gray-800 backdrop-blur-sm rounded-full hover:from-gray-600 hover:to-gray-700 transition-colors shadow-lg"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
+                    <div class="flex items-center gap-2">
+                        <button id="activities-btn" class="flex-shrink-0 flex items-center gap-1.5 px-3 py-[0.2rem] text-[0.6rem] font-bold tracking-wider uppercase bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg><span>Actividades</span></button>
+                        <button id="settings-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></button>
+                    </div>
                 </header>
                 <video id="story-video" class="w-full h-full object-cover hidden" autoplay loop muted playsinline></video>
                 <img id="story-image" src="" alt="Story image" class="w-full h-full object-cover">
@@ -350,10 +414,11 @@
             </div>
             <div id="text-container" class="h-1/2 flex-1 bg-gray-800 overflow-y-auto p-4 sm:p-6 pb-32 relative z-10">
                 <h2 id="story-title-view" class="text-center text-[0.8rem] font-bold text-indigo-400 uppercase tracking-widest mb-2"></h2>
-                <p id="story-text-en" class="text-xl md:text-2xl leading-relaxed text-gray-300"></p>
+                <p id="story-text-en" class="leading-relaxed text-gray-300"></p>
             </div>
-            <footer class="fixed bottom-0 left-0 right-0 bg-gray-800/80 backdrop-blur-sm border-t border-white/10 z-30">
-                <div class="max-w-xl mx-auto p-3 sm:p-4 flex flex-col items-center justify-center gap-3">
+            <footer class="absolute bottom-0 left-0 right-0 bg-gray-800/80 backdrop-blur-sm border-t border-white/10 z-30">
+                <div class="w-full max-w-xl mx-auto p-3 sm:p-4 flex flex-col items-center justify-center gap-3 relative">
+                    <div id="speed-tooltip" class="absolute bottom-full mb-2 bg-gray-900 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 pointer-events-none"></div>
                     <div class="w-full relative h-5 bg-black/30 rounded-full overflow-hidden border border-white/20">
                         <div id="progress-bar-fill" class="absolute top-0 left-0 h-full bg-indigo-500 transition-all duration-300 ease-linear"></div>
                         <div id="story-progress-text" class="absolute inset-0 flex items-center justify-center text-[0.6rem] font-bold text-shadow"></div>
@@ -364,7 +429,6 @@
                             <button id="decrease-speed-btn" class="p-2 bg-black/30 rounded-full hover:bg-black/50 transition-colors" title="Más lento"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg></button>
                             <button id="play-pause-btn" class="bg-gradient-to-br from-indigo-500 to-purple-600 text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full shadow-lg play-button-shadow transform hover:scale-105 transition-transform flex items-center justify-center" disabled><svg id="play-icon" class="w-7 h-7 sm:w-8 sm:h-8 ml-1" viewBox="0 0 24 24" fill="currentColor"><path d="M6.3 20.7c-.4 0-.8-.1-1.1-.4-.6-.5-.9-1.2-.9-1.9V5.6c0-.7.3-1.4.9-1.9.6-.5 1.4-.6 2.1-.3l12.4 7.2c.7.4 1.1 1.1 1.1 1.9s-.4 1.5-1.1 1.9L7.3 20.4c-.3.2-.7.3-1 .3Z"/></svg><svg id="pause-icon" class="w-7 h-7 sm:w-8 sm:h-8 hidden" viewBox="0 0 24 24" fill="currentColor"><path d="M8 4h2v16H8V4zm6 0h2v16h-2V4z"/></svg></button>
                             <button id="increase-speed-btn" class="p-2 bg-black/30 rounded-full hover:bg-black/50 transition-colors" title="Más rápido"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v12m-6-6h12"></path></svg></button>
-                            <span id="speed-display" class="w-16 text-center font-semibold text-sm hidden sm:inline">1.00x</span>
                         </div>
                         <div class="w-1/4 flex justify-end"><button id="next-page-btn" class="hover:text-white transition-colors p-1"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.5L21.5 12L12 21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 2.5L12 12L2.5 21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
                     </div>
@@ -372,8 +436,7 @@
             </footer>
         </div>
 
-        <!-- View: Activities List -->
-        <div id="activities-view" class="hidden h-screen flex flex-col bg-gray-900">
+        <div id="activities-view" class="hidden h-full flex flex-col bg-gray-900">
             <header class="p-4 flex-shrink-0 bg-gray-800 border-b border-gray-700 flex items-center gap-4 z-10 shadow-md">
                 <button id="activities-back-btn" class="p-2 hover:bg-gray-700 rounded-full transition-colors">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -386,8 +449,7 @@
             <main id="activities-list" class="flex-grow overflow-y-auto p-4 sm:p-6 space-y-4"></main>
         </div>
 
-        <!-- View: Game -->
-        <div id="game-view" class="hidden h-screen flex flex-col bg-gray-900">
+        <div id="game-view" class="hidden h-full flex flex-col bg-gray-900">
             <header class="flex items-center justify-between p-3 border-b border-gray-700 flex-shrink-0 bg-gray-800 z-10 shadow-md">
                 <div class="flex items-center gap-2">
                      <button id="game-back-btn" class="p-2 hover:bg-gray-700 rounded-full transition-colors">
@@ -408,8 +470,54 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
+    // --- LÓGICA PARA PWA ---
+    // 1. Registrar el Service Worker
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js').then(registration => {
+                console.log('Service Worker registrado con éxito:', registration);
+            }).catch(error => {
+                console.log('Fallo en el registro del Service Worker:', error);
+            });
+        });
+    }
+
+    // 2. Lógica para el botón de instalación
+    let deferredPrompt;
+    const installBtn = document.getElementById('install-app-btn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        // Previene que el mini-infobar aparezca en Chrome
+        e.preventDefault();
+        // Guarda el evento para que pueda ser disparado más tarde.
+        deferredPrompt = e;
+        // Muestra nuestro botón de instalación personalizado.
+        installBtn.style.display = 'flex';
+    });
+
+    installBtn.addEventListener('click', async () => {
+        // Oculta nuestro botón, ya que el diálogo del navegador aparecerá.
+        installBtn.style.display = 'none';
+        // Muestra el diálogo de instalación.
+        deferredPrompt.prompt();
+        // Espera a que el usuario responda.
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`Respuesta del usuario: ${outcome}`);
+        // Ya no necesitamos el evento.
+        deferredPrompt = null;
+    });
+
+    window.addEventListener('appinstalled', () => {
+        // Si la app se instala, oculta el botón y limpia la referencia.
+        installBtn.style.display = 'none';
+        deferredPrompt = null;
+        console.log('App instalada con éxito!');
+    });
+    // --- FIN LÓGICA PWA ---
+
+
     const App = {
-        // --- SoundManager AHORA ES PARTE DE App ---
+        // ... (todo el SoundManager, config, state, elements se mantiene igual)
         SoundManager: {
             sounds: {},
             isMuted: false,
@@ -421,28 +529,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     this.sounds[name].preload = 'auto';
                 });
             },
-            // --- FUNCIÓN 'play' MEJORADA Y MÁS ROBUSTA ---
             play(name) {
                 const sound = this.sounds[name];
                 if (sound && !this.isMuted) {
-                    // Esto detiene el sonido si ya está sonando y lo reinicia desde el principio.
-                    // Es crucial para sonidos de UI cortos y clics rápidos.
                     sound.pause();
                     sound.currentTime = 0;
-                    sound.play().catch(e => console.error(`Error al reproducir el sonido '${name}':`, e));
+                    sound.play().catch(e => console.error(`Error playing sound '${name}':`, e));
                 }
             }
         },
 
-        // --- CONFIGURACIÓN Y CONSTANTES ---
         config: {
             API_BASE_URL: 'https://narrion.saturninocok.workers.dev',
             PEXELS_WORKER_URL: 'https://px.saturninocok.workers.dev',
             STORAGE_KEY: 'storyProgressData_v2',
+            SETTINGS_KEY: 'storyAppSettings_v1', // Nueva clave para la configuración
             PLAYBACK_SPEEDS: [0.75, 1.0, 1.25, 1.5],
         },
 
-        // --- ESTADO DE LA APLICACIÓN ---
         state: {
             allStories: [],
             currentStory: null,
@@ -458,14 +562,15 @@ document.addEventListener('DOMContentLoaded', () => {
             learningList: [],
             currentSpeedIndex: 1,
             activeGame: null, 
+            fontSizeMultiplier: 1.0, // Nuevo estado para el tamaño de la fuente
         },
 
-        // --- ELEMENTOS DEL DOM (CACHEADOS) ---
         elements: {},
         
         init() {
             this.cacheDomElements();
-            this.SoundManager.init(); // Se inicializa el SoundManager de App
+            this.SoundManager.init();
+            this.SettingsManager.init(this); // Inicializar el gestor de configuración
             this.bindEventListeners();
             this.fetchStories();
         },
@@ -493,13 +598,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 nextPageBtn: document.getElementById('next-page-btn'),
                 decreaseSpeedBtn: document.getElementById('decrease-speed-btn'),
                 increaseSpeedBtn: document.getElementById('increase-speed-btn'),
-                speedDisplay: document.getElementById('speed-display'),
+                speedTooltip: document.getElementById('speed-tooltip'),
                 storyTitleViewEl: document.getElementById('story-title-view'),
                 karaokeWordEl: document.getElementById('karaoke-word'),
                 grammarBtn: document.getElementById('grammar-btn'),
                 vocabularyBtn: document.getElementById('vocabulary-btn'),
                 translationBtn: document.getElementById('translation-btn'),
                 activitiesBtn: document.getElementById('activities-btn'),
+                settingsBtn: document.getElementById('settings-btn'),
                 activitiesList: document.getElementById('activities-list'),
                 activitiesTitle: document.getElementById('activities-title'),
                 activitiesSubtitle: document.getElementById('activities-subtitle'),
@@ -512,6 +618,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 modalContent: document.getElementById('modal-content'),
                 modalCloseBtn: document.getElementById('modal-close-btn'),
                 modalOkBtn: document.getElementById('modal-ok-btn'),
+                settingsModalContainer: document.getElementById('settings-modal-container'),
+                settingsModalCloseBtn: document.getElementById('settings-modal-close-btn'),
+                increaseFontBtn: document.getElementById('increase-font-btn'),
+                decreaseFontBtn: document.getElementById('decrease-font-btn'),
+                fontSizeDisplay: document.getElementById('font-size-display'),
                 wordModalContainer: document.getElementById('word-modal-container'),
                 wordModalTitle: document.getElementById('word-modal-title'),
                 wordModalTranslation: document.getElementById('word-modal-translation'),
@@ -533,19 +644,34 @@ document.addEventListener('DOMContentLoaded', () => {
                     this.showScreen('activities');
                 }
             });
-            const closeModal = () => { this.SoundManager.play('click'); this.Modals.closeGeneric(); };
-            this.elements.modalOverlay.addEventListener('click', closeModal);
-            this.elements.modalCloseBtn.addEventListener('click', closeModal);
-            this.elements.modalOkBtn.addEventListener('click', () => { this.SoundManager.play('ok'); this.Modals.closeGeneric(); });
+            
+            // Listeners para modales
+            const closeGenericModal = () => { this.SoundManager.play('click'); this.Modals.closeGeneric(); };
+            const closeSettingsModal = () => { this.SoundManager.play('click'); this.Modals.closeSettings(); };
+            this.elements.modalOverlay.addEventListener('click', () => { closeGenericModal(); closeSettingsModal(); });
+            this.elements.modalCloseBtn.addEventListener('click', closeGenericModal);
+            this.elements.modalOkBtn.addEventListener('click', () => { this.SoundManager.play('ok'); closeGenericModal(); });
+            this.elements.settingsModalCloseBtn.addEventListener('click', closeSettingsModal);
+            
+            // Listeners de botones de la historia
+            this.elements.settingsBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.Modals.openSettings(); });
             this.elements.activitiesBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.ActivityManager.showActivitiesView(); });
             this.elements.grammarBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showGrammar(); });
             this.elements.vocabularyBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showVocabulary(); });
             this.elements.translationBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showTranslation(); });
+            
+            // Listeners del reproductor
             this.elements.storyAudio.addEventListener('ended', () => this.AudioPlayer.stop());
             this.elements.nextPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(1); });
             this.elements.prevPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(-1); });
             this.elements.decreaseSpeedBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.AudioPlayer.changeSpeed(-1); });
             this.elements.increaseSpeedBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.AudioPlayer.changeSpeed(1); });
+            
+            // Listeners de configuración
+            this.elements.decreaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(-1); });
+            this.elements.increaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(1); });
+
+            // Listener del filtro
             this.elements.filterContainer.addEventListener('click', (e) => {
                 if (e.target.matches('.filter-btn')) {
                     this.SoundManager.play('click');
@@ -579,17 +705,24 @@ document.addEventListener('DOMContentLoaded', () => {
         
         async fetchStories() {
             try {
-                const response = await fetch(`${this.config.API_BASE_URL}/data`);
+                // Se agrega `cache: 'no-store'` para asegurar que siempre se pidan los datos más frescos
+                const response = await fetch(`${this.config.API_BASE_URL}/data`, { cache: 'no-store' });
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const data = await response.json();
-                this.state.allStories = data.story;
+                
+                // Asegurarse de que data.story es un array
+                this.state.allStories = Array.isArray(data.story) ? data.story : [];
+
                 this.elements.loadingStoriesEl.classList.add('hidden');
                 this.renderStories();
+
             } catch (e) {
                 this.elements.loadingStoriesEl.textContent = 'Error al cargar las historias.';
                 this.elements.loadingStoriesEl.classList.add('text-red-400');
+                console.error("Fetch stories failed:", e);
             }
         },
-        
+
         async fetchAndShowStory(storyId) {
             this.SoundManager.play('select');
             this.showScreen('story');
@@ -605,22 +738,29 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 const storySummary = this.state.allStories.find(s => s.id == storyId);
                 if (!storySummary) throw new Error("Story not found in list.");
+                
                 const response = await fetch(`${this.config.API_BASE_URL}/stories/${storyId}`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const data = await response.json();
                 const storyDataObject = Array.isArray(data.story) ? data.story[0] : data.story;
                 if (!storyDataObject) throw new Error("Invalid story data from API.");
 
+                // Unimos la información del resumen (que tiene assetType) con los detalles
                 this.state.currentStory = { ...storySummary, ...storyDataObject };
-
-                if (this.state.currentStory.g) {
-                    storySummary.g = this.state.currentStory.g; 
-                    this.ProgressManager.setTotalGames(storyId, this.state.currentStory.g.length);
+                
+                // Extraemos el assetType del meta de la historia detallada si existe, como fallback
+                if (storyDataObject.meta && storyDataObject.meta.assetType) {
+                    this.state.currentStory.assetType = storyDataObject.meta.assetType;
                 }
 
-                const { t: title } = this.Utils.parseTitle(this.state.currentStory.meta.t);
+                if (this.state.currentStory.g) {
+                    this.ProgressManager.setTotalGames(storyId, this.state.currentStory.g.length);
+                }
+                
+                const storyTitle = storyDataObject.meta && storyDataObject.meta.t ? storyDataObject.meta.t : storySummary.title;
+                const { t: title } = this.Utils.parseTitle(storyTitle);
                 this.state.currentStory.cleanTitle = title;
-                this.state.currentStory.isVideoStory = storySummary.isVideoStory;
-
+                
                 this.createGlossary(this.state.currentStory.gloss_str);
                 this.createPhrasalVerbMap(this.state.currentStory.ph_str);
 
@@ -703,13 +843,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             const difficultyColors = { fundamental: 'bg-blue-600', básico: 'bg-green-600', intermedio: 'bg-yellow-600', avanzado: 'bg-red-600', otros: 'bg-purple-600' };
+            
             this.elements.storyListContainer.innerHTML = filtered.map(story => {
                 const { t: title, s: subtitle } = this.Utils.parseTitle(story.title);
-                const imageThumbnailPath = `./data/${title}/img/1.jpg`;
-                const videoThumbnailPath = `./data/${title}/vd/1.jpg`;
                 const placeholderPath = `https://placehold.co/224x224/1f2937/ffffff?text=No+Img`;
-                const onLoadLogic = `App.setStoryAssetType(${story.id}, false);`;
-                const onErrorLogic = `this.onerror=null; this.src='${videoThumbnailPath}'; App.setStoryAssetType(${story.id}, true); this.onerror=()=>{this.src='${placeholderPath}'};`;
+
+                let imagePath;
+                if (story.assetType === 'video') {
+                    imagePath = `./data/${title}/vd/1.jpg`;
+                } else {
+                    imagePath = `./data/${title}/img/1.jpg`;
+                }
+
                 const storyProgress = this.ProgressManager.getProgress(story.id);
                 const overallProgress = this.ProgressManager.computeStoryOverallProgress(story.id);
                 let statusBadgeHTML = '';
@@ -720,9 +865,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     statusBadgeHTML = `<div class="story-status-badge badge-gray">No iniciado</div>`;
                 }
+
                 return `<div class="story-card bg-gray-800 rounded-lg overflow-hidden flex cursor-pointer transition-all duration-300 flex-shrink-0" data-story-id="${story.id}">
                             <div class="flex-shrink-0 w-28 relative">
-                                <img src="${imageThumbnailPath}" alt="${title}" class="w-full h-full object-cover" onload="${onLoadLogic}" onerror="${onErrorLogic}">
+                                <img src="${imagePath}" alt="${title}" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='${placeholderPath}';">
                                 ${statusBadgeHTML}
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
@@ -735,28 +881,74 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>`;
             }).join('');
+            
             this.elements.storyListContainer.querySelectorAll('.story-card').forEach(card => 
                 card.addEventListener('click', () => this.fetchAndShowStory(card.dataset.storyId))
             );
         },
         
-        setStoryAssetType(storyId, isVideo) { const story = this.state.allStories.find(s => s.id == storyId); if (story && typeof story.isVideoStory === 'undefined') { story.isVideoStory = isVideo; } },
-        
-        AudioPlayer: {
+       AudioPlayer: {
              _parent: null,
              init(parent) { this._parent = parent; },
-             play() { if (this._parent.state.marksData.length === 0 || !this._parent.state.currentStory) return; this._parent.elements.storyAudio.play(); this._parent.state.isPlaying = true; this._parent.elements.playIcon.classList.add('hidden'); this._parent.elements.pauseIcon.classList.remove('hidden'); this._parent.state.animationFrameId = requestAnimationFrame(() => this._parent.updateHighlight()); },
-             pause() { this._parent.elements.storyAudio.pause(); this._parent.state.isPlaying = false; this._parent.elements.playIcon.classList.remove('hidden'); this._parent.elements.pauseIcon.classList.add('hidden'); if (this._parent.state.animationFrameId) cancelAnimationFrame(this._parent.state.animationFrameId); },
-             stop(resetTime = false) { this.pause(); if (resetTime && this._parent.elements.storyAudio.duration) this._parent.elements.storyAudio.currentTime = 0; const activeWord = document.querySelector('.word.active'); if (activeWord) activeWord.classList.remove('active'); this._parent.elements.karaokeWordEl.style.opacity = '0'; this._parent.state.currentWordIndex = -1; },
+             async play() {
+                if (this._parent.state.marksData.length === 0 || !this._parent.state.currentStory) return;
+                try {
+                    await this._parent.elements.storyAudio.play();
+                    this._parent.state.isPlaying = true;
+                    this._parent.elements.playIcon.classList.add('hidden');
+                    this._parent.elements.pauseIcon.classList.remove('hidden');
+                    this._parent.state.animationFrameId = requestAnimationFrame(() => this._parent.updateHighlight());
+                } catch (error) {
+                    if (error.name !== 'AbortError') console.error("Error al reproducir audio:", error);
+                }
+             },
+             pause() { 
+                this._parent.elements.storyAudio.pause(); 
+                this._parent.state.isPlaying = false; 
+                this._parent.elements.playIcon.classList.remove('hidden'); 
+                this._parent.elements.pauseIcon.classList.add('hidden'); 
+                if (this._parent.state.animationFrameId) cancelAnimationFrame(this._parent.state.animationFrameId); 
+             },
+             stop(resetTime = false) { 
+                this.pause(); 
+                if (resetTime && this._parent.elements.storyAudio.duration) this._parent.elements.storyAudio.currentTime = 0; 
+                const activeWord = document.querySelector('.word.active'); 
+                if (activeWord) activeWord.classList.remove('active'); 
+                this._parent.elements.karaokeWordEl.style.opacity = '0'; 
+                this._parent.state.currentWordIndex = -1; 
+             },
              playWord(globalWordIndex, endGlobalWordIndex = -1) {
                 const startMark = this._parent.state.marksData[globalWordIndex];
                 if (!startMark) return;
                 const endMark = (endGlobalWordIndex !== -1 && endGlobalWordIndex < this._parent.state.marksData.length) ? this._parent.state.marksData[endGlobalWordIndex] : startMark;
                 this.pause();
-                setTimeout(() => { this._parent.elements.storyAudio.currentTime = startMark.start; this._parent.elements.storyAudio.play(); const duration = (endMark.end - startMark.start) * 1000; setTimeout(() => { if (!this._parent.state.isPlaying) { this._parent.elements.storyAudio.pause(); } }, duration + 100); }, 50);
+                setTimeout(() => { 
+                    this._parent.elements.storyAudio.currentTime = startMark.start;
+                    const playPromise = this._parent.elements.storyAudio.play();
+                    if (playPromise !== undefined) {
+                        playPromise.catch(error => {
+                            if (error.name !== 'AbortError') console.error("Error al reproducir audio de palabra:", error);
+                        });
+                    }
+                    const duration = (endMark.end - startMark.start) * 1000; 
+                    setTimeout(() => { if (!this._parent.state.isPlaying) this._parent.elements.storyAudio.pause(); }, duration + 100); 
+                }, 50);
             },
-            changeSpeed(direction) { const newIndex = this._parent.state.currentSpeedIndex + direction; if (newIndex >= 0 && newIndex < this._parent.config.PLAYBACK_SPEEDS.length) { this._parent.state.currentSpeedIndex = newIndex; this._parent.elements.storyAudio.playbackRate = this._parent.config.PLAYBACK_SPEEDS[newIndex]; this.updateSpeedButtons(); } },
-            updateSpeedButtons() { this._parent.elements.speedDisplay.textContent = `${this._parent.config.PLAYBACK_SPEEDS[this._parent.state.currentSpeedIndex].toFixed(2)}x`; this._parent.elements.decreaseSpeedBtn.disabled = this._parent.state.currentSpeedIndex === 0; this._parent.elements.increaseSpeedBtn.disabled = this._parent.state.currentSpeedIndex === this._parent.config.PLAYBACK_SPEEDS.length - 1; },
+            changeSpeed(direction) { 
+                const newIndex = this._parent.state.currentSpeedIndex + direction; 
+                if (newIndex >= 0 && newIndex < this._parent.config.PLAYBACK_SPEEDS.length) { 
+                    this._parent.state.currentSpeedIndex = newIndex; 
+                    const newSpeed = this._parent.config.PLAYBACK_SPEEDS[newIndex];
+                    this._parent.elements.storyAudio.playbackRate = newSpeed; 
+                    this.updateSpeedButtons(); 
+                    const message = `Velocidad: ${newSpeed.toFixed(2)}x`;
+                    this._parent.Utils.showSpeedTooltip(message);
+                } 
+            },
+            updateSpeedButtons() { 
+                this._parent.elements.decreaseSpeedBtn.disabled = this._parent.state.currentSpeedIndex === 0; 
+                this._parent.elements.increaseSpeedBtn.disabled = this._parent.state.currentSpeedIndex === this._parent.config.PLAYBACK_SPEEDS.length - 1; 
+            },
         },
         
         renderCurrentPage() {
@@ -766,7 +958,8 @@ document.addEventListener('DOMContentLoaded', () => {
             this.elements.karaokeWordEl.style.opacity = '0';
             const pageData = this.state.currentStory.p[this.state.currentPageIndex];
             const enText = pageData.c.split('||')[0].replace(/\[\[|\]\]/g, '');
-            if (this.state.currentStory.isVideoStory) {
+
+            if (this.state.currentStory.assetType === 'video') {
                 this.elements.storyImageEl.classList.add('hidden');
                 this.elements.storyVideoEl.classList.remove('hidden');
                 const videoSrc = `./data/${this.state.currentStory.cleanTitle}/vd/${this.state.currentPageIndex + 1}.mp4`;
@@ -777,6 +970,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.elements.storyImageEl.src = `./data/${this.state.currentStory.cleanTitle}/img/${this.state.currentPageIndex + 1}.jpg`;
                 this.elements.storyImageEl.onerror = () => this.elements.storyImageEl.src = `https://placehold.co/800x800/1e293b/ffffff?text=No+Image`;
             }
+
             this.elements.storyTitleViewEl.textContent = this.state.currentStory.cleanTitle;
             this.wrapWordsInSpans(enText.trim(), this.state.currentPageIndex);
             document.getElementById('text-container').scrollTop = 0;
@@ -838,86 +1032,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         },
-
-       processAudioMarkers() {
+        processAudioMarkers() {
             if (!this.state.currentStory || !this.state.marksData || this.state.marksData.length === 0) {
                 this.state.storyWords = [];
                 this.state.pageWordStartIndices = [];
                 return;
             }
-
-            // --- Parte 1: Pre-procesamiento para casos gramaticales específicos ('s, n't) ---
-            // Esta lógica del arreglo anterior se mantiene porque es muy eficiente para estos casos comunes.
-            const preProcessedMarks = [];
-            for (let i = 0; i < this.state.marksData.length; i++) {
-                const currentMark = this.state.marksData[i];
-                const nextMark = (i + 1 < this.state.marksData.length) ? this.state.marksData[i + 1] : null;
-
-                if (nextMark) {
-                    const nextWordLower = nextMark.word.toLowerCase();
-                    if (nextWordLower === 's') {
-                        preProcessedMarks.push({ word: currentMark.word + "’s", start: currentMark.start, end: nextMark.end });
-                        i++; continue;
-                    } else if (nextWordLower === 't' && currentMark.word.toLowerCase().endsWith('n')) {
-                        preProcessedMarks.push({ word: currentMark.word.slice(0, -1) + "n’t", start: currentMark.start, end: nextMark.end });
-                        i++; continue;
-                    }
-                }
-                preProcessedMarks.push(currentMark);
-            }
-
-            // --- Parte 2: Tokenizar el texto de la historia (nuestra "fuente de la verdad") ---
             const allTextTokens = [];
             this.state.currentStory.p.forEach(page => {
                 const cleanText = page.c.split('||')[0].replace(/\[\[|\]\]/g, '');
                 const pageTokens = cleanText.split(/(\s+|(?<!\d)\.(?!\d)|[,;!?:“”"])/).filter(part => part.trim() !== '' && /[\p{L}\p{N}']+/u.test(part));
                 allTextTokens.push(...pageTokens);
             });
-
-            // --- INICIO DE LA NUEVA LÓGICA DE FUSIÓN GENÉRICA ---
-            // Parte 3: Alinear y fusionar de forma inteligente.
-            // Este bucle compara el texto con los marcadores y agrupa los fragmentos necesarios.
             const finalAlignedMarks = [];
-            let markIndex = 0; // Puntero para recorrer 'preProcessedMarks'.
-
-            // Función auxiliar para "limpiar" una palabra para una comparación más flexible.
+            let markIndex = 0; 
+            const rawMarks = this.state.marksData;
             const cleanForCompare = (str) => str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f'’]/g, "");
-
             for (const textToken of allTextTokens) {
-                if (markIndex >= preProcessedMarks.length) break; // Nos quedamos sin marcas de audio.
-
-                const firstMarkInGroup = preProcessedMarks[markIndex];
+                if (markIndex >= rawMarks.length) {
+                    console.warn("Se acabaron los marcadores de audio, pero aún hay texto.", { textToken });
+                    break;
+                }
+                const firstMarkInGroup = rawMarks[markIndex];
                 let lastMarkInGroup = firstMarkInGroup;
                 let builtWordFromMarks = firstMarkInGroup.word;
                 let marksConsumed = 1;
-                
-                // Mientras la palabra construida con las marcas no coincida con la del texto, sigue añadiendo fragmentos.
-                while (cleanForCompare(builtWordFromMarks) !== cleanForCompare(textToken)) {
+                const cleanTextToken = cleanForCompare(textToken);
+                while (true) {
                     const nextMarkIndex = markIndex + marksConsumed;
-                    if (nextMarkIndex >= preProcessedMarks.length) break; // No hay más fragmentos para añadir.
-                    
-                    const nextMark = preProcessedMarks[nextMarkIndex];
-                    builtWordFromMarks += nextMark.word; // Añade el siguiente fragmento (ej. "G" + "mez" = "Gmez").
-                    lastMarkInGroup = nextMark;
+                    if (nextMarkIndex >= rawMarks.length) break; 
+                    const potentialNextWord = builtWordFromMarks + rawMarks[nextMarkIndex].word;
+                    const cleanPotential = cleanForCompare(potentialNextWord);
+                    if (!cleanTextToken.startsWith(cleanPotential)) break; 
+                    builtWordFromMarks = potentialNextWord;
+                    lastMarkInGroup = rawMarks[nextMarkIndex];
                     marksConsumed++;
+                    if (cleanPotential === cleanTextToken) break;
                 }
-
-                // Creamos la marca fusionada final.
                 finalAlignedMarks.push({
-                    word: textToken, // Usamos la palabra correcta del texto.
-                    start: firstMarkInGroup.start, // Con el tiempo de inicio del primer fragmento.
-                    end: lastMarkInGroup.end, // Y el tiempo de fin del último fragmento.
+                    word: textToken, 
+                    start: firstMarkInGroup.start, 
+                    end: lastMarkInGroup.end,      
                 });
-
-                // Avanzamos nuestro puntero según cuántos fragmentos hayamos consumido.
                 markIndex += marksConsumed;
             }
-            // --- FIN DE LA NUEVA LÓGICA ---
-
+            if (markIndex < rawMarks.length) console.warn("Sobraron marcadores de audio después de procesar todo el texto.");
             this.state.marksData = finalAlignedMarks;
             this.state.storyWords = this.state.marksData.map(m => m.word);
-
-            // Parte 4: Recalcular los índices de inicio de palabra para cada página.
             this.state.pageWordStartIndices = [];
             let globalWordCount = 0;
             this.state.currentStory.p.forEach(page => {
@@ -927,7 +1088,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 globalWordCount += pageTokens.length;
             });
         },
-        
         wrapWordsInSpans(text, pageIndex) {
             this.elements.storyTextEnEl.innerHTML = '';
             const sortedPVs = Array.from(this.state.phrasalVerbMap.keys()).sort((a, b) => b.split(' ').length - a.split(' ').length);
@@ -1021,18 +1181,25 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         
         showGrammar() { if (!this.state.currentStory) return; const pageData = this.state.currentStory.p[this.state.currentPageIndex]; const grammarHTML = pageData.grammar || '<p>No hay notas de gramática para esta página.</p>'; this.Modals.openGeneric('Notas de Gramática', grammarHTML); },
+        
         showVocabulary() {
             if (!this.state.currentStory) return;
             const pageData = this.state.currentStory.p[this.state.currentPageIndex];
             if (!pageData.voca) { this.Modals.openGeneric('Vocabulario', '<p>No hay vocabulario para esta página.</p>'); return; }
             const vocabList = pageData.voca.split('|').map(item => { const [en, es] = item.split(':'); return { en: en.trim(), es: es.trim() }; });
-            const imageSrc = this.state.currentStory.isVideoStory ? '' : this.elements.storyImageEl.src;
+            
+            let imageSrc = '';
+            if (this.state.currentStory.assetType !== 'video') {
+                imageSrc = this.elements.storyImageEl.src;
+            }
+
             let contentHTML = imageSrc ? `<img src="${imageSrc}" alt="Story thumbnail" class="w-full h-32 object-cover rounded-lg mb-4">` : '';
             contentHTML += `<div class="space-y-2 max-h-64 overflow-y-auto pr-2">`;
             vocabList.forEach(item => { contentHTML += `<div class="flex justify-between items-center bg-gray-700 p-2 rounded-md text-sm"><span class="font-semibold text-white">${item.en}</span><span class="text-gray-400">${item.es}</span></div>`; });
             contentHTML += '</div>';
             this.Modals.openGeneric('Vocabulario del Párrafo', contentHTML);
         },
+
         showTranslation() {
             if (!this.state.currentStory) return;
             const pageData = this.state.currentStory.p[this.state.currentPageIndex];
@@ -1047,7 +1214,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         
         Utils: {
-            parseTitle: (s) => s.match(/^(.*?)<(.*?)>$/) ? {t: s.match(/^(.*?)<(.*?)>$/)[1].trim(), s: s.match(/^(.*?)<(.*?)>$/)[2].trim()} : {t: s.trim(), s: ''},
+            parseTitle: (s) => { const match = s.match(/^(.*?)<(.*?)>$/); return match ? {t: match[1].trim(), s: match[2].trim()} : {t: s.trim(), s: ''}; },
             getFullPartOfSpeech: (shortPos) => ({ 'n': 'Sustantivo', 'v': 'Verbo', 'adj': 'Adjetivo', 'adv': 'Adverbio', 'prep': 'Preposición', 'conj': 'Conjunción', 'det': 'Determinante', 'pron': 'Pronombre', 'int': 'Interjección', 'ph. v.': 'Verbo Frasal' }[shortPos.toLowerCase()] || shortPos.toUpperCase()),
             showDynamicTooltip(targetElement, text) {
                 let existingTooltip = document.querySelector('.dynamic-tooltip');
@@ -1060,14 +1227,47 @@ document.addEventListener('DOMContentLoaded', () => {
                 const removeTooltip = () => { tooltip.classList.remove('visible'); setTimeout(() => tooltip.parentNode?.removeChild(tooltip), 300); };
                 targetElement.addEventListener('mouseleave', removeTooltip, { once: true });
                 setTimeout(removeTooltip, 2000);
-            }
+            },
+            speedTooltipTimeout: null,
+            showSpeedTooltip(message) {
+                const tooltip = App.elements.speedTooltip; 
+                if (!tooltip) return;
+                if (this.speedTooltipTimeout) clearTimeout(this.speedTooltipTimeout);
+                tooltip.textContent = message;
+                tooltip.classList.remove('opacity-0');
+                this.speedTooltipTimeout = setTimeout(() => {
+                    tooltip.classList.add('opacity-0');
+                }, 1500);
+            },
         },
 
         Modals: {
             _parent: null,
             init(parent) { this._parent = parent; },
-            openGeneric(title, contentHTML) { this._parent.AudioPlayer.pause(); this._parent.elements.modalTitle.textContent = title; this._parent.elements.modalContent.innerHTML = contentHTML; this._parent.elements.modalOverlay.classList.remove('hidden'); this._parent.elements.modalContainer.classList.remove('hidden'); this._parent.elements.modalContainer.classList.add('flex'); },
-            closeGeneric() { this._parent.elements.modalOverlay.classList.add('hidden'); this._parent.elements.modalContainer.classList.add('hidden'); this._parent.elements.modalContainer.classList.remove('flex'); },
+            openGeneric(title, contentHTML) { 
+                this._parent.AudioPlayer.pause(); 
+                this._parent.elements.modalTitle.textContent = title; 
+                this._parent.elements.modalContent.innerHTML = contentHTML; 
+                this._parent.elements.modalOverlay.classList.remove('hidden'); 
+                this._parent.elements.modalContainer.classList.remove('hidden');
+                this._parent.elements.modalContainer.classList.add('flex');
+            },
+            closeGeneric() { 
+                this._parent.elements.modalOverlay.classList.add('hidden'); 
+                this._parent.elements.modalContainer.classList.add('hidden');
+                this._parent.elements.modalContainer.classList.remove('flex');
+            },
+            openSettings() {
+                this._parent.AudioPlayer.pause();
+                this._parent.elements.modalOverlay.classList.remove('hidden');
+                this._parent.elements.settingsModalContainer.classList.remove('hidden');
+                this._parent.elements.settingsModalContainer.classList.add('flex');
+            },
+            closeSettings() {
+                this._parent.elements.modalOverlay.classList.add('hidden');
+                this._parent.elements.settingsModalContainer.classList.add('hidden');
+                this._parent.elements.settingsModalContainer.classList.remove('flex');
+            },
             async openWord(word, translation, pos, startGlobalIndex, endGlobalIndex, breakdown) {
                 this._parent.elements.wordModalTitle.textContent = word;
                 this._parent.elements.wordModalTranslation.textContent = translation;
@@ -1091,6 +1291,49 @@ document.addEventListener('DOMContentLoaded', () => {
             closeWord() { this._parent.elements.wordModalContainer.classList.add('hidden'); },
         },
         
+        SettingsManager: {
+            _parent: null,
+            init(parent) {
+                this._parent = parent;
+                this.loadSettings();
+            },
+            loadSettings() {
+                try {
+                    const settings = JSON.parse(localStorage.getItem(this._parent.config.SETTINGS_KEY));
+                    if (settings && settings.fontSizeMultiplier) {
+                        this._parent.state.fontSizeMultiplier = settings.fontSizeMultiplier;
+                    }
+                } catch (e) {
+                    console.error("Error loading settings:", e);
+                    this._parent.state.fontSizeMultiplier = 1.0;
+                }
+                this.applyFontSize();
+            },
+            saveSettings() {
+                try {
+                    const settings = {
+                        fontSizeMultiplier: this._parent.state.fontSizeMultiplier
+                    };
+                    localStorage.setItem(this._parent.config.SETTINGS_KEY, JSON.stringify(settings));
+                } catch (e) {
+                    console.error("Error saving settings:", e);
+                }
+            },
+            changeFontSize(direction) {
+                let newSize = this._parent.state.fontSizeMultiplier + (direction * 0.1);
+                // Limitar el tamaño entre 70% (0.7) y 150% (1.5)
+                newSize = Math.max(0.7, Math.min(1.5, newSize));
+                this._parent.state.fontSizeMultiplier = newSize;
+                this.applyFontSize();
+                this.saveSettings();
+            },
+            applyFontSize() {
+                const multiplier = this._parent.state.fontSizeMultiplier;
+                document.documentElement.style.setProperty('--story-font-size-multiplier', multiplier);
+                this._parent.elements.fontSizeDisplay.textContent = `${Math.round(multiplier * 100)}%`;
+            }
+        },
+
         async fetchPexelsImage(word) { try { const response = await fetch(`${this.config.PEXELS_WORKER_URL}/search?query=${encodeURIComponent(word)}&per_page=1`); if (!response.ok) throw new Error(`Error from Pexels worker: ${response.statusText}`); const data = await response.json(); return data.photos && data.photos.length > 0 ? data.photos[0].src.medium : null; } catch (error) { console.error("Error fetching image from Pexels:", error); return null; } },
 
         ActivityManager: {
@@ -1124,17 +1367,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 this._parent.showScreen('activities');
             },
             startGame(gameId) {
-                this._parent.SoundManager.play('select'); // CORREGIDO para usar la nueva estructura
+                this._parent.SoundManager.play('select');
                 const gameData = this._parent.state.currentStory.g.find(g => g.id === gameId);
                 if (!gameData) { console.error(`Juego con id ${gameId} no encontrado.`); return; }
                 this._parent.showScreen('game');
                 
-                // --- DEPENDENCIA 'playSound' CORREGIDA Y MÁS ROBUSTA ---
                 const dependencies = {
                     saveProgress: (storyId, gameId, progress, errors) => this._parent.ProgressManager.saveProgress(storyId, gameId, progress, errors),
                     fetchPexels: (word) => this._parent.fetchPexelsImage(word),
                     onClose: () => { this._parent.state.activeGame = null; this._parent.ActivityManager.showActivitiesView(); },
-                    playSound: (name) => this._parent.SoundManager.play(name) // Llama al SoundManager de App
+                    playSound: (name) => this._parent.SoundManager.play(name)
                 };
 
                 const storyId = this._parent.state.currentStory.id;
@@ -1167,3 +1409,4 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
+
