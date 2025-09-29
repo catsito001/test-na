@@ -207,6 +207,36 @@
         .letter-choice:not(:disabled):hover { background-color: #6b7280; transform: translateY(-2px); }
         .letter-choice:disabled { opacity: 0.3; background-color: #374151; border-bottom-width: 1px; }
         #fill-blanks-delete-btn { padding: 0.5rem 1rem; background-color: #be123c; border-radius: 8px; font-weight: 600; }
+
+        /* Estilos para el mini-juego de deletreo en el modal */
+        .spelling-slot {
+            width: 35px; height: 45px; background-color: #1f2937; border-bottom: 3px solid #4b5563; border-radius: 6px;
+            display: inline-flex; justify-content: center; align-items: center; font-size: 1.5rem;
+            font-weight: 700; text-transform: uppercase; transition: all 0.2s ease-in-out; user-select: none;
+        }
+        .spelling-choices button {
+            width: 40px; height: 40px; background-color: #4b5563; border-radius: 8px;
+            border-bottom: 3px solid #374151; font-weight: 600; font-size: 1.1rem; transition: all 0.15s ease-in-out;
+        }
+        .spelling-choices button:not(:disabled):hover {
+            background-color: #6b7280; transform: translateY(-2px);
+        }
+        .spelling-choices button:disabled {
+            opacity: 0.3; background-color: #374151; border-bottom-width: 1px;
+        }
+
+        #word-modal-spelling-slots.correct .spelling-slot {
+            background-color: #166534; border-color: #14532d; color: #dcfce7;
+        }
+
+        /* Estilo para palabras aprendidas en la historia */
+        .word.learned-word {
+            background-color: rgba(250, 204, 21, 0.2);
+            color: #facc15;
+            border-radius: 4px;
+            padding: 2px 4px;
+        }
+
         
         @keyframes ken-burns-effect {
           0% { transform: scale(1.1) translate(0, 0); transform-origin: 50% 50%; }
@@ -232,6 +262,7 @@
 <body class="text-white bg-gray-900">
 
     <audio id="story-audio"></audio>
+    <audio id="background-audio" loop></audio>
     
     <div id="modal-overlay" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-40 hidden"></div>
     <div id="modal-container" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 w-11/12 max-w-lg p-4 sm:p-6 hidden flex-col max-h-[85vh]">
@@ -251,7 +282,7 @@
             <h3 class="text-xl font-bold text-white">Configuración</h3>
             <button id="settings-modal-close-btn" class="text-gray-400 hover:text-white text-3xl leading-none">&times;</button>
         </div>
-        <div class="flex-grow space-y-4">
+        <div class="flex-grow space-y-6">
             <div class="flex items-center justify-between">
                 <label class="text-gray-300 font-semibold">Tamaño de letra</label>
                 <div class="flex items-center gap-2 bg-gray-900 rounded-full p-1">
@@ -260,25 +291,55 @@
                     <button id="increase-font-btn" class="w-8 h-8 rounded-full bg-indigo-600 hover:bg-indigo-700 flex items-center justify-center text-lg font-bold">+</button>
                 </div>
             </div>
+            <div class="flex items-center justify-between">
+                <label for="autoplay-toggle" class="text-gray-300 font-semibold">Reproducción Automática</label>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" id="autoplay-toggle" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-600 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600"></div>
+                </label>
+            </div>
             <!-- Aquí se pueden agregar más opciones de configuración en el futuro -->
         </div>
     </div>
     
     <div id="word-modal-container" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-[60] hidden items-center justify-center p-4">
-        <div id="word-modal-content" class="bg-gray-800 border border-gray-700 rounded-lg shadow-xl w-full max-w-sm flex flex-col text-white">
-            <div class="p-4 sm:p-5 border-b border-gray-700">
-                <div class="flex items-center gap-3 mb-1">
-                    <h3 id="word-modal-title" class="text-2xl font-bold text-indigo-400"></h3>
-                    <span id="word-modal-pos" class="text-xs font-semibold px-2 py-0.5 bg-gray-600 text-gray-200 rounded-full"></span>
+        <div id="word-modal-content" class="bg-gray-800 border border-gray-700 rounded-lg shadow-xl w-full max-w-sm flex flex-col text-white max-h-[90vh]">
+            <!-- Contenido principal del modal que puede hacer scroll -->
+            <div id="word-modal-main-content" class="p-4 sm:p-5 flex-grow overflow-y-auto">
+                <!-- Vista por Defecto: Título, Traducción, Imagen -->
+                <div id="word-modal-default-view">
+                    <div class="flex items-center gap-3 mb-2">
+                        <h3 id="word-modal-title" class="text-2xl font-bold text-indigo-400"></h3>
+                        <span id="word-modal-pos" class="text-xs font-semibold px-2 py-0.5 bg-gray-600 text-gray-200 rounded-full"></span>
+                    </div>
+                    <p id="word-modal-translation" class="text-lg text-gray-300 mb-3"></p>
+                    <div id="word-modal-breakdown" class="hidden py-3 border-t border-b border-gray-700 mb-3"></div>
+                    <div class="p-2 h-48 flex items-center justify-center bg-gray-900 rounded-lg">
+                        <img id="word-modal-image" src="" alt="Word image" class="max-w-full max-h-full object-contain rounded-md hidden">
+                        <p id="word-modal-image-loader" class="text-gray-400 animate-pulse">Buscando imagen...</p>
+                    </div>
                 </div>
-                <p id="word-modal-translation" class="text-lg text-gray-300"></p>
+    
+                <!-- Vista del Juego de Deletreo (Aparece aquí cuando se activa) -->
+                <div id="word-modal-spelling-view" class="hidden flex flex-col items-center justify-center gap-4 text-center">
+                    <div class="w-full mb-4">
+                        <div class="p-2 h-40 bg-gray-900 rounded-lg flex items-center justify-center">
+                            <img id="word-modal-spelling-image" src="" alt="Word image" class="max-w-full max-h-full object-contain rounded-md hidden">
+                        </div>
+                        <p id="word-modal-spelling-translation" class="text-lg text-center text-gray-300 mt-2 font-semibold"></p>
+                    </div>
+                    <p class="text-sm text-gray-400 font-semibold">Completa la palabra:</p>
+                    <div id="word-modal-spelling-slots" class="flex flex-wrap justify-center gap-2"></div>
+                    <div id="word-modal-spelling-choices" class="spelling-choices max-w-xs w-full flex flex-wrap justify-center items-center gap-2 mt-4"></div>
+                    <button id="word-modal-spelling-delete-btn" class="w-24 mt-2 flex items-center justify-center gap-2 py-2 px-4 bg-red-700 hover:bg-red-800 rounded-lg">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <span>Borrar</span>
+                    </button>
+                </div>
             </div>
-            <div id="word-modal-breakdown" class="hidden px-4 sm:px-5 py-3 border-b border-gray-700"></div>
-            <div class="p-2 h-48 flex items-center justify-center bg-gray-900">
-                <img id="word-modal-image" src="" alt="Word image" class="max-w-full max-h-full object-contain rounded-md hidden">
-                <p id="word-modal-image-loader" class="text-gray-400 animate-pulse">Buscando imagen...</p>
-            </div>
-            <div class="grid grid-cols-2 gap-2 p-2 bg-gray-800/50">
+    
+            <!-- Botones (Footer) -->
+            <div id="word-modal-footer" class="grid grid-cols-2 gap-2 p-2 bg-gray-800/50 flex-shrink-0 border-t border-gray-700">
                  <button id="word-modal-listen-btn" class="w-full text-sm font-semibold py-2.5 px-4 rounded-lg bg-indigo-600 hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M7 4a1 1 0 011 1v8a1 1 0 11-2 0V5a1 1 0 011-1zM13 4a1 1 0 011 1v8a1 1 0 11-2 0V5a1 1 0 011-1z"></path><path fill-rule="evenodd" d="M2 8a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm15 0a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zM5 8a1 1 0 011-1h1a1 1 0 110 2H6a1 1 0 01-1-1zm5 0a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>Escuchar</button>
                  <button id="word-modal-continue-btn" class="w-full text-sm font-semibold py-2.5 px-4 rounded-lg bg-green-600 hover:bg-green-700 transition-colors flex items-center justify-center gap-2"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.428A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>Continuar</button>
                  <button id="word-modal-learn-btn" class="w-full text-sm font-semibold py-2.5 px-4 rounded-lg bg-gray-600 hover:bg-gray-700 transition-colors flex items-center justify-center gap-2"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path></svg>Aprender</button>
@@ -358,23 +419,34 @@
 
     <div id="app-container" class="w-full h-screen bg-gray-800 md:max-w-3xl md:h-[90vh] md:max-h-[850px] md:rounded-2xl md:shadow-2xl md:border md:border-gray-700 relative overflow-hidden transition-all duration-300">
         <div id="main-menu" class="h-full flex flex-col bg-gray-900">
-    <div class="w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
-                <header class="text-center mb-6 relative"> <!-- Añadido relative -->
-                    <!-- Botón de Descarga PWA -->
-                    <button id="install-app-btn" class="absolute top-0 right-0 bg-indigo-600 text-white font-semibold py-2 px-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                        <span>Descargar App</span>
-                    </button>
+            <div class="w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
+                <header class="text-center mb-6 relative">
+                    <!-- Container for top-right buttons -->
+                    <div class="absolute top-0 right-0 flex items-center gap-2">
+                        <!-- Botón de Mute para el Menú Principal -->
+                        <button id="main-menu-mute-btn" class="p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg">
+                            <svg id="main-menu-sound-on-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                            <svg id="main-menu-sound-off-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17L7 7m10 0L7 17"></path></svg>
+                        </button>
+                        <!-- Botón de Descarga PWA -->
+                        <button id="install-app-btn" class="bg-indigo-600 text-white font-semibold py-2 px-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                            <span>Descargar App</span>
+                        </button>
+                    </div>
                     
                     <img src="banner.png" alt="Story Books Banner" class="mx-auto mb-2 w-full max-w-[7rem]">
                     <p class="text-gray-400 mt-1">Select a story to begin</p>
                 </header>
-<div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
+                <div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
                     <button data-filter="todos" class="filter-btn active px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Todos</button>
                     <button data-filter="fundamental" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Fundamental</button>
                     <button data-filter="básico" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Básico</button>
                     <button data-filter="intermedio" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Intermedio</button>
                     <button data-filter="avanzado" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Avanzado</button>
+                    <button data-filter="infantiles" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Infantiles</button>
+                    <button data-filter="noticias" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Noticias</button>
+                    <button data-filter="otros" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Otros</button>
                 </div>
                 <main id="story-list" class="flex flex-col gap-6 overflow-y-auto pb-24 flex-grow"></main>
                 <p id="loading-stories" class="text-center text-gray-400">Loading stories...</p>
@@ -398,6 +470,10 @@
                     <button id="back-btn" class="flex-shrink-0 p-2 bg-gradient-to-br from-gray-700 to-gray-800 backdrop-blur-sm rounded-full hover:from-gray-600 hover:to-gray-700 transition-colors shadow-lg"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
                     <div class="flex items-center gap-2">
                         <button id="activities-btn" class="flex-shrink-0 flex items-center gap-1.5 px-3 py-[0.2rem] text-[0.6rem] font-bold tracking-wider uppercase bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg><span>Actividades</span></button>
+                        <button id="mute-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg">
+                            <svg id="sound-on-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                            <svg id="sound-off-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17L7 7m10 0L7 17"></path></svg>
+                        </button>
                         <button id="settings-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></button>
                     </div>
                 </header>
@@ -518,23 +594,74 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const App = {
         // ... (todo el SoundManager, config, state, elements se mantiene igual)
+
+        processData(data, key) {
+    let result = '';
+    for (let i = 0; i < data.length; i++) {
+        result += String.fromCharCode(data.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+    }
+    return result;
+},
+
+
         SoundManager: {
+            _parent: null,
             sounds: {},
-            isMuted: false,
-            init() {
+            backgroundMusic: null,
+            init(parent) {
+                this._parent = parent;
                 const soundFiles = ['click.mp3', 'congrats.flac', 'ok.mp3', 'select.wav', 'wrong.wav'];
                 soundFiles.forEach(file => {
                     const name = file.split('.')[0];
                     this.sounds[name] = new Audio(`sounds/${file}`);
                     this.sounds[name].preload = 'auto';
                 });
+                this.backgroundMusic = this._parent.elements.backgroundAudio;
+                this.backgroundMusic.src = 'sounds/bg.mp3';
+                this.backgroundMusic.volume = 0.3; // <-- Volumen de la música de fondo ajustado
             },
             play(name) {
                 const sound = this.sounds[name];
-                if (sound && !this.isMuted) {
+                if (sound) {
                     sound.pause();
                     sound.currentTime = 0;
                     sound.play().catch(e => console.error(`Error playing sound '${name}':`, e));
+                }
+            },
+            playBgMusic() {
+                if (this._parent.state.isMuted) return;
+
+                const playPromise = this.backgroundMusic.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        if (error.name === "NotAllowedError") {
+                            console.log("Background music autoplay was prevented. Waiting for user interaction.");
+                            const playOnInteraction = () => {
+                                if (!this._parent.state.isMuted) {
+                                    this.backgroundMusic.play().catch(e => console.error("Could not play BG music after interaction:", e));
+                                }
+                            };
+                            window.addEventListener('click', playOnInteraction, { once: true });
+                            window.addEventListener('touchstart', playOnInteraction, { once: true });
+                        } else {
+                            console.error("Error playing background music:", error);
+                        }
+                    });
+                }
+            },
+            pauseBgMusic() {
+                if (this.backgroundMusic) {
+                    this.backgroundMusic.pause();
+                }
+            },
+            applyMuteState(isMuted) {
+                // Ahora solo afecta a la música de fondo
+                this.backgroundMusic.muted = isMuted;
+
+                if (isMuted) {
+                    this.pauseBgMusic();
+                } else {
+                    this.playBgMusic();
                 }
             }
         },
@@ -562,15 +689,32 @@ document.addEventListener('DOMContentLoaded', () => {
             learningList: [],
             currentSpeedIndex: 1,
             activeGame: null, 
-            fontSizeMultiplier: 1.0, // Nuevo estado para el tamaño de la fuente
+            fontSizeMultiplier: 1.0,
+            learnedWords: {},
+            isAutoplayEnabled: false,
+            isMuted: false,
         },
 
         elements: {},
         
+
+
+        decodeAudioPath(encodedPath, key) {
+    // Primero, decodificamos de Base64
+    const decodedB64 = atob(encodedPath);
+    let result = '';
+    for (let i = 0; i < decodedB64.length; i++) {
+        result += String.fromCharCode(decodedB64.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+    }
+    return result;
+},
+
+
         init() {
             this.cacheDomElements();
-            this.SoundManager.init();
-            this.SettingsManager.init(this); // Inicializar el gestor de configuración
+            this.SoundManager.init(this);
+            this.SettingsManager.init(this); 
+            this.SpellingGame.init(this);
             this.bindEventListeners();
             this.fetchStories();
         },
@@ -591,6 +735,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyVideoEl: document.getElementById('story-video'),
                 storyTextEnEl: document.getElementById('story-text-en'),
                 storyAudio: document.getElementById('story-audio'),
+                backgroundAudio: document.getElementById('background-audio'),
                 playPauseBtn: document.getElementById('play-pause-btn'),
                 playIcon: document.getElementById('play-icon'),
                 pauseIcon: document.getElementById('pause-icon'),
@@ -606,6 +751,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 translationBtn: document.getElementById('translation-btn'),
                 activitiesBtn: document.getElementById('activities-btn'),
                 settingsBtn: document.getElementById('settings-btn'),
+                muteBtn: document.getElementById('mute-btn'),
+                soundOnIcon: document.getElementById('sound-on-icon'),
+                soundOffIcon: document.getElementById('sound-off-icon'),
+                // Elementos del nuevo botón de mute en el menú principal
+                mainMenuMuteBtn: document.getElementById('main-menu-mute-btn'),
+                mainMenuSoundOnIcon: document.getElementById('main-menu-sound-on-icon'),
+                mainMenuSoundOffIcon: document.getElementById('main-menu-sound-off-icon'),
                 activitiesList: document.getElementById('activities-list'),
                 activitiesTitle: document.getElementById('activities-title'),
                 activitiesSubtitle: document.getElementById('activities-subtitle'),
@@ -623,7 +775,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 increaseFontBtn: document.getElementById('increase-font-btn'),
                 decreaseFontBtn: document.getElementById('decrease-font-btn'),
                 fontSizeDisplay: document.getElementById('font-size-display'),
+                autoplayToggle: document.getElementById('autoplay-toggle'),
                 wordModalContainer: document.getElementById('word-modal-container'),
+                wordModalDefaultView: document.getElementById('word-modal-default-view'),
+                wordModalSpellingView: document.getElementById('word-modal-spelling-view'),
                 wordModalTitle: document.getElementById('word-modal-title'),
                 wordModalTranslation: document.getElementById('word-modal-translation'),
                 wordModalImage: document.getElementById('word-modal-image'),
@@ -655,13 +810,15 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Listeners de botones de la historia
             this.elements.settingsBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.Modals.openSettings(); });
+            this.elements.muteBtn.addEventListener('click', () => this.SettingsManager.toggleMute());
+            this.elements.mainMenuMuteBtn.addEventListener('click', () => this.SettingsManager.toggleMute()); // Ambos botones controlan el mismo estado
             this.elements.activitiesBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.ActivityManager.showActivitiesView(); });
             this.elements.grammarBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showGrammar(); });
             this.elements.vocabularyBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showVocabulary(); });
             this.elements.translationBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showTranslation(); });
             
             // Listeners del reproductor
-            this.elements.storyAudio.addEventListener('ended', () => this.AudioPlayer.stop());
+            this.elements.storyAudio.addEventListener('ended', () => this.handlePageEnd());
             this.elements.nextPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(1); });
             this.elements.prevPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(-1); });
             this.elements.decreaseSpeedBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.AudioPlayer.changeSpeed(-1); });
@@ -670,6 +827,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Listeners de configuración
             this.elements.decreaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(-1); });
             this.elements.increaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(1); });
+            this.elements.autoplayToggle.addEventListener('change', () => this.SettingsManager.toggleAutoplay());
 
             // Listener del filtro
             this.elements.filterContainer.addEventListener('click', (e) => {
@@ -680,6 +838,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     this.renderStories(e.target.dataset.filter);
                 }
             });
+        },
+        
+        handlePageEnd() {
+            if (this.state.animationFrameId) {
+                cancelAnimationFrame(this.state.animationFrameId);
+                this.state.animationFrameId = null;
+            }
+
+            if (this.state.isAutoplayEnabled) {
+                const isLastPage = this.state.currentPageIndex === this.state.currentStory.p.length - 1;
+                if (!isLastPage) {
+                    this.changePage(1);
+                } else {
+                    this.AudioPlayer.stop();
+                }
+            } else {
+                this.AudioPlayer.stop();
+            }
         },
 
         showScreen(name) {
@@ -705,12 +881,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         async fetchStories() {
             try {
-                // Se agrega `cache: 'no-store'` para asegurar que siempre se pidan los datos más frescos
                 const response = await fetch(`${this.config.API_BASE_URL}/data`, { cache: 'no-store' });
                 if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const data = await response.json();
                 
-                // Asegurarse de que data.story es un array
                 this.state.allStories = Array.isArray(data.story) ? data.story : [];
 
                 this.elements.loadingStoriesEl.classList.add('hidden');
@@ -745,10 +919,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const storyDataObject = Array.isArray(data.story) ? data.story[0] : data.story;
                 if (!storyDataObject) throw new Error("Invalid story data from API.");
 
-                // Unimos la información del resumen (que tiene assetType) con los detalles
                 this.state.currentStory = { ...storySummary, ...storyDataObject };
                 
-                // Extraemos el assetType del meta de la historia detallada si existe, como fallback
                 if (storyDataObject.meta && storyDataObject.meta.assetType) {
                     this.state.currentStory.assetType = storyDataObject.meta.assetType;
                 }
@@ -765,16 +937,33 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.createPhrasalVerbMap(this.state.currentStory.ph_str);
 
                 try {
-                    const marksResponse = await fetch(`./data/${title}/m/marks.json`);
-                    this.state.marksData = await marksResponse.json();
-                    this.elements.storyAudio.src = `./data/${title}/m/speech.mp3`;
-                    this.processAudioMarkers();
-                    this.elements.playPauseBtn.disabled = false;
-                } catch (e) {
-                    this.state.marksData = [];
-                    this.elements.playPauseBtn.disabled = true;
-                    console.error("Error loading audio data:", e);
-                }
+    // La clave debe ser la misma que en el worker
+    const SC = "narr9"; 
+
+    // 1. Hacemos la petición al worker
+    const marksResponse = await fetch(`${this.config.API_BASE_URL}/marks/${this.state.currentStory.cleanTitle}`);
+
+    // 2. ¡IMPORTANTE! Obtenemos la respuesta como TEXTO, no como JSON
+    const encodedMarksText = await marksResponse.text();
+
+    // 3. Decodificamos el texto usando nuestra función
+    const decodedJsonText = this.processData(encodedMarksText, SC);
+
+    // 4. Convertimos el texto JSON decodificado en un objeto real
+    this.state.marksData = JSON.parse(decodedJsonText);
+
+    // --- El resto del código sigue igual ---
+    const decodedAudioPath = this.decodeAudioPath(this.state.currentStory.encodedAudioPath, SC);
+    this.elements.storyAudio.src = decodedAudioPath;
+
+    this.processAudioMarkers();
+    this.elements.playPauseBtn.disabled = false;
+
+} catch (e) {
+    this.state.marksData = [];
+    this.elements.playPauseBtn.disabled = true;
+    console.error("Error loading or decoding audio data via worker:", e);
+}
                 
                 this.state.currentPageIndex = 0;
                 this.state.currentSpeedIndex = 1;
@@ -837,12 +1026,20 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         renderStories(filter = 'todos') {
-            const filtered = this.state.allStories.filter(s => filter === 'todos' || s.difficulty === filter);
+            const filtered = this.state.allStories.filter(s => filter === 'todos' || s.difficulty.toLowerCase() === filter);
             if (filtered.length === 0 && this.state.allStories.length > 0) {
                 this.elements.storyListContainer.innerHTML = `<p class="text-gray-400 text-center">No hay historias en esta categoría.</p>`;
                 return;
             }
-            const difficultyColors = { fundamental: 'bg-blue-600', básico: 'bg-green-600', intermedio: 'bg-yellow-600', avanzado: 'bg-red-600', otros: 'bg-purple-600' };
+            const difficultyColors = { 
+                fundamental: 'bg-blue-600', 
+                básico: 'bg-green-600', 
+                intermedio: 'bg-yellow-600', 
+                avanzado: 'bg-red-600', 
+                infantiles: 'bg-pink-600',
+                noticias: 'bg-teal-600',
+                otros: 'bg-purple-600' 
+            };
             
             this.elements.storyListContainer.innerHTML = filtered.map(story => {
                 const { t: title, s: subtitle } = this.Utils.parseTitle(story.title);
@@ -875,7 +1072,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <h3 class="text-lg font-bold text-white">${title}</h3>
                                 <p class="text-sm text-gray-400 mb-3">${subtitle}</p>
                                 <div class="flex items-center gap-x-3 gap-y-1 flex-wrap mt-auto pt-2">
-                                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-white ${difficultyColors[story.difficulty] || 'bg-gray-600'}">${story.difficulty}</span>
+                                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-white ${difficultyColors[story.difficulty.toLowerCase()] || 'bg-gray-600'}">${story.difficulty}</span>
                                     <span class="text-xs text-gray-300 bg-gray-700 px-3 py-1 rounded-full">Tema: ${story.theme}</span>
                                 </div>
                             </div>
@@ -892,8 +1089,26 @@ document.addEventListener('DOMContentLoaded', () => {
              init(parent) { this._parent = parent; },
              async play() {
                 if (this._parent.state.marksData.length === 0 || !this._parent.state.currentStory) return;
+
+                const audioEl = this._parent.elements.storyAudio;
+                const currentPageIndex = this._parent.state.currentPageIndex;
+                const pageWordStartIndex = this._parent.state.pageWordStartIndices[currentPageIndex];
+                
+                const isLastPage = currentPageIndex === this._parent.state.currentStory.p.length - 1;
+                const pageWordEndIndex = isLastPage 
+                    ? this._parent.state.marksData.length - 1 
+                    : this._parent.state.pageWordStartIndices[currentPageIndex + 1] - 1;
+
+                const startOfPageTime = this._parent.state.marksData[pageWordStartIndex]?.start;
+                const endOfPageTime = this._parent.state.marksData[pageWordEndIndex]?.end;
+                
+                // If playback is finished for the current page, reset to the beginning of the page
+                if (!this._parent.state.isPlaying && endOfPageTime && audioEl.currentTime >= endOfPageTime - 0.1) {
+                    audioEl.currentTime = startOfPageTime;
+                }
+
                 try {
-                    await this._parent.elements.storyAudio.play();
+                    await audioEl.play();
                     this._parent.state.isPlaying = true;
                     this._parent.elements.playIcon.classList.add('hidden');
                     this._parent.elements.pauseIcon.classList.remove('hidden');
@@ -1130,8 +1345,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         span.dataset.startGlobalIndex = startGlobalIndex; localWordCounter++;
                         const endGlobalIndex = (this.state.pageWordStartIndices[pageIndex] || 0) + localWordCounter - 1;
                         span.dataset.endGlobalIndex = endGlobalIndex;
+                        const cleanWord = part.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
+                        const learnedWordsForStory = this.state.learnedWords[this.state.currentStory?.id] || [];
+                        if (learnedWordsForStory.includes(cleanWord)) {
+                            span.classList.add('learned-word');
+                        }
                         span.addEventListener('click', (e) => this.handleWordClick(e));
-                        span.addEventListener('mouseenter', (event) => { const cleanWord = event.target.textContent.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); const glossData = this.state.glossary.get(cleanWord); if (glossData && glossData.translation) this.Utils.showDynamicTooltip(event.target, glossData.translation); });
+                        span.addEventListener('mouseenter', (event) => { const glossData = this.state.glossary.get(cleanWord); if (glossData && glossData.translation) this.Utils.showDynamicTooltip(event.target, glossData.translation); });
                         this.elements.storyTextEnEl.appendChild(span);
                     } else this.elements.storyTextEnEl.appendChild(document.createTextNode(part));
                 }
@@ -1139,21 +1359,23 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         handleWordClick(event) {
-            const wordEl = event.target.closest('.word'); if (!wordEl) return; this.AudioPlayer.pause();
+            const wordEl = event.target.closest('.word'); if (!wordEl) return; 
+            this.AudioPlayer.pause();
             const startGlobalIndex = parseInt(wordEl.dataset.startGlobalIndex, 10);
             const endGlobalIndex = parseInt(wordEl.dataset.endGlobalIndex, 10) || startGlobalIndex;
+            
+            this.AudioPlayer.playWord(startGlobalIndex, endGlobalIndex); 
+
             if (wordEl.classList.contains('phrasal-verb')) {
                 const phrasalText = wordEl.dataset.text;
                 const phrasalData = this.state.phrasalVerbMap.get(phrasalText.toLowerCase());
-                this.AudioPlayer.playWord(startGlobalIndex, endGlobalIndex);
                 const breakdown = phrasalText.split(' ').map(word => { const cleanWord = word.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); const glossData = this.state.glossary.get(cleanWord); return { word: word, translation: glossData ? glossData.translation : '...' }; });
-                this.Modals.openWord(phrasalText, phrasalData.translation, 'ph. v.', startGlobalIndex, endGlobalIndex, breakdown);
+                this.Modals.openWord(phrasalText, phrasalData.translation, 'ph. v.', startGlobalIndex, endGlobalIndex, breakdown, wordEl);
             } else {
-                this.AudioPlayer.playWord(startGlobalIndex, endGlobalIndex);
                 const wordText = wordEl.textContent;
                 const cleanWord = wordText.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
                 const glossData = this.state.glossary.get(cleanWord);
-                this.Modals.openWord(wordText, glossData ? glossData.translation : 'Traducción no encontrada', glossData ? glossData.pos : '', startGlobalIndex, endGlobalIndex);
+                this.Modals.openWord(wordText, glossData ? glossData.translation : 'Traducción no encontrada', glossData ? glossData.pos : '', startGlobalIndex, endGlobalIndex, null, wordEl);
             }
         },
 
@@ -1177,7 +1399,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.state.currentWordIndex = newWordIndex;
             }
             const lastWordOfPageGlobalIndex = (this.state.pageWordStartIndices[this.state.currentPageIndex + 1] || this.state.marksData.length) - 1;
-            if (lastWordOfPageGlobalIndex >= 0 && currentTime >= (this.state.marksData[lastWordOfPageGlobalIndex]?.end || 0)) { this.AudioPlayer.stop(); } else { this.state.animationFrameId = requestAnimationFrame(() => this.updateHighlight()); }
+            if (lastWordOfPageGlobalIndex >= 0 && currentTime >= (this.state.marksData[lastWordOfPageGlobalIndex]?.end || 0)) { 
+                this.handlePageEnd();
+            } else { 
+                this.state.animationFrameId = requestAnimationFrame(() => this.updateHighlight()); 
+            }
         },
         
         showGrammar() { if (!this.state.currentStory) return; const pageData = this.state.currentStory.p[this.state.currentPageIndex]; const grammarHTML = pageData.grammar || '<p>No hay notas de gramática para esta página.</p>'; this.Modals.openGeneric('Notas de Gramática', grammarHTML); },
@@ -1194,8 +1420,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             let contentHTML = imageSrc ? `<img src="${imageSrc}" alt="Story thumbnail" class="w-full h-32 object-cover rounded-lg mb-4">` : '';
-            contentHTML += `<div class="space-y-2 max-h-64 overflow-y-auto pr-2">`;
-            vocabList.forEach(item => { contentHTML += `<div class="flex justify-between items-center bg-gray-700 p-2 rounded-md text-sm"><span class="font-semibold text-white">${item.en}</span><span class="text-gray-400">${item.es}</span></div>`; });
+            contentHTML += `<div id="vocab-list-container" class="space-y-2 max-h-64 overflow-y-auto pr-2">`;
+            vocabList.forEach(item => { 
+                contentHTML += `<div class="flex justify-between items-center bg-gray-700 p-2 rounded-md text-sm cursor-pointer hover:bg-gray-600 transition-colors vocab-item" data-word="${item.en}">
+                                    <span class="font-semibold text-white pointer-events-none">${item.en}</span>
+                                    <span class="text-gray-400 pointer-events-none">${item.es}</span>
+                                </div>`; 
+            });
             contentHTML += '</div>';
             this.Modals.openGeneric('Vocabulario del Párrafo', contentHTML);
         },
@@ -1243,11 +1474,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         Modals: {
             _parent: null,
+            _vocabClickHandler: null,
             init(parent) { this._parent = parent; },
             openGeneric(title, contentHTML) { 
                 this._parent.AudioPlayer.pause(); 
                 this._parent.elements.modalTitle.textContent = title; 
                 this._parent.elements.modalContent.innerHTML = contentHTML; 
+
+                if (title === 'Vocabulario del Párrafo') {
+                    const vocabContainer = this._parent.elements.modalContent.querySelector('#vocab-list-container');
+                    if (vocabContainer) {
+                        this._vocabClickHandler = this._handleVocabItemClick.bind(this);
+                        vocabContainer.addEventListener('click', this._vocabClickHandler);
+                    }
+                }
+
                 this._parent.elements.modalOverlay.classList.remove('hidden'); 
                 this._parent.elements.modalContainer.classList.remove('hidden');
                 this._parent.elements.modalContainer.classList.add('flex');
@@ -1256,6 +1497,43 @@ document.addEventListener('DOMContentLoaded', () => {
                 this._parent.elements.modalOverlay.classList.add('hidden'); 
                 this._parent.elements.modalContainer.classList.add('hidden');
                 this._parent.elements.modalContainer.classList.remove('flex');
+                
+                if (this._vocabClickHandler) {
+                    const vocabContainer = this._parent.elements.modalContent.querySelector('#vocab-list-container');
+                    if (vocabContainer) {
+                        vocabContainer.removeEventListener('click', this._vocabClickHandler);
+                    }
+                    this._vocabClickHandler = null;
+                }
+            },
+            _handleVocabItemClick(e) {
+                const vocabItem = e.target.closest('.vocab-item');
+                if (!vocabItem) return;
+
+                this._parent.SoundManager.play('click');
+                const wordToFind = vocabItem.dataset.word.toLowerCase();
+                const wordSpans = this._parent.elements.storyTextEnEl.querySelectorAll('.word');
+                
+                let targetSpan = null;
+                for (const span of wordSpans) {
+                    const spanText = span.textContent.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
+                    if (spanText === wordToFind) {
+                        targetSpan = span;
+                        break;
+                    }
+                }
+
+                if (targetSpan) {
+                    this.closeGeneric(); 
+                    setTimeout(() => {
+                        this._parent.handleWordClick({ target: targetSpan });
+                    }, 150);
+                } else {
+                    console.warn(`Word span for "${wordToFind}" not found on the current page.`);
+                    this._parent.SoundManager.play('wrong');
+                    vocabItem.classList.add('shake');
+                    setTimeout(() => vocabItem.classList.remove('shake'), 800);
+                }
             },
             openSettings() {
                 this._parent.AudioPlayer.pause();
@@ -1268,7 +1546,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this._parent.elements.settingsModalContainer.classList.add('hidden');
                 this._parent.elements.settingsModalContainer.classList.remove('flex');
             },
-            async openWord(word, translation, pos, startGlobalIndex, endGlobalIndex, breakdown) {
+            async openWord(word, translation, pos, startGlobalIndex, endGlobalIndex, breakdown, wordEl) {
                 this._parent.elements.wordModalTitle.textContent = word;
                 this._parent.elements.wordModalTranslation.textContent = translation;
                 this._parent.elements.wordModalContainer.classList.add('flex');
@@ -1279,18 +1557,265 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (breakdown && breakdown.length > 0) { breakdownContainer.classList.remove('hidden'); breakdownContainer.innerHTML = '<div class="space-y-1.5">' + breakdown.map(item => `<div class="flex justify-between items-baseline text-sm"><span class="font-semibold text-gray-200">${item.word}</span><span class="text-indigo-300 italic">${item.translation}</span></div>`).join('') + '</div>'; } else { breakdownContainer.classList.add('hidden'); breakdownContainer.innerHTML = ''; }
                 this._parent.elements.wordModalImage.classList.add('hidden'); this._parent.elements.wordModalImage.src = '';
                 this._parent.elements.wordModalImageLoader.classList.remove('hidden'); this._parent.elements.wordModalImageLoader.textContent = 'Buscando imagen...';
+                
+                const cleanAndGetBtn = (id) => { const oldBtn = document.getElementById(id); const newBtn = oldBtn.cloneNode(true); oldBtn.parentNode.replaceChild(newBtn, oldBtn); return newBtn; };
+                cleanAndGetBtn('word-modal-ok-btn').addEventListener('click', () => { this._parent.SoundManager.play('ok'); this.closeWord(); });
+                cleanAndGetBtn('word-modal-learn-btn').addEventListener('click', () => { 
+                    this._parent.SoundManager.play('click');
+                    this._parent.SpellingGame.start(word, wordEl, startGlobalIndex, endGlobalIndex);
+                });
+                cleanAndGetBtn('word-modal-continue-btn').addEventListener('click', () => { this._parent.SoundManager.play('ok'); this.closeWord(); if (this._parent.state.marksData[startGlobalIndex]) { this._parent.elements.storyAudio.currentTime = this._parent.state.marksData[startGlobalIndex].start; this._parent.AudioPlayer.play(); } });
+                cleanAndGetBtn('word-modal-listen-btn').addEventListener('click', () => { this._parent.SoundManager.play('click'); this._parent.AudioPlayer.playWord(startGlobalIndex, endGlobalIndex); });
+
                 const imageUrl = await this._parent.fetchPexelsImage(word);
                 if (imageUrl) { this._parent.elements.wordModalImage.src = imageUrl; this._parent.elements.wordModalImage.onload = () => { this._parent.elements.wordModalImage.classList.remove('hidden'); this._parent.elements.wordModalImageLoader.classList.add('hidden'); }; }
                 else { this._parent.elements.wordModalImageLoader.textContent = 'Imagen no encontrada.'; }
-                const cleanAndGetBtn = (id) => { const oldBtn = document.getElementById(id); const newBtn = oldBtn.cloneNode(true); oldBtn.parentNode.replaceChild(newBtn, oldBtn); return newBtn; };
-                cleanAndGetBtn('word-modal-ok-btn').addEventListener('click', () => { this._parent.SoundManager.play('ok'); this.closeWord(); });
-                cleanAndGetBtn('word-modal-learn-btn').addEventListener('click', () => { this._parent.SoundManager.play('click'); if (!this._parent.state.learningList.includes(word)) this._parent.state.learningList.push(word); });
-                cleanAndGetBtn('word-modal-continue-btn').addEventListener('click', () => { this._parent.SoundManager.play('ok'); this.closeWord(); if (this._parent.state.marksData[startGlobalIndex]) { this._parent.elements.storyAudio.currentTime = this._parent.state.marksData[startGlobalIndex].start; this._parent.AudioPlayer.play(); } });
-                cleanAndGetBtn('word-modal-listen-btn').addEventListener('click', () => { this._parent.SoundManager.play('click'); this._parent.AudioPlayer.playWord(startGlobalIndex, endGlobalIndex); });
             },
-            closeWord() { this._parent.elements.wordModalContainer.classList.add('hidden'); },
+            closeWord() { 
+                this._parent.elements.wordModalContainer.classList.add('hidden');
+                this._parent.SpellingGame.cleanup();
+            },
         },
         
+        SpellingGame: {
+            _parent: null,
+            init(parent) { this._parent = parent; },
+            currentTargetWord: '',
+            targetWordEl: null,
+            startGlobalIndex: -1,
+            endGlobalIndex: -1,
+            userInput: [],
+            hintIndices: [],
+
+            start(word, wordEl, startGlobalIndex, endGlobalIndex) {
+                this._parent.elements.wordModalDefaultView.classList.add('hidden');
+                
+                // Populate the spelling view with image and translation from the default view
+                const mainImageEl = this._parent.elements.wordModalImage;
+                const mainTranslationEl = this._parent.elements.wordModalTranslation;
+                
+                const spellingImageEl = document.getElementById('word-modal-spelling-image');
+                const spellingTranslationEl = document.getElementById('word-modal-spelling-translation');
+
+                if (mainImageEl.src && !mainImageEl.classList.contains('hidden')) {
+                    spellingImageEl.src = mainImageEl.src;
+                    spellingImageEl.classList.remove('hidden');
+                } else {
+                    spellingImageEl.classList.add('hidden');
+                    spellingImageEl.src = '';
+                }
+                spellingTranslationEl.textContent = mainTranslationEl.textContent;
+
+                this._parent.elements.wordModalSpellingView.classList.remove('hidden');
+                
+                this.currentTargetWord = word.replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
+                this.targetWordEl = wordEl;
+                this.startGlobalIndex = startGlobalIndex;
+                this.endGlobalIndex = endGlobalIndex;
+
+                // Lógica para las pistas (letras pre-rellenadas)
+                let hintIndices = new Set();
+                if (this.currentTargetWord.length > 3) { // Solo dar pistas para palabras más largas
+                    while (hintIndices.size < 2) {
+                        hintIndices.add(Math.floor(Math.random() * this.currentTargetWord.length));
+                    }
+                }
+                this.hintIndices = Array.from(hintIndices);
+
+                // Inicializar la entrada del usuario con las pistas
+                this.userInput = new Array(this.currentTargetWord.length).fill(null);
+                this.hintIndices.forEach(index => {
+                    this.userInput[index] = this.currentTargetWord[index].toUpperCase();
+                });
+                
+                this.createSlots();
+                this.createChoices();
+                this.bindGameListeners();
+            },
+
+            createSlots() {
+                const slotsContainer = document.getElementById('word-modal-spelling-slots');
+                slotsContainer.innerHTML = '';
+                slotsContainer.classList.remove('correct', 'shake');
+                for (let i = 0; i < this.currentTargetWord.length; i++) {
+                    const slot = document.createElement('div');
+                    slot.className = 'spelling-slot';
+                    if (this.hintIndices.includes(i)) {
+                        slot.textContent = this.currentTargetWord[i].toUpperCase();
+                        slot.classList.add('text-indigo-400', 'border-indigo-500'); // Estilo para pistas
+                    }
+                    slotsContainer.appendChild(slot);
+                }
+            },
+
+            createChoices() {
+                const choicesContainer = document.getElementById('word-modal-spelling-choices');
+                choicesContainer.innerHTML = '';
+                const wordLetters = this.currentTargetWord.toLowerCase().split('');
+
+                // Crear una copia de las letras para poder modificarlas
+                let lettersForChoices = [...wordLetters];
+                
+                // Quitar las letras de las pistas del pool de opciones
+                this.hintIndices.forEach(index => {
+                    const hintLetter = this.currentTargetWord[index].toLowerCase();
+                    const indexToRemove = lettersForChoices.indexOf(hintLetter);
+                    if (indexToRemove > -1) {
+                        lettersForChoices.splice(indexToRemove, 1);
+                    }
+                });
+
+                const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+                const distractors = [];
+                // Añadir letras distractoras
+                while (distractors.length < 4 && distractors.length < 12 - lettersForChoices.length) {
+                    const randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
+                    if (!wordLetters.includes(randomLetter) && !distractors.includes(randomLetter)) {
+                        distractors.push(randomLetter);
+                    }
+                }
+                const choices = [...lettersForChoices, ...distractors];
+                // Barajar las opciones
+                for (let i = choices.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [choices[i], choices[j]] = [choices[j], choices[i]];
+                }
+
+                choices.forEach(letter => {
+                    const button = document.createElement('button');
+                    button.textContent = letter.toUpperCase();
+                    choicesContainer.appendChild(button);
+                });
+            },
+            
+            bindGameListeners() {
+                const choicesContainer = document.getElementById('word-modal-spelling-choices');
+                choicesContainer.onclick = (e) => {
+                    if (e.target.tagName === 'BUTTON' && !e.target.disabled) {
+                        this.handleLetterChoice(e.target);
+                    }
+                };
+                const deleteBtn = document.getElementById('word-modal-spelling-delete-btn');
+                const newDeleteBtn = deleteBtn.cloneNode(true);
+                deleteBtn.parentNode.replaceChild(newDeleteBtn, deleteBtn);
+                newDeleteBtn.onclick = () => this.handleDelete();
+            },
+
+            handleLetterChoice(button) {
+                // Contar cuántas letras ha introducido el usuario (excluyendo pistas)
+                const userFilledSlots = this.userInput.filter(l => l !== null).length;
+
+                if (userFilledSlots < this.currentTargetWord.length) {
+                    let nextEmptyIndex = this.userInput.findIndex(slot => slot === null);
+                    if (nextEmptyIndex !== -1) {
+                        this.userInput[nextEmptyIndex] = button.textContent;
+                        button.disabled = true;
+                        this.updateSlots();
+                        if (this.userInput.filter(l => l).length === this.currentTargetWord.length) {
+                            this.checkWord();
+                        }
+                    }
+                }
+            },
+
+            handleDelete() {
+                let lastFilledIndex = -1;
+                // Encontrar el último índice que fue llenado por el usuario (no una pista)
+                for (let i = this.userInput.length - 1; i >= 0; i--) {
+                    if (this.userInput[i] !== null && !this.hintIndices.includes(i)) {
+                        lastFilledIndex = i;
+                        break;
+                    }
+                }
+
+                if (lastFilledIndex !== -1) {
+                    const letterToRemove = this.userInput[lastFilledIndex];
+                    this.userInput[lastFilledIndex] = null;
+                    
+                    const choicesContainer = document.getElementById('word-modal-spelling-choices');
+                    const buttonToEnable = Array.from(choicesContainer.children).find(btn => btn.textContent === letterToRemove && btn.disabled);
+                    if (buttonToEnable) buttonToEnable.disabled = false;
+                    
+                    this.updateSlots();
+                }
+            },
+
+            updateSlots() {
+                const slots = document.getElementById('word-modal-spelling-slots').children;
+                for (let i = 0; i < slots.length; i++) {
+                    // Solo actualizar los slots que no son pistas
+                    if (!this.hintIndices.includes(i)) {
+                        slots[i].textContent = this.userInput[i] || '';
+                    }
+                }
+            },
+
+            checkWord() {
+                const isCorrect = this.userInput.join('').toLowerCase() === this.currentTargetWord.toLowerCase();
+                const slotsContainer = document.getElementById('word-modal-spelling-slots');
+                
+                if (isCorrect) {
+                    this._parent.SoundManager.play('congrats');
+                    slotsContainer.classList.add('correct');
+                    this._parent.SettingsManager.addLearnedWord(this._parent.state.currentStory.id, this.currentTargetWord);
+                    this.targetWordEl.classList.add('learned-word');
+                    setTimeout(() => this.highlightAndSpeak(), 500);
+                    setTimeout(() => this._parent.Modals.closeWord(), 1800);
+                } else {
+                    this._parent.SoundManager.play('wrong');
+                    slotsContainer.classList.add('shake');
+                    setTimeout(() => {
+                        slotsContainer.classList.remove('shake');
+                        this.resetGame();
+                    }, 800);
+                }
+            },
+            
+            highlightAndSpeak() {
+                this.targetWordEl.style.transition = 'background-color 0.2s, transform 0.2s';
+                this.targetWordEl.style.backgroundColor = 'rgba(79, 70, 229, 0.5)';
+                this.targetWordEl.style.transform = 'scale(1.1)';
+                this._parent.AudioPlayer.playWord(this.startGlobalIndex, this.endGlobalIndex);
+                setTimeout(() => {
+                    this.targetWordEl.style.backgroundColor = '';
+                    this.targetWordEl.style.transform = '';
+                }, 800);
+            },
+
+            resetGame() {
+                // Solo limpiar las letras que el usuario introdujo
+                this.userInput.forEach((letter, index) => {
+                    if (!this.hintIndices.includes(index)) {
+                        this.userInput[index] = null;
+                    }
+                });
+
+                this.updateSlots();
+                const choicesContainer = document.getElementById('word-modal-spelling-choices');
+                Array.from(choicesContainer.children).forEach(btn => btn.disabled = false);
+            },
+
+            cleanup() {
+                this._parent.elements.wordModalDefaultView.classList.remove('hidden');
+                this._parent.elements.wordModalSpellingView.classList.add('hidden');
+
+                // Clean up game elements
+                document.getElementById('word-modal-spelling-slots').innerHTML = '';
+                document.getElementById('word-modal-spelling-choices').innerHTML = '';
+                document.getElementById('word-modal-spelling-image').src = '';
+                document.getElementById('word-modal-spelling-image').classList.add('hidden');
+                document.getElementById('word-modal-spelling-translation').textContent = '';
+
+                // Reset state
+                this.currentTargetWord = '';
+                this.targetWordEl = null;
+                this.startGlobalIndex = -1;
+                this.endGlobalIndex = -1;
+                this.userInput = [];
+                this.hintIndices = [];
+            }
+        },
+
         SettingsManager: {
             _parent: null,
             init(parent) {
@@ -1300,28 +1825,48 @@ document.addEventListener('DOMContentLoaded', () => {
             loadSettings() {
                 try {
                     const settings = JSON.parse(localStorage.getItem(this._parent.config.SETTINGS_KEY));
-                    if (settings && settings.fontSizeMultiplier) {
-                        this._parent.state.fontSizeMultiplier = settings.fontSizeMultiplier;
+                    if (settings) {
+                        this._parent.state.fontSizeMultiplier = settings.fontSizeMultiplier || 1.0;
+                        this._parent.state.learnedWords = settings.learnedWords || {};
+                        this._parent.state.isAutoplayEnabled = settings.isAutoplayEnabled || false;
+                        this._parent.state.isMuted = settings.isMuted || false;
                     }
                 } catch (e) {
                     console.error("Error loading settings:", e);
                     this._parent.state.fontSizeMultiplier = 1.0;
+                    this._parent.state.learnedWords = {};
+                    this._parent.state.isAutoplayEnabled = false;
+                    this._parent.state.isMuted = false;
                 }
                 this.applyFontSize();
+                this.applyAutoplaySetting();
+                this.applyMuteSetting();
             },
             saveSettings() {
                 try {
                     const settings = {
-                        fontSizeMultiplier: this._parent.state.fontSizeMultiplier
+                        fontSizeMultiplier: this._parent.state.fontSizeMultiplier,
+                        learnedWords: this._parent.state.learnedWords,
+                        isAutoplayEnabled: this._parent.state.isAutoplayEnabled,
+                        isMuted: this._parent.state.isMuted
                     };
                     localStorage.setItem(this._parent.config.SETTINGS_KEY, JSON.stringify(settings));
                 } catch (e) {
                     console.error("Error saving settings:", e);
                 }
             },
+            addLearnedWord(storyId, word) {
+                if (!this._parent.state.learnedWords[storyId]) {
+                    this._parent.state.learnedWords[storyId] = [];
+                }
+                const cleanWord = word.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
+                if (!this._parent.state.learnedWords[storyId].includes(cleanWord)) {
+                    this._parent.state.learnedWords[storyId].push(cleanWord);
+                    this.saveSettings();
+                }
+            },
             changeFontSize(direction) {
                 let newSize = this._parent.state.fontSizeMultiplier + (direction * 0.1);
-                // Limitar el tamaño entre 70% (0.7) y 150% (1.5)
                 newSize = Math.max(0.7, Math.min(1.5, newSize));
                 this._parent.state.fontSizeMultiplier = newSize;
                 this.applyFontSize();
@@ -1331,6 +1876,45 @@ document.addEventListener('DOMContentLoaded', () => {
                 const multiplier = this._parent.state.fontSizeMultiplier;
                 document.documentElement.style.setProperty('--story-font-size-multiplier', multiplier);
                 this._parent.elements.fontSizeDisplay.textContent = `${Math.round(multiplier * 100)}%`;
+            },
+            toggleAutoplay() {
+                this._parent.SoundManager.play('click');
+                this._parent.state.isAutoplayEnabled = this._parent.elements.autoplayToggle.checked;
+                this.saveSettings();
+            },
+            applyAutoplaySetting() {
+                if (this._parent.elements.autoplayToggle) {
+                    this._parent.elements.autoplayToggle.checked = this._parent.state.isAutoplayEnabled;
+                }
+            },
+            toggleMute() {
+                this._parent.SoundManager.play('click');
+                this._parent.state.isMuted = !this._parent.state.isMuted;
+                this.applyMuteSetting();
+                this.saveSettings();
+            },
+            applyMuteSetting() {
+                const isMuted = this._parent.state.isMuted;
+                this._parent.SoundManager.applyMuteState(isMuted);
+
+                // Actualizar icono del botón de mute en la vista de la historia
+                if (isMuted) {
+                    this._parent.elements.soundOnIcon.classList.add('hidden');
+                    this._parent.elements.soundOffIcon.classList.remove('hidden');
+                } else {
+                    this._parent.elements.soundOnIcon.classList.remove('hidden');
+                    this._parent.elements.soundOffIcon.classList.add('hidden');
+                }
+                // Actualizar icono del botón de mute en el menú principal
+                if (this._parent.elements.mainMenuSoundOnIcon) {
+                     if (isMuted) {
+                        this._parent.elements.mainMenuSoundOnIcon.classList.add('hidden');
+                        this._parent.elements.mainMenuSoundOffIcon.classList.remove('hidden');
+                    } else {
+                        this._parent.elements.mainMenuSoundOnIcon.classList.remove('hidden');
+                        this._parent.elements.mainMenuSoundOffIcon.classList.add('hidden');
+                    }
+                }
             }
         },
 
