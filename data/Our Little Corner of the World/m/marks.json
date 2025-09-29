@@ -1,0 +1,3522 @@
+[
+  {
+    "word": "My",
+    "start": 0,
+    "end": 0.197
+  },
+  {
+    "word": "name",
+    "start": 0.267,
+    "end": 0.499
+  },
+  {
+    "word": "is",
+    "start": 0.546,
+    "end": 0.65
+  },
+  {
+    "word": "Daniel",
+    "start": 0.731,
+    "end": 1.207
+  },
+  {
+    "word": "and",
+    "start": 1.265,
+    "end": 1.37
+  },
+  {
+    "word": "I",
+    "start": 1.486,
+    "end": 1.533
+  },
+  {
+    "word": "am",
+    "start": 1.614,
+    "end": 1.707
+  },
+  {
+    "word": "a",
+    "start": 1.753,
+    "end": 1.788
+  },
+  {
+    "word": "bookseller",
+    "start": 1.834,
+    "end": 2.45
+  },
+  {
+    "word": "My",
+    "start": 2.879,
+    "end": 3.019
+  },
+  {
+    "word": "shop",
+    "start": 3.088,
+    "end": 3.379
+  },
+  {
+    "word": "is",
+    "start": 3.46,
+    "end": 3.553
+  },
+  {
+    "word": "small",
+    "start": 3.611,
+    "end": 4.029
+  },
+  {
+    "word": "and",
+    "start": 4.098,
+    "end": 4.191
+  },
+  {
+    "word": "quiet",
+    "start": 4.261,
+    "end": 4.714
+  },
+  {
+    "word": "located",
+    "start": 4.923,
+    "end": 5.41
+  },
+  {
+    "word": "on",
+    "start": 5.48,
+    "end": 5.573
+  },
+  {
+    "word": "a",
+    "start": 5.619,
+    "end": 5.654
+  },
+  {
+    "word": "peaceful",
+    "start": 5.724,
+    "end": 6.153
+  },
+  {
+    "word": "street",
+    "start": 6.223,
+    "end": 6.606
+  },
+  {
+    "word": "in",
+    "start": 6.676,
+    "end": 6.78
+  },
+  {
+    "word": "a",
+    "start": 6.838,
+    "end": 6.861
+  },
+  {
+    "word": "town",
+    "start": 6.931,
+    "end": 7.245
+  },
+  {
+    "word": "that",
+    "start": 7.303,
+    "end": 7.442
+  },
+  {
+    "word": "time",
+    "start": 7.488,
+    "end": 7.837
+  },
+  {
+    "word": "seems",
+    "start": 7.895,
+    "end": 8.243
+  },
+  {
+    "word": "to",
+    "start": 8.301,
+    "end": 8.371
+  },
+  {
+    "word": "have",
+    "start": 8.452,
+    "end": 8.591
+  },
+  {
+    "word": "forgotten",
+    "start": 8.626,
+    "end": 9.114
+  },
+  {
+    "word": "I",
+    "start": 9.985,
+    "end": 10.136
+  },
+  {
+    "word": "am",
+    "start": 10.286,
+    "end": 10.403
+  },
+  {
+    "word": "forty",
+    "start": 10.519,
+    "end": 10.809
+  },
+  {
+    "word": "five",
+    "start": 10.867,
+    "end": 11.157
+  },
+  {
+    "word": "years",
+    "start": 11.204,
+    "end": 11.482
+  },
+  {
+    "word": "old",
+    "start": 11.564,
+    "end": 11.981
+  },
+  {
+    "word": "and",
+    "start": 12.109,
+    "end": 12.283
+  },
+  {
+    "word": "I",
+    "start": 12.365,
+    "end": 12.388
+  },
+  {
+    "word": "am",
+    "start": 12.446,
+    "end": 12.539
+  },
+  {
+    "word": "perfectly",
+    "start": 12.655,
+    "end": 13.235
+  },
+  {
+    "word": "happy",
+    "start": 13.305,
+    "end": 13.63
+  },
+  {
+    "word": "with",
+    "start": 13.7,
+    "end": 13.862
+  },
+  {
+    "word": "my",
+    "start": 13.909,
+    "end": 14.025
+  },
+  {
+    "word": "simple",
+    "start": 14.106,
+    "end": 14.454
+  },
+  {
+    "word": "life",
+    "start": 14.512,
+    "end": 14.93
+  },
+  {
+    "word": "Every",
+    "start": 15.743,
+    "end": 16.137
+  },
+  {
+    "word": "morning",
+    "start": 16.219,
+    "end": 16.579
+  },
+  {
+    "word": "I",
+    "start": 16.66,
+    "end": 16.718
+  },
+  {
+    "word": "am",
+    "start": 16.799,
+    "end": 16.892
+  },
+  {
+    "word": "the",
+    "start": 16.939,
+    "end": 17.008
+  },
+  {
+    "word": "first",
+    "start": 17.066,
+    "end": 17.31
+  },
+  {
+    "word": "person",
+    "start": 17.391,
+    "end": 17.74
+  },
+  {
+    "word": "to",
+    "start": 17.786,
+    "end": 17.856
+  },
+  {
+    "word": "open",
+    "start": 17.937,
+    "end": 18.158
+  },
+  {
+    "word": "a",
+    "start": 18.192,
+    "end": 18.227
+  },
+  {
+    "word": "business",
+    "start": 18.297,
+    "end": 18.726
+  },
+  {
+    "word": "on",
+    "start": 18.785,
+    "end": 18.889
+  },
+  {
+    "word": "this",
+    "start": 18.935,
+    "end": 19.086
+  },
+  {
+    "word": "street",
+    "start": 19.121,
+    "end": 19.481
+  },
+  {
+    "word": "and",
+    "start": 19.957,
+    "end": 20.108
+  },
+  {
+    "word": "I",
+    "start": 20.189,
+    "end": 20.213
+  },
+  {
+    "word": "am",
+    "start": 20.282,
+    "end": 20.387
+  },
+  {
+    "word": "always",
+    "start": 20.468,
+    "end": 21.025
+  },
+  {
+    "word": "greeted",
+    "start": 21.107,
+    "end": 21.49
+  },
+  {
+    "word": "by",
+    "start": 21.559,
+    "end": 21.675
+  },
+  {
+    "word": "the",
+    "start": 21.733,
+    "end": 21.803
+  },
+  {
+    "word": "gentle",
+    "start": 21.884,
+    "end": 22.233
+  },
+  {
+    "word": "morning",
+    "start": 22.279,
+    "end": 22.616
+  },
+  {
+    "word": "light",
+    "start": 22.697,
+    "end": 22.999
+  },
+  {
+    "word": "For",
+    "start": 23.719,
+    "end": 23.881
+  },
+  {
+    "word": "me",
+    "start": 23.939,
+    "end": 24.276
+  },
+  {
+    "word": "I",
+    "start": 24.45,
+    "end": 24.52
+  },
+  {
+    "word": "am",
+    "start": 24.613,
+    "end": 24.717
+  },
+  {
+    "word": "exactly",
+    "start": 24.775,
+    "end": 25.344
+  },
+  {
+    "word": "where",
+    "start": 25.402,
+    "end": 25.6
+  },
+  {
+    "word": "I",
+    "start": 25.646,
+    "end": 25.681
+  },
+  {
+    "word": "am",
+    "start": 25.727,
+    "end": 25.832
+  },
+  {
+    "word": "supposed",
+    "start": 25.89,
+    "end": 26.285
+  },
+  {
+    "word": "to",
+    "start": 26.308,
+    "end": 26.366
+  },
+  {
+    "word": "be",
+    "start": 26.435,
+    "end": 26.761
+  },
+  {
+    "word": "surrounded",
+    "start": 27.318,
+    "end": 27.945
+  },
+  {
+    "word": "by",
+    "start": 28.014,
+    "end": 28.165
+  },
+  {
+    "word": "stories",
+    "start": 28.281,
+    "end": 28.897
+  },
+  {
+    "word": "waiting",
+    "start": 28.966,
+    "end": 29.303
+  },
+  {
+    "word": "to",
+    "start": 29.373,
+    "end": 29.442
+  },
+  {
+    "word": "be",
+    "start": 29.512,
+    "end": 29.605
+  },
+  {
+    "word": "read",
+    "start": 29.686,
+    "end": 30.046
+  },
+  {
+    "word": "A",
+    "start": 30.824,
+    "end": 30.917
+  },
+  {
+    "word": "young",
+    "start": 31.033,
+    "end": 31.254
+  },
+  {
+    "word": "woman",
+    "start": 31.312,
+    "end": 31.602
+  },
+  {
+    "word": "named",
+    "start": 31.672,
+    "end": 31.927
+  },
+  {
+    "word": "Chloe",
+    "start": 31.997,
+    "end": 32.496
+  },
+  {
+    "word": "helps",
+    "start": 32.647,
+    "end": 32.926
+  },
+  {
+    "word": "me",
+    "start": 32.984,
+    "end": 33.065
+  },
+  {
+    "word": "in",
+    "start": 33.123,
+    "end": 33.181
+  },
+  {
+    "word": "the",
+    "start": 33.228,
+    "end": 33.297
+  },
+  {
+    "word": "shop",
+    "start": 33.344,
+    "end": 33.68
+  },
+  {
+    "word": "I",
+    "start": 34.551,
+    "end": 34.621
+  },
+  {
+    "word": "often",
+    "start": 34.737,
+    "end": 35.004
+  },
+  {
+    "word": "look",
+    "start": 35.062,
+    "end": 35.236
+  },
+  {
+    "word": "at",
+    "start": 35.283,
+    "end": 35.341
+  },
+  {
+    "word": "her",
+    "start": 35.399,
+    "end": 35.48
+  },
+  {
+    "word": "while",
+    "start": 35.55,
+    "end": 35.782
+  },
+  {
+    "word": "she",
+    "start": 35.828,
+    "end": 35.956
+  },
+  {
+    "word": "organizes",
+    "start": 36.049,
+    "end": 36.699
+  },
+  {
+    "word": "the",
+    "start": 36.78,
+    "end": 36.85
+  },
+  {
+    "word": "shelves",
+    "start": 36.908,
+    "end": 37.396
+  },
+  {
+    "word": "and",
+    "start": 37.442,
+    "end": 37.558
+  },
+  {
+    "word": "tell",
+    "start": 37.604,
+    "end": 37.79
+  },
+  {
+    "word": "her",
+    "start": 37.86,
+    "end": 38.011
+  },
+  {
+    "word": "You",
+    "start": 38.371,
+    "end": 38.51
+  },
+  {
+    "word": "are",
+    "start": 38.58,
+    "end": 38.742
+  },
+  {
+    "word": "a",
+    "start": 38.789,
+    "end": 38.824
+  },
+  {
+    "word": "very",
+    "start": 38.916,
+    "end": 39.3
+  },
+  {
+    "word": "hard",
+    "start": 39.427,
+    "end": 39.694
+  },
+  {
+    "word": "working",
+    "start": 39.752,
+    "end": 40.089
+  },
+  {
+    "word": "person",
+    "start": 40.159,
+    "end": 40.565
+  },
+  {
+    "word": "She",
+    "start": 41.029,
+    "end": 41.169
+  },
+  {
+    "word": "always",
+    "start": 41.238,
+    "end": 41.517
+  },
+  {
+    "word": "smiles",
+    "start": 41.552,
+    "end": 42.144
+  },
+  {
+    "word": "You",
+    "start": 42.875,
+    "end": 43.003
+  },
+  {
+    "word": "are",
+    "start": 43.084,
+    "end": 43.235
+  },
+  {
+    "word": "much",
+    "start": 43.317,
+    "end": 43.549
+  },
+  {
+    "word": "more",
+    "start": 43.63,
+    "end": 43.851
+  },
+  {
+    "word": "than",
+    "start": 43.897,
+    "end": 44.036
+  },
+  {
+    "word": "an",
+    "start": 44.094,
+    "end": 44.164
+  },
+  {
+    "word": "employee",
+    "start": 44.222,
+    "end": 44.896
+  },
+  {
+    "word": "to",
+    "start": 44.954,
+    "end": 45.046
+  },
+  {
+    "word": "me",
+    "start": 45.128,
+    "end": 45.43
+  },
+  {
+    "word": "you",
+    "start": 45.79,
+    "end": 45.882
+  },
+  {
+    "word": "are",
+    "start": 45.952,
+    "end": 46.068
+  },
+  {
+    "word": "like",
+    "start": 46.115,
+    "end": 46.3
+  },
+  {
+    "word": "the",
+    "start": 46.335,
+    "end": 46.416
+  },
+  {
+    "word": "daughter",
+    "start": 46.486,
+    "end": 46.811
+  },
+  {
+    "word": "I",
+    "start": 46.881,
+    "end": 46.904
+  },
+  {
+    "word": "never",
+    "start": 47.02,
+    "end": 47.252
+  },
+  {
+    "word": "had",
+    "start": 47.333,
+    "end": 47.693
+  },
+  {
+    "word": "You",
+    "start": 48.262,
+    "end": 48.39
+  },
+  {
+    "word": "are",
+    "start": 48.448,
+    "end": 48.564
+  },
+  {
+    "word": "full",
+    "start": 48.645,
+    "end": 48.878
+  },
+  {
+    "word": "of",
+    "start": 48.936,
+    "end": 48.994
+  },
+  {
+    "word": "dreams",
+    "start": 49.075,
+    "end": 49.574
+  },
+  {
+    "word": "and",
+    "start": 49.632,
+    "end": 49.725
+  },
+  {
+    "word": "energy",
+    "start": 49.795,
+    "end": 50.248
+  },
+  {
+    "word": "and",
+    "start": 50.549,
+    "end": 50.7
+  },
+  {
+    "word": "I",
+    "start": 50.782,
+    "end": 50.816
+  },
+  {
+    "word": "know",
+    "start": 50.933,
+    "end": 51.142
+  },
+  {
+    "word": "you",
+    "start": 51.223,
+    "end": 51.304
+  },
+  {
+    "word": "are",
+    "start": 51.362,
+    "end": 51.467
+  },
+  {
+    "word": "destined",
+    "start": 51.513,
+    "end": 51.931
+  },
+  {
+    "word": "for",
+    "start": 51.966,
+    "end": 52.082
+  },
+  {
+    "word": "great",
+    "start": 52.14,
+    "end": 52.372
+  },
+  {
+    "word": "things",
+    "start": 52.43,
+    "end": 52.871
+  },
+  {
+    "word": "even",
+    "start": 53.371,
+    "end": 53.719
+  },
+  {
+    "word": "if",
+    "start": 53.765,
+    "end": 53.847
+  },
+  {
+    "word": "you",
+    "start": 53.893,
+    "end": 53.974
+  },
+  {
+    "word": "choose",
+    "start": 54.056,
+    "end": 54.369
+  },
+  {
+    "word": "to",
+    "start": 54.404,
+    "end": 54.462
+  },
+  {
+    "word": "stay",
+    "start": 54.532,
+    "end": 54.834
+  },
+  {
+    "word": "in",
+    "start": 54.88,
+    "end": 54.95
+  },
+  {
+    "word": "this",
+    "start": 54.996,
+    "end": 55.124
+  },
+  {
+    "word": "small",
+    "start": 55.159,
+    "end": 55.472
+  },
+  {
+    "word": "town",
+    "start": 55.53,
+    "end": 55.913
+  },
+  {
+    "word": "You",
+    "start": 56.563,
+    "end": 56.703
+  },
+  {
+    "word": "are",
+    "start": 56.772,
+    "end": 56.9
+  },
+  {
+    "word": "the",
+    "start": 56.935,
+    "end": 57.005
+  },
+  {
+    "word": "future",
+    "start": 57.074,
+    "end": 57.562
+  },
+  {
+    "word": "of",
+    "start": 57.69,
+    "end": 57.829
+  },
+  {
+    "word": "this",
+    "start": 57.899,
+    "end": 58.049
+  },
+  {
+    "word": "place",
+    "start": 58.131,
+    "end": 58.642
+  },
+  {
+    "word": "Every",
+    "start": 59.745,
+    "end": 60.128
+  },
+  {
+    "word": "Tuesday",
+    "start": 60.197,
+    "end": 60.801
+  },
+  {
+    "word": "an",
+    "start": 60.94,
+    "end": 61.103
+  },
+  {
+    "word": "old",
+    "start": 61.173,
+    "end": 61.37
+  },
+  {
+    "word": "professor",
+    "start": 61.451,
+    "end": 61.985
+  },
+  {
+    "word": "named",
+    "start": 62.067,
+    "end": 62.345
+  },
+  {
+    "word": "Arthur",
+    "start": 62.403,
+    "end": 62.717
+  },
+  {
+    "word": "visits",
+    "start": 62.81,
+    "end": 63.158
+  },
+  {
+    "word": "my",
+    "start": 63.216,
+    "end": 63.344
+  },
+  {
+    "word": "shop",
+    "start": 63.413,
+    "end": 63.762
+  },
+  {
+    "word": "He",
+    "start": 64.389,
+    "end": 64.505
+  },
+  {
+    "word": "is",
+    "start": 64.551,
+    "end": 64.644
+  },
+  {
+    "word": "a",
+    "start": 64.691,
+    "end": 64.714
+  },
+  {
+    "word": "man",
+    "start": 64.772,
+    "end": 65.016
+  },
+  {
+    "word": "of",
+    "start": 65.086,
+    "end": 65.144
+  },
+  {
+    "word": "incredible",
+    "start": 65.202,
+    "end": 65.689
+  },
+  {
+    "word": "knowledge",
+    "start": 65.724,
+    "end": 66.27
+  },
+  {
+    "word": "and",
+    "start": 66.293,
+    "end": 66.618
+  },
+  {
+    "word": "gentle",
+    "start": 66.734,
+    "end": 67.129
+  },
+  {
+    "word": "manners",
+    "start": 67.175,
+    "end": 67.628
+  },
+  {
+    "word": "He",
+    "start": 68.058,
+    "end": 68.174
+  },
+  {
+    "word": "is",
+    "start": 68.232,
+    "end": 68.325
+  },
+  {
+    "word": "retired",
+    "start": 68.394,
+    "end": 68.905
+  },
+  {
+    "word": "now",
+    "start": 68.963,
+    "end": 69.23
+  },
+  {
+    "word": "but",
+    "start": 69.323,
+    "end": 69.521
+  },
+  {
+    "word": "his",
+    "start": 69.579,
+    "end": 69.695
+  },
+  {
+    "word": "mind",
+    "start": 69.776,
+    "end": 70.159
+  },
+  {
+    "word": "is",
+    "start": 70.275,
+    "end": 70.565
+  },
+  {
+    "word": "as",
+    "start": 70.658,
+    "end": 70.902
+  },
+  {
+    "word": "sharp",
+    "start": 70.972,
+    "end": 71.343
+  },
+  {
+    "word": "as",
+    "start": 71.436,
+    "end": 71.726
+  },
+  {
+    "word": "ever",
+    "start": 71.819,
+    "end": 72.168
+  },
+  {
+    "word": "He",
+    "start": 72.562,
+    "end": 72.667
+  },
+  {
+    "word": "is",
+    "start": 72.725,
+    "end": 72.841
+  },
+  {
+    "word": "always",
+    "start": 72.911,
+    "end": 73.549
+  },
+  {
+    "word": "looking",
+    "start": 73.63,
+    "end": 73.967
+  },
+  {
+    "word": "for",
+    "start": 74.037,
+    "end": 74.211
+  },
+  {
+    "word": "rare",
+    "start": 74.327,
+    "end": 74.71
+  },
+  {
+    "word": "history",
+    "start": 74.78,
+    "end": 75.198
+  },
+  {
+    "word": "books",
+    "start": 75.256,
+    "end": 75.604
+  },
+  {
+    "word": "and",
+    "start": 75.929,
+    "end": 76.08
+  },
+  {
+    "word": "he",
+    "start": 76.161,
+    "end": 76.22
+  },
+  {
+    "word": "is",
+    "start": 76.278,
+    "end": 76.37
+  },
+  {
+    "word": "a",
+    "start": 76.428,
+    "end": 76.463
+  },
+  {
+    "word": "wonderful",
+    "start": 76.556,
+    "end": 77.113
+  },
+  {
+    "word": "conversationalist",
+    "start": 77.195,
+    "end": 78.402
+  },
+  {
+    "word": "When",
+    "start": 78.762,
+    "end": 78.948
+  },
+  {
+    "word": "he",
+    "start": 78.994,
+    "end": 79.052
+  },
+  {
+    "word": "speaks",
+    "start": 79.099,
+    "end": 79.447
+  },
+  {
+    "word": "about",
+    "start": 79.494,
+    "end": 79.726
+  },
+  {
+    "word": "the",
+    "start": 79.761,
+    "end": 79.83
+  },
+  {
+    "word": "past",
+    "start": 79.888,
+    "end": 80.295
+  },
+  {
+    "word": "he",
+    "start": 80.492,
+    "end": 80.573
+  },
+  {
+    "word": "is",
+    "start": 80.631,
+    "end": 80.724
+  },
+  {
+    "word": "like",
+    "start": 80.794,
+    "end": 80.968
+  },
+  {
+    "word": "a",
+    "start": 81.003,
+    "end": 81.026
+  },
+  {
+    "word": "living",
+    "start": 81.107,
+    "end": 81.432
+  },
+  {
+    "word": "encyclopedia",
+    "start": 81.56,
+    "end": 82.698
+  },
+  {
+    "word": "and",
+    "start": 83.058,
+    "end": 83.208
+  },
+  {
+    "word": "his",
+    "start": 83.267,
+    "end": 83.383
+  },
+  {
+    "word": "passion",
+    "start": 83.464,
+    "end": 83.882
+  },
+  {
+    "word": "is",
+    "start": 83.94,
+    "end": 84.044
+  },
+  {
+    "word": "contagious",
+    "start": 84.102,
+    "end": 84.706
+  },
+  {
+    "word": "for",
+    "start": 84.776,
+    "end": 84.915
+  },
+  {
+    "word": "everyone",
+    "start": 84.996,
+    "end": 85.554
+  },
+  {
+    "word": "who",
+    "start": 85.589,
+    "end": 85.693
+  },
+  {
+    "word": "listens",
+    "start": 85.763,
+    "end": 86.088
+  },
+  {
+    "word": "to",
+    "start": 86.146,
+    "end": 86.227
+  },
+  {
+    "word": "him",
+    "start": 86.32,
+    "end": 86.436
+  },
+  {
+    "word": "His",
+    "start": 87.028,
+    "end": 87.214
+  },
+  {
+    "word": "wife",
+    "start": 87.295,
+    "end": 87.643
+  },
+  {
+    "word": "Eleanor",
+    "start": 87.76,
+    "end": 88.294
+  },
+  {
+    "word": "sometimes",
+    "start": 88.375,
+    "end": 89.013
+  },
+  {
+    "word": "comes",
+    "start": 89.13,
+    "end": 89.431
+  },
+  {
+    "word": "with",
+    "start": 89.478,
+    "end": 89.64
+  },
+  {
+    "word": "him",
+    "start": 89.687,
+    "end": 89.849
+  },
+  {
+    "word": "She",
+    "start": 90.291,
+    "end": 90.441
+  },
+  {
+    "word": "is",
+    "start": 90.5,
+    "end": 90.592
+  },
+  {
+    "word": "an",
+    "start": 90.639,
+    "end": 90.72
+  },
+  {
+    "word": "artist",
+    "start": 90.801,
+    "end": 91.254
+  },
+  {
+    "word": "who",
+    "start": 91.289,
+    "end": 91.417
+  },
+  {
+    "word": "paints",
+    "start": 91.475,
+    "end": 91.753
+  },
+  {
+    "word": "beautiful",
+    "start": 91.87,
+    "end": 92.462
+  },
+  {
+    "word": "landscapes",
+    "start": 92.52,
+    "end": 93.147
+  },
+  {
+    "word": "of",
+    "start": 93.193,
+    "end": 93.263
+  },
+  {
+    "word": "our",
+    "start": 93.332,
+    "end": 93.46
+  },
+  {
+    "word": "town",
+    "start": 93.518,
+    "end": 93.89
+  },
+  {
+    "word": "She",
+    "start": 94.482,
+    "end": 94.633
+  },
+  {
+    "word": "is",
+    "start": 94.702,
+    "end": 94.795
+  },
+  {
+    "word": "very",
+    "start": 94.876,
+    "end": 95.329
+  },
+  {
+    "word": "observant",
+    "start": 95.48,
+    "end": 96.107
+  },
+  {
+    "word": "and",
+    "start": 96.177,
+    "end": 96.34
+  },
+  {
+    "word": "kind",
+    "start": 96.409,
+    "end": 96.885
+  },
+  {
+    "word": "with",
+    "start": 97.094,
+    "end": 97.28
+  },
+  {
+    "word": "a",
+    "start": 97.327,
+    "end": 97.362
+  },
+  {
+    "word": "warmth",
+    "start": 97.42,
+    "end": 97.779
+  },
+  {
+    "word": "that",
+    "start": 97.896,
+    "end": 98.093
+  },
+  {
+    "word": "makes",
+    "start": 98.139,
+    "end": 98.383
+  },
+  {
+    "word": "everyone",
+    "start": 98.557,
+    "end": 99.149
+  },
+  {
+    "word": "feel",
+    "start": 99.207,
+    "end": 99.44
+  },
+  {
+    "word": "welcome",
+    "start": 99.498,
+    "end": 99.997
+  },
+  {
+    "word": "When",
+    "start": 100.299,
+    "end": 100.496
+  },
+  {
+    "word": "she",
+    "start": 100.554,
+    "end": 100.67
+  },
+  {
+    "word": "is",
+    "start": 100.728,
+    "end": 100.821
+  },
+  {
+    "word": "in",
+    "start": 100.879,
+    "end": 100.949
+  },
+  {
+    "word": "the",
+    "start": 101.007,
+    "end": 101.077
+  },
+  {
+    "word": "shop",
+    "start": 101.123,
+    "end": 101.483
+  },
+  {
+    "word": "the",
+    "start": 101.785,
+    "end": 101.913
+  },
+  {
+    "word": "entire",
+    "start": 101.982,
+    "end": 102.493
+  },
+  {
+    "word": "place",
+    "start": 102.551,
+    "end": 102.934
+  },
+  {
+    "word": "feels",
+    "start": 102.981,
+    "end": 103.306
+  },
+  {
+    "word": "brighter",
+    "start": 103.375,
+    "end": 103.782
+  },
+  {
+    "word": "She",
+    "start": 104.142,
+    "end": 104.374
+  },
+  {
+    "word": "is",
+    "start": 104.455,
+    "end": 104.571
+  },
+  {
+    "word": "the",
+    "start": 104.641,
+    "end": 104.711
+  },
+  {
+    "word": "creative",
+    "start": 104.769,
+    "end": 105.245
+  },
+  {
+    "word": "soul",
+    "start": 105.291,
+    "end": 105.697
+  },
+  {
+    "word": "of",
+    "start": 105.848,
+    "end": 105.964
+  },
+  {
+    "word": "their",
+    "start": 106.023,
+    "end": 106.197
+  },
+  {
+    "word": "family",
+    "start": 106.243,
+    "end": 106.696
+  },
+  {
+    "word": "and",
+    "start": 106.975,
+    "end": 107.137
+  },
+  {
+    "word": "her",
+    "start": 107.207,
+    "end": 107.3
+  },
+  {
+    "word": "paintings",
+    "start": 107.369,
+    "end": 107.88
+  },
+  {
+    "word": "are",
+    "start": 107.973,
+    "end": 108.182
+  },
+  {
+    "word": "a",
+    "start": 108.217,
+    "end": 108.252
+  },
+  {
+    "word": "testament",
+    "start": 108.31,
+    "end": 108.867
+  },
+  {
+    "word": "to",
+    "start": 109.25,
+    "end": 109.389
+  },
+  {
+    "word": "the",
+    "start": 109.471,
+    "end": 109.552
+  },
+  {
+    "word": "beauty",
+    "start": 109.645,
+    "end": 110.051
+  },
+  {
+    "word": "she",
+    "start": 110.144,
+    "end": 110.295
+  },
+  {
+    "word": "is",
+    "start": 110.365,
+    "end": 110.469
+  },
+  {
+    "word": "able",
+    "start": 110.527,
+    "end": 110.771
+  },
+  {
+    "word": "to",
+    "start": 110.806,
+    "end": 110.876
+  },
+  {
+    "word": "find",
+    "start": 110.968,
+    "end": 111.444
+  },
+  {
+    "word": "in",
+    "start": 111.561,
+    "end": 111.723
+  },
+  {
+    "word": "the",
+    "start": 111.769,
+    "end": 111.851
+  },
+  {
+    "word": "ordinary",
+    "start": 111.944,
+    "end": 112.583
+  },
+  {
+    "word": "moments",
+    "start": 112.664,
+    "end": 113.07
+  },
+  {
+    "word": "of",
+    "start": 113.128,
+    "end": 113.21
+  },
+  {
+    "word": "life",
+    "start": 113.302,
+    "end": 113.755
+  },
+  {
+    "word": "Our",
+    "start": 114.173,
+    "end": 114.417
+  },
+  {
+    "word": "town",
+    "start": 114.487,
+    "end": 114.73
+  },
+  {
+    "word": "itself",
+    "start": 114.789,
+    "end": 115.218
+  },
+  {
+    "word": "has",
+    "start": 115.288,
+    "end": 115.532
+  },
+  {
+    "word": "a",
+    "start": 115.624,
+    "end": 115.648
+  },
+  {
+    "word": "special",
+    "start": 115.729,
+    "end": 116.135
+  },
+  {
+    "word": "character",
+    "start": 116.193,
+    "end": 116.704
+  },
+  {
+    "word": "It",
+    "start": 117.099,
+    "end": 117.238
+  },
+  {
+    "word": "is",
+    "start": 117.296,
+    "end": 117.378
+  },
+  {
+    "word": "not",
+    "start": 117.447,
+    "end": 117.598
+  },
+  {
+    "word": "a",
+    "start": 117.645,
+    "end": 117.668
+  },
+  {
+    "word": "famous",
+    "start": 117.726,
+    "end": 118.074
+  },
+  {
+    "word": "place",
+    "start": 118.144,
+    "end": 118.539
+  },
+  {
+    "word": "and",
+    "start": 118.585,
+    "end": 118.748
+  },
+  {
+    "word": "it",
+    "start": 118.829,
+    "end": 118.922
+  },
+  {
+    "word": "is",
+    "start": 118.991,
+    "end": 119.096
+  },
+  {
+    "word": "certainly",
+    "start": 119.154,
+    "end": 119.583
+  },
+  {
+    "word": "not",
+    "start": 119.676,
+    "end": 119.862
+  },
+  {
+    "word": "a",
+    "start": 119.909,
+    "end": 119.932
+  },
+  {
+    "word": "modern",
+    "start": 120.001,
+    "end": 120.419
+  },
+  {
+    "word": "city",
+    "start": 120.501,
+    "end": 120.861
+  },
+  {
+    "word": "It",
+    "start": 121.337,
+    "end": 121.487
+  },
+  {
+    "word": "is",
+    "start": 121.546,
+    "end": 121.65
+  },
+  {
+    "word": "a",
+    "start": 121.708,
+    "end": 121.743
+  },
+  {
+    "word": "community",
+    "start": 121.813,
+    "end": 122.358
+  },
+  {
+    "word": "built",
+    "start": 122.451,
+    "end": 122.741
+  },
+  {
+    "word": "on",
+    "start": 122.811,
+    "end": 122.939
+  },
+  {
+    "word": "history",
+    "start": 123.032,
+    "end": 123.496
+  },
+  {
+    "word": "and",
+    "start": 123.566,
+    "end": 123.67
+  },
+  {
+    "word": "relationships",
+    "start": 123.751,
+    "end": 124.645
+  },
+  {
+    "word": "It",
+    "start": 125.098,
+    "end": 125.238
+  },
+  {
+    "word": "is",
+    "start": 125.296,
+    "end": 125.388
+  },
+  {
+    "word": "quiet",
+    "start": 125.481,
+    "end": 126.027
+  },
+  {
+    "word": "especially",
+    "start": 126.155,
+    "end": 126.84
+  },
+  {
+    "word": "in",
+    "start": 126.898,
+    "end": 126.979
+  },
+  {
+    "word": "the",
+    "start": 127.025,
+    "end": 127.107
+  },
+  {
+    "word": "evenings",
+    "start": 127.188,
+    "end": 127.71
+  },
+  {
+    "word": "For",
+    "start": 128.267,
+    "end": 128.441
+  },
+  {
+    "word": "some",
+    "start": 128.511,
+    "end": 128.836
+  },
+  {
+    "word": "it",
+    "start": 128.929,
+    "end": 129.068
+  },
+  {
+    "word": "is",
+    "start": 129.126,
+    "end": 129.231
+  },
+  {
+    "word": "perhaps",
+    "start": 129.312,
+    "end": 129.742
+  },
+  {
+    "word": "too",
+    "start": 129.823,
+    "end": 130.067
+  },
+  {
+    "word": "slow",
+    "start": 130.148,
+    "end": 130.566
+  },
+  {
+    "word": "but",
+    "start": 130.694,
+    "end": 130.914
+  },
+  {
+    "word": "for",
+    "start": 130.984,
+    "end": 131.158
+  },
+  {
+    "word": "us",
+    "start": 131.239,
+    "end": 131.437
+  },
+  {
+    "word": "who",
+    "start": 131.506,
+    "end": 131.669
+  },
+  {
+    "word": "live",
+    "start": 131.762,
+    "end": 131.959
+  },
+  {
+    "word": "here",
+    "start": 132.006,
+    "end": 132.377
+  },
+  {
+    "word": "it",
+    "start": 132.691,
+    "end": 132.83
+  },
+  {
+    "word": "is",
+    "start": 132.888,
+    "end": 132.993
+  },
+  {
+    "word": "a",
+    "start": 133.051,
+    "end": 133.085
+  },
+  {
+    "word": "sanctuary",
+    "start": 133.155,
+    "end": 133.91
+  },
+  {
+    "word": "from",
+    "start": 133.979,
+    "end": 134.165
+  },
+  {
+    "word": "the",
+    "start": 134.223,
+    "end": 134.293
+  },
+  {
+    "word": "chaotic",
+    "start": 134.351,
+    "end": 134.839
+  },
+  {
+    "word": "noise",
+    "start": 134.931,
+    "end": 135.361
+  },
+  {
+    "word": "of",
+    "start": 135.419,
+    "end": 135.489
+  },
+  {
+    "word": "the",
+    "start": 135.547,
+    "end": 135.628
+  },
+  {
+    "word": "outside",
+    "start": 135.698,
+    "end": 136.232
+  },
+  {
+    "word": "world",
+    "start": 136.29,
+    "end": 136.789
+  },
+  {
+    "word": "It",
+    "start": 137.288,
+    "end": 137.428
+  },
+  {
+    "word": "is",
+    "start": 137.474,
+    "end": 137.567
+  },
+  {
+    "word": "our",
+    "start": 137.625,
+    "end": 137.764
+  },
+  {
+    "word": "home",
+    "start": 137.834,
+    "end": 138.217
+  },
+  {
+    "word": "and",
+    "start": 138.322,
+    "end": 138.496
+  },
+  {
+    "word": "it",
+    "start": 138.565,
+    "end": 138.635
+  },
+  {
+    "word": "is",
+    "start": 138.693,
+    "end": 138.786
+  },
+  {
+    "word": "precious",
+    "start": 138.856,
+    "end": 139.274
+  },
+  {
+    "word": "to",
+    "start": 139.343,
+    "end": 139.448
+  },
+  {
+    "word": "us",
+    "start": 139.564,
+    "end": 139.808
+  },
+  {
+    "word": "Together",
+    "start": 140.458,
+    "end": 140.969
+  },
+  {
+    "word": "the",
+    "start": 141.038,
+    "end": 141.131
+  },
+  {
+    "word": "people",
+    "start": 141.189,
+    "end": 141.526
+  },
+  {
+    "word": "who",
+    "start": 141.561,
+    "end": 141.677
+  },
+  {
+    "word": "live",
+    "start": 141.793,
+    "end": 142.095
+  },
+  {
+    "word": "and",
+    "start": 142.153,
+    "end": 142.304
+  },
+  {
+    "word": "work",
+    "start": 142.385,
+    "end": 142.664
+  },
+  {
+    "word": "on",
+    "start": 142.757,
+    "end": 142.931
+  },
+  {
+    "word": "this",
+    "start": 142.989,
+    "end": 143.151
+  },
+  {
+    "word": "street",
+    "start": 143.198,
+    "end": 143.604
+  },
+  {
+    "word": "form",
+    "start": 144.115,
+    "end": 144.498
+  },
+  {
+    "word": "a",
+    "start": 144.614,
+    "end": 144.672
+  },
+  {
+    "word": "unique",
+    "start": 144.8,
+    "end": 145.171
+  },
+  {
+    "word": "group",
+    "start": 145.241,
+    "end": 145.578
+  },
+  {
+    "word": "We",
+    "start": 146.17,
+    "end": 146.309
+  },
+  {
+    "word": "are",
+    "start": 146.355,
+    "end": 146.472
+  },
+  {
+    "word": "not",
+    "start": 146.53,
+    "end": 146.692
+  },
+  {
+    "word": "related",
+    "start": 146.762,
+    "end": 147.191
+  },
+  {
+    "word": "by",
+    "start": 147.261,
+    "end": 147.389
+  },
+  {
+    "word": "blood",
+    "start": 147.47,
+    "end": 147.865
+  },
+  {
+    "word": "but",
+    "start": 148.004,
+    "end": 148.167
+  },
+  {
+    "word": "we",
+    "start": 148.213,
+    "end": 148.294
+  },
+  {
+    "word": "are",
+    "start": 148.341,
+    "end": 148.445
+  },
+  {
+    "word": "connected",
+    "start": 148.492,
+    "end": 148.968
+  },
+  {
+    "word": "by",
+    "start": 149.026,
+    "end": 149.177
+  },
+  {
+    "word": "our",
+    "start": 149.246,
+    "end": 149.351
+  },
+  {
+    "word": "shared",
+    "start": 149.409,
+    "end": 149.746
+  },
+  {
+    "word": "lives",
+    "start": 149.804,
+    "end": 150.303
+  },
+  {
+    "word": "We",
+    "start": 150.756,
+    "end": 150.895
+  },
+  {
+    "word": "are",
+    "start": 150.941,
+    "end": 151.058
+  },
+  {
+    "word": "friends",
+    "start": 151.116,
+    "end": 151.638
+  },
+  {
+    "word": "neighbors",
+    "start": 151.94,
+    "end": 152.474
+  },
+  {
+    "word": "and",
+    "start": 152.567,
+    "end": 152.753
+  },
+  {
+    "word": "allies",
+    "start": 152.834,
+    "end": 153.391
+  },
+  {
+    "word": "In",
+    "start": 153.879,
+    "end": 154.03
+  },
+  {
+    "word": "the",
+    "start": 154.076,
+    "end": 154.146
+  },
+  {
+    "word": "summer",
+    "start": 154.204,
+    "end": 154.587
+  },
+  {
+    "word": "we",
+    "start": 154.691,
+    "end": 154.831
+  },
+  {
+    "word": "are",
+    "start": 154.877,
+    "end": 155.005
+  },
+  {
+    "word": "the",
+    "start": 155.04,
+    "end": 155.121
+  },
+  {
+    "word": "organizers",
+    "start": 155.191,
+    "end": 155.969
+  },
+  {
+    "word": "of",
+    "start": 156.038,
+    "end": 156.096
+  },
+  {
+    "word": "the",
+    "start": 156.154,
+    "end": 156.224
+  },
+  {
+    "word": "local",
+    "start": 156.294,
+    "end": 156.561
+  },
+  {
+    "word": "festival",
+    "start": 156.63,
+    "end": 157.164
+  },
+  {
+    "word": "and",
+    "start": 157.524,
+    "end": 157.687
+  },
+  {
+    "word": "in",
+    "start": 157.756,
+    "end": 157.838
+  },
+  {
+    "word": "the",
+    "start": 157.884,
+    "end": 157.954
+  },
+  {
+    "word": "winter",
+    "start": 158.012,
+    "end": 158.407
+  },
+  {
+    "word": "we",
+    "start": 158.767,
+    "end": 158.906
+  },
+  {
+    "word": "are",
+    "start": 158.952,
+    "end": 159.057
+  },
+  {
+    "word": "the",
+    "start": 159.092,
+    "end": 159.161
+  },
+  {
+    "word": "ones",
+    "start": 159.231,
+    "end": 159.51
+  },
+  {
+    "word": "who",
+    "start": 159.544,
+    "end": 159.649
+  },
+  {
+    "word": "make",
+    "start": 159.707,
+    "end": 159.869
+  },
+  {
+    "word": "sure",
+    "start": 159.904,
+    "end": 160.241
+  },
+  {
+    "word": "the",
+    "start": 160.311,
+    "end": 160.403
+  },
+  {
+    "word": "older",
+    "start": 160.485,
+    "end": 160.845
+  },
+  {
+    "word": "residents",
+    "start": 160.914,
+    "end": 161.518
+  },
+  {
+    "word": "are",
+    "start": 161.692,
+    "end": 161.901
+  },
+  {
+    "word": "warm",
+    "start": 161.948,
+    "end": 162.342
+  },
+  {
+    "word": "and",
+    "start": 162.517,
+    "end": 162.702
+  },
+  {
+    "word": "safe",
+    "start": 162.795,
+    "end": 163.294
+  },
+  {
+    "word": "We",
+    "start": 163.736,
+    "end": 163.886
+  },
+  {
+    "word": "are",
+    "start": 163.945,
+    "end": 164.107
+  },
+  {
+    "word": "a",
+    "start": 164.154,
+    "end": 164.188
+  },
+  {
+    "word": "community",
+    "start": 164.246,
+    "end": 164.85
+  },
+  {
+    "word": "in",
+    "start": 164.943,
+    "end": 165.047
+  },
+  {
+    "word": "the",
+    "start": 165.106,
+    "end": 165.175
+  },
+  {
+    "word": "truest",
+    "start": 165.233,
+    "end": 165.709
+  },
+  {
+    "word": "sense",
+    "start": 165.825,
+    "end": 166.162
+  },
+  {
+    "word": "of",
+    "start": 166.208,
+    "end": 166.278
+  },
+  {
+    "word": "the",
+    "start": 166.348,
+    "end": 166.417
+  },
+  {
+    "word": "word",
+    "start": 166.476,
+    "end": 166.905
+  },
+  {
+    "word": "I",
+    "start": 167.439,
+    "end": 167.497
+  },
+  {
+    "word": "sometimes",
+    "start": 167.613,
+    "end": 168.054
+  },
+  {
+    "word": "speak",
+    "start": 168.089,
+    "end": 168.403
+  },
+  {
+    "word": "with",
+    "start": 168.461,
+    "end": 168.612
+  },
+  {
+    "word": "the",
+    "start": 168.658,
+    "end": 168.728
+  },
+  {
+    "word": "newer",
+    "start": 168.798,
+    "end": 169.065
+  },
+  {
+    "word": "families",
+    "start": 169.146,
+    "end": 169.622
+  },
+  {
+    "word": "who",
+    "start": 169.668,
+    "end": 169.784
+  },
+  {
+    "word": "move",
+    "start": 169.854,
+    "end": 170.075
+  },
+  {
+    "word": "here",
+    "start": 170.109,
+    "end": 170.411
+  },
+  {
+    "word": "I",
+    "start": 170.852,
+    "end": 170.911
+  },
+  {
+    "word": "tell",
+    "start": 171.027,
+    "end": 171.212
+  },
+  {
+    "word": "them",
+    "start": 171.27,
+    "end": 171.468
+  },
+  {
+    "word": "You",
+    "start": 171.828,
+    "end": 171.944
+  },
+  {
+    "word": "are",
+    "start": 172.013,
+    "end": 172.141
+  },
+  {
+    "word": "now",
+    "start": 172.199,
+    "end": 172.362
+  },
+  {
+    "word": "part",
+    "start": 172.478,
+    "end": 172.71
+  },
+  {
+    "word": "of",
+    "start": 172.745,
+    "end": 172.803
+  },
+  {
+    "word": "this",
+    "start": 172.861,
+    "end": 173.012
+  },
+  {
+    "word": "town",
+    "start": 173.082,
+    "end": 173.383
+  },
+  {
+    "word": "s",
+    "start": 173.43,
+    "end": 173.453
+  },
+  {
+    "word": "story",
+    "start": 173.511,
+    "end": 174.022
+  },
+  {
+    "word": "You",
+    "start": 174.359,
+    "end": 174.475
+  },
+  {
+    "word": "are",
+    "start": 174.544,
+    "end": 174.672
+  },
+  {
+    "word": "welcome",
+    "start": 174.707,
+    "end": 175.067
+  },
+  {
+    "word": "here",
+    "start": 175.113,
+    "end": 175.334
+  },
+  {
+    "word": "and",
+    "start": 175.404,
+    "end": 175.555
+  },
+  {
+    "word": "we",
+    "start": 175.613,
+    "end": 175.717
+  },
+  {
+    "word": "hope",
+    "start": 175.775,
+    "end": 175.984
+  },
+  {
+    "word": "you",
+    "start": 176.031,
+    "end": 176.123
+  },
+  {
+    "word": "find",
+    "start": 176.216,
+    "end": 176.449
+  },
+  {
+    "word": "happiness",
+    "start": 176.518,
+    "end": 177.099
+  },
+  {
+    "word": "You",
+    "start": 177.598,
+    "end": 177.749
+  },
+  {
+    "word": "are",
+    "start": 177.819,
+    "end": 177.946
+  },
+  {
+    "word": "the",
+    "start": 177.993,
+    "end": 178.062
+  },
+  {
+    "word": "new",
+    "start": 178.132,
+    "end": 178.271
+  },
+  {
+    "word": "faces",
+    "start": 178.353,
+    "end": 178.852
+  },
+  {
+    "word": "and",
+    "start": 178.91,
+    "end": 179.026
+  },
+  {
+    "word": "the",
+    "start": 179.072,
+    "end": 179.142
+  },
+  {
+    "word": "new",
+    "start": 179.2,
+    "end": 179.339
+  },
+  {
+    "word": "energy",
+    "start": 179.409,
+    "end": 179.827
+  },
+  {
+    "word": "that",
+    "start": 179.897,
+    "end": 180.036
+  },
+  {
+    "word": "will",
+    "start": 180.082,
+    "end": 180.28
+  },
+  {
+    "word": "keep",
+    "start": 180.35,
+    "end": 180.582
+  },
+  {
+    "word": "this",
+    "start": 180.663,
+    "end": 180.907
+  },
+  {
+    "word": "community",
+    "start": 181,
+    "end": 181.58
+  },
+  {
+    "word": "alive",
+    "start": 181.65,
+    "end": 182.335
+  },
+  {
+    "word": "for",
+    "start": 182.718,
+    "end": 182.915
+  },
+  {
+    "word": "years",
+    "start": 182.997,
+    "end": 183.461
+  },
+  {
+    "word": "to",
+    "start": 183.531,
+    "end": 183.647
+  },
+  {
+    "word": "come",
+    "start": 183.74,
+    "end": 184.181
+  },
+  {
+    "word": "You",
+    "start": 184.599,
+    "end": 184.726
+  },
+  {
+    "word": "are",
+    "start": 184.796,
+    "end": 184.97
+  },
+  {
+    "word": "all",
+    "start": 185.017,
+    "end": 185.4
+  },
+  {
+    "word": "important",
+    "start": 185.481,
+    "end": 185.969
+  },
+  {
+    "word": "members",
+    "start": 186.027,
+    "end": 186.526
+  },
+  {
+    "word": "of",
+    "start": 186.7,
+    "end": 186.851
+  },
+  {
+    "word": "our",
+    "start": 186.932,
+    "end": 187.06
+  },
+  {
+    "word": "collective",
+    "start": 187.118,
+    "end": 187.78
+  },
+  {
+    "word": "Of",
+    "start": 188.36,
+    "end": 188.476
+  },
+  {
+    "word": "course",
+    "start": 188.558,
+    "end": 188.813
+  },
+  {
+    "word": "we",
+    "start": 188.86,
+    "end": 188.987
+  },
+  {
+    "word": "also",
+    "start": 189.057,
+    "end": 189.405
+  },
+  {
+    "word": "see",
+    "start": 189.487,
+    "end": 189.719
+  },
+  {
+    "word": "people",
+    "start": 189.777,
+    "end": 190.113
+  },
+  {
+    "word": "from",
+    "start": 190.148,
+    "end": 190.299
+  },
+  {
+    "word": "the",
+    "start": 190.346,
+    "end": 190.427
+  },
+  {
+    "word": "outside",
+    "start": 190.485,
+    "end": 191.274
+  },
+  {
+    "word": "In",
+    "start": 191.762,
+    "end": 191.901
+  },
+  {
+    "word": "the",
+    "start": 191.947,
+    "end": 192.029
+  },
+  {
+    "word": "autumn",
+    "start": 192.087,
+    "end": 192.412
+  },
+  {
+    "word": "tourists",
+    "start": 192.482,
+    "end": 193.12
+  },
+  {
+    "word": "visit",
+    "start": 193.201,
+    "end": 193.538
+  },
+  {
+    "word": "to",
+    "start": 193.596,
+    "end": 193.689
+  },
+  {
+    "word": "see",
+    "start": 193.77,
+    "end": 193.979
+  },
+  {
+    "word": "the",
+    "start": 194.026,
+    "end": 194.107
+  },
+  {
+    "word": "changing",
+    "start": 194.165,
+    "end": 194.629
+  },
+  {
+    "word": "leaves",
+    "start": 194.711,
+    "end": 195.222
+  },
+  {
+    "word": "They",
+    "start": 195.57,
+    "end": 195.732
+  },
+  {
+    "word": "are",
+    "start": 195.767,
+    "end": 195.872
+  },
+  {
+    "word": "usually",
+    "start": 195.941,
+    "end": 196.522
+  },
+  {
+    "word": "from",
+    "start": 196.603,
+    "end": 196.847
+  },
+  {
+    "word": "the",
+    "start": 197.021,
+    "end": 197.149
+  },
+  {
+    "word": "big",
+    "start": 197.207,
+    "end": 197.369
+  },
+  {
+    "word": "city",
+    "start": 197.462,
+    "end": 197.822
+  },
+  {
+    "word": "looking",
+    "start": 198.02,
+    "end": 198.31
+  },
+  {
+    "word": "for",
+    "start": 198.368,
+    "end": 198.484
+  },
+  {
+    "word": "a",
+    "start": 198.542,
+    "end": 198.565
+  },
+  {
+    "word": "quiet",
+    "start": 198.623,
+    "end": 199.03
+  },
+  {
+    "word": "escape",
+    "start": 199.111,
+    "end": 199.738
+  },
+  {
+    "word": "They",
+    "start": 199.924,
+    "end": 200.098
+  },
+  {
+    "word": "are",
+    "start": 200.144,
+    "end": 200.272
+  },
+  {
+    "word": "always",
+    "start": 200.318,
+    "end": 200.818
+  },
+  {
+    "word": "impressed",
+    "start": 200.887,
+    "end": 201.317
+  },
+  {
+    "word": "by",
+    "start": 201.363,
+    "end": 201.479
+  },
+  {
+    "word": "the",
+    "start": 201.526,
+    "end": 201.595
+  },
+  {
+    "word": "friendliness",
+    "start": 201.665,
+    "end": 202.338
+  },
+  {
+    "word": "of",
+    "start": 202.431,
+    "end": 202.536
+  },
+  {
+    "word": "the",
+    "start": 202.594,
+    "end": 202.663
+  },
+  {
+    "word": "people",
+    "start": 202.722,
+    "end": 203.035
+  },
+  {
+    "word": "here",
+    "start": 203.093,
+    "end": 203.441
+  },
+  {
+    "word": "While",
+    "start": 203.824,
+    "end": 204.15
+  },
+  {
+    "word": "they",
+    "start": 204.196,
+    "end": 204.335
+  },
+  {
+    "word": "are",
+    "start": 204.382,
+    "end": 204.521
+  },
+  {
+    "word": "only",
+    "start": 204.579,
+    "end": 205.009
+  },
+  {
+    "word": "temporary",
+    "start": 205.125,
+    "end": 205.775
+  },
+  {
+    "word": "visitors",
+    "start": 205.845,
+    "end": 206.379
+  },
+  {
+    "word": "they",
+    "start": 206.425,
+    "end": 206.576
+  },
+  {
+    "word": "are",
+    "start": 206.623,
+    "end": 206.762
+  },
+  {
+    "word": "a",
+    "start": 206.82,
+    "end": 206.901
+  },
+  {
+    "word": "reminder",
+    "start": 207.018,
+    "end": 207.633
+  },
+  {
+    "word": "of",
+    "start": 207.714,
+    "end": 207.784
+  },
+  {
+    "word": "the",
+    "start": 207.842,
+    "end": 207.912
+  },
+  {
+    "word": "world",
+    "start": 207.97,
+    "end": 208.306
+  },
+  {
+    "word": "beyond",
+    "start": 208.364,
+    "end": 208.724
+  },
+  {
+    "word": "our",
+    "start": 208.805,
+    "end": 208.945
+  },
+  {
+    "word": "town",
+    "start": 209.003,
+    "end": 209.421
+  },
+  {
+    "word": "and",
+    "start": 209.63,
+    "end": 209.781
+  },
+  {
+    "word": "their",
+    "start": 209.827,
+    "end": 209.99
+  },
+  {
+    "word": "visits",
+    "start": 210.048,
+    "end": 210.454
+  },
+  {
+    "word": "help",
+    "start": 210.524,
+    "end": 210.733
+  },
+  {
+    "word": "our",
+    "start": 210.814,
+    "end": 210.93
+  },
+  {
+    "word": "local",
+    "start": 211,
+    "end": 211.278
+  },
+  {
+    "word": "economy",
+    "start": 211.336,
+    "end": 211.882
+  },
+  {
+    "word": "All",
+    "start": 212.219,
+    "end": 212.521
+  },
+  {
+    "word": "these",
+    "start": 212.602,
+    "end": 212.846
+  },
+  {
+    "word": "different",
+    "start": 212.881,
+    "end": 213.206
+  },
+  {
+    "word": "people",
+    "start": 213.24,
+    "end": 213.554
+  },
+  {
+    "word": "and",
+    "start": 213.6,
+    "end": 213.705
+  },
+  {
+    "word": "elements",
+    "start": 213.775,
+    "end": 214.158
+  },
+  {
+    "word": "create",
+    "start": 214.239,
+    "end": 214.622
+  },
+  {
+    "word": "a",
+    "start": 214.645,
+    "end": 214.669
+  },
+  {
+    "word": "beautiful",
+    "start": 214.761,
+    "end": 215.307
+  },
+  {
+    "word": "picture",
+    "start": 215.377,
+    "end": 215.853
+  },
+  {
+    "word": "I",
+    "start": 216.294,
+    "end": 216.445
+  },
+  {
+    "word": "am",
+    "start": 216.596,
+    "end": 216.7
+  },
+  {
+    "word": "the",
+    "start": 216.747,
+    "end": 216.816
+  },
+  {
+    "word": "quiet",
+    "start": 216.863,
+    "end": 217.258
+  },
+  {
+    "word": "observer",
+    "start": 217.327,
+    "end": 217.873
+  },
+  {
+    "word": "in",
+    "start": 217.931,
+    "end": 218.001
+  },
+  {
+    "word": "my",
+    "start": 218.059,
+    "end": 218.152
+  },
+  {
+    "word": "bookshop",
+    "start": 218.233,
+    "end": 218.744
+  },
+  {
+    "word": "He",
+    "start": 219.243,
+    "end": 219.359
+  },
+  {
+    "word": "is",
+    "start": 219.417,
+    "end": 219.521
+  },
+  {
+    "word": "the",
+    "start": 219.58,
+    "end": 219.649
+  },
+  {
+    "word": "keeper",
+    "start": 219.707,
+    "end": 220.021
+  },
+  {
+    "word": "of",
+    "start": 220.079,
+    "end": 220.148
+  },
+  {
+    "word": "history",
+    "start": 220.206,
+    "end": 220.682
+  },
+  {
+    "word": "and",
+    "start": 220.914,
+    "end": 221.077
+  },
+  {
+    "word": "she",
+    "start": 221.146,
+    "end": 221.355
+  },
+  {
+    "word": "is",
+    "start": 221.425,
+    "end": 221.541
+  },
+  {
+    "word": "the",
+    "start": 221.611,
+    "end": 221.68
+  },
+  {
+    "word": "creator",
+    "start": 221.739,
+    "end": 222.226
+  },
+  {
+    "word": "of",
+    "start": 222.296,
+    "end": 222.4
+  },
+  {
+    "word": "beauty",
+    "start": 222.47,
+    "end": 222.853
+  },
+  {
+    "word": "We",
+    "start": 223.19,
+    "end": 223.387
+  },
+  {
+    "word": "are",
+    "start": 223.457,
+    "end": 223.596
+  },
+  {
+    "word": "a",
+    "start": 223.631,
+    "end": 223.654
+  },
+  {
+    "word": "strong",
+    "start": 223.712,
+    "end": 224.084
+  },
+  {
+    "word": "community",
+    "start": 224.165,
+    "end": 224.78
+  },
+  {
+    "word": "and",
+    "start": 224.862,
+    "end": 225.036
+  },
+  {
+    "word": "you",
+    "start": 225.129,
+    "end": 225.326
+  },
+  {
+    "word": "are",
+    "start": 225.454,
+    "end": 225.663
+  },
+  {
+    "word": "our",
+    "start": 225.721,
+    "end": 225.86
+  },
+  {
+    "word": "newest",
+    "start": 225.941,
+    "end": 226.301
+  },
+  {
+    "word": "members",
+    "start": 226.394,
+    "end": 226.917
+  },
+  {
+    "word": "They",
+    "start": 227.335,
+    "end": 227.532
+  },
+  {
+    "word": "are",
+    "start": 227.578,
+    "end": 227.694
+  },
+  {
+    "word": "the",
+    "start": 227.729,
+    "end": 227.799
+  },
+  {
+    "word": "passersby",
+    "start": 227.857,
+    "end": 228.658
+  },
+  {
+    "word": "who",
+    "start": 228.739,
+    "end": 228.867
+  },
+  {
+    "word": "admire",
+    "start": 228.937,
+    "end": 229.459
+  },
+  {
+    "word": "our",
+    "start": 229.529,
+    "end": 229.68
+  },
+  {
+    "word": "home",
+    "start": 229.749,
+    "end": 230.144
+  },
+  {
+    "word": "And",
+    "start": 230.481,
+    "end": 230.655
+  },
+  {
+    "word": "it",
+    "start": 230.736,
+    "end": 230.829
+  },
+  {
+    "word": "is",
+    "start": 230.887,
+    "end": 231.026
+  },
+  {
+    "word": "the",
+    "start": 231.143,
+    "end": 231.27
+  },
+  {
+    "word": "town",
+    "start": 231.34,
+    "end": 231.653
+  },
+  {
+    "word": "itself",
+    "start": 231.723,
+    "end": 232.234
+  },
+  {
+    "word": "that",
+    "start": 232.304,
+    "end": 232.466
+  },
+  {
+    "word": "holds",
+    "start": 232.524,
+    "end": 232.78
+  },
+  {
+    "word": "us",
+    "start": 232.838,
+    "end": 232.954
+  },
+  {
+    "word": "all",
+    "start": 233.012,
+    "end": 233.221
+  },
+  {
+    "word": "together",
+    "start": 233.29,
+    "end": 233.766
+  },
+  {
+    "word": "in",
+    "start": 234.15,
+    "end": 234.3
+  },
+  {
+    "word": "its",
+    "start": 234.37,
+    "end": 234.521
+  },
+  {
+    "word": "gentle",
+    "start": 234.614,
+    "end": 235.02
+  },
+  {
+    "word": "embrace",
+    "start": 235.067,
+    "end": 235.763
+  },
+  {
+    "word": "So",
+    "start": 236.112,
+    "end": 236.448
+  },
+  {
+    "word": "as",
+    "start": 236.518,
+    "end": 236.657
+  },
+  {
+    "word": "I",
+    "start": 236.75,
+    "end": 236.785
+  },
+  {
+    "word": "close",
+    "start": 236.901,
+    "end": 237.249
+  },
+  {
+    "word": "my",
+    "start": 237.307,
+    "end": 237.412
+  },
+  {
+    "word": "shop",
+    "start": 237.493,
+    "end": 237.771
+  },
+  {
+    "word": "for",
+    "start": 237.853,
+    "end": 237.969
+  },
+  {
+    "word": "the",
+    "start": 238.027,
+    "end": 238.097
+  },
+  {
+    "word": "day",
+    "start": 238.155,
+    "end": 238.491
+  },
+  {
+    "word": "I",
+    "start": 238.991,
+    "end": 239.107
+  },
+  {
+    "word": "am",
+    "start": 239.2,
+    "end": 239.292
+  },
+  {
+    "word": "filled",
+    "start": 239.385,
+    "end": 239.734
+  },
+  {
+    "word": "with",
+    "start": 239.78,
+    "end": 239.919
+  },
+  {
+    "word": "a",
+    "start": 239.966,
+    "end": 239.989
+  },
+  {
+    "word": "deep",
+    "start": 240.105,
+    "end": 240.372
+  },
+  {
+    "word": "sense",
+    "start": 240.488,
+    "end": 240.813
+  },
+  {
+    "word": "of",
+    "start": 240.848,
+    "end": 240.906
+  },
+  {
+    "word": "gratitude",
+    "start": 240.987,
+    "end": 241.684
+  },
+  {
+    "word": "I",
+    "start": 242.207,
+    "end": 242.265
+  },
+  {
+    "word": "am",
+    "start": 242.357,
+    "end": 242.462
+  },
+  {
+    "word": "not",
+    "start": 242.543,
+    "end": 242.752
+  },
+  {
+    "word": "a",
+    "start": 242.787,
+    "end": 242.81
+  },
+  {
+    "word": "rich",
+    "start": 242.88,
+    "end": 243.077
+  },
+  {
+    "word": "man",
+    "start": 243.147,
+    "end": 243.414
+  },
+  {
+    "word": "in",
+    "start": 243.484,
+    "end": 243.565
+  },
+  {
+    "word": "terms",
+    "start": 243.623,
+    "end": 243.902
+  },
+  {
+    "word": "of",
+    "start": 243.948,
+    "end": 244.018
+  },
+  {
+    "word": "money",
+    "start": 244.099,
+    "end": 244.354
+  },
+  {
+    "word": "but",
+    "start": 244.424,
+    "end": 244.575
+  },
+  {
+    "word": "I",
+    "start": 244.633,
+    "end": 244.668
+  },
+  {
+    "word": "am",
+    "start": 244.761,
+    "end": 244.888
+  },
+  {
+    "word": "wealthy",
+    "start": 244.981,
+    "end": 245.446
+  },
+  {
+    "word": "in",
+    "start": 245.562,
+    "end": 245.678
+  },
+  {
+    "word": "relationships",
+    "start": 245.748,
+    "end": 246.444
+  },
+  {
+    "word": "and",
+    "start": 246.479,
+    "end": 246.572
+  },
+  {
+    "word": "peace",
+    "start": 246.653,
+    "end": 247.118
+  },
+  {
+    "word": "I",
+    "start": 247.861,
+    "end": 247.977
+  },
+  {
+    "word": "am",
+    "start": 248.093,
+    "end": 248.209
+  },
+  {
+    "word": "a",
+    "start": 248.255,
+    "end": 248.29
+  },
+  {
+    "word": "simple",
+    "start": 248.348,
+    "end": 248.662
+  },
+  {
+    "word": "bookseller",
+    "start": 248.696,
+    "end": 249.277
+  },
+  {
+    "word": "in",
+    "start": 249.753,
+    "end": 249.881
+  },
+  {
+    "word": "a",
+    "start": 249.939,
+    "end": 249.962
+  },
+  {
+    "word": "simple",
+    "start": 250.078,
+    "end": 250.45
+  },
+  {
+    "word": "town",
+    "start": 250.496,
+    "end": 250.868
+  },
+  {
+    "word": "living",
+    "start": 251.111,
+    "end": 251.413
+  },
+  {
+    "word": "a",
+    "start": 251.46,
+    "end": 251.494
+  },
+  {
+    "word": "life",
+    "start": 251.564,
+    "end": 251.854
+  },
+  {
+    "word": "that",
+    "start": 251.889,
+    "end": 252.052
+  },
+  {
+    "word": "is",
+    "start": 252.11,
+    "end": 252.249
+  },
+  {
+    "word": "full",
+    "start": 252.423,
+    "end": 252.748
+  },
+  {
+    "word": "and",
+    "start": 252.83,
+    "end": 252.934
+  },
+  {
+    "word": "meaningful",
+    "start": 252.992,
+    "end": 253.538
+  },
+  {
+    "word": "And",
+    "start": 253.979,
+    "end": 254.118
+  },
+  {
+    "word": "for",
+    "start": 254.188,
+    "end": 254.292
+  },
+  {
+    "word": "that",
+    "start": 254.339,
+    "end": 254.618
+  },
+  {
+    "word": "I",
+    "start": 254.803,
+    "end": 254.861
+  },
+  {
+    "word": "am",
+    "start": 254.954,
+    "end": 255.047
+  },
+  {
+    "word": "profoundly",
+    "start": 255.128,
+    "end": 255.813
+  },
+  {
+    "word": "thankful",
+    "start": 255.871,
+    "end": 256.324
+  }
+]
