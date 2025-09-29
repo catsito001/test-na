@@ -262,7 +262,6 @@
 <body class="text-white bg-gray-900">
 
     <audio id="story-audio"></audio>
-    <audio id="background-audio" loop></audio>
     
     <div id="modal-overlay" class="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-40 hidden"></div>
     <div id="modal-container" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-800 border border-gray-700 rounded-lg shadow-xl z-50 w-11/12 max-w-lg p-4 sm:p-6 hidden flex-col max-h-[85vh]">
@@ -282,7 +281,7 @@
             <h3 class="text-xl font-bold text-white">Configuración</h3>
             <button id="settings-modal-close-btn" class="text-gray-400 hover:text-white text-3xl leading-none">&times;</button>
         </div>
-        <div class="flex-grow space-y-6">
+        <div class="flex-grow space-y-4">
             <div class="flex items-center justify-between">
                 <label class="text-gray-300 font-semibold">Tamaño de letra</label>
                 <div class="flex items-center gap-2 bg-gray-900 rounded-full p-1">
@@ -290,13 +289,6 @@
                     <span id="font-size-display" class="w-16 text-center font-mono text-indigo-300">100%</span>
                     <button id="increase-font-btn" class="w-8 h-8 rounded-full bg-indigo-600 hover:bg-indigo-700 flex items-center justify-center text-lg font-bold">+</button>
                 </div>
-            </div>
-            <div class="flex items-center justify-between">
-                <label for="autoplay-toggle" class="text-gray-300 font-semibold">Reproducción Automática</label>
-                <label class="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" id="autoplay-toggle" class="sr-only peer">
-                    <div class="w-11 h-6 bg-gray-600 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600"></div>
-                </label>
             </div>
             <!-- Aquí se pueden agregar más opciones de configuración en el futuro -->
         </div>
@@ -419,34 +411,23 @@
 
     <div id="app-container" class="w-full h-screen bg-gray-800 md:max-w-3xl md:h-[90vh] md:max-h-[850px] md:rounded-2xl md:shadow-2xl md:border md:border-gray-700 relative overflow-hidden transition-all duration-300">
         <div id="main-menu" class="h-full flex flex-col bg-gray-900">
-            <div class="w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
-                <header class="text-center mb-6 relative">
-                    <!-- Container for top-right buttons -->
-                    <div class="absolute top-0 right-0 flex items-center gap-2">
-                        <!-- Botón de Mute para el Menú Principal -->
-                        <button id="main-menu-mute-btn" class="p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg">
-                            <svg id="main-menu-sound-on-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-                            <svg id="main-menu-sound-off-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17L7 7m10 0L7 17"></path></svg>
-                        </button>
-                        <!-- Botón de Descarga PWA -->
-                        <button id="install-app-btn" class="bg-indigo-600 text-white font-semibold py-2 px-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                            <span>Descargar App</span>
-                        </button>
-                    </div>
+    <div class="w-full p-4 md:p-6 flex flex-col flex-grow min-h-0">
+                <header class="text-center mb-6 relative"> <!-- Añadido relative -->
+                    <!-- Botón de Descarga PWA -->
+                    <button id="install-app-btn" class="absolute top-0 right-0 bg-indigo-600 text-white font-semibold py-2 px-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        <span>Descargar App</span>
+                    </button>
                     
                     <img src="banner.png" alt="Story Books Banner" class="mx-auto mb-2 w-full max-w-[7rem]">
                     <p class="text-gray-400 mt-1">Select a story to begin</p>
                 </header>
-                <div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
+<div id="filter-container" class="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
                     <button data-filter="todos" class="filter-btn active px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Todos</button>
                     <button data-filter="fundamental" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Fundamental</button>
                     <button data-filter="básico" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Básico</button>
                     <button data-filter="intermedio" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Intermedio</button>
                     <button data-filter="avanzado" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Avanzado</button>
-                    <button data-filter="infantiles" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Infantiles</button>
-                    <button data-filter="noticias" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Noticias</button>
-                    <button data-filter="otros" class="filter-btn px-4 py-2 text-sm font-semibold bg-gray-800 rounded-full hover:bg-gray-700">Otros</button>
                 </div>
                 <main id="story-list" class="flex flex-col gap-6 overflow-y-auto pb-24 flex-grow"></main>
                 <p id="loading-stories" class="text-center text-gray-400">Loading stories...</p>
@@ -470,10 +451,6 @@
                     <button id="back-btn" class="flex-shrink-0 p-2 bg-gradient-to-br from-gray-700 to-gray-800 backdrop-blur-sm rounded-full hover:from-gray-600 hover:to-gray-700 transition-colors shadow-lg"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
                     <div class="flex items-center gap-2">
                         <button id="activities-btn" class="flex-shrink-0 flex items-center gap-1.5 px-3 py-[0.2rem] text-[0.6rem] font-bold tracking-wider uppercase bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg><span>Actividades</span></button>
-                        <button id="mute-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg">
-                            <svg id="sound-on-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-                            <svg id="sound-off-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17L7 7m10 0L7 17"></path></svg>
-                        </button>
                         <button id="settings-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></button>
                     </div>
                 </header>
@@ -595,63 +572,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const App = {
         // ... (todo el SoundManager, config, state, elements se mantiene igual)
         SoundManager: {
-            _parent: null,
             sounds: {},
-            backgroundMusic: null,
-            init(parent) {
-                this._parent = parent;
+            isMuted: false,
+            init() {
                 const soundFiles = ['click.mp3', 'congrats.flac', 'ok.mp3', 'select.wav', 'wrong.wav'];
                 soundFiles.forEach(file => {
                     const name = file.split('.')[0];
                     this.sounds[name] = new Audio(`sounds/${file}`);
                     this.sounds[name].preload = 'auto';
                 });
-                this.backgroundMusic = this._parent.elements.backgroundAudio;
-                this.backgroundMusic.src = 'sounds/bg.mp3';
-                this.backgroundMusic.volume = 0.3; // <-- Volumen de la música de fondo ajustado
             },
             play(name) {
                 const sound = this.sounds[name];
-                if (sound) {
+                if (sound && !this.isMuted) {
                     sound.pause();
                     sound.currentTime = 0;
                     sound.play().catch(e => console.error(`Error playing sound '${name}':`, e));
-                }
-            },
-            playBgMusic() {
-                if (this._parent.state.isMuted) return;
-
-                const playPromise = this.backgroundMusic.play();
-                if (playPromise !== undefined) {
-                    playPromise.catch(error => {
-                        if (error.name === "NotAllowedError") {
-                            console.log("Background music autoplay was prevented. Waiting for user interaction.");
-                            const playOnInteraction = () => {
-                                if (!this._parent.state.isMuted) {
-                                    this.backgroundMusic.play().catch(e => console.error("Could not play BG music after interaction:", e));
-                                }
-                            };
-                            window.addEventListener('click', playOnInteraction, { once: true });
-                            window.addEventListener('touchstart', playOnInteraction, { once: true });
-                        } else {
-                            console.error("Error playing background music:", error);
-                        }
-                    });
-                }
-            },
-            pauseBgMusic() {
-                if (this.backgroundMusic) {
-                    this.backgroundMusic.pause();
-                }
-            },
-            applyMuteState(isMuted) {
-                // Ahora solo afecta a la música de fondo
-                this.backgroundMusic.muted = isMuted;
-
-                if (isMuted) {
-                    this.pauseBgMusic();
-                } else {
-                    this.playBgMusic();
                 }
             }
         },
@@ -681,15 +617,13 @@ document.addEventListener('DOMContentLoaded', () => {
             activeGame: null, 
             fontSizeMultiplier: 1.0,
             learnedWords: {},
-            isAutoplayEnabled: false,
-            isMuted: false,
         },
 
         elements: {},
         
         init() {
             this.cacheDomElements();
-            this.SoundManager.init(this);
+            this.SoundManager.init();
             this.SettingsManager.init(this); 
             this.SpellingGame.init(this);
             this.bindEventListeners();
@@ -712,7 +646,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyVideoEl: document.getElementById('story-video'),
                 storyTextEnEl: document.getElementById('story-text-en'),
                 storyAudio: document.getElementById('story-audio'),
-                backgroundAudio: document.getElementById('background-audio'),
                 playPauseBtn: document.getElementById('play-pause-btn'),
                 playIcon: document.getElementById('play-icon'),
                 pauseIcon: document.getElementById('pause-icon'),
@@ -728,13 +661,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 translationBtn: document.getElementById('translation-btn'),
                 activitiesBtn: document.getElementById('activities-btn'),
                 settingsBtn: document.getElementById('settings-btn'),
-                muteBtn: document.getElementById('mute-btn'),
-                soundOnIcon: document.getElementById('sound-on-icon'),
-                soundOffIcon: document.getElementById('sound-off-icon'),
-                // Elementos del nuevo botón de mute en el menú principal
-                mainMenuMuteBtn: document.getElementById('main-menu-mute-btn'),
-                mainMenuSoundOnIcon: document.getElementById('main-menu-sound-on-icon'),
-                mainMenuSoundOffIcon: document.getElementById('main-menu-sound-off-icon'),
                 activitiesList: document.getElementById('activities-list'),
                 activitiesTitle: document.getElementById('activities-title'),
                 activitiesSubtitle: document.getElementById('activities-subtitle'),
@@ -752,7 +678,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 increaseFontBtn: document.getElementById('increase-font-btn'),
                 decreaseFontBtn: document.getElementById('decrease-font-btn'),
                 fontSizeDisplay: document.getElementById('font-size-display'),
-                autoplayToggle: document.getElementById('autoplay-toggle'),
                 wordModalContainer: document.getElementById('word-modal-container'),
                 wordModalDefaultView: document.getElementById('word-modal-default-view'),
                 wordModalSpellingView: document.getElementById('word-modal-spelling-view'),
@@ -787,15 +712,13 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Listeners de botones de la historia
             this.elements.settingsBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.Modals.openSettings(); });
-            this.elements.muteBtn.addEventListener('click', () => this.SettingsManager.toggleMute());
-            this.elements.mainMenuMuteBtn.addEventListener('click', () => this.SettingsManager.toggleMute()); // Ambos botones controlan el mismo estado
             this.elements.activitiesBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.ActivityManager.showActivitiesView(); });
             this.elements.grammarBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showGrammar(); });
             this.elements.vocabularyBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showVocabulary(); });
             this.elements.translationBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showTranslation(); });
             
             // Listeners del reproductor
-            this.elements.storyAudio.addEventListener('ended', () => this.handlePageEnd());
+            this.elements.storyAudio.addEventListener('ended', () => this.AudioPlayer.stop());
             this.elements.nextPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(1); });
             this.elements.prevPageBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.changePage(-1); });
             this.elements.decreaseSpeedBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.AudioPlayer.changeSpeed(-1); });
@@ -804,7 +727,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Listeners de configuración
             this.elements.decreaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(-1); });
             this.elements.increaseFontBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.SettingsManager.changeFontSize(1); });
-            this.elements.autoplayToggle.addEventListener('change', () => this.SettingsManager.toggleAutoplay());
 
             // Listener del filtro
             this.elements.filterContainer.addEventListener('click', (e) => {
@@ -815,24 +737,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     this.renderStories(e.target.dataset.filter);
                 }
             });
-        },
-        
-        handlePageEnd() {
-            if (this.state.animationFrameId) {
-                cancelAnimationFrame(this.state.animationFrameId);
-                this.state.animationFrameId = null;
-            }
-
-            if (this.state.isAutoplayEnabled) {
-                const isLastPage = this.state.currentPageIndex === this.state.currentStory.p.length - 1;
-                if (!isLastPage) {
-                    this.changePage(1);
-                } else {
-                    this.AudioPlayer.stop();
-                }
-            } else {
-                this.AudioPlayer.stop();
-            }
         },
 
         showScreen(name) {
@@ -986,20 +890,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         renderStories(filter = 'todos') {
-            const filtered = this.state.allStories.filter(s => filter === 'todos' || s.difficulty.toLowerCase() === filter);
+            const filtered = this.state.allStories.filter(s => filter === 'todos' || s.difficulty === filter);
             if (filtered.length === 0 && this.state.allStories.length > 0) {
                 this.elements.storyListContainer.innerHTML = `<p class="text-gray-400 text-center">No hay historias en esta categoría.</p>`;
                 return;
             }
-            const difficultyColors = { 
-                fundamental: 'bg-blue-600', 
-                básico: 'bg-green-600', 
-                intermedio: 'bg-yellow-600', 
-                avanzado: 'bg-red-600', 
-                infantiles: 'bg-pink-600',
-                noticias: 'bg-teal-600',
-                otros: 'bg-purple-600' 
-            };
+            const difficultyColors = { fundamental: 'bg-blue-600', básico: 'bg-green-600', intermedio: 'bg-yellow-600', avanzado: 'bg-red-600', otros: 'bg-purple-600' };
             
             this.elements.storyListContainer.innerHTML = filtered.map(story => {
                 const { t: title, s: subtitle } = this.Utils.parseTitle(story.title);
@@ -1032,7 +928,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <h3 class="text-lg font-bold text-white">${title}</h3>
                                 <p class="text-sm text-gray-400 mb-3">${subtitle}</p>
                                 <div class="flex items-center gap-x-3 gap-y-1 flex-wrap mt-auto pt-2">
-                                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-white ${difficultyColors[story.difficulty.toLowerCase()] || 'bg-gray-600'}">${story.difficulty}</span>
+                                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-white ${difficultyColors[story.difficulty] || 'bg-gray-600'}">${story.difficulty}</span>
                                     <span class="text-xs text-gray-300 bg-gray-700 px-3 py-1 rounded-full">Tema: ${story.theme}</span>
                                 </div>
                             </div>
@@ -1049,26 +945,8 @@ document.addEventListener('DOMContentLoaded', () => {
              init(parent) { this._parent = parent; },
              async play() {
                 if (this._parent.state.marksData.length === 0 || !this._parent.state.currentStory) return;
-
-                const audioEl = this._parent.elements.storyAudio;
-                const currentPageIndex = this._parent.state.currentPageIndex;
-                const pageWordStartIndex = this._parent.state.pageWordStartIndices[currentPageIndex];
-                
-                const isLastPage = currentPageIndex === this._parent.state.currentStory.p.length - 1;
-                const pageWordEndIndex = isLastPage 
-                    ? this._parent.state.marksData.length - 1 
-                    : this._parent.state.pageWordStartIndices[currentPageIndex + 1] - 1;
-
-                const startOfPageTime = this._parent.state.marksData[pageWordStartIndex]?.start;
-                const endOfPageTime = this._parent.state.marksData[pageWordEndIndex]?.end;
-                
-                // If playback is finished for the current page, reset to the beginning of the page
-                if (!this._parent.state.isPlaying && endOfPageTime && audioEl.currentTime >= endOfPageTime - 0.1) {
-                    audioEl.currentTime = startOfPageTime;
-                }
-
                 try {
-                    await audioEl.play();
+                    await this._parent.elements.storyAudio.play();
                     this._parent.state.isPlaying = true;
                     this._parent.elements.playIcon.classList.add('hidden');
                     this._parent.elements.pauseIcon.classList.remove('hidden');
@@ -1359,11 +1237,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.state.currentWordIndex = newWordIndex;
             }
             const lastWordOfPageGlobalIndex = (this.state.pageWordStartIndices[this.state.currentPageIndex + 1] || this.state.marksData.length) - 1;
-            if (lastWordOfPageGlobalIndex >= 0 && currentTime >= (this.state.marksData[lastWordOfPageGlobalIndex]?.end || 0)) { 
-                this.handlePageEnd();
-            } else { 
-                this.state.animationFrameId = requestAnimationFrame(() => this.updateHighlight()); 
-            }
+            if (lastWordOfPageGlobalIndex >= 0 && currentTime >= (this.state.marksData[lastWordOfPageGlobalIndex]?.end || 0)) { this.AudioPlayer.stop(); } else { this.state.animationFrameId = requestAnimationFrame(() => this.updateHighlight()); }
         },
         
         showGrammar() { if (!this.state.currentStory) return; const pageData = this.state.currentStory.p[this.state.currentPageIndex]; const grammarHTML = pageData.grammar || '<p>No hay notas de gramática para esta página.</p>'; this.Modals.openGeneric('Notas de Gramática', grammarHTML); },
@@ -1380,13 +1254,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             let contentHTML = imageSrc ? `<img src="${imageSrc}" alt="Story thumbnail" class="w-full h-32 object-cover rounded-lg mb-4">` : '';
-            contentHTML += `<div id="vocab-list-container" class="space-y-2 max-h-64 overflow-y-auto pr-2">`;
-            vocabList.forEach(item => { 
-                contentHTML += `<div class="flex justify-between items-center bg-gray-700 p-2 rounded-md text-sm cursor-pointer hover:bg-gray-600 transition-colors vocab-item" data-word="${item.en}">
-                                    <span class="font-semibold text-white pointer-events-none">${item.en}</span>
-                                    <span class="text-gray-400 pointer-events-none">${item.es}</span>
-                                </div>`; 
-            });
+            contentHTML += `<div class="space-y-2 max-h-64 overflow-y-auto pr-2">`;
+            vocabList.forEach(item => { contentHTML += `<div class="flex justify-between items-center bg-gray-700 p-2 rounded-md text-sm"><span class="font-semibold text-white">${item.en}</span><span class="text-gray-400">${item.es}</span></div>`; });
             contentHTML += '</div>';
             this.Modals.openGeneric('Vocabulario del Párrafo', contentHTML);
         },
@@ -1434,21 +1303,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         Modals: {
             _parent: null,
-            _vocabClickHandler: null,
             init(parent) { this._parent = parent; },
             openGeneric(title, contentHTML) { 
                 this._parent.AudioPlayer.pause(); 
                 this._parent.elements.modalTitle.textContent = title; 
                 this._parent.elements.modalContent.innerHTML = contentHTML; 
-
-                if (title === 'Vocabulario del Párrafo') {
-                    const vocabContainer = this._parent.elements.modalContent.querySelector('#vocab-list-container');
-                    if (vocabContainer) {
-                        this._vocabClickHandler = this._handleVocabItemClick.bind(this);
-                        vocabContainer.addEventListener('click', this._vocabClickHandler);
-                    }
-                }
-
                 this._parent.elements.modalOverlay.classList.remove('hidden'); 
                 this._parent.elements.modalContainer.classList.remove('hidden');
                 this._parent.elements.modalContainer.classList.add('flex');
@@ -1457,43 +1316,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 this._parent.elements.modalOverlay.classList.add('hidden'); 
                 this._parent.elements.modalContainer.classList.add('hidden');
                 this._parent.elements.modalContainer.classList.remove('flex');
-                
-                if (this._vocabClickHandler) {
-                    const vocabContainer = this._parent.elements.modalContent.querySelector('#vocab-list-container');
-                    if (vocabContainer) {
-                        vocabContainer.removeEventListener('click', this._vocabClickHandler);
-                    }
-                    this._vocabClickHandler = null;
-                }
-            },
-            _handleVocabItemClick(e) {
-                const vocabItem = e.target.closest('.vocab-item');
-                if (!vocabItem) return;
-
-                this._parent.SoundManager.play('click');
-                const wordToFind = vocabItem.dataset.word.toLowerCase();
-                const wordSpans = this._parent.elements.storyTextEnEl.querySelectorAll('.word');
-                
-                let targetSpan = null;
-                for (const span of wordSpans) {
-                    const spanText = span.textContent.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
-                    if (spanText === wordToFind) {
-                        targetSpan = span;
-                        break;
-                    }
-                }
-
-                if (targetSpan) {
-                    this.closeGeneric(); 
-                    setTimeout(() => {
-                        this._parent.handleWordClick({ target: targetSpan });
-                    }, 150);
-                } else {
-                    console.warn(`Word span for "${wordToFind}" not found on the current page.`);
-                    this._parent.SoundManager.play('wrong');
-                    vocabItem.classList.add('shake');
-                    setTimeout(() => vocabItem.classList.remove('shake'), 800);
-                }
             },
             openSettings() {
                 this._parent.AudioPlayer.pause();
@@ -1788,27 +1610,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (settings) {
                         this._parent.state.fontSizeMultiplier = settings.fontSizeMultiplier || 1.0;
                         this._parent.state.learnedWords = settings.learnedWords || {};
-                        this._parent.state.isAutoplayEnabled = settings.isAutoplayEnabled || false;
-                        this._parent.state.isMuted = settings.isMuted || false;
                     }
                 } catch (e) {
                     console.error("Error loading settings:", e);
                     this._parent.state.fontSizeMultiplier = 1.0;
                     this._parent.state.learnedWords = {};
-                    this._parent.state.isAutoplayEnabled = false;
-                    this._parent.state.isMuted = false;
                 }
                 this.applyFontSize();
-                this.applyAutoplaySetting();
-                this.applyMuteSetting();
             },
             saveSettings() {
                 try {
                     const settings = {
                         fontSizeMultiplier: this._parent.state.fontSizeMultiplier,
-                        learnedWords: this._parent.state.learnedWords,
-                        isAutoplayEnabled: this._parent.state.isAutoplayEnabled,
-                        isMuted: this._parent.state.isMuted
+                        learnedWords: this._parent.state.learnedWords
                     };
                     localStorage.setItem(this._parent.config.SETTINGS_KEY, JSON.stringify(settings));
                 } catch (e) {
@@ -1836,45 +1650,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const multiplier = this._parent.state.fontSizeMultiplier;
                 document.documentElement.style.setProperty('--story-font-size-multiplier', multiplier);
                 this._parent.elements.fontSizeDisplay.textContent = `${Math.round(multiplier * 100)}%`;
-            },
-            toggleAutoplay() {
-                this._parent.SoundManager.play('click');
-                this._parent.state.isAutoplayEnabled = this._parent.elements.autoplayToggle.checked;
-                this.saveSettings();
-            },
-            applyAutoplaySetting() {
-                if (this._parent.elements.autoplayToggle) {
-                    this._parent.elements.autoplayToggle.checked = this._parent.state.isAutoplayEnabled;
-                }
-            },
-            toggleMute() {
-                this._parent.SoundManager.play('click');
-                this._parent.state.isMuted = !this._parent.state.isMuted;
-                this.applyMuteSetting();
-                this.saveSettings();
-            },
-            applyMuteSetting() {
-                const isMuted = this._parent.state.isMuted;
-                this._parent.SoundManager.applyMuteState(isMuted);
-
-                // Actualizar icono del botón de mute en la vista de la historia
-                if (isMuted) {
-                    this._parent.elements.soundOnIcon.classList.add('hidden');
-                    this._parent.elements.soundOffIcon.classList.remove('hidden');
-                } else {
-                    this._parent.elements.soundOnIcon.classList.remove('hidden');
-                    this._parent.elements.soundOffIcon.classList.add('hidden');
-                }
-                // Actualizar icono del botón de mute en el menú principal
-                if (this._parent.elements.mainMenuSoundOnIcon) {
-                     if (isMuted) {
-                        this._parent.elements.mainMenuSoundOnIcon.classList.add('hidden');
-                        this._parent.elements.mainMenuSoundOffIcon.classList.remove('hidden');
-                    } else {
-                        this._parent.elements.mainMenuSoundOnIcon.classList.remove('hidden');
-                        this._parent.elements.mainMenuSoundOffIcon.classList.add('hidden');
-                    }
-                }
             }
         },
 
