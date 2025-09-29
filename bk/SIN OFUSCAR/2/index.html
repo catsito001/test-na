@@ -239,6 +239,7 @@
             padding: 2px 4px;
         }
 
+        
         @keyframes ken-burns-effect {
           0% { transform: scale(1.1) translate(0, 0); transform-origin: 50% 50%; }
           25% { transform: scale(1.15) translate(2%, -2%); transform-origin: top left; }
@@ -247,42 +248,6 @@
           100% { transform: scale(1.1) translate(0, 0); transform-origin: 50% 50%; }
         }
         #story-image { animation: ken-burns-effect 30s ease-in-out infinite alternate; }
-
-        /* Estilos para el nuevo modo de traducción */
-        #translation-btn.active {
-            background-color: #4f46e5;
-            border-color: #a78bfa;
-            color: white;
-        }
-        .word-block {
-            display: inline-flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #374151;
-            border-radius: 0.375rem;
-            padding: 2px 6px;
-            margin: 1px 2px;
-            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-            vertical-align: bottom;
-            font-size: 1rem;
-            
-        }
-        .word-block .word-en {
-            font-weight: 500;
-            color: white;
-            line-height: 1.2;
-        }
-        .word-block .word-es {
-            font-size: 0.65em;
-            color: #a5b4fc;
-            font-style: italic;
-            line-height: 1.1;
-        }
-        .word-block.active {
-            background-color: #4338ca;
-            box-shadow: 0 0 0 2px #8B5CF6;
-        }
-
 
         @media (max-width: 640px) {
             #game-modal-title { font-size: 1.125rem; }
@@ -514,11 +479,6 @@
                         <button id="settings-btn" class="flex-shrink-0 p-1.5 bg-gray-700/50 backdrop-blur-sm rounded-full hover:bg-gray-600/70 transition-colors shadow-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></button>
                     </div>
                 </header>
-                <div id="inline-translation-container" class="absolute inset-0 z-10 hidden items-center justify-center p-8 pointer-events-none">
-                    <div class="bg-black/70 backdrop-blur-md border border-gray-600 rounded-lg p-3 max-h-[80%] w-full max-w-md overflow-y-auto text-base italic text-gray-300 pointer-events-auto">
-                        <p id="inline-translation-text"></p>
-                    </div>
-                </div>
                 <video id="story-video" class="w-full h-full object-cover hidden" autoplay loop muted playsinline></video>
                 <img id="story-image" src="" alt="Story image" class="w-full h-full object-cover">
                 <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4 flex flex-col items-start gap-3 bg-gradient-to-t from-black/70 to-transparent">
@@ -735,7 +695,6 @@ document.addEventListener('DOMContentLoaded', () => {
             learnedWords: {},
             isAutoplayEnabled: false,
             isMuted: false,
-            isTranslationModeActive: false,
         },
 
         elements: {},
@@ -827,8 +786,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 wordModalImage: document.getElementById('word-modal-image'),
                 wordModalImageLoader: document.getElementById('word-modal-image-loader'),
                 wordModalPos: document.getElementById('word-modal-pos'),
-                inlineTranslationContainer: document.getElementById('inline-translation-container'),
-                inlineTranslationText: document.getElementById('inline-translation-text'),
             };
         },
 
@@ -860,7 +817,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.elements.activitiesBtn.addEventListener('click', () => { this.SoundManager.play('select'); this.ActivityManager.showActivitiesView(); });
             this.elements.grammarBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showGrammar(); });
             this.elements.vocabularyBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showVocabulary(); });
-            this.elements.translationBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.toggleTranslationView(); });
+            this.elements.translationBtn.addEventListener('click', () => { this.SoundManager.play('click'); this.showTranslation(); });
             
             // Listeners del reproductor
             this.elements.storyAudio.addEventListener('ended', () => this.handlePageEnd());
@@ -920,11 +877,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.AudioPlayer.stop(true);
                 this.state.currentStory = null; 
                 this.state.currentSpeedIndex = 1;
-                if (this.state.isTranslationModeActive) {
-                    this.state.isTranslationModeActive = false;
-                    this.elements.translationBtn.classList.remove('active');
-                    this.elements.inlineTranslationContainer.classList.add('hidden');
-                }
                 this.renderStories();
             }
         },
@@ -1247,25 +1199,6 @@ document.addEventListener('DOMContentLoaded', () => {
             this.elements.nextPageBtn.disabled = this.state.currentPageIndex === totalPages - 1;
         },
 
-        toggleTranslationView() {
-            this.state.isTranslationModeActive = !this.state.isTranslationModeActive;
-            this.elements.translationBtn.classList.toggle('active', this.state.isTranslationModeActive);
-
-            if (this.state.isTranslationModeActive) {
-                const pageData = this.state.currentStory.p[this.state.currentPageIndex];
-                const [, esText] = pageData.c.split('||');
-                if (esText && esText.trim()) {
-                    this.elements.inlineTranslationText.textContent = esText.trim();
-                    this.elements.inlineTranslationContainer.classList.remove('hidden');
-                    this.elements.inlineTranslationContainer.classList.add('flex');
-                }
-            } else {
-                this.elements.inlineTranslationContainer.classList.add('hidden');
-                this.elements.inlineTranslationContainer.classList.remove('flex');
-            }
-            this.renderCurrentPage();
-        },
-
         changePage(direction) {
             const totalPages = this.state.currentStory.p.length;
             const newIndex = this.state.currentPageIndex + direction;
@@ -1390,29 +1323,16 @@ document.addEventListener('DOMContentLoaded', () => {
                             tempTokenIndex++;
                         }
                         if (tempPvWordIndex === pvWords.length) {
-                            matchFound = true; 
-                            const span = document.createElement('span');
+                            matchFound = true; const span = document.createElement('span');
                             const firstTokenIndex = matchedTokensIndices[0]; const lastTokenIndex = matchedTokensIndices[matchedTokensIndices.length - 1];
-                            const phrasalVerbText = tokens.slice(firstTokenIndex, lastTokenIndex + 1).join('');
-                            span.dataset.text = pv;
+                            span.textContent = tokens.slice(firstTokenIndex, lastTokenIndex + 1).join('');
+                            span.className = 'word phrasal-verb'; span.dataset.text = pv;
                             const startGlobalIndex = (this.state.pageWordStartIndices[pageIndex] || 0) + localWordCounter;
                             localWordCounter += pvWords.length;
                             const endGlobalIndex = (this.state.pageWordStartIndices[pageIndex] || 0) + localWordCounter - 1;
                             span.dataset.startGlobalIndex = startGlobalIndex; span.dataset.endGlobalIndex = endGlobalIndex;
-                            
-                            const phrasalData = this.state.phrasalVerbMap.get(pv.toLowerCase());
-                            const translationText = (phrasalData && phrasalData.translation) ? phrasalData.translation : '...';
-
-                            if (this.state.isTranslationModeActive) {
-                                span.className = 'word word-block phrasal-verb';
-                                span.innerHTML = `<span class="word-en pointer-events-none">${phrasalVerbText}</span><span class="word-es pointer-events-none">${translationText}</span>`;
-                            } else {
-                                span.className = 'word phrasal-verb';
-                                span.textContent = phrasalVerbText;
-                                span.addEventListener('mouseenter', (event) => { this.Utils.showDynamicTooltip(event.target, translationText); });
-                            }
-
                             span.addEventListener('click', (e) => this.handleWordClick(e));
+                            span.addEventListener('mouseenter', (event) => { const phrasalData = this.state.phrasalVerbMap.get(pv.toLowerCase()); const translationText = (phrasalData && phrasalData.translation) ? phrasalData.translation : '...'; this.Utils.showDynamicTooltip(event.target, translationText); });
                             this.elements.storyTextEnEl.appendChild(span);
                             for (let j = firstTokenIndex; j <= lastTokenIndex; j++) isTokenConsumed[j] = true;
                             i = lastTokenIndex; break;
@@ -1422,40 +1342,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!matchFound) {
                     const part = tokens[i]; isTokenConsumed[i] = true;
                     if (/[\p{L}\p{N}']+/u.test(part)) {
-                        const span = document.createElement('span');
+                        const span = document.createElement('span'); span.textContent = part; span.className = 'word';
                         const startGlobalIndex = (this.state.pageWordStartIndices[pageIndex] || 0) + localWordCounter;
                         span.dataset.startGlobalIndex = startGlobalIndex; localWordCounter++;
                         const endGlobalIndex = (this.state.pageWordStartIndices[pageIndex] || 0) + localWordCounter - 1;
                         span.dataset.endGlobalIndex = endGlobalIndex;
                         const cleanWord = part.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
-                        
-                        if (this.state.isTranslationModeActive) {
-                            span.className = 'word word-block';
-                            const glossData = this.state.glossary.get(cleanWord);
-                            const translation = (glossData && glossData.translation) ? glossData.translation.split('/')[0].trim() : '';
-                            span.innerHTML = `<span class="word-en pointer-events-none">${part}</span><span class="word-es pointer-events-none">${translation}</span>`;
-                        } else {
-                            span.className = 'word';
-                            span.textContent = part;
-                            span.addEventListener('mouseenter', (event) => { 
-                                const cleanWordHover = event.target.textContent.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); 
-                                const glossData = this.state.glossary.get(cleanWordHover); 
-                                const translationText = (glossData && glossData.translation) ? glossData.translation : '...'; 
-                                this.Utils.showDynamicTooltip(event.target, translationText); 
-                            });
-                        }
-                        
                         const learnedWordsForStory = this.state.learnedWords[this.state.currentStory?.id] || [];
                         if (learnedWordsForStory.includes(cleanWord)) {
                             span.classList.add('learned-word');
                         }
                         span.addEventListener('click', (e) => this.handleWordClick(e));
+                        span.addEventListener('mouseenter', (event) => { const cleanWord = event.target.textContent.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); const glossData = this.state.glossary.get(cleanWord); const translationText = (glossData && glossData.translation) ? glossData.translation : '...'; this.Utils.showDynamicTooltip(event.target, translationText); });
                         this.elements.storyTextEnEl.appendChild(span);
                     } else this.elements.storyTextEnEl.appendChild(document.createTextNode(part));
                 }
             }
         },
-
 
         handleWordClick(event) {
             const wordEl = event.target.closest('.word'); if (!wordEl) return; 
@@ -1471,7 +1374,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const breakdown = phrasalText.split(' ').map(word => { const cleanWord = word.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); const glossData = this.state.glossary.get(cleanWord); return { word: word, translation: glossData ? glossData.translation : '...' }; });
                 this.Modals.openWord(phrasalText, phrasalData.translation, 'ph. v.', startGlobalIndex, endGlobalIndex, breakdown, wordEl);
             } else {
-                const wordText = this.state.isTranslationModeActive ? wordEl.querySelector('.word-en').textContent : wordEl.textContent;
+                const wordText = wordEl.textContent;
                 const cleanWord = wordText.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
                 const glossData = this.state.glossary.get(cleanWord);
                 this.Modals.openWord(wordText, glossData ? glossData.translation : 'Traducción no encontrada', glossData ? glossData.pos : '', startGlobalIndex, endGlobalIndex, null, wordEl);
@@ -1492,21 +1395,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (newWordEl) {
                         newWordEl.classList.add('active');
                         newWordEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        if(!this.state.isTranslationModeActive) { // Only show tooltips if translation mode is off
-                            setTimeout(() => { 
-                                if (!this.state.isPlaying || !newWordEl.classList.contains('active')) return;
-                                let translationText = '...';
-                                if (newWordEl.classList.contains('phrasal-verb')) {
-                                    const phrasalData = this.state.phrasalVerbMap.get(newWordEl.dataset.text.toLowerCase());
-                                    if (phrasalData?.translation) translationText = phrasalData.translation;
-                                } else {
-                                    const cleanWord = this.state.storyWords[newWordIndex].toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
-                                    const glossData = this.state.glossary.get(cleanWord);
-                                    if (glossData?.translation) translationText = glossData.translation;
-                                }
-                                this.Utils.showDynamicTooltip(newWordEl, translationText);
-                            }, 100);
-                        }
+                        setTimeout(() => { 
+                            if (!this.state.isPlaying || !newWordEl.classList.contains('active')) return;
+                            let translationText = '...';
+                            if (newWordEl.classList.contains('phrasal-verb')) {
+                                const phrasalData = this.state.phrasalVerbMap.get(newWordEl.dataset.text.toLowerCase());
+                                if (phrasalData?.translation) translationText = phrasalData.translation;
+                            } else {
+                                const cleanWord = this.state.storyWords[newWordIndex].toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, '');
+                                const glossData = this.state.glossary.get(cleanWord);
+                                if (glossData?.translation) translationText = glossData.translation;
+                            }
+                            this.Utils.showDynamicTooltip(newWordEl, translationText);
+                        }, 100);
                     }
                 }
                 this.state.currentWordIndex = newWordIndex;
@@ -1542,6 +1443,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             contentHTML += '</div>';
             this.Modals.openGeneric('Vocabulario del Párrafo', contentHTML);
+        },
+
+        showTranslation() {
+            if (!this.state.currentStory) return;
+            const pageData = this.state.currentStory.p[this.state.currentPageIndex];
+            const [enText, esText] = pageData.c.split('||');
+            if (!esText) { this.Modals.openGeneric('Traducción', '<p>La traducción para esta página no está disponible.</p>'); return; }
+            let finalHTML = `<div class="mb-4"><h4 class="text-sm font-bold text-indigo-400 uppercase tracking-wider mb-2">Traducción Completa</h4><p class="text-base italic text-gray-400 p-3 bg-black/20 rounded-lg max-h-48 overflow-y-auto pr-2">${esText.trim()}</p></div>`;
+            finalHTML += '<h4 class="text-sm font-bold text-indigo-400 uppercase tracking-wider mb-2">Palabra por Palabra</h4><div class="flex flex-wrap gap-2 max-h-60 overflow-y-auto pr-2">';
+            const words = enText.replace(/\[\[|\]\]/g, '').split(/(\s+|(?<!\d)\.(?!\d)|[,;!?:“”"])/).filter(part => part.trim() !== '');
+            words.forEach(word => { const cleanWord = word.toLowerCase().replace(/^[.,;!?:“”"]+|[.,;!?:“”"]+$/g, ''); const glossData = this.state.glossary.get(cleanWord); if (glossData) { finalHTML += `<div class="bg-gray-700 rounded-md py-1 px-3 text-center shadow"><div class="font-semibold text-white text-sm">${word}</div><div class="text-indigo-300 italic -mt-1" style="font-size: 0.7rem; line-height: 0.9rem;">${glossData.translation}</div></div>`; } });
+            finalHTML += '</div>';
+            this.Modals.openGeneric('Traducción del Párrafo', finalHTML);
         },
         
         Utils: {
@@ -2115,4 +2029,3 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
-
