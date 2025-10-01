@@ -1,0 +1,152 @@
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request));
+});
+
+// --- CONFIGURACIÓN ---
+// Lista blanca de dominios permitidos.
+// El worker SÓLO aceptará peticiones de estas URLs.
+const ALLOWED_ORIGINS = [
+  'http://narrion.test',
+  'https://www.narrion.site',
+  'https://narrion.site'  
+];
+// Asegúrate que este es el nombre de tu binding de KV
+const KV_NAMESPACE = narrionStories; 
+// URL base a la carpeta 'data' en tu repositorio de GitHub
+const GITHUB_REPO_URL = 'https://raw.githubusercontent.com/catsito001/test-na/main/data'; 
+// Clave secreta para la codificación. ¡Debe ser idéntica en tu index.html!
+const ask = "narr9";
+
+
+/**
+ * Codifica o decodifica una cadena de texto usando un cifrado XOR simple.
+ * @param {string} data El texto a procesar.
+ * @param {string} key La clave secreta.
+ * @returns {string} El texto procesado.
+ */
+function processData(data, key) {
+  let result = '';
+  for (let i = 0; i < data.length; i++) {
+    result += String.fromCharCode(data.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+  }
+  return result;
+}
+
+/**
+ * Codifica una ruta de archivo para el frontend, usando el cifrado XOR y luego Base64.
+ * @param {string} path La ruta del archivo (ej. ./data/...)
+ * @param {string} key La clave secreta.
+ * @returns {string} La ruta codificada en Base64.
+ */
+function encodeAudioPath(path, key) {
+  const xorResult = processData(path, key);
+  return btoa(xorResult); // btoa convierte a Base64
+}
+
+
+async function handleRequest(request) {
+  // --- LÓGICA DE CORS DINÁMICA ---
+  const origin = request.headers.get('Origin');
+  const corsHeaders = {
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+  };
+
+  // Si el origen de la petición está en nuestra lista blanca,
+  // lo reflejamos en la cabecera de la respuesta.
+  if (ALLOWED_ORIGINS.includes(origin)) {
+    corsHeaders['Access-Control-Allow-Origin'] = origin;
+  }
+  // Si no está en la lista, la cabecera 'Access-Control-Allow-Origin' no se enviará,
+  // y el navegador bloqueará la petición por seguridad.
+
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: corsHeaders });
+  }
+  
+  const url = new URL(request.url);
+  const path = url.pathname;
+
+  // --- RUTAS DE LA API ---
+
+  // RUTA PARA OBTENER Y CODIFICAR MARKS.JSON
+  const marksMatch = path.match(/^\/marks\/(.+)$/);
+  if (marksMatch) {
+    const storyTitle = decodeURIComponent(marksMatch[1]);
+    const marksUrl = `${GITHUB_REPO_URL}/${storyTitle}/m/marks.json`;
+
+    try {
+      const response = await fetch(marksUrl);
+      if (!response.ok) {
+        throw new Error(`GitHub fetch failed: ${response.status}`);
+      }
+      
+      const marksJsonText = await response.text();
+      const encodedData = processData(marksJsonText, ask);
+
+      return new Response(encodedData, { 
+        status: 200, 
+        headers: { ...corsHeaders, 'Content-Type': 'text/plain' }
+      });
+
+    } catch (error) {
+      console.error(`Error fetching marks for ${storyTitle}:`, error.message);
+      return new Response('Marks file not found', { status: 404, headers: corsHeaders });
+    }
+  }
+
+  // RUTA PARA LA LISTA PRINCIPAL DE HISTORIAS: /data
+  if (path === '/data') {
+    const rawData = await KV_NAMESPACE.get('data') || '';
+    const allStories = rawData.split('||||').map(c => c.trim()).filter(Boolean).flatMap(c => {
+      try { return Array.isArray(JSON.parse(c).story) ? JSON.parse(c).story : []; } 
+      catch (e) { return []; }
+    });
+
+    const storyList = allStories.map((story) => { // No necesitamos el 'index' para el ID
+      const titleMatch = (story.meta.t || '').match(/^(.*?)<(.*?)>$/);
+      const cleanTitle = titleMatch ? titleMatch[1].trim() : (story.meta.t || '').trim();
+      
+      return {
+        id: story.meta.id, // <-- ARREGLO: Usamos el ID único de los datos de la historia
+        title: story.meta.t,
+        difficulty: story.meta.lvl || 'otros',
+        theme: story.meta.info || '',
+        assetType: story.meta.assetType,
+        cleanTitle: cleanTitle
+      };
+    });
+
+    return new Response(JSON.stringify({ story: storyList }), { status: 200, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
+  }
+
+  // RUTA PARA EL DETALLE DE UNA HISTORIA: /stories/:id
+  // Usamos \w+ para permitir IDs que no sean solo números en el futuro.
+  const detailMatch = path.match(/^\/stories\/(\w+)$/);
+  if (detailMatch) {
+    const rawData = await KV_NAMESPACE.get('data') || '';
+    const allStories = rawData.split('||||').map(c => c.trim()).filter(Boolean).flatMap(c => {
+      try { return Array.isArray(JSON.parse(c).story) ? JSON.parse(c).story : []; }
+      catch (e) { return []; }
+    });
+
+    const storyId = detailMatch[1]; // El ID es un string
+    // <-- ARREGLO: Buscamos la historia por su ID único en lugar de por su posición en el array.
+    const story = allStories.find(s => s.meta.id === storyId); 
+
+    if (!story) {
+      return new Response(JSON.stringify({ error: 'Not Found' }), { status: 404, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
+    }
+    
+    const titleMatch = (story.meta.t || '').match(/^(.*?)<(.*?)>$/);
+    const cleanTitle = titleMatch ? titleMatch[1].trim() : (story.meta.t || '').trim();
+    const audioPath = `./data/${cleanTitle}/m/speech.mp3`;
+
+    story.encodedAudioPath = encodeAudioPath(audioPath, ask);
+    
+    return new Response(JSON.stringify({ success: true, story: story }), { status: 200, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
+  }
+
+  // Respuesta para cualquier otra ruta no encontrada
+  return new Response(JSON.stringify({ error: 'Not Found' }), { status: 404, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
+}

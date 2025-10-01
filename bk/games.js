@@ -1,9 +1,9 @@
 // ========================================================================
 // --- LÓGICA DE JUEGOS (games.js) ---
-// Versión 5.1 - Se añade soporte para efectos de sonido
+// Versión 5.2 - Corregido el alcance de las variables de los juegos
 // ========================================================================
 
-const GameUtils = {
+var GameUtils = {
     parseText: (s) => s.match(/^(.*?)<(.*?)>$/) ? {t: s.match(/^(.*?)<(.*?)>$/)[1].trim(), s: s.match(/^(.*?)<(.*?)>$/)[2].trim()} : {t: s.trim(), s: ''},
     shuffleArray: (array) => {
         for (let i = array.length - 1; i > 0; i--) {
@@ -17,7 +17,7 @@ const GameUtils = {
 /**
  * Módulo para el juego de Oraciones Desordenadas (Jumbled Sentences).
  */
-const JumbledSentencesGame = {
+var JumbledSentencesGame = {
     state: null,
     elements: {},
     dependencies: {},
@@ -179,7 +179,7 @@ const JumbledSentencesGame = {
 /**
  * Módulo para el juego de Trivia (Quiz).
  */
-const QuizGame = {
+var QuizGame = {
     state: null, elements: {}, dependencies: {}, TIMER_DURATION: 15,
     init(gameData, storyId, dependencies) {
         this.dependencies = dependencies;
@@ -306,7 +306,7 @@ const QuizGame = {
 /**
  * Módulo para el juego de Tarjetas de Memoria (Memory Cards).
  */
-const MemoryCardsGame = {
+var MemoryCardsGame = {
     state: null, elements: {}, dependencies: {},
     async init(gameData, storyId, deps) {
         this.dependencies = deps;
@@ -433,7 +433,7 @@ const MemoryCardsGame = {
 /**
  * Módulo para el juego de Completar la Oración (Fill in the Blanks).
  */
-const FillTheBlanksGame = {
+var FillTheBlanksGame = {
     state: null, elements: {}, dependencies: {},
     init(gameData, storyId, dependencies) {
         this.dependencies = dependencies;
