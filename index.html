@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     window.addEventListener('load', () => {
+        const swVersion = 'v2';
         navigator.serviceWorker.register(`/sw.js?v=${swVersion}`).then(reg => {
             console.log('Service Worker registrado con éxito.');
             reg.addEventListener('updatefound', () => {
