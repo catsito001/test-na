@@ -1,12 +1,16 @@
-// Nombre de la caché para nuestra aplicación
+// sw.js - VERSIÓN MEJORADA
+
+// IMPORTANTE: Cambia este número de versión CADA VEZ que hagas una actualización.
+// Por ejemplo: 'interactive-stories-cache-v2', 'v3', etc.
 const CACHE_NAME = 'interactive-stories-cache-v1';
 
-// Archivos y recursos que queremos cachear
+// Archivos y recursos que queremos cachear. Ya tenías esta lista.
 const urlsToCache = [
   '/',
   'index.html',
   'games.js',
   'banner.png',
+  'manifest.json', // Añadido para asegurar que el manifest también se cachea
   'icons/icon-192.png',
   'icons/icon-512.png',
   'sounds/click.mp3',
@@ -16,31 +20,56 @@ const urlsToCache = [
   'sounds/wrong.wav'
 ];
 
-// Evento 'install': Se dispara cuando el Service Worker se instala por primera vez.
+// Evento 'install': Se dispara cuando el Service Worker se instala.
 self.addEventListener('install', event => {
-  // Esperamos hasta que la promesa dentro de waitUntil se resuelva.
+  console.log('Service Worker: Instalando...');
   event.waitUntil(
-    // Abrimos la caché con el nombre que definimos.
     caches.open(CACHE_NAME)
       .then(cache => {
-        console.log('Cache abierta');
-        // Agregamos todos los archivos de nuestro array a la caché.
+        console.log('Service Worker: Cache abierto, guardando archivos de la app.');
         return cache.addAll(urlsToCache);
+      })
+      .then(() => {
+        // --- NUEVO Y CRUCIAL ---
+        // Esta línea fuerza al nuevo Service Worker a activarse en cuanto termina
+        // la instalación, sin quedarse en estado de "espera".
+        return self.skipWaiting();
       })
   );
 });
 
-// Evento 'fetch': Se dispara cada vez que la aplicación realiza una petición de red (ej. una imagen, un script).
+// --- EVENTO 'ACTIVATE' COMPLETAMENTE NUEVO ---
+// Evento 'activate': Se dispara cuando el nuevo Service Worker se activa.
+self.addEventListener('activate', event => {
+  console.log('Service Worker: Activando...');
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cacheName => {
+          // Si el nombre del caché no es el actual, lo eliminamos.
+          // Esto es VITAL para limpiar las versiones antiguas de tu app.
+          if (cacheName !== CACHE_NAME) {
+            console.log('Service Worker: Borrando caché antiguo:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    }).then(() => {
+        // --- NUEVO Y CRUCIAL ---
+        // Le dice al SW que tome control de la página inmediatamente.
+        return self.clients.claim();
+    })
+  );
+});
+
+// Evento 'fetch': Tu lógica existente aquí es correcta y la mantenemos.
 self.addEventListener('fetch', event => {
   event.respondWith(
-    // Buscamos si la petición ya existe en nuestra caché.
     caches.match(event.request)
       .then(response => {
-        // Si encontramos una respuesta en la caché, la devolvemos.
         if (response) {
           return response;
         }
-        // Si no está en la caché, la pedimos a la red.
         return fetch(event.request);
       }
     )
