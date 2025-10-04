@@ -1,0 +1,2952 @@
+[
+  {
+    "word": "Thomas",
+    "start": 0,
+    "end": 0.522
+  },
+  {
+    "word": "was",
+    "start": 0.697,
+    "end": 0.871
+  },
+  {
+    "word": "a",
+    "start": 0.929,
+    "end": 0.964
+  },
+  {
+    "word": "man",
+    "start": 1.033,
+    "end": 1.242
+  },
+  {
+    "word": "in",
+    "start": 1.3,
+    "end": 1.37
+  },
+  {
+    "word": "his",
+    "start": 1.428,
+    "end": 1.544
+  },
+  {
+    "word": "forties",
+    "start": 1.614,
+    "end": 2.136
+  },
+  {
+    "word": "He",
+    "start": 2.485,
+    "end": 2.624
+  },
+  {
+    "word": "lived",
+    "start": 2.717,
+    "end": 2.972
+  },
+  {
+    "word": "in",
+    "start": 3.019,
+    "end": 3.088
+  },
+  {
+    "word": "a",
+    "start": 3.146,
+    "end": 3.17
+  },
+  {
+    "word": "simple",
+    "start": 3.239,
+    "end": 3.587
+  },
+  {
+    "word": "apartment",
+    "start": 3.622,
+    "end": 4.156
+  },
+  {
+    "word": "and",
+    "start": 4.203,
+    "end": 4.296
+  },
+  {
+    "word": "worked",
+    "start": 4.365,
+    "end": 4.656
+  },
+  {
+    "word": "in",
+    "start": 4.714,
+    "end": 4.772
+  },
+  {
+    "word": "an",
+    "start": 4.83,
+    "end": 4.899
+  },
+  {
+    "word": "office",
+    "start": 4.957,
+    "end": 5.306
+  },
+  {
+    "word": "downtown",
+    "start": 5.341,
+    "end": 6.026
+  },
+  {
+    "word": "Every",
+    "start": 6.525,
+    "end": 6.85
+  },
+  {
+    "word": "day",
+    "start": 6.931,
+    "end": 7.198
+  },
+  {
+    "word": "was",
+    "start": 7.314,
+    "end": 7.465
+  },
+  {
+    "word": "the",
+    "start": 7.523,
+    "end": 7.605
+  },
+  {
+    "word": "same",
+    "start": 7.663,
+    "end": 7.93
+  },
+  {
+    "word": "routine",
+    "start": 7.976,
+    "end": 8.626
+  },
+  {
+    "word": "he",
+    "start": 8.893,
+    "end": 8.986
+  },
+  {
+    "word": "would",
+    "start": 9.044,
+    "end": 9.23
+  },
+  {
+    "word": "wake",
+    "start": 9.3,
+    "end": 9.567
+  },
+  {
+    "word": "up",
+    "start": 9.613,
+    "end": 9.776
+  },
+  {
+    "word": "go",
+    "start": 10.019,
+    "end": 10.17
+  },
+  {
+    "word": "to",
+    "start": 10.228,
+    "end": 10.298
+  },
+  {
+    "word": "work",
+    "start": 10.379,
+    "end": 10.693
+  },
+  {
+    "word": "come",
+    "start": 11.308,
+    "end": 11.529
+  },
+  {
+    "word": "home",
+    "start": 11.587,
+    "end": 11.993
+  },
+  {
+    "word": "watch",
+    "start": 12.132,
+    "end": 12.434
+  },
+  {
+    "word": "TV",
+    "start": 12.516,
+    "end": 12.806
+  },
+  {
+    "word": "and",
+    "start": 13.34,
+    "end": 13.502
+  },
+  {
+    "word": "go",
+    "start": 13.584,
+    "end": 13.711
+  },
+  {
+    "word": "to",
+    "start": 13.781,
+    "end": 13.839
+  },
+  {
+    "word": "sleep",
+    "start": 13.909,
+    "end": 14.28
+  },
+  {
+    "word": "His",
+    "start": 14.942,
+    "end": 15.151
+  },
+  {
+    "word": "life",
+    "start": 15.244,
+    "end": 15.615
+  },
+  {
+    "word": "was",
+    "start": 15.662,
+    "end": 15.836
+  },
+  {
+    "word": "not",
+    "start": 15.917,
+    "end": 16.08
+  },
+  {
+    "word": "bad",
+    "start": 16.149,
+    "end": 16.567
+  },
+  {
+    "word": "but",
+    "start": 17.183,
+    "end": 17.345
+  },
+  {
+    "word": "it",
+    "start": 17.392,
+    "end": 17.473
+  },
+  {
+    "word": "felt",
+    "start": 17.543,
+    "end": 17.764
+  },
+  {
+    "word": "like",
+    "start": 17.822,
+    "end": 18.007
+  },
+  {
+    "word": "he",
+    "start": 18.042,
+    "end": 18.1
+  },
+  {
+    "word": "was",
+    "start": 18.158,
+    "end": 18.286
+  },
+  {
+    "word": "living",
+    "start": 18.367,
+    "end": 18.634
+  },
+  {
+    "word": "in",
+    "start": 18.692,
+    "end": 18.762
+  },
+  {
+    "word": "black",
+    "start": 18.843,
+    "end": 19.11
+  },
+  {
+    "word": "and",
+    "start": 19.157,
+    "end": 19.238
+  },
+  {
+    "word": "white",
+    "start": 19.308,
+    "end": 19.737
+  },
+  {
+    "word": "There",
+    "start": 20.237,
+    "end": 20.446
+  },
+  {
+    "word": "was",
+    "start": 20.48,
+    "end": 20.608
+  },
+  {
+    "word": "no",
+    "start": 20.678,
+    "end": 20.806
+  },
+  {
+    "word": "color",
+    "start": 20.922,
+    "end": 21.305
+  },
+  {
+    "word": "no",
+    "start": 21.862,
+    "end": 22.059
+  },
+  {
+    "word": "real",
+    "start": 22.21,
+    "end": 22.57
+  },
+  {
+    "word": "joy",
+    "start": 22.686,
+    "end": 23.116
+  },
+  {
+    "word": "One",
+    "start": 23.894,
+    "end": 24.149
+  },
+  {
+    "word": "weekend",
+    "start": 24.196,
+    "end": 24.741
+  },
+  {
+    "word": "while",
+    "start": 25.066,
+    "end": 25.322
+  },
+  {
+    "word": "visiting",
+    "start": 25.368,
+    "end": 25.775
+  },
+  {
+    "word": "a",
+    "start": 25.833,
+    "end": 25.867
+  },
+  {
+    "word": "small",
+    "start": 25.914,
+    "end": 26.227
+  },
+  {
+    "word": "market",
+    "start": 26.297,
+    "end": 26.75
+  },
+  {
+    "word": "he",
+    "start": 27.342,
+    "end": 27.435
+  },
+  {
+    "word": "saw",
+    "start": 27.504,
+    "end": 27.69
+  },
+  {
+    "word": "a",
+    "start": 27.748,
+    "end": 27.771
+  },
+  {
+    "word": "woman",
+    "start": 27.83,
+    "end": 28.097
+  },
+  {
+    "word": "selling",
+    "start": 28.166,
+    "end": 28.503
+  },
+  {
+    "word": "seeds",
+    "start": 28.584,
+    "end": 29.083
+  },
+  {
+    "word": "On",
+    "start": 29.408,
+    "end": 29.571
+  },
+  {
+    "word": "a",
+    "start": 29.629,
+    "end": 29.652
+  },
+  {
+    "word": "table",
+    "start": 29.734,
+    "end": 30.233
+  },
+  {
+    "word": "there",
+    "start": 30.465,
+    "end": 30.651
+  },
+  {
+    "word": "were",
+    "start": 30.686,
+    "end": 30.837
+  },
+  {
+    "word": "packets",
+    "start": 30.906,
+    "end": 31.313
+  },
+  {
+    "word": "with",
+    "start": 31.359,
+    "end": 31.522
+  },
+  {
+    "word": "pictures",
+    "start": 31.591,
+    "end": 32.009
+  },
+  {
+    "word": "of",
+    "start": 32.056,
+    "end": 32.125
+  },
+  {
+    "word": "bright",
+    "start": 32.218,
+    "end": 32.508
+  },
+  {
+    "word": "red",
+    "start": 32.578,
+    "end": 32.752
+  },
+  {
+    "word": "tomatoes",
+    "start": 32.81,
+    "end": 33.472
+  },
+  {
+    "word": "and",
+    "start": 33.797,
+    "end": 34.041
+  },
+  {
+    "word": "deep",
+    "start": 34.134,
+    "end": 34.366
+  },
+  {
+    "word": "green",
+    "start": 34.436,
+    "end": 34.726
+  },
+  {
+    "word": "herbs",
+    "start": 34.807,
+    "end": 35.272
+  },
+  {
+    "word": "Thomas",
+    "start": 35.991,
+    "end": 36.467
+  },
+  {
+    "word": "didn",
+    "start": 36.676,
+    "end": 36.909
+  },
+  {
+    "word": "t",
+    "start": 36.943,
+    "end": 36.99
+  },
+  {
+    "word": "have",
+    "start": 37.048,
+    "end": 37.21
+  },
+  {
+    "word": "a",
+    "start": 37.245,
+    "end": 37.28
+  },
+  {
+    "word": "garden",
+    "start": 37.35,
+    "end": 37.791
+  },
+  {
+    "word": "In",
+    "start": 38.511,
+    "end": 38.673
+  },
+  {
+    "word": "fact",
+    "start": 38.755,
+    "end": 39.126
+  },
+  {
+    "word": "he",
+    "start": 39.451,
+    "end": 39.544
+  },
+  {
+    "word": "lived",
+    "start": 39.637,
+    "end": 39.869
+  },
+  {
+    "word": "on",
+    "start": 39.916,
+    "end": 39.997
+  },
+  {
+    "word": "the",
+    "start": 40.043,
+    "end": 40.125
+  },
+  {
+    "word": "third",
+    "start": 40.206,
+    "end": 40.473
+  },
+  {
+    "word": "floor",
+    "start": 40.554,
+    "end": 40.926
+  },
+  {
+    "word": "But",
+    "start": 41.193,
+    "end": 41.367
+  },
+  {
+    "word": "he",
+    "start": 41.413,
+    "end": 41.471
+  },
+  {
+    "word": "felt",
+    "start": 41.553,
+    "end": 41.785
+  },
+  {
+    "word": "an",
+    "start": 41.831,
+    "end": 41.901
+  },
+  {
+    "word": "impulse",
+    "start": 41.959,
+    "end": 42.609
+  },
+  {
+    "word": "a",
+    "start": 43.015,
+    "end": 43.097
+  },
+  {
+    "word": "small",
+    "start": 43.213,
+    "end": 43.538
+  },
+  {
+    "word": "spark",
+    "start": 43.619,
+    "end": 43.933
+  },
+  {
+    "word": "of",
+    "start": 43.991,
+    "end": 44.049
+  },
+  {
+    "word": "curiosity",
+    "start": 44.13,
+    "end": 44.861
+  },
+  {
+    "word": "he",
+    "start": 44.943,
+    "end": 45.012
+  },
+  {
+    "word": "hadn",
+    "start": 45.082,
+    "end": 45.291
+  },
+  {
+    "word": "t",
+    "start": 45.326,
+    "end": 45.361
+  },
+  {
+    "word": "felt",
+    "start": 45.419,
+    "end": 45.663
+  },
+  {
+    "word": "in",
+    "start": 45.721,
+    "end": 45.79
+  },
+  {
+    "word": "a",
+    "start": 45.837,
+    "end": 45.86
+  },
+  {
+    "word": "long",
+    "start": 45.941,
+    "end": 46.173
+  },
+  {
+    "word": "time",
+    "start": 46.243,
+    "end": 46.742
+  },
+  {
+    "word": "He",
+    "start": 47.183,
+    "end": 47.323
+  },
+  {
+    "word": "bought",
+    "start": 47.404,
+    "end": 47.671
+  },
+  {
+    "word": "a",
+    "start": 47.706,
+    "end": 47.741
+  },
+  {
+    "word": "small",
+    "start": 47.787,
+    "end": 48.101
+  },
+  {
+    "word": "bag",
+    "start": 48.159,
+    "end": 48.368
+  },
+  {
+    "word": "of",
+    "start": 48.426,
+    "end": 48.484
+  },
+  {
+    "word": "tomato",
+    "start": 48.553,
+    "end": 48.96
+  },
+  {
+    "word": "seeds",
+    "start": 49.053,
+    "end": 49.505
+  },
+  {
+    "word": "and",
+    "start": 49.563,
+    "end": 49.714
+  },
+  {
+    "word": "a",
+    "start": 49.784,
+    "end": 49.807
+  },
+  {
+    "word": "pot",
+    "start": 49.877,
+    "end": 50.26
+  },
+  {
+    "word": "He",
+    "start": 50.945,
+    "end": 51.073
+  },
+  {
+    "word": "went",
+    "start": 51.142,
+    "end": 51.351
+  },
+  {
+    "word": "home",
+    "start": 51.421,
+    "end": 51.781
+  },
+  {
+    "word": "and",
+    "start": 51.897,
+    "end": 52.071
+  },
+  {
+    "word": "put",
+    "start": 52.14,
+    "end": 52.315
+  },
+  {
+    "word": "some",
+    "start": 52.361,
+    "end": 52.558
+  },
+  {
+    "word": "soil",
+    "start": 52.605,
+    "end": 53
+  },
+  {
+    "word": "in",
+    "start": 53.093,
+    "end": 53.209
+  },
+  {
+    "word": "the",
+    "start": 53.255,
+    "end": 53.325
+  },
+  {
+    "word": "pot",
+    "start": 53.394,
+    "end": 53.777
+  },
+  {
+    "word": "He",
+    "start": 54.312,
+    "end": 54.451
+  },
+  {
+    "word": "carefully",
+    "start": 54.544,
+    "end": 55.043
+  },
+  {
+    "word": "planted",
+    "start": 55.124,
+    "end": 55.531
+  },
+  {
+    "word": "a",
+    "start": 55.589,
+    "end": 55.612
+  },
+  {
+    "word": "single",
+    "start": 55.682,
+    "end": 56.03
+  },
+  {
+    "word": "seed",
+    "start": 56.088,
+    "end": 56.506
+  },
+  {
+    "word": "He",
+    "start": 57.04,
+    "end": 57.179
+  },
+  {
+    "word": "put",
+    "start": 57.249,
+    "end": 57.446
+  },
+  {
+    "word": "the",
+    "start": 57.493,
+    "end": 57.562
+  },
+  {
+    "word": "pot",
+    "start": 57.62,
+    "end": 57.911
+  },
+  {
+    "word": "on",
+    "start": 57.992,
+    "end": 58.12
+  },
+  {
+    "word": "his",
+    "start": 58.189,
+    "end": 58.294
+  },
+  {
+    "word": "small",
+    "start": 58.352,
+    "end": 58.665
+  },
+  {
+    "word": "balcony",
+    "start": 58.723,
+    "end": 59.281
+  },
+  {
+    "word": "the",
+    "start": 59.896,
+    "end": 60.012
+  },
+  {
+    "word": "only",
+    "start": 60.082,
+    "end": 60.326
+  },
+  {
+    "word": "place",
+    "start": 60.407,
+    "end": 60.813
+  },
+  {
+    "word": "that",
+    "start": 60.848,
+    "end": 60.999
+  },
+  {
+    "word": "received",
+    "start": 61.069,
+    "end": 61.498
+  },
+  {
+    "word": "the",
+    "start": 61.533,
+    "end": 61.603
+  },
+  {
+    "word": "morning",
+    "start": 61.661,
+    "end": 61.997
+  },
+  {
+    "word": "sun",
+    "start": 62.09,
+    "end": 62.473
+  },
+  {
+    "word": "He",
+    "start": 63.089,
+    "end": 63.228
+  },
+  {
+    "word": "didn",
+    "start": 63.286,
+    "end": 63.495
+  },
+  {
+    "word": "t",
+    "start": 63.53,
+    "end": 63.565
+  },
+  {
+    "word": "have",
+    "start": 63.623,
+    "end": 63.797
+  },
+  {
+    "word": "an",
+    "start": 63.832,
+    "end": 63.89
+  },
+  {
+    "word": "expert",
+    "start": 63.948,
+    "end": 64.354
+  },
+  {
+    "word": "s",
+    "start": 64.401,
+    "end": 64.435
+  },
+  {
+    "word": "knowledge",
+    "start": 64.505,
+    "end": 65.097
+  },
+  {
+    "word": "he",
+    "start": 65.596,
+    "end": 65.689
+  },
+  {
+    "word": "was",
+    "start": 65.747,
+    "end": 65.898
+  },
+  {
+    "word": "a",
+    "start": 65.945,
+    "end": 65.98
+  },
+  {
+    "word": "complete",
+    "start": 66.038,
+    "end": 66.572
+  },
+  {
+    "word": "beginner",
+    "start": 66.618,
+    "end": 67.141
+  },
+  {
+    "word": "He",
+    "start": 67.675,
+    "end": 67.814
+  },
+  {
+    "word": "just",
+    "start": 67.907,
+    "end": 68.162
+  },
+  {
+    "word": "gave",
+    "start": 68.22,
+    "end": 68.441
+  },
+  {
+    "word": "it",
+    "start": 68.476,
+    "end": 68.545
+  },
+  {
+    "word": "a",
+    "start": 68.592,
+    "end": 68.627
+  },
+  {
+    "word": "little",
+    "start": 68.696,
+    "end": 68.952
+  },
+  {
+    "word": "water",
+    "start": 68.998,
+    "end": 69.416
+  },
+  {
+    "word": "and",
+    "start": 69.532,
+    "end": 69.718
+  },
+  {
+    "word": "hoped",
+    "start": 69.788,
+    "end": 70.055
+  },
+  {
+    "word": "for",
+    "start": 70.113,
+    "end": 70.229
+  },
+  {
+    "word": "the",
+    "start": 70.287,
+    "end": 70.357
+  },
+  {
+    "word": "best",
+    "start": 70.426,
+    "end": 70.856
+  },
+  {
+    "word": "Every",
+    "start": 71.541,
+    "end": 71.843
+  },
+  {
+    "word": "morning",
+    "start": 71.936,
+    "end": 72.365
+  },
+  {
+    "word": "the",
+    "start": 72.69,
+    "end": 72.806
+  },
+  {
+    "word": "first",
+    "start": 72.864,
+    "end": 73.12
+  },
+  {
+    "word": "thing",
+    "start": 73.166,
+    "end": 73.34
+  },
+  {
+    "word": "he",
+    "start": 73.399,
+    "end": 73.457
+  },
+  {
+    "word": "did",
+    "start": 73.549,
+    "end": 73.84
+  },
+  {
+    "word": "was",
+    "start": 73.921,
+    "end": 74.072
+  },
+  {
+    "word": "check",
+    "start": 74.142,
+    "end": 74.385
+  },
+  {
+    "word": "on",
+    "start": 74.443,
+    "end": 74.513
+  },
+  {
+    "word": "the",
+    "start": 74.56,
+    "end": 74.629
+  },
+  {
+    "word": "pot",
+    "start": 74.699,
+    "end": 75.082
+  },
+  {
+    "word": "For",
+    "start": 75.697,
+    "end": 75.871
+  },
+  {
+    "word": "a",
+    "start": 75.93,
+    "end": 75.964
+  },
+  {
+    "word": "week",
+    "start": 76.046,
+    "end": 76.336
+  },
+  {
+    "word": "nothing",
+    "start": 76.626,
+    "end": 76.974
+  },
+  {
+    "word": "happened",
+    "start": 77.056,
+    "end": 77.532
+  },
+  {
+    "word": "He",
+    "start": 78.031,
+    "end": 78.17
+  },
+  {
+    "word": "thought",
+    "start": 78.24,
+    "end": 78.542
+  },
+  {
+    "word": "maybe",
+    "start": 78.658,
+    "end": 78.96
+  },
+  {
+    "word": "it",
+    "start": 79.006,
+    "end": 79.076
+  },
+  {
+    "word": "was",
+    "start": 79.134,
+    "end": 79.262
+  },
+  {
+    "word": "a",
+    "start": 79.32,
+    "end": 79.354
+  },
+  {
+    "word": "silly",
+    "start": 79.424,
+    "end": 79.726
+  },
+  {
+    "word": "idea",
+    "start": 79.807,
+    "end": 80.272
+  },
+  {
+    "word": "But",
+    "start": 80.864,
+    "end": 81.049
+  },
+  {
+    "word": "then",
+    "start": 81.096,
+    "end": 81.409
+  },
+  {
+    "word": "one",
+    "start": 81.967,
+    "end": 82.164
+  },
+  {
+    "word": "morning",
+    "start": 82.222,
+    "end": 82.628
+  },
+  {
+    "word": "he",
+    "start": 83.128,
+    "end": 83.221
+  },
+  {
+    "word": "saw",
+    "start": 83.29,
+    "end": 83.557
+  },
+  {
+    "word": "it",
+    "start": 83.639,
+    "end": 83.755
+  },
+  {
+    "word": "a",
+    "start": 84.289,
+    "end": 84.37
+  },
+  {
+    "word": "tiny",
+    "start": 84.463,
+    "end": 84.823
+  },
+  {
+    "word": "green",
+    "start": 84.892,
+    "end": 85.183
+  },
+  {
+    "word": "sprout",
+    "start": 85.252,
+    "end": 85.647
+  },
+  {
+    "word": "pushing",
+    "start": 85.717,
+    "end": 86.042
+  },
+  {
+    "word": "through",
+    "start": 86.1,
+    "end": 86.344
+  },
+  {
+    "word": "the",
+    "start": 86.39,
+    "end": 86.46
+  },
+  {
+    "word": "dark",
+    "start": 86.518,
+    "end": 86.843
+  },
+  {
+    "word": "soil",
+    "start": 86.924,
+    "end": 87.342
+  },
+  {
+    "word": "Seeing",
+    "start": 88.062,
+    "end": 88.434
+  },
+  {
+    "word": "that",
+    "start": 88.492,
+    "end": 88.654
+  },
+  {
+    "word": "little",
+    "start": 88.724,
+    "end": 88.979
+  },
+  {
+    "word": "sign",
+    "start": 89.037,
+    "end": 89.432
+  },
+  {
+    "word": "of",
+    "start": 89.49,
+    "end": 89.548
+  },
+  {
+    "word": "life",
+    "start": 89.641,
+    "end": 90.222
+  },
+  {
+    "word": "gave",
+    "start": 90.593,
+    "end": 90.837
+  },
+  {
+    "word": "him",
+    "start": 90.872,
+    "end": 90.965
+  },
+  {
+    "word": "an",
+    "start": 91.023,
+    "end": 91.092
+  },
+  {
+    "word": "amazing",
+    "start": 91.139,
+    "end": 91.65
+  },
+  {
+    "word": "feeling",
+    "start": 91.766,
+    "end": 92.137
+  },
+  {
+    "word": "of",
+    "start": 92.195,
+    "end": 92.265
+  },
+  {
+    "word": "happiness",
+    "start": 92.335,
+    "end": 92.938
+  },
+  {
+    "word": "It",
+    "start": 93.6,
+    "end": 93.739
+  },
+  {
+    "word": "was",
+    "start": 93.798,
+    "end": 93.937
+  },
+  {
+    "word": "a",
+    "start": 93.995,
+    "end": 94.03
+  },
+  {
+    "word": "small",
+    "start": 94.088,
+    "end": 94.413
+  },
+  {
+    "word": "thing",
+    "start": 94.483,
+    "end": 94.761
+  },
+  {
+    "word": "but",
+    "start": 95.435,
+    "end": 95.597
+  },
+  {
+    "word": "it",
+    "start": 95.643,
+    "end": 95.725
+  },
+  {
+    "word": "felt",
+    "start": 95.806,
+    "end": 96.085
+  },
+  {
+    "word": "like",
+    "start": 96.143,
+    "end": 96.328
+  },
+  {
+    "word": "a",
+    "start": 96.363,
+    "end": 96.387
+  },
+  {
+    "word": "miracle",
+    "start": 96.456,
+    "end": 97.037
+  },
+  {
+    "word": "As",
+    "start": 97.768,
+    "end": 97.965
+  },
+  {
+    "word": "the",
+    "start": 98.047,
+    "end": 98.14
+  },
+  {
+    "word": "weeks",
+    "start": 98.209,
+    "end": 98.488
+  },
+  {
+    "word": "passed",
+    "start": 98.558,
+    "end": 98.999
+  },
+  {
+    "word": "the",
+    "start": 99.347,
+    "end": 99.463
+  },
+  {
+    "word": "plant",
+    "start": 99.544,
+    "end": 99.835
+  },
+  {
+    "word": "grew",
+    "start": 99.904,
+    "end": 100.102
+  },
+  {
+    "word": "taller",
+    "start": 100.171,
+    "end": 100.636
+  },
+  {
+    "word": "and",
+    "start": 100.717,
+    "end": 100.868
+  },
+  {
+    "word": "stronger",
+    "start": 100.938,
+    "end": 101.483
+  },
+  {
+    "word": "It",
+    "start": 102.145,
+    "end": 102.296
+  },
+  {
+    "word": "was",
+    "start": 102.354,
+    "end": 102.493
+  },
+  {
+    "word": "a",
+    "start": 102.54,
+    "end": 102.575
+  },
+  {
+    "word": "living",
+    "start": 102.644,
+    "end": 102.935
+  },
+  {
+    "word": "thing",
+    "start": 103.027,
+    "end": 103.376
+  },
+  {
+    "word": "that",
+    "start": 103.806,
+    "end": 104.003
+  },
+  {
+    "word": "depended",
+    "start": 104.061,
+    "end": 104.537
+  },
+  {
+    "word": "on",
+    "start": 104.595,
+    "end": 104.688
+  },
+  {
+    "word": "him",
+    "start": 104.758,
+    "end": 105.001
+  },
+  {
+    "word": "Thomas",
+    "start": 106.29,
+    "end": 106.708
+  },
+  {
+    "word": "bought",
+    "start": 106.824,
+    "end": 107.091
+  },
+  {
+    "word": "another",
+    "start": 107.126,
+    "end": 107.428
+  },
+  {
+    "word": "pot",
+    "start": 107.509,
+    "end": 107.857
+  },
+  {
+    "word": "and",
+    "start": 108.229,
+    "end": 108.392
+  },
+  {
+    "word": "then",
+    "start": 108.45,
+    "end": 108.6
+  },
+  {
+    "word": "another",
+    "start": 108.659,
+    "end": 109.065
+  },
+  {
+    "word": "Soon",
+    "start": 110.319,
+    "end": 110.725
+  },
+  {
+    "word": "his",
+    "start": 110.957,
+    "end": 111.12
+  },
+  {
+    "word": "small",
+    "start": 111.178,
+    "end": 111.526
+  },
+  {
+    "word": "balcony",
+    "start": 111.584,
+    "end": 112.014
+  },
+  {
+    "word": "was",
+    "start": 112.083,
+    "end": 112.223
+  },
+  {
+    "word": "filled",
+    "start": 112.316,
+    "end": 112.687
+  },
+  {
+    "word": "with",
+    "start": 112.734,
+    "end": 112.896
+  },
+  {
+    "word": "pots",
+    "start": 112.954,
+    "end": 113.268
+  },
+  {
+    "word": "of",
+    "start": 113.314,
+    "end": 113.384
+  },
+  {
+    "word": "herbs",
+    "start": 113.488,
+    "end": 113.941
+  },
+  {
+    "word": "and",
+    "start": 113.999,
+    "end": 114.138
+  },
+  {
+    "word": "vegetables",
+    "start": 114.208,
+    "end": 114.881
+  },
+  {
+    "word": "It",
+    "start": 115.52,
+    "end": 115.671
+  },
+  {
+    "word": "was",
+    "start": 115.729,
+    "end": 115.868
+  },
+  {
+    "word": "not",
+    "start": 115.95,
+    "end": 116.147
+  },
+  {
+    "word": "a",
+    "start": 116.182,
+    "end": 116.217
+  },
+  {
+    "word": "big",
+    "start": 116.275,
+    "end": 116.46
+  },
+  {
+    "word": "farm",
+    "start": 116.542,
+    "end": 116.971
+  },
+  {
+    "word": "just",
+    "start": 117.517,
+    "end": 117.749
+  },
+  {
+    "word": "a",
+    "start": 117.796,
+    "end": 117.83
+  },
+  {
+    "word": "little",
+    "start": 117.888,
+    "end": 118.155
+  },
+  {
+    "word": "garden",
+    "start": 118.214,
+    "end": 118.608
+  },
+  {
+    "word": "in",
+    "start": 118.655,
+    "end": 118.724
+  },
+  {
+    "word": "the",
+    "start": 118.771,
+    "end": 118.84
+  },
+  {
+    "word": "middle",
+    "start": 118.887,
+    "end": 119.154
+  },
+  {
+    "word": "of",
+    "start": 119.189,
+    "end": 119.247
+  },
+  {
+    "word": "the",
+    "start": 119.305,
+    "end": 119.386
+  },
+  {
+    "word": "city",
+    "start": 119.444,
+    "end": 119.792
+  },
+  {
+    "word": "The",
+    "start": 120.477,
+    "end": 120.617
+  },
+  {
+    "word": "balcony",
+    "start": 120.686,
+    "end": 121.221
+  },
+  {
+    "word": "became",
+    "start": 121.395,
+    "end": 121.778
+  },
+  {
+    "word": "his",
+    "start": 121.813,
+    "end": 121.929
+  },
+  {
+    "word": "favorite",
+    "start": 121.998,
+    "end": 122.405
+  },
+  {
+    "word": "place",
+    "start": 122.451,
+    "end": 123.008
+  },
+  {
+    "word": "He",
+    "start": 123.45,
+    "end": 123.589
+  },
+  {
+    "word": "wasn",
+    "start": 123.659,
+    "end": 123.914
+  },
+  {
+    "word": "t",
+    "start": 123.949,
+    "end": 123.984
+  },
+  {
+    "word": "just",
+    "start": 124.053,
+    "end": 124.251
+  },
+  {
+    "word": "an",
+    "start": 124.309,
+    "end": 124.378
+  },
+  {
+    "word": "office",
+    "start": 124.437,
+    "end": 124.762
+  },
+  {
+    "word": "worker",
+    "start": 124.796,
+    "end": 125.133
+  },
+  {
+    "word": "anymore",
+    "start": 125.203,
+    "end": 125.795
+  },
+  {
+    "word": "he",
+    "start": 126.294,
+    "end": 126.387
+  },
+  {
+    "word": "was",
+    "start": 126.445,
+    "end": 126.584
+  },
+  {
+    "word": "a",
+    "start": 126.642,
+    "end": 126.677
+  },
+  {
+    "word": "gardener",
+    "start": 126.747,
+    "end": 127.281
+  },
+  {
+    "word": "He",
+    "start": 127.78,
+    "end": 127.92
+  },
+  {
+    "word": "learned",
+    "start": 128.012,
+    "end": 128.337
+  },
+  {
+    "word": "about",
+    "start": 128.372,
+    "end": 128.628
+  },
+  {
+    "word": "the",
+    "start": 128.674,
+    "end": 128.744
+  },
+  {
+    "word": "sun",
+    "start": 128.825,
+    "end": 129.208
+  },
+  {
+    "word": "the",
+    "start": 129.824,
+    "end": 129.94
+  },
+  {
+    "word": "water",
+    "start": 130.021,
+    "end": 130.439
+  },
+  {
+    "word": "and",
+    "start": 130.938,
+    "end": 131.112
+  },
+  {
+    "word": "the",
+    "start": 131.17,
+    "end": 131.24
+  },
+  {
+    "word": "soil",
+    "start": 131.321,
+    "end": 131.739
+  },
+  {
+    "word": "He",
+    "start": 132.517,
+    "end": 132.645
+  },
+  {
+    "word": "felt",
+    "start": 132.738,
+    "end": 132.981
+  },
+  {
+    "word": "a",
+    "start": 133.04,
+    "end": 133.063
+  },
+  {
+    "word": "connection",
+    "start": 133.132,
+    "end": 133.632
+  },
+  {
+    "word": "to",
+    "start": 133.69,
+    "end": 133.759
+  },
+  {
+    "word": "the",
+    "start": 133.841,
+    "end": 133.91
+  },
+  {
+    "word": "world",
+    "start": 133.992,
+    "end": 134.433
+  },
+  {
+    "word": "that",
+    "start": 134.874,
+    "end": 135.083
+  },
+  {
+    "word": "he",
+    "start": 135.129,
+    "end": 135.199
+  },
+  {
+    "word": "had",
+    "start": 135.257,
+    "end": 135.373
+  },
+  {
+    "word": "lost",
+    "start": 135.454,
+    "end": 135.954
+  },
+  {
+    "word": "His",
+    "start": 136.639,
+    "end": 136.836
+  },
+  {
+    "word": "neighbors",
+    "start": 136.929,
+    "end": 137.347
+  },
+  {
+    "word": "saw",
+    "start": 137.405,
+    "end": 137.602
+  },
+  {
+    "word": "the",
+    "start": 137.672,
+    "end": 137.742
+  },
+  {
+    "word": "beautiful",
+    "start": 137.8,
+    "end": 138.241
+  },
+  {
+    "word": "plants",
+    "start": 138.322,
+    "end": 138.728
+  },
+  {
+    "word": "and",
+    "start": 138.763,
+    "end": 138.868
+  },
+  {
+    "word": "started",
+    "start": 138.937,
+    "end": 139.344
+  },
+  {
+    "word": "conversations",
+    "start": 139.413,
+    "end": 140.203
+  },
+  {
+    "word": "with",
+    "start": 140.261,
+    "end": 140.435
+  },
+  {
+    "word": "him",
+    "start": 140.482,
+    "end": 140.644
+  },
+  {
+    "word": "He",
+    "start": 141.271,
+    "end": 141.399
+  },
+  {
+    "word": "was",
+    "start": 141.468,
+    "end": 141.608
+  },
+  {
+    "word": "no",
+    "start": 141.724,
+    "end": 141.875
+  },
+  {
+    "word": "longer",
+    "start": 141.968,
+    "end": 142.27
+  },
+  {
+    "word": "just",
+    "start": 142.339,
+    "end": 142.548
+  },
+  {
+    "word": "a",
+    "start": 142.595,
+    "end": 142.629
+  },
+  {
+    "word": "man",
+    "start": 142.711,
+    "end": 143.047
+  },
+  {
+    "word": "in",
+    "start": 143.14,
+    "end": 143.268
+  },
+  {
+    "word": "an",
+    "start": 143.314,
+    "end": 143.384
+  },
+  {
+    "word": "apartment",
+    "start": 143.431,
+    "end": 144.034
+  },
+  {
+    "word": "he",
+    "start": 144.533,
+    "end": 144.638
+  },
+  {
+    "word": "was",
+    "start": 144.719,
+    "end": 144.87
+  },
+  {
+    "word": "the",
+    "start": 144.951,
+    "end": 145.021
+  },
+  {
+    "word": "man",
+    "start": 145.091,
+    "end": 145.416
+  },
+  {
+    "word": "with",
+    "start": 145.532,
+    "end": 145.718
+  },
+  {
+    "word": "the",
+    "start": 145.764,
+    "end": 145.834
+  },
+  {
+    "word": "lovely",
+    "start": 145.927,
+    "end": 146.275
+  },
+  {
+    "word": "garden",
+    "start": 146.356,
+    "end": 146.821
+  },
+  {
+    "word": "One",
+    "start": 147.633,
+    "end": 147.877
+  },
+  {
+    "word": "day",
+    "start": 147.924,
+    "end": 148.214
+  },
+  {
+    "word": "he",
+    "start": 148.562,
+    "end": 148.655
+  },
+  {
+    "word": "harvested",
+    "start": 148.748,
+    "end": 149.27
+  },
+  {
+    "word": "his",
+    "start": 149.317,
+    "end": 149.433
+  },
+  {
+    "word": "first",
+    "start": 149.514,
+    "end": 149.816
+  },
+  {
+    "word": "tomato",
+    "start": 149.862,
+    "end": 150.397
+  },
+  {
+    "word": "It",
+    "start": 150.954,
+    "end": 151.14
+  },
+  {
+    "word": "wasn",
+    "start": 151.209,
+    "end": 151.499
+  },
+  {
+    "word": "t",
+    "start": 151.534,
+    "end": 151.581
+  },
+  {
+    "word": "perfect",
+    "start": 151.65,
+    "end": 152.161
+  },
+  {
+    "word": "It",
+    "start": 152.695,
+    "end": 152.846
+  },
+  {
+    "word": "was",
+    "start": 152.904,
+    "end": 153.044
+  },
+  {
+    "word": "a",
+    "start": 153.102,
+    "end": 153.136
+  },
+  {
+    "word": "little",
+    "start": 153.183,
+    "end": 153.462
+  },
+  {
+    "word": "small",
+    "start": 153.508,
+    "end": 153.949
+  },
+  {
+    "word": "and",
+    "start": 154.274,
+    "end": 154.472
+  },
+  {
+    "word": "not",
+    "start": 154.541,
+    "end": 154.715
+  },
+  {
+    "word": "perfectly",
+    "start": 154.773,
+    "end": 155.284
+  },
+  {
+    "word": "round",
+    "start": 155.377,
+    "end": 155.807
+  },
+  {
+    "word": "But",
+    "start": 156.434,
+    "end": 156.608
+  },
+  {
+    "word": "when",
+    "start": 156.654,
+    "end": 156.817
+  },
+  {
+    "word": "he",
+    "start": 156.875,
+    "end": 156.945
+  },
+  {
+    "word": "ate",
+    "start": 157.061,
+    "end": 157.304
+  },
+  {
+    "word": "it",
+    "start": 157.339,
+    "end": 157.467
+  },
+  {
+    "word": "it",
+    "start": 157.966,
+    "end": 158.106
+  },
+  {
+    "word": "was",
+    "start": 158.152,
+    "end": 158.291
+  },
+  {
+    "word": "the",
+    "start": 158.373,
+    "end": 158.454
+  },
+  {
+    "word": "best",
+    "start": 158.547,
+    "end": 158.814
+  },
+  {
+    "word": "tomato",
+    "start": 158.86,
+    "end": 159.325
+  },
+  {
+    "word": "he",
+    "start": 159.441,
+    "end": 159.499
+  },
+  {
+    "word": "had",
+    "start": 159.557,
+    "end": 159.673
+  },
+  {
+    "word": "ever",
+    "start": 159.824,
+    "end": 160.149
+  },
+  {
+    "word": "tasted",
+    "start": 160.242,
+    "end": 160.741
+  },
+  {
+    "word": "in",
+    "start": 160.834,
+    "end": 160.973
+  },
+  {
+    "word": "his",
+    "start": 161.031,
+    "end": 161.159
+  },
+  {
+    "word": "entire",
+    "start": 161.229,
+    "end": 161.821
+  },
+  {
+    "word": "life",
+    "start": 161.902,
+    "end": 162.355
+  },
+  {
+    "word": "The",
+    "start": 163.017,
+    "end": 163.156
+  },
+  {
+    "word": "flavor",
+    "start": 163.237,
+    "end": 163.713
+  },
+  {
+    "word": "was",
+    "start": 163.806,
+    "end": 163.98
+  },
+  {
+    "word": "not",
+    "start": 164.05,
+    "end": 164.212
+  },
+  {
+    "word": "just",
+    "start": 164.27,
+    "end": 164.468
+  },
+  {
+    "word": "from",
+    "start": 164.514,
+    "end": 164.677
+  },
+  {
+    "word": "the",
+    "start": 164.723,
+    "end": 164.804
+  },
+  {
+    "word": "tomato",
+    "start": 164.863,
+    "end": 165.327
+  },
+  {
+    "word": "itself",
+    "start": 165.42,
+    "end": 165.907
+  },
+  {
+    "word": "but",
+    "start": 166.441,
+    "end": 166.616
+  },
+  {
+    "word": "from",
+    "start": 166.65,
+    "end": 166.813
+  },
+  {
+    "word": "the",
+    "start": 166.871,
+    "end": 166.952
+  },
+  {
+    "word": "care",
+    "start": 167.034,
+    "end": 167.428
+  },
+  {
+    "word": "and",
+    "start": 167.51,
+    "end": 167.672
+  },
+  {
+    "word": "patience",
+    "start": 167.753,
+    "end": 168.241
+  },
+  {
+    "word": "he",
+    "start": 168.287,
+    "end": 168.357
+  },
+  {
+    "word": "had",
+    "start": 168.415,
+    "end": 168.52
+  },
+  {
+    "word": "put",
+    "start": 168.589,
+    "end": 168.763
+  },
+  {
+    "word": "into",
+    "start": 168.822,
+    "end": 169.042
+  },
+  {
+    "word": "it",
+    "start": 169.158,
+    "end": 169.298
+  },
+  {
+    "word": "His",
+    "start": 170.017,
+    "end": 170.203
+  },
+  {
+    "word": "small",
+    "start": 170.273,
+    "end": 170.644
+  },
+  {
+    "word": "hobby",
+    "start": 170.726,
+    "end": 171.051
+  },
+  {
+    "word": "changed",
+    "start": 171.132,
+    "end": 171.503
+  },
+  {
+    "word": "his",
+    "start": 171.55,
+    "end": 171.678
+  },
+  {
+    "word": "entire",
+    "start": 171.747,
+    "end": 172.27
+  },
+  {
+    "word": "perspective",
+    "start": 172.339,
+    "end": 173.152
+  },
+  {
+    "word": "He",
+    "start": 173.593,
+    "end": 173.733
+  },
+  {
+    "word": "started",
+    "start": 173.791,
+    "end": 174.209
+  },
+  {
+    "word": "to",
+    "start": 174.255,
+    "end": 174.325
+  },
+  {
+    "word": "notice",
+    "start": 174.406,
+    "end": 174.755
+  },
+  {
+    "word": "the",
+    "start": 174.79,
+    "end": 174.871
+  },
+  {
+    "word": "small",
+    "start": 174.929,
+    "end": 175.254
+  },
+  {
+    "word": "beauties",
+    "start": 175.335,
+    "end": 175.753
+  },
+  {
+    "word": "in",
+    "start": 175.811,
+    "end": 175.881
+  },
+  {
+    "word": "his",
+    "start": 175.939,
+    "end": 176.055
+  },
+  {
+    "word": "daily",
+    "start": 176.136,
+    "end": 176.45
+  },
+  {
+    "word": "life",
+    "start": 176.531,
+    "end": 176.949
+  },
+  {
+    "word": "the",
+    "start": 177.518,
+    "end": 177.622
+  },
+  {
+    "word": "color",
+    "start": 177.715,
+    "end": 178.04
+  },
+  {
+    "word": "of",
+    "start": 178.098,
+    "end": 178.168
+  },
+  {
+    "word": "the",
+    "start": 178.226,
+    "end": 178.296
+  },
+  {
+    "word": "sky",
+    "start": 178.354,
+    "end": 178.83
+  },
+  {
+    "word": "on",
+    "start": 178.946,
+    "end": 179.05
+  },
+  {
+    "word": "his",
+    "start": 179.097,
+    "end": 179.213
+  },
+  {
+    "word": "way",
+    "start": 179.283,
+    "end": 179.433
+  },
+  {
+    "word": "to",
+    "start": 179.492,
+    "end": 179.55
+  },
+  {
+    "word": "work",
+    "start": 179.631,
+    "end": 179.956
+  },
+  {
+    "word": "the",
+    "start": 180.571,
+    "end": 180.687
+  },
+  {
+    "word": "taste",
+    "start": 180.769,
+    "end": 181.198
+  },
+  {
+    "word": "of",
+    "start": 181.245,
+    "end": 181.384
+  },
+  {
+    "word": "his",
+    "start": 181.442,
+    "end": 181.558
+  },
+  {
+    "word": "morning",
+    "start": 181.628,
+    "end": 181.953
+  },
+  {
+    "word": "coffee",
+    "start": 182.046,
+    "end": 182.591
+  },
+  {
+    "word": "a",
+    "start": 183.16,
+    "end": 183.23
+  },
+  {
+    "word": "nice",
+    "start": 183.346,
+    "end": 183.671
+  },
+  {
+    "word": "conversation",
+    "start": 183.718,
+    "end": 184.437
+  },
+  {
+    "word": "with",
+    "start": 184.495,
+    "end": 184.635
+  },
+  {
+    "word": "a",
+    "start": 184.681,
+    "end": 184.716
+  },
+  {
+    "word": "colleague",
+    "start": 184.786,
+    "end": 185.413
+  },
+  {
+    "word": "His",
+    "start": 186.167,
+    "end": 186.365
+  },
+  {
+    "word": "life",
+    "start": 186.458,
+    "end": 186.817
+  },
+  {
+    "word": "was",
+    "start": 186.852,
+    "end": 187.038
+  },
+  {
+    "word": "no",
+    "start": 187.108,
+    "end": 187.224
+  },
+  {
+    "word": "longer",
+    "start": 187.317,
+    "end": 187.619
+  },
+  {
+    "word": "in",
+    "start": 187.688,
+    "end": 187.758
+  },
+  {
+    "word": "black",
+    "start": 187.816,
+    "end": 188.083
+  },
+  {
+    "word": "and",
+    "start": 188.141,
+    "end": 188.222
+  },
+  {
+    "word": "white",
+    "start": 188.28,
+    "end": 188.71
+  },
+  {
+    "word": "the",
+    "start": 189.267,
+    "end": 189.372
+  },
+  {
+    "word": "colors",
+    "start": 189.465,
+    "end": 189.941
+  },
+  {
+    "word": "were",
+    "start": 190.033,
+    "end": 190.231
+  },
+  {
+    "word": "slowly",
+    "start": 190.266,
+    "end": 190.707
+  },
+  {
+    "word": "coming",
+    "start": 190.788,
+    "end": 191.078
+  },
+  {
+    "word": "back",
+    "start": 191.148,
+    "end": 191.485
+  },
+  {
+    "word": "He",
+    "start": 192.17,
+    "end": 192.286
+  },
+  {
+    "word": "didn",
+    "start": 192.355,
+    "end": 192.553
+  },
+  {
+    "word": "t",
+    "start": 192.588,
+    "end": 192.634
+  },
+  {
+    "word": "change",
+    "start": 192.692,
+    "end": 192.994
+  },
+  {
+    "word": "his",
+    "start": 193.029,
+    "end": 193.145
+  },
+  {
+    "word": "job",
+    "start": 193.238,
+    "end": 193.656
+  },
+  {
+    "word": "or",
+    "start": 193.807,
+    "end": 193.981
+  },
+  {
+    "word": "move",
+    "start": 194.051,
+    "end": 194.271
+  },
+  {
+    "word": "to",
+    "start": 194.318,
+    "end": 194.387
+  },
+  {
+    "word": "a",
+    "start": 194.468,
+    "end": 194.503
+  },
+  {
+    "word": "new",
+    "start": 194.585,
+    "end": 194.736
+  },
+  {
+    "word": "city",
+    "start": 194.794,
+    "end": 195.188
+  },
+  {
+    "word": "He",
+    "start": 195.746,
+    "end": 195.873
+  },
+  {
+    "word": "was",
+    "start": 195.943,
+    "end": 196.082
+  },
+  {
+    "word": "still",
+    "start": 196.14,
+    "end": 196.396
+  },
+  {
+    "word": "the",
+    "start": 196.454,
+    "end": 196.535
+  },
+  {
+    "word": "same",
+    "start": 196.593,
+    "end": 196.849
+  },
+  {
+    "word": "man",
+    "start": 196.907,
+    "end": 197.278
+  },
+  {
+    "word": "but",
+    "start": 197.893,
+    "end": 198.068
+  },
+  {
+    "word": "he",
+    "start": 198.114,
+    "end": 198.172
+  },
+  {
+    "word": "was",
+    "start": 198.242,
+    "end": 198.369
+  },
+  {
+    "word": "different",
+    "start": 198.451,
+    "end": 198.915
+  },
+  {
+    "word": "He",
+    "start": 199.67,
+    "end": 199.797
+  },
+  {
+    "word": "had",
+    "start": 199.855,
+    "end": 199.972
+  },
+  {
+    "word": "found",
+    "start": 200.053,
+    "end": 200.32
+  },
+  {
+    "word": "a",
+    "start": 200.378,
+    "end": 200.401
+  },
+  {
+    "word": "passion",
+    "start": 200.471,
+    "end": 200.993
+  },
+  {
+    "word": "a",
+    "start": 201.678,
+    "end": 201.76
+  },
+  {
+    "word": "small",
+    "start": 201.852,
+    "end": 202.201
+  },
+  {
+    "word": "thing",
+    "start": 202.27,
+    "end": 202.491
+  },
+  {
+    "word": "that",
+    "start": 202.549,
+    "end": 202.677
+  },
+  {
+    "word": "was",
+    "start": 202.723,
+    "end": 202.851
+  },
+  {
+    "word": "completely",
+    "start": 202.921,
+    "end": 203.745
+  },
+  {
+    "word": "his",
+    "start": 203.826,
+    "end": 204.209
+  },
+  {
+    "word": "It",
+    "start": 204.929,
+    "end": 205.08
+  },
+  {
+    "word": "was",
+    "start": 205.126,
+    "end": 205.266
+  },
+  {
+    "word": "an",
+    "start": 205.324,
+    "end": 205.393
+  },
+  {
+    "word": "escape",
+    "start": 205.452,
+    "end": 206.113
+  },
+  {
+    "word": "and",
+    "start": 206.287,
+    "end": 206.485
+  },
+  {
+    "word": "a",
+    "start": 206.554,
+    "end": 206.578
+  },
+  {
+    "word": "source",
+    "start": 206.671,
+    "end": 207.054
+  },
+  {
+    "word": "of",
+    "start": 207.089,
+    "end": 207.158
+  },
+  {
+    "word": "quiet",
+    "start": 207.239,
+    "end": 207.623
+  },
+  {
+    "word": "joy",
+    "start": 207.692,
+    "end": 208.099
+  },
+  {
+    "word": "Thomas",
+    "start": 209.26,
+    "end": 209.655
+  },
+  {
+    "word": "learned",
+    "start": 209.736,
+    "end": 210.026
+  },
+  {
+    "word": "an",
+    "start": 210.073,
+    "end": 210.142
+  },
+  {
+    "word": "important",
+    "start": 210.189,
+    "end": 210.711
+  },
+  {
+    "word": "lesson",
+    "start": 210.781,
+    "end": 211.187
+  },
+  {
+    "word": "You",
+    "start": 211.478,
+    "end": 211.628
+  },
+  {
+    "word": "don",
+    "start": 211.675,
+    "end": 211.826
+  },
+  {
+    "word": "t",
+    "start": 211.861,
+    "end": 211.895
+  },
+  {
+    "word": "always",
+    "start": 211.954,
+    "end": 212.279
+  },
+  {
+    "word": "need",
+    "start": 212.371,
+    "end": 212.615
+  },
+  {
+    "word": "a",
+    "start": 212.673,
+    "end": 212.697
+  },
+  {
+    "word": "big",
+    "start": 212.778,
+    "end": 212.94
+  },
+  {
+    "word": "adventure",
+    "start": 212.998,
+    "end": 213.521
+  },
+  {
+    "word": "or",
+    "start": 213.567,
+    "end": 213.649
+  },
+  {
+    "word": "a",
+    "start": 213.695,
+    "end": 213.73
+  },
+  {
+    "word": "dramatic",
+    "start": 213.776,
+    "end": 214.287
+  },
+  {
+    "word": "change",
+    "start": 214.357,
+    "end": 214.752
+  },
+  {
+    "word": "to",
+    "start": 214.798,
+    "end": 214.868
+  },
+  {
+    "word": "find",
+    "start": 214.949,
+    "end": 215.193
+  },
+  {
+    "word": "happiness",
+    "start": 215.251,
+    "end": 215.866
+  },
+  {
+    "word": "Sometimes",
+    "start": 216.191,
+    "end": 216.911
+  },
+  {
+    "word": "happiness",
+    "start": 217.271,
+    "end": 217.782
+  },
+  {
+    "word": "is",
+    "start": 217.828,
+    "end": 217.909
+  },
+  {
+    "word": "a",
+    "start": 217.967,
+    "end": 218.002
+  },
+  {
+    "word": "quiet",
+    "start": 218.084,
+    "end": 218.467
+  },
+  {
+    "word": "process",
+    "start": 218.536,
+    "end": 219.163
+  },
+  {
+    "word": "It",
+    "start": 219.488,
+    "end": 219.663
+  },
+  {
+    "word": "starts",
+    "start": 219.732,
+    "end": 220.104
+  },
+  {
+    "word": "with",
+    "start": 220.15,
+    "end": 220.301
+  },
+  {
+    "word": "a",
+    "start": 220.348,
+    "end": 220.382
+  },
+  {
+    "word": "single",
+    "start": 220.452,
+    "end": 220.8
+  },
+  {
+    "word": "seed",
+    "start": 220.858,
+    "end": 221.125
+  },
+  {
+    "word": "of",
+    "start": 221.172,
+    "end": 221.241
+  },
+  {
+    "word": "curiosity",
+    "start": 221.323,
+    "end": 222.159
+  },
+  {
+    "word": "If",
+    "start": 222.449,
+    "end": 222.6
+  },
+  {
+    "word": "you",
+    "start": 222.658,
+    "end": 222.751
+  },
+  {
+    "word": "give",
+    "start": 222.844,
+    "end": 223.018
+  },
+  {
+    "word": "it",
+    "start": 223.053,
+    "end": 223.134
+  },
+  {
+    "word": "a",
+    "start": 223.169,
+    "end": 223.204
+  },
+  {
+    "word": "little",
+    "start": 223.273,
+    "end": 223.54
+  },
+  {
+    "word": "attention",
+    "start": 223.575,
+    "end": 224.051
+  },
+  {
+    "word": "and",
+    "start": 224.098,
+    "end": 224.191
+  },
+  {
+    "word": "patience",
+    "start": 224.26,
+    "end": 224.957
+  },
+  {
+    "word": "it",
+    "start": 225.166,
+    "end": 225.328
+  },
+  {
+    "word": "can",
+    "start": 225.375,
+    "end": 225.514
+  },
+  {
+    "word": "grow",
+    "start": 225.584,
+    "end": 225.851
+  },
+  {
+    "word": "into",
+    "start": 225.909,
+    "end": 226.083
+  },
+  {
+    "word": "something",
+    "start": 226.164,
+    "end": 226.536
+  },
+  {
+    "word": "beautiful",
+    "start": 226.629,
+    "end": 227.128
+  },
+  {
+    "word": "that",
+    "start": 227.174,
+    "end": 227.314
+  },
+  {
+    "word": "changes",
+    "start": 227.383,
+    "end": 227.79
+  },
+  {
+    "word": "your",
+    "start": 227.848,
+    "end": 228.022
+  },
+  {
+    "word": "whole",
+    "start": 228.08,
+    "end": 228.324
+  },
+  {
+    "word": "life",
+    "start": 228.382,
+    "end": 228.8
+  }
+]
