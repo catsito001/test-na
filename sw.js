@@ -1,6 +1,6 @@
 // sw.js - VERSIÓN FINAL Y MEJORADA
 
-const CACHE_NAME = 'interactive-stories-cache-v2'; // <-- CAMBIA ESTE NÚMERO EN CADA ACTUALIZACIÓN (v2, v3...)
+const CACHE_NAME = 'interactive-stories-cache-v3'; // <-- CAMBIA ESTE NÚMERO EN CADA ACTUALIZACIÓN (v2, v3...)
 
 const urlsToCache = [
   '/',
