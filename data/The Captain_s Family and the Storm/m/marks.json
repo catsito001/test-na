@@ -1,0 +1,1322 @@
+[
+  {
+    "word": "My",
+    "start": 0,
+    "end": 0.186
+  },
+  {
+    "word": "name",
+    "start": 0.267,
+    "end": 0.639
+  },
+  {
+    "word": "is",
+    "start": 0.697,
+    "end": 0.859
+  },
+  {
+    "word": "Captain",
+    "start": 0.929,
+    "end": 1.277
+  },
+  {
+    "word": "Thomas",
+    "start": 1.347,
+    "end": 1.811
+  },
+  {
+    "word": "I",
+    "start": 2.171,
+    "end": 2.252
+  },
+  {
+    "word": "love",
+    "start": 2.392,
+    "end": 2.694
+  },
+  {
+    "word": "the",
+    "start": 2.728,
+    "end": 2.81
+  },
+  {
+    "word": "sea",
+    "start": 2.879,
+    "end": 3.204
+  },
+  {
+    "word": "My",
+    "start": 3.68,
+    "end": 3.831
+  },
+  {
+    "word": "wife",
+    "start": 3.913,
+    "end": 4.423
+  },
+  {
+    "word": "Sarah",
+    "start": 4.551,
+    "end": 4.981
+  },
+  {
+    "word": "loves",
+    "start": 5.236,
+    "end": 5.515
+  },
+  {
+    "word": "the",
+    "start": 5.573,
+    "end": 5.642
+  },
+  {
+    "word": "sea",
+    "start": 5.7,
+    "end": 5.968
+  },
+  {
+    "word": "too",
+    "start": 6.026,
+    "end": 6.316
+  },
+  {
+    "word": "We",
+    "start": 6.873,
+    "end": 7.036
+  },
+  {
+    "word": "live",
+    "start": 7.117,
+    "end": 7.419
+  },
+  {
+    "word": "near",
+    "start": 7.477,
+    "end": 7.686
+  },
+  {
+    "word": "the",
+    "start": 7.744,
+    "end": 7.814
+  },
+  {
+    "word": "ocean",
+    "start": 7.895,
+    "end": 8.185
+  },
+  {
+    "word": "with",
+    "start": 8.243,
+    "end": 8.382
+  },
+  {
+    "word": "our",
+    "start": 8.417,
+    "end": 8.545
+  },
+  {
+    "word": "children",
+    "start": 8.603,
+    "end": 9.079
+  },
+  {
+    "word": "Our",
+    "start": 9.52,
+    "end": 9.729
+  },
+  {
+    "word": "daughter",
+    "start": 9.845,
+    "end": 10.217
+  },
+  {
+    "word": "Lily",
+    "start": 10.31,
+    "end": 10.681
+  },
+  {
+    "word": "is",
+    "start": 10.797,
+    "end": 10.96
+  },
+  {
+    "word": "very",
+    "start": 11.157,
+    "end": 11.471
+  },
+  {
+    "word": "curious",
+    "start": 11.54,
+    "end": 12.144
+  },
+  {
+    "word": "She",
+    "start": 12.655,
+    "end": 12.806
+  },
+  {
+    "word": "likes",
+    "start": 12.875,
+    "end": 13.108
+  },
+  {
+    "word": "to",
+    "start": 13.154,
+    "end": 13.224
+  },
+  {
+    "word": "watch",
+    "start": 13.317,
+    "end": 13.537
+  },
+  {
+    "word": "the",
+    "start": 13.595,
+    "end": 13.665
+  },
+  {
+    "word": "big",
+    "start": 13.723,
+    "end": 13.874
+  },
+  {
+    "word": "waves",
+    "start": 13.955,
+    "end": 14.42
+  },
+  {
+    "word": "Our",
+    "start": 14.721,
+    "end": 14.919
+  },
+  {
+    "word": "son",
+    "start": 14.977,
+    "end": 15.267
+  },
+  {
+    "word": "Tom",
+    "start": 15.464,
+    "end": 15.72
+  },
+  {
+    "word": "Jr",
+    "start": 15.801,
+    "end": 16.138
+  },
+  {
+    "word": "loves",
+    "start": 16.718,
+    "end": 16.951
+  },
+  {
+    "word": "to",
+    "start": 17.009,
+    "end": 17.078
+  },
+  {
+    "word": "play",
+    "start": 17.16,
+    "end": 17.369
+  },
+  {
+    "word": "in",
+    "start": 17.403,
+    "end": 17.461
+  },
+  {
+    "word": "the",
+    "start": 17.507,
+    "end": 17.565
+  },
+  {
+    "word": "sand",
+    "start": 17.647,
+    "end": 18.076
+  },
+  {
+    "word": "He",
+    "start": 18.541,
+    "end": 18.692
+  },
+  {
+    "word": "builds",
+    "start": 18.761,
+    "end": 19.168
+  },
+  {
+    "word": "big",
+    "start": 19.33,
+    "end": 19.539
+  },
+  {
+    "word": "castles",
+    "start": 19.609,
+    "end": 20.143
+  },
+  {
+    "word": "One",
+    "start": 20.514,
+    "end": 20.793
+  },
+  {
+    "word": "summer",
+    "start": 20.863,
+    "end": 21.165
+  },
+  {
+    "word": "day",
+    "start": 21.234,
+    "end": 21.524
+  },
+  {
+    "word": "my",
+    "start": 21.815,
+    "end": 21.954
+  },
+  {
+    "word": "grandparents",
+    "start": 22.047,
+    "end": 22.732
+  },
+  {
+    "word": "visited",
+    "start": 22.79,
+    "end": 23.196
+  },
+  {
+    "word": "us",
+    "start": 23.266,
+    "end": 23.452
+  },
+  {
+    "word": "My",
+    "start": 24.009,
+    "end": 24.16
+  },
+  {
+    "word": "grandmother",
+    "start": 24.276,
+    "end": 24.845
+  },
+  {
+    "word": "Mary",
+    "start": 24.926,
+    "end": 25.309
+  },
+  {
+    "word": "told",
+    "start": 25.634,
+    "end": 25.901
+  },
+  {
+    "word": "us",
+    "start": 25.948,
+    "end": 26.064
+  },
+  {
+    "word": "old",
+    "start": 26.18,
+    "end": 26.47
+  },
+  {
+    "word": "sea",
+    "start": 26.552,
+    "end": 26.737
+  },
+  {
+    "word": "stories",
+    "start": 26.784,
+    "end": 27.341
+  },
+  {
+    "word": "My",
+    "start": 27.84,
+    "end": 27.991
+  },
+  {
+    "word": "grandfather",
+    "start": 28.084,
+    "end": 28.699
+  },
+  {
+    "word": "John",
+    "start": 28.792,
+    "end": 29.199
+  },
+  {
+    "word": "showed",
+    "start": 29.547,
+    "end": 29.849
+  },
+  {
+    "word": "us",
+    "start": 29.895,
+    "end": 29.988
+  },
+  {
+    "word": "how",
+    "start": 30.046,
+    "end": 30.174
+  },
+  {
+    "word": "to",
+    "start": 30.232,
+    "end": 30.302
+  },
+  {
+    "word": "tie",
+    "start": 30.383,
+    "end": 30.615
+  },
+  {
+    "word": "knots",
+    "start": 30.662,
+    "end": 31.079
+  },
+  {
+    "word": "My",
+    "start": 31.799,
+    "end": 31.95
+  },
+  {
+    "word": "sister",
+    "start": 32.032,
+    "end": 32.391
+  },
+  {
+    "word": "Emily",
+    "start": 32.473,
+    "end": 32.914
+  },
+  {
+    "word": "also",
+    "start": 33.239,
+    "end": 33.587
+  },
+  {
+    "word": "came",
+    "start": 33.669,
+    "end": 33.877
+  },
+  {
+    "word": "with",
+    "start": 33.912,
+    "end": 34.052
+  },
+  {
+    "word": "her",
+    "start": 34.098,
+    "end": 34.203
+  },
+  {
+    "word": "husband",
+    "start": 34.272,
+    "end": 34.667
+  },
+  {
+    "word": "Mark",
+    "start": 34.737,
+    "end": 35.097
+  },
+  {
+    "word": "They",
+    "start": 35.712,
+    "end": 35.898
+  },
+  {
+    "word": "brought",
+    "start": 35.956,
+    "end": 36.235
+  },
+  {
+    "word": "their",
+    "start": 36.27,
+    "end": 36.432
+  },
+  {
+    "word": "nephew",
+    "start": 36.502,
+    "end": 36.897
+  },
+  {
+    "word": "Alex",
+    "start": 37.071,
+    "end": 37.535
+  },
+  {
+    "word": "and",
+    "start": 37.883,
+    "end": 38.046
+  },
+  {
+    "word": "niece",
+    "start": 38.127,
+    "end": 38.557
+  },
+  {
+    "word": "Mia",
+    "start": 38.696,
+    "end": 39.079
+  },
+  {
+    "word": "Our",
+    "start": 39.857,
+    "end": 40.066
+  },
+  {
+    "word": "house",
+    "start": 40.147,
+    "end": 40.461
+  },
+  {
+    "word": "was",
+    "start": 40.507,
+    "end": 40.658
+  },
+  {
+    "word": "full",
+    "start": 40.751,
+    "end": 40.972
+  },
+  {
+    "word": "of",
+    "start": 41.03,
+    "end": 41.088
+  },
+  {
+    "word": "happy",
+    "start": 41.146,
+    "end": 41.424
+  },
+  {
+    "word": "people",
+    "start": 41.506,
+    "end": 41.993
+  },
+  {
+    "word": "We",
+    "start": 42.191,
+    "end": 42.388
+  },
+  {
+    "word": "all",
+    "start": 42.458,
+    "end": 42.748
+  },
+  {
+    "word": "went",
+    "start": 42.829,
+    "end": 43.015
+  },
+  {
+    "word": "to",
+    "start": 43.061,
+    "end": 43.119
+  },
+  {
+    "word": "the",
+    "start": 43.201,
+    "end": 43.27
+  },
+  {
+    "word": "beach",
+    "start": 43.34,
+    "end": 43.735
+  },
+  {
+    "word": "My",
+    "start": 44.455,
+    "end": 44.606
+  },
+  {
+    "word": "friends",
+    "start": 44.698,
+    "end": 45.151
+  },
+  {
+    "word": "David",
+    "start": 45.337,
+    "end": 45.72
+  },
+  {
+    "word": "and",
+    "start": 45.778,
+    "end": 45.848
+  },
+  {
+    "word": "Lisa",
+    "start": 45.929,
+    "end": 46.289
+  },
+  {
+    "word": "joined",
+    "start": 46.37,
+    "end": 46.719
+  },
+  {
+    "word": "us",
+    "start": 46.777,
+    "end": 46.986
+  },
+  {
+    "word": "David",
+    "start": 47.671,
+    "end": 48.077
+  },
+  {
+    "word": "helped",
+    "start": 48.158,
+    "end": 48.448
+  },
+  {
+    "word": "my",
+    "start": 48.507,
+    "end": 48.623
+  },
+  {
+    "word": "son",
+    "start": 48.704,
+    "end": 48.913
+  },
+  {
+    "word": "build",
+    "start": 48.983,
+    "end": 49.238
+  },
+  {
+    "word": "a",
+    "start": 49.284,
+    "end": 49.308
+  },
+  {
+    "word": "very",
+    "start": 49.424,
+    "end": 49.714
+  },
+  {
+    "word": "tall",
+    "start": 49.772,
+    "end": 50.027
+  },
+  {
+    "word": "sandcastle",
+    "start": 50.097,
+    "end": 50.968
+  },
+  {
+    "word": "Lisa",
+    "start": 51.397,
+    "end": 51.862
+  },
+  {
+    "word": "helped",
+    "start": 52.036,
+    "end": 52.326
+  },
+  {
+    "word": "my",
+    "start": 52.396,
+    "end": 52.512
+  },
+  {
+    "word": "daughter",
+    "start": 52.593,
+    "end": 52.942
+  },
+  {
+    "word": "find",
+    "start": 53.023,
+    "end": 53.267
+  },
+  {
+    "word": "seashells",
+    "start": 53.337,
+    "end": 54.045
+  },
+  {
+    "word": "Suddenly",
+    "start": 54.73,
+    "end": 55.287
+  },
+  {
+    "word": "the",
+    "start": 55.485,
+    "end": 55.612
+  },
+  {
+    "word": "weather",
+    "start": 55.67,
+    "end": 55.972
+  },
+  {
+    "word": "changed",
+    "start": 56.042,
+    "end": 56.599
+  },
+  {
+    "word": "A",
+    "start": 56.994,
+    "end": 57.11
+  },
+  {
+    "word": "big",
+    "start": 57.226,
+    "end": 57.412
+  },
+  {
+    "word": "storm",
+    "start": 57.481,
+    "end": 57.969
+  },
+  {
+    "word": "came",
+    "start": 58.085,
+    "end": 58.306
+  },
+  {
+    "word": "very",
+    "start": 58.352,
+    "end": 58.596
+  },
+  {
+    "word": "fast",
+    "start": 58.689,
+    "end": 59.223
+  },
+  {
+    "word": "The",
+    "start": 59.583,
+    "end": 59.722
+  },
+  {
+    "word": "waves",
+    "start": 59.815,
+    "end": 60.291
+  },
+  {
+    "word": "became",
+    "start": 60.372,
+    "end": 60.732
+  },
+  {
+    "word": "very",
+    "start": 60.779,
+    "end": 61.046
+  },
+  {
+    "word": "high",
+    "start": 61.127,
+    "end": 61.522
+  },
+  {
+    "word": "Everyone",
+    "start": 61.847,
+    "end": 62.427
+  },
+  {
+    "word": "ran",
+    "start": 62.485,
+    "end": 62.729
+  },
+  {
+    "word": "inside",
+    "start": 62.787,
+    "end": 63.472
+  },
+  {
+    "word": "but",
+    "start": 63.971,
+    "end": 64.146
+  },
+  {
+    "word": "my",
+    "start": 64.215,
+    "end": 64.331
+  },
+  {
+    "word": "son",
+    "start": 64.413,
+    "end": 64.622
+  },
+  {
+    "word": "s",
+    "start": 64.68,
+    "end": 64.714
+  },
+  {
+    "word": "favorite",
+    "start": 64.784,
+    "end": 65.202
+  },
+  {
+    "word": "toy",
+    "start": 65.248,
+    "end": 65.469
+  },
+  {
+    "word": "boat",
+    "start": 65.527,
+    "end": 65.748
+  },
+  {
+    "word": "was",
+    "start": 65.806,
+    "end": 65.933
+  },
+  {
+    "word": "still",
+    "start": 65.992,
+    "end": 66.247
+  },
+  {
+    "word": "near",
+    "start": 66.305,
+    "end": 66.479
+  },
+  {
+    "word": "the",
+    "start": 66.537,
+    "end": 66.618
+  },
+  {
+    "word": "water",
+    "start": 66.688,
+    "end": 67.083
+  },
+  {
+    "word": "Tom",
+    "start": 67.35,
+    "end": 67.617
+  },
+  {
+    "word": "Jr",
+    "start": 67.71,
+    "end": 68.081
+  },
+  {
+    "word": "wanted",
+    "start": 68.163,
+    "end": 68.488
+  },
+  {
+    "word": "his",
+    "start": 68.534,
+    "end": 68.65
+  },
+  {
+    "word": "boat",
+    "start": 68.731,
+    "end": 69.045
+  },
+  {
+    "word": "I",
+    "start": 69.393,
+    "end": 69.475
+  },
+  {
+    "word": "saw",
+    "start": 69.602,
+    "end": 69.834
+  },
+  {
+    "word": "it",
+    "start": 69.927,
+    "end": 70.02
+  },
+  {
+    "word": "close",
+    "start": 70.09,
+    "end": 70.403
+  },
+  {
+    "word": "to",
+    "start": 70.438,
+    "end": 70.508
+  },
+  {
+    "word": "the",
+    "start": 70.589,
+    "end": 70.659
+  },
+  {
+    "word": "big",
+    "start": 70.705,
+    "end": 70.879
+  },
+  {
+    "word": "waves",
+    "start": 70.96,
+    "end": 71.46
+  },
+  {
+    "word": "My",
+    "start": 71.808,
+    "end": 71.97
+  },
+  {
+    "word": "wife",
+    "start": 72.063,
+    "end": 72.423
+  },
+  {
+    "word": "looked",
+    "start": 72.481,
+    "end": 72.76
+  },
+  {
+    "word": "scared",
+    "start": 72.818,
+    "end": 73.352
+  },
+  {
+    "word": "My",
+    "start": 73.886,
+    "end": 74.037
+  },
+  {
+    "word": "friends",
+    "start": 74.13,
+    "end": 74.49
+  },
+  {
+    "word": "were",
+    "start": 74.536,
+    "end": 74.71
+  },
+  {
+    "word": "worried",
+    "start": 74.757,
+    "end": 75.221
+  },
+  {
+    "word": "I",
+    "start": 75.72,
+    "end": 75.813
+  },
+  {
+    "word": "had",
+    "start": 75.964,
+    "end": 76.185
+  },
+  {
+    "word": "to",
+    "start": 76.231,
+    "end": 76.301
+  },
+  {
+    "word": "get",
+    "start": 76.359,
+    "end": 76.521
+  },
+  {
+    "word": "the",
+    "start": 76.568,
+    "end": 76.638
+  },
+  {
+    "word": "boat",
+    "start": 76.719,
+    "end": 77.021
+  },
+  {
+    "word": "I",
+    "start": 77.555,
+    "end": 77.636
+  },
+  {
+    "word": "ran",
+    "start": 77.787,
+    "end": 78.031
+  },
+  {
+    "word": "to",
+    "start": 78.112,
+    "end": 78.182
+  },
+  {
+    "word": "the",
+    "start": 78.263,
+    "end": 78.333
+  },
+  {
+    "word": "water",
+    "start": 78.414,
+    "end": 78.797
+  },
+  {
+    "word": "The",
+    "start": 79.157,
+    "end": 79.308
+  },
+  {
+    "word": "waves",
+    "start": 79.401,
+    "end": 79.83
+  },
+  {
+    "word": "were",
+    "start": 79.912,
+    "end": 80.086
+  },
+  {
+    "word": "strong",
+    "start": 80.132,
+    "end": 80.608
+  },
+  {
+    "word": "My",
+    "start": 81.107,
+    "end": 81.27
+  },
+  {
+    "word": "family",
+    "start": 81.363,
+    "end": 81.746
+  },
+  {
+    "word": "watched",
+    "start": 81.827,
+    "end": 82.187
+  },
+  {
+    "word": "from",
+    "start": 82.234,
+    "end": 82.396
+  },
+  {
+    "word": "the",
+    "start": 82.454,
+    "end": 82.524
+  },
+  {
+    "word": "house",
+    "start": 82.594,
+    "end": 83.081
+  },
+  {
+    "word": "My",
+    "start": 83.499,
+    "end": 83.65
+  },
+  {
+    "word": "grandparents",
+    "start": 83.743,
+    "end": 84.463
+  },
+  {
+    "word": "prayed",
+    "start": 84.544,
+    "end": 84.997
+  },
+  {
+    "word": "I",
+    "start": 85.496,
+    "end": 85.577
+  },
+  {
+    "word": "reached",
+    "start": 85.728,
+    "end": 86.065
+  },
+  {
+    "word": "the",
+    "start": 86.111,
+    "end": 86.193
+  },
+  {
+    "word": "boat",
+    "start": 86.262,
+    "end": 86.483
+  },
+  {
+    "word": "and",
+    "start": 86.529,
+    "end": 86.611
+  },
+  {
+    "word": "grabbed",
+    "start": 86.68,
+    "end": 87.052
+  },
+  {
+    "word": "it",
+    "start": 87.11,
+    "end": 87.237
+  },
+  {
+    "word": "I",
+    "start": 87.737,
+    "end": 87.83
+  },
+  {
+    "word": "came",
+    "start": 87.957,
+    "end": 88.201
+  },
+  {
+    "word": "back",
+    "start": 88.248,
+    "end": 88.538
+  },
+  {
+    "word": "safe",
+    "start": 89.049,
+    "end": 89.432
+  },
+  {
+    "word": "with",
+    "start": 89.467,
+    "end": 89.641
+  },
+  {
+    "word": "the",
+    "start": 89.687,
+    "end": 89.757
+  },
+  {
+    "word": "boat",
+    "start": 89.827,
+    "end": 90.117
+  },
+  {
+    "word": "My",
+    "start": 90.616,
+    "end": 90.779
+  },
+  {
+    "word": "children",
+    "start": 90.872,
+    "end": 91.324
+  },
+  {
+    "word": "hugged",
+    "start": 91.394,
+    "end": 91.684
+  },
+  {
+    "word": "me",
+    "start": 91.742,
+    "end": 91.998
+  },
+  {
+    "word": "My",
+    "start": 92.427,
+    "end": 92.59
+  },
+  {
+    "word": "wife",
+    "start": 92.683,
+    "end": 92.996
+  },
+  {
+    "word": "cried",
+    "start": 93.066,
+    "end": 93.391
+  },
+  {
+    "word": "happy",
+    "start": 93.461,
+    "end": 93.751
+  },
+  {
+    "word": "tears",
+    "start": 93.832,
+    "end": 94.331
+  },
+  {
+    "word": "My",
+    "start": 94.889,
+    "end": 95.04
+  },
+  {
+    "word": "sister",
+    "start": 95.132,
+    "end": 95.492
+  },
+  {
+    "word": "and",
+    "start": 95.55,
+    "end": 95.632
+  },
+  {
+    "word": "her",
+    "start": 95.69,
+    "end": 95.794
+  },
+  {
+    "word": "family",
+    "start": 95.876,
+    "end": 96.293
+  },
+  {
+    "word": "cheered",
+    "start": 96.375,
+    "end": 96.828
+  },
+  {
+    "word": "My",
+    "start": 97.385,
+    "end": 97.536
+  },
+  {
+    "word": "friends",
+    "start": 97.652,
+    "end": 98.012
+  },
+  {
+    "word": "shook",
+    "start": 98.058,
+    "end": 98.314
+  },
+  {
+    "word": "my",
+    "start": 98.383,
+    "end": 98.511
+  },
+  {
+    "word": "hand",
+    "start": 98.592,
+    "end": 99.01
+  },
+  {
+    "word": "We",
+    "start": 99.823,
+    "end": 99.985
+  },
+  {
+    "word": "learned",
+    "start": 100.067,
+    "end": 100.403
+  },
+  {
+    "word": "that",
+    "start": 100.45,
+    "end": 100.612
+  },
+  {
+    "word": "day",
+    "start": 100.682,
+    "end": 100.984
+  },
+  {
+    "word": "that",
+    "start": 101.425,
+    "end": 101.622
+  },
+  {
+    "word": "the",
+    "start": 101.669,
+    "end": 101.75
+  },
+  {
+    "word": "sea",
+    "start": 101.843,
+    "end": 102.122
+  },
+  {
+    "word": "can",
+    "start": 102.215,
+    "end": 102.4
+  },
+  {
+    "word": "be",
+    "start": 102.458,
+    "end": 102.563
+  },
+  {
+    "word": "strong",
+    "start": 102.621,
+    "end": 103.12
+  },
+  {
+    "word": "But",
+    "start": 103.747,
+    "end": 103.921
+  },
+  {
+    "word": "our",
+    "start": 103.968,
+    "end": 104.107
+  },
+  {
+    "word": "family",
+    "start": 104.188,
+    "end": 104.548
+  },
+  {
+    "word": "and",
+    "start": 104.606,
+    "end": 104.687
+  },
+  {
+    "word": "friends",
+    "start": 104.769,
+    "end": 105.105
+  },
+  {
+    "word": "are",
+    "start": 105.14,
+    "end": 105.268
+  },
+  {
+    "word": "stronger",
+    "start": 105.303,
+    "end": 105.744
+  },
+  {
+    "word": "together",
+    "start": 105.825,
+    "end": 106.313
+  },
+  {
+    "word": "Love",
+    "start": 106.533,
+    "end": 106.905
+  },
+  {
+    "word": "keeps",
+    "start": 106.975,
+    "end": 107.311
+  },
+  {
+    "word": "us",
+    "start": 107.369,
+    "end": 107.474
+  },
+  {
+    "word": "safe",
+    "start": 107.532,
+    "end": 108.031
+  },
+  {
+    "word": "like",
+    "start": 108.6,
+    "end": 108.809
+  },
+  {
+    "word": "a",
+    "start": 108.844,
+    "end": 108.867
+  },
+  {
+    "word": "lighthouse",
+    "start": 108.948,
+    "end": 109.482
+  },
+  {
+    "word": "guides",
+    "start": 109.54,
+    "end": 109.889
+  },
+  {
+    "word": "a",
+    "start": 109.935,
+    "end": 109.97
+  },
+  {
+    "word": "ship",
+    "start": 110.04,
+    "end": 110.342
+  }
+]
