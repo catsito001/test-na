@@ -1,0 +1,4342 @@
+[
+  {
+    "word": "Dr",
+    "start": 0,
+    "end": 0.395
+  },
+  {
+    "word": "Kenji",
+    "start": 0.453,
+    "end": 0.72
+  },
+  {
+    "word": "Tanaka",
+    "start": 0.801,
+    "end": 1.254
+  },
+  {
+    "word": "no",
+    "start": 1.335,
+    "end": 1.463
+  },
+  {
+    "word": "longer",
+    "start": 1.556,
+    "end": 1.846
+  },
+  {
+    "word": "dreamed",
+    "start": 1.904,
+    "end": 2.194
+  },
+  {
+    "word": "of",
+    "start": 2.229,
+    "end": 2.287
+  },
+  {
+    "word": "saving",
+    "start": 2.368,
+    "end": 2.694
+  },
+  {
+    "word": "the",
+    "start": 2.74,
+    "end": 2.81
+  },
+  {
+    "word": "world",
+    "start": 2.856,
+    "end": 3.193
+  },
+  {
+    "word": "Those",
+    "start": 3.634,
+    "end": 3.889
+  },
+  {
+    "word": "dreams",
+    "start": 3.924,
+    "end": 4.203
+  },
+  {
+    "word": "had",
+    "start": 4.238,
+    "end": 4.354
+  },
+  {
+    "word": "died",
+    "start": 4.4,
+    "end": 4.656
+  },
+  {
+    "word": "years",
+    "start": 4.737,
+    "end": 5.027
+  },
+  {
+    "word": "ago",
+    "start": 5.074,
+    "end": 5.352
+  },
+  {
+    "word": "in",
+    "start": 5.584,
+    "end": 5.747
+  },
+  {
+    "word": "a",
+    "start": 5.793,
+    "end": 5.817
+  },
+  {
+    "word": "sweltering",
+    "start": 5.898,
+    "end": 6.502
+  },
+  {
+    "word": "field",
+    "start": 6.606,
+    "end": 6.931
+  },
+  {
+    "word": "hospital",
+    "start": 6.989,
+    "end": 7.488
+  },
+  {
+    "word": "in",
+    "start": 7.581,
+    "end": 7.674
+  },
+  {
+    "word": "West",
+    "start": 7.755,
+    "end": 7.999
+  },
+  {
+    "word": "Africa",
+    "start": 8.081,
+    "end": 8.568
+  },
+  {
+    "word": "consumed",
+    "start": 9.172,
+    "end": 9.694
+  },
+  {
+    "word": "by",
+    "start": 9.741,
+    "end": 9.845
+  },
+  {
+    "word": "Ebola",
+    "start": 9.927,
+    "end": 10.391
+  },
+  {
+    "word": "s",
+    "start": 10.426,
+    "end": 10.461
+  },
+  {
+    "word": "hemorrhagic",
+    "start": 10.519,
+    "end": 11.111
+  },
+  {
+    "word": "fever",
+    "start": 11.192,
+    "end": 11.622
+  },
+  {
+    "word": "along",
+    "start": 11.923,
+    "end": 12.318
+  },
+  {
+    "word": "with",
+    "start": 12.353,
+    "end": 12.481
+  },
+  {
+    "word": "several",
+    "start": 12.527,
+    "end": 12.91
+  },
+  {
+    "word": "of",
+    "start": 12.992,
+    "end": 13.073
+  },
+  {
+    "word": "his",
+    "start": 13.131,
+    "end": 13.235
+  },
+  {
+    "word": "best",
+    "start": 13.317,
+    "end": 13.56
+  },
+  {
+    "word": "colleagues",
+    "start": 13.618,
+    "end": 14.187
+  },
+  {
+    "word": "Now",
+    "start": 14.977,
+    "end": 15.325
+  },
+  {
+    "word": "his",
+    "start": 15.697,
+    "end": 15.882
+  },
+  {
+    "word": "world",
+    "start": 15.963,
+    "end": 16.254
+  },
+  {
+    "word": "was",
+    "start": 16.312,
+    "end": 16.451
+  },
+  {
+    "word": "the",
+    "start": 16.497,
+    "end": 16.567
+  },
+  {
+    "word": "pristine",
+    "start": 16.613,
+    "end": 17.264
+  },
+  {
+    "word": "and",
+    "start": 17.31,
+    "end": 17.415
+  },
+  {
+    "word": "predictable",
+    "start": 17.473,
+    "end": 17.995
+  },
+  {
+    "word": "laboratory",
+    "start": 18.03,
+    "end": 18.738
+  },
+  {
+    "word": "of",
+    "start": 18.819,
+    "end": 18.889
+  },
+  {
+    "word": "the",
+    "start": 18.947,
+    "end": 19.017
+  },
+  {
+    "word": "Global",
+    "start": 19.075,
+    "end": 19.551
+  },
+  {
+    "word": "Virology",
+    "start": 19.632,
+    "end": 20.34
+  },
+  {
+    "word": "Institute",
+    "start": 20.422,
+    "end": 20.932
+  },
+  {
+    "word": "in",
+    "start": 20.967,
+    "end": 21.037
+  },
+  {
+    "word": "San",
+    "start": 21.095,
+    "end": 21.257
+  },
+  {
+    "word": "Francisco",
+    "start": 21.304,
+    "end": 21.954
+  },
+  {
+    "word": "a",
+    "start": 22.558,
+    "end": 22.639
+  },
+  {
+    "word": "sanctuary",
+    "start": 22.767,
+    "end": 23.568
+  },
+  {
+    "word": "of",
+    "start": 23.649,
+    "end": 23.73
+  },
+  {
+    "word": "filtered",
+    "start": 23.788,
+    "end": 24.172
+  },
+  {
+    "word": "air",
+    "start": 24.253,
+    "end": 24.52
+  },
+  {
+    "word": "and",
+    "start": 24.613,
+    "end": 24.729
+  },
+  {
+    "word": "genetic",
+    "start": 24.775,
+    "end": 25.216
+  },
+  {
+    "word": "sequences",
+    "start": 25.274,
+    "end": 25.994
+  },
+  {
+    "word": "He",
+    "start": 26.679,
+    "end": 26.819
+  },
+  {
+    "word": "was",
+    "start": 26.877,
+    "end": 27.016
+  },
+  {
+    "word": "dedicated",
+    "start": 27.109,
+    "end": 27.689
+  },
+  {
+    "word": "to",
+    "start": 27.724,
+    "end": 27.782
+  },
+  {
+    "word": "theoretical",
+    "start": 27.875,
+    "end": 28.444
+  },
+  {
+    "word": "research",
+    "start": 28.548,
+    "end": 29.141
+  },
+  {
+    "word": "to",
+    "start": 29.628,
+    "end": 29.733
+  },
+  {
+    "word": "the",
+    "start": 29.814,
+    "end": 29.884
+  },
+  {
+    "word": "grand",
+    "start": 29.965,
+    "end": 30.406
+  },
+  {
+    "word": "and",
+    "start": 30.487,
+    "end": 30.627
+  },
+  {
+    "word": "elusive",
+    "start": 30.673,
+    "end": 31.265
+  },
+  {
+    "word": "goal",
+    "start": 31.323,
+    "end": 31.695
+  },
+  {
+    "word": "of",
+    "start": 31.927,
+    "end": 32.055
+  },
+  {
+    "word": "a",
+    "start": 32.113,
+    "end": 32.148
+  },
+  {
+    "word": "universal",
+    "start": 32.276,
+    "end": 32.81
+  },
+  {
+    "word": "flu",
+    "start": 32.902,
+    "end": 33.17
+  },
+  {
+    "word": "vaccine",
+    "start": 33.216,
+    "end": 33.959
+  },
+  {
+    "word": "a",
+    "start": 34.574,
+    "end": 34.656
+  },
+  {
+    "word": "noble",
+    "start": 34.783,
+    "end": 35.178
+  },
+  {
+    "word": "but",
+    "start": 35.213,
+    "end": 35.341
+  },
+  {
+    "word": "deliberately",
+    "start": 35.387,
+    "end": 35.956
+  },
+  {
+    "word": "distant",
+    "start": 36.002,
+    "end": 36.327
+  },
+  {
+    "word": "job",
+    "start": 36.374,
+    "end": 36.618
+  },
+  {
+    "word": "from",
+    "start": 36.676,
+    "end": 36.815
+  },
+  {
+    "word": "the",
+    "start": 36.85,
+    "end": 36.92
+  },
+  {
+    "word": "chaos",
+    "start": 36.966,
+    "end": 37.419
+  },
+  {
+    "word": "and",
+    "start": 37.477,
+    "end": 37.558
+  },
+  {
+    "word": "pain",
+    "start": 37.616,
+    "end": 37.86
+  },
+  {
+    "word": "of",
+    "start": 37.906,
+    "end": 37.953
+  },
+  {
+    "word": "the",
+    "start": 37.999,
+    "end": 38.069
+  },
+  {
+    "word": "trenches",
+    "start": 38.092,
+    "end": 38.487
+  },
+  {
+    "word": "However",
+    "start": 38.533,
+    "end": 38.986
+  },
+  {
+    "word": "the",
+    "start": 39.52,
+    "end": 39.636
+  },
+  {
+    "word": "past",
+    "start": 39.729,
+    "end": 40.31
+  },
+  {
+    "word": "like",
+    "start": 40.565,
+    "end": 40.751
+  },
+  {
+    "word": "the",
+    "start": 40.786,
+    "end": 40.855
+  },
+  {
+    "word": "viruses",
+    "start": 40.902,
+    "end": 41.413
+  },
+  {
+    "word": "he",
+    "start": 41.471,
+    "end": 41.54
+  },
+  {
+    "word": "studied",
+    "start": 41.598,
+    "end": 42.028
+  },
+  {
+    "word": "had",
+    "start": 42.399,
+    "end": 42.62
+  },
+  {
+    "word": "a",
+    "start": 42.666,
+    "end": 42.701
+  },
+  {
+    "word": "way",
+    "start": 42.748,
+    "end": 42.887
+  },
+  {
+    "word": "of",
+    "start": 42.933,
+    "end": 42.992
+  },
+  {
+    "word": "mutating",
+    "start": 43.096,
+    "end": 43.769
+  },
+  {
+    "word": "and",
+    "start": 43.932,
+    "end": 44.141
+  },
+  {
+    "word": "re",
+    "start": 44.234,
+    "end": 44.396
+  },
+  {
+    "word": "emerging",
+    "start": 44.454,
+    "end": 45.023
+  },
+  {
+    "word": "The",
+    "start": 45.627,
+    "end": 45.755
+  },
+  {
+    "word": "first",
+    "start": 45.836,
+    "end": 46.115
+  },
+  {
+    "word": "alert",
+    "start": 46.173,
+    "end": 46.428
+  },
+  {
+    "word": "came",
+    "start": 46.486,
+    "end": 46.718
+  },
+  {
+    "word": "as",
+    "start": 46.753,
+    "end": 46.823
+  },
+  {
+    "word": "a",
+    "start": 46.881,
+    "end": 46.904
+  },
+  {
+    "word": "digital",
+    "start": 46.962,
+    "end": 47.311
+  },
+  {
+    "word": "whisper",
+    "start": 47.369,
+    "end": 47.845
+  },
+  {
+    "word": "an",
+    "start": 48.333,
+    "end": 48.507
+  },
+  {
+    "word": "email",
+    "start": 48.634,
+    "end": 49.041
+  },
+  {
+    "word": "tagged",
+    "start": 49.099,
+    "end": 49.447
+  },
+  {
+    "word": "urgent",
+    "start": 49.633,
+    "end": 50.155
+  },
+  {
+    "word": "from",
+    "start": 50.469,
+    "end": 50.666
+  },
+  {
+    "word": "a",
+    "start": 50.713,
+    "end": 50.747
+  },
+  {
+    "word": "WHO",
+    "start": 50.875,
+    "end": 51.641
+  },
+  {
+    "word": "outpost",
+    "start": 51.769,
+    "end": 52.338
+  },
+  {
+    "word": "in",
+    "start": 52.396,
+    "end": 52.466
+  },
+  {
+    "word": "Southeast",
+    "start": 52.547,
+    "end": 52.988
+  },
+  {
+    "word": "Asia",
+    "start": 53.069,
+    "end": 53.499
+  },
+  {
+    "word": "It",
+    "start": 53.673,
+    "end": 53.812
+  },
+  {
+    "word": "reported",
+    "start": 53.87,
+    "end": 54.358
+  },
+  {
+    "word": "a",
+    "start": 54.405,
+    "end": 54.428
+  },
+  {
+    "word": "cluster",
+    "start": 54.486,
+    "end": 54.95
+  },
+  {
+    "word": "of",
+    "start": 55.008,
+    "end": 55.066
+  },
+  {
+    "word": "atypical",
+    "start": 55.171,
+    "end": 55.844
+  },
+  {
+    "word": "pneumonia",
+    "start": 55.891,
+    "end": 56.367
+  },
+  {
+    "word": "cases",
+    "start": 56.425,
+    "end": 56.877
+  },
+  {
+    "word": "in",
+    "start": 56.936,
+    "end": 57.017
+  },
+  {
+    "word": "a",
+    "start": 57.063,
+    "end": 57.086
+  },
+  {
+    "word": "remote",
+    "start": 57.168,
+    "end": 57.586
+  },
+  {
+    "word": "rural",
+    "start": 57.632,
+    "end": 57.98
+  },
+  {
+    "word": "village",
+    "start": 58.038,
+    "end": 58.561
+  },
+  {
+    "word": "famous",
+    "start": 59.002,
+    "end": 59.42
+  },
+  {
+    "word": "for",
+    "start": 59.466,
+    "end": 59.583
+  },
+  {
+    "word": "its",
+    "start": 59.629,
+    "end": 59.745
+  },
+  {
+    "word": "wildlife",
+    "start": 59.803,
+    "end": 60.36
+  },
+  {
+    "word": "markets",
+    "start": 60.418,
+    "end": 60.953
+  },
+  {
+    "word": "Patients",
+    "start": 61.254,
+    "end": 61.754
+  },
+  {
+    "word": "presented",
+    "start": 61.812,
+    "end": 62.218
+  },
+  {
+    "word": "with",
+    "start": 62.253,
+    "end": 62.381
+  },
+  {
+    "word": "high",
+    "start": 62.439,
+    "end": 62.671
+  },
+  {
+    "word": "fever",
+    "start": 62.729,
+    "end": 63.158
+  },
+  {
+    "word": "a",
+    "start": 63.507,
+    "end": 63.6
+  },
+  {
+    "word": "dry",
+    "start": 63.692,
+    "end": 64.03
+  },
+  {
+    "word": "cough",
+    "start": 64.157,
+    "end": 64.564
+  },
+  {
+    "word": "and",
+    "start": 64.912,
+    "end": 65.086
+  },
+  {
+    "word": "rapid",
+    "start": 65.191,
+    "end": 65.562
+  },
+  {
+    "word": "progression",
+    "start": 65.62,
+    "end": 66.154
+  },
+  {
+    "word": "to",
+    "start": 66.212,
+    "end": 66.293
+  },
+  {
+    "word": "severe",
+    "start": 66.375,
+    "end": 66.874
+  },
+  {
+    "word": "respiratory",
+    "start": 66.955,
+    "end": 67.617
+  },
+  {
+    "word": "distress",
+    "start": 67.698,
+    "end": 68.279
+  },
+  {
+    "word": "Most",
+    "start": 68.859,
+    "end": 69.208
+  },
+  {
+    "word": "alarming",
+    "start": 69.266,
+    "end": 69.718
+  },
+  {
+    "word": "was",
+    "start": 69.776,
+    "end": 69.916
+  },
+  {
+    "word": "the",
+    "start": 69.974,
+    "end": 70.044
+  },
+  {
+    "word": "transmission",
+    "start": 70.078,
+    "end": 70.74
+  },
+  {
+    "word": "rate",
+    "start": 70.821,
+    "end": 71.007
+  },
+  {
+    "word": "within",
+    "start": 71.03,
+    "end": 71.286
+  },
+  {
+    "word": "families",
+    "start": 71.39,
+    "end": 72.064
+  },
+  {
+    "word": "almost",
+    "start": 72.493,
+    "end": 72.876
+  },
+  {
+    "word": "one",
+    "start": 72.958,
+    "end": 73.201
+  },
+  {
+    "word": "hundred",
+    "start": 73.259,
+    "end": 73.561
+  },
+  {
+    "word": "percent",
+    "start": 73.608,
+    "end": 74.107
+  },
+  {
+    "word": "Kenji",
+    "start": 74.641,
+    "end": 75.024
+  },
+  {
+    "word": "felt",
+    "start": 75.082,
+    "end": 75.28
+  },
+  {
+    "word": "a",
+    "start": 75.326,
+    "end": 75.349
+  },
+  {
+    "word": "pang",
+    "start": 75.431,
+    "end": 75.698
+  },
+  {
+    "word": "of",
+    "start": 75.756,
+    "end": 75.814
+  },
+  {
+    "word": "familiar",
+    "start": 75.86,
+    "end": 76.371
+  },
+  {
+    "word": "fear",
+    "start": 76.464,
+    "end": 76.893
+  },
+  {
+    "word": "On",
+    "start": 77.288,
+    "end": 77.474
+  },
+  {
+    "word": "the",
+    "start": 77.509,
+    "end": 77.578
+  },
+  {
+    "word": "screen",
+    "start": 77.625,
+    "end": 78.101
+  },
+  {
+    "word": "the",
+    "start": 78.287,
+    "end": 78.391
+  },
+  {
+    "word": "preliminary",
+    "start": 78.449,
+    "end": 79.041
+  },
+  {
+    "word": "data",
+    "start": 79.122,
+    "end": 79.401
+  },
+  {
+    "word": "formed",
+    "start": 79.494,
+    "end": 79.784
+  },
+  {
+    "word": "the",
+    "start": 79.807,
+    "end": 79.877
+  },
+  {
+    "word": "specter",
+    "start": 79.912,
+    "end": 80.318
+  },
+  {
+    "word": "of",
+    "start": 80.376,
+    "end": 80.434
+  },
+  {
+    "word": "something",
+    "start": 80.492,
+    "end": 80.864
+  },
+  {
+    "word": "new",
+    "start": 80.992,
+    "end": 81.293
+  },
+  {
+    "word": "something",
+    "start": 81.944,
+    "end": 82.362
+  },
+  {
+    "word": "fast",
+    "start": 82.466,
+    "end": 83.093
+  },
+  {
+    "word": "and",
+    "start": 83.581,
+    "end": 83.755
+  },
+  {
+    "word": "something",
+    "start": 83.859,
+    "end": 84.219
+  },
+  {
+    "word": "they",
+    "start": 84.266,
+    "end": 84.37
+  },
+  {
+    "word": "didn",
+    "start": 84.451,
+    "end": 84.649
+  },
+  {
+    "word": "t",
+    "start": 84.684,
+    "end": 84.707
+  },
+  {
+    "word": "understand",
+    "start": 84.753,
+    "end": 85.496
+  },
+  {
+    "word": "In",
+    "start": 85.868,
+    "end": 86.042
+  },
+  {
+    "word": "that",
+    "start": 86.088,
+    "end": 86.239
+  },
+  {
+    "word": "same",
+    "start": 86.321,
+    "end": 86.576
+  },
+  {
+    "word": "village",
+    "start": 86.622,
+    "end": 87.145
+  },
+  {
+    "word": "Dr",
+    "start": 87.354,
+    "end": 87.737
+  },
+  {
+    "word": "Anya",
+    "start": 87.807,
+    "end": 88.178
+  },
+  {
+    "word": "Sharma",
+    "start": 88.236,
+    "end": 88.759
+  },
+  {
+    "word": "worked",
+    "start": 88.991,
+    "end": 89.293
+  },
+  {
+    "word": "with",
+    "start": 89.316,
+    "end": 89.432
+  },
+  {
+    "word": "resources",
+    "start": 89.513,
+    "end": 90.105
+  },
+  {
+    "word": "that",
+    "start": 90.152,
+    "end": 90.268
+  },
+  {
+    "word": "were",
+    "start": 90.314,
+    "end": 90.442
+  },
+  {
+    "word": "little",
+    "start": 90.523,
+    "end": 90.767
+  },
+  {
+    "word": "more",
+    "start": 90.802,
+    "end": 90.988
+  },
+  {
+    "word": "than",
+    "start": 91.034,
+    "end": 91.15
+  },
+  {
+    "word": "her",
+    "start": 91.232,
+    "end": 91.336
+  },
+  {
+    "word": "own",
+    "start": 91.417,
+    "end": 91.591
+  },
+  {
+    "word": "determination",
+    "start": 91.638,
+    "end": 92.497
+  },
+  {
+    "word": "Her",
+    "start": 93.136,
+    "end": 93.287
+  },
+  {
+    "word": "small",
+    "start": 93.368,
+    "end": 93.704
+  },
+  {
+    "word": "clinic",
+    "start": 93.786,
+    "end": 94.227
+  },
+  {
+    "word": "with",
+    "start": 94.598,
+    "end": 94.784
+  },
+  {
+    "word": "barely",
+    "start": 94.842,
+    "end": 95.249
+  },
+  {
+    "word": "six",
+    "start": 95.307,
+    "end": 95.562
+  },
+  {
+    "word": "beds",
+    "start": 95.69,
+    "end": 96.119
+  },
+  {
+    "word": "was",
+    "start": 96.572,
+    "end": 96.769
+  },
+  {
+    "word": "now",
+    "start": 96.897,
+    "end": 97.187
+  },
+  {
+    "word": "overwhelmed",
+    "start": 97.315,
+    "end": 97.919
+  },
+  {
+    "word": "by",
+    "start": 97.977,
+    "end": 98.116
+  },
+  {
+    "word": "more",
+    "start": 98.221,
+    "end": 98.395
+  },
+  {
+    "word": "than",
+    "start": 98.43,
+    "end": 98.592
+  },
+  {
+    "word": "thirty",
+    "start": 98.72,
+    "end": 99.149
+  },
+  {
+    "word": "febrile",
+    "start": 99.254,
+    "end": 99.707
+  },
+  {
+    "word": "patients",
+    "start": 99.753,
+    "end": 100.345
+  },
+  {
+    "word": "With",
+    "start": 100.949,
+    "end": 101.135
+  },
+  {
+    "word": "only",
+    "start": 101.216,
+    "end": 101.529
+  },
+  {
+    "word": "a",
+    "start": 101.587,
+    "end": 101.611
+  },
+  {
+    "word": "couple",
+    "start": 101.704,
+    "end": 102.029
+  },
+  {
+    "word": "of",
+    "start": 102.063,
+    "end": 102.11
+  },
+  {
+    "word": "oxygen",
+    "start": 102.203,
+    "end": 102.748
+  },
+  {
+    "word": "tanks",
+    "start": 102.807,
+    "end": 103.259
+  },
+  {
+    "word": "and",
+    "start": 103.422,
+    "end": 103.596
+  },
+  {
+    "word": "a",
+    "start": 103.654,
+    "end": 103.677
+  },
+  {
+    "word": "dwindling",
+    "start": 103.724,
+    "end": 104.188
+  },
+  {
+    "word": "supply",
+    "start": 104.246,
+    "end": 104.652
+  },
+  {
+    "word": "of",
+    "start": 104.745,
+    "end": 104.827
+  },
+  {
+    "word": "useless",
+    "start": 104.954,
+    "end": 105.349
+  },
+  {
+    "word": "antibiotics",
+    "start": 105.396,
+    "end": 106.348
+  },
+  {
+    "word": "she",
+    "start": 106.835,
+    "end": 107.033
+  },
+  {
+    "word": "watched",
+    "start": 107.125,
+    "end": 107.474
+  },
+  {
+    "word": "as",
+    "start": 107.52,
+    "end": 107.613
+  },
+  {
+    "word": "her",
+    "start": 107.694,
+    "end": 107.787
+  },
+  {
+    "word": "neighbors",
+    "start": 107.868,
+    "end": 108.24
+  },
+  {
+    "word": "and",
+    "start": 108.286,
+    "end": 108.379
+  },
+  {
+    "word": "friends",
+    "start": 108.472,
+    "end": 108.762
+  },
+  {
+    "word": "choked",
+    "start": 108.89,
+    "end": 109.343
+  },
+  {
+    "word": "in",
+    "start": 109.401,
+    "end": 109.482
+  },
+  {
+    "word": "their",
+    "start": 109.529,
+    "end": 109.68
+  },
+  {
+    "word": "own",
+    "start": 109.726,
+    "end": 109.912
+  },
+  {
+    "word": "lungs",
+    "start": 109.97,
+    "end": 110.353
+  },
+  {
+    "word": "She",
+    "start": 110.864,
+    "end": 111.003
+  },
+  {
+    "word": "fought",
+    "start": 111.084,
+    "end": 111.305
+  },
+  {
+    "word": "not",
+    "start": 111.34,
+    "end": 111.491
+  },
+  {
+    "word": "only",
+    "start": 111.572,
+    "end": 111.897
+  },
+  {
+    "word": "against",
+    "start": 111.955,
+    "end": 112.234
+  },
+  {
+    "word": "the",
+    "start": 112.269,
+    "end": 112.339
+  },
+  {
+    "word": "invisible",
+    "start": 112.385,
+    "end": 112.838
+  },
+  {
+    "word": "pathogen",
+    "start": 112.884,
+    "end": 113.546
+  },
+  {
+    "word": "but",
+    "start": 114.022,
+    "end": 114.219
+  },
+  {
+    "word": "also",
+    "start": 114.277,
+    "end": 114.684
+  },
+  {
+    "word": "against",
+    "start": 114.777,
+    "end": 115.067
+  },
+  {
+    "word": "the",
+    "start": 115.113,
+    "end": 115.183
+  },
+  {
+    "word": "fear",
+    "start": 115.276,
+    "end": 115.624
+  },
+  {
+    "word": "and",
+    "start": 115.717,
+    "end": 115.833
+  },
+  {
+    "word": "misinformation",
+    "start": 115.914,
+    "end": 116.948
+  },
+  {
+    "word": "that",
+    "start": 117.25,
+    "end": 117.459
+  },
+  {
+    "word": "spread",
+    "start": 117.505,
+    "end": 117.772
+  },
+  {
+    "word": "faster",
+    "start": 117.853,
+    "end": 118.364
+  },
+  {
+    "word": "than",
+    "start": 118.422,
+    "end": 118.538
+  },
+  {
+    "word": "the",
+    "start": 118.585,
+    "end": 118.654
+  },
+  {
+    "word": "disease",
+    "start": 118.689,
+    "end": 119.061
+  },
+  {
+    "word": "itself",
+    "start": 119.107,
+    "end": 119.664
+  },
+  {
+    "word": "Rumors",
+    "start": 119.827,
+    "end": 120.21
+  },
+  {
+    "word": "of",
+    "start": 120.257,
+    "end": 120.315
+  },
+  {
+    "word": "a",
+    "start": 120.361,
+    "end": 120.396
+  },
+  {
+    "word": "curse",
+    "start": 120.477,
+    "end": 120.942
+  },
+  {
+    "word": "or",
+    "start": 121,
+    "end": 121.151
+  },
+  {
+    "word": "government",
+    "start": 121.209,
+    "end": 121.569
+  },
+  {
+    "word": "poisoning",
+    "start": 121.615,
+    "end": 122.137
+  },
+  {
+    "word": "hampered",
+    "start": 122.23,
+    "end": 122.648
+  },
+  {
+    "word": "her",
+    "start": 122.683,
+    "end": 122.788
+  },
+  {
+    "word": "efforts",
+    "start": 122.869,
+    "end": 123.217
+  },
+  {
+    "word": "to",
+    "start": 123.252,
+    "end": 123.322
+  },
+  {
+    "word": "isolate",
+    "start": 123.426,
+    "end": 123.914
+  },
+  {
+    "word": "the",
+    "start": 123.949,
+    "end": 124.018
+  },
+  {
+    "word": "sick",
+    "start": 124.099,
+    "end": 124.425
+  },
+  {
+    "word": "and",
+    "start": 124.587,
+    "end": 124.796
+  },
+  {
+    "word": "trace",
+    "start": 124.854,
+    "end": 125.214
+  },
+  {
+    "word": "contacts",
+    "start": 125.272,
+    "end": 125.992
+  },
+  {
+    "word": "It",
+    "start": 126.712,
+    "end": 126.851
+  },
+  {
+    "word": "was",
+    "start": 126.898,
+    "end": 127.002
+  },
+  {
+    "word": "a",
+    "start": 127.06,
+    "end": 127.083
+  },
+  {
+    "word": "lonely",
+    "start": 127.188,
+    "end": 127.571
+  },
+  {
+    "word": "battle",
+    "start": 127.629,
+    "end": 127.954
+  },
+  {
+    "word": "at",
+    "start": 127.989,
+    "end": 128.059
+  },
+  {
+    "word": "ground",
+    "start": 128.105,
+    "end": 128.36
+  },
+  {
+    "word": "zero",
+    "start": 128.407,
+    "end": 128.744
+  },
+  {
+    "word": "of",
+    "start": 128.836,
+    "end": 128.906
+  },
+  {
+    "word": "a",
+    "start": 128.953,
+    "end": 128.976
+  },
+  {
+    "word": "gathering",
+    "start": 129.057,
+    "end": 129.521
+  },
+  {
+    "word": "storm",
+    "start": 129.603,
+    "end": 130.114
+  },
+  {
+    "word": "Meanwhile",
+    "start": 130.717,
+    "end": 131.449
+  },
+  {
+    "word": "thousands",
+    "start": 131.634,
+    "end": 132.122
+  },
+  {
+    "word": "of",
+    "start": 132.157,
+    "end": 132.215
+  },
+  {
+    "word": "miles",
+    "start": 132.296,
+    "end": 132.621
+  },
+  {
+    "word": "away",
+    "start": 132.668,
+    "end": 133.004
+  },
+  {
+    "word": "in",
+    "start": 133.457,
+    "end": 133.585
+  },
+  {
+    "word": "a",
+    "start": 133.631,
+    "end": 133.655
+  },
+  {
+    "word": "state",
+    "start": 133.713,
+    "end": 133.956
+  },
+  {
+    "word": "of",
+    "start": 133.98,
+    "end": 134.026
+  },
+  {
+    "word": "the",
+    "start": 134.073,
+    "end": 134.142
+  },
+  {
+    "word": "art",
+    "start": 134.189,
+    "end": 134.351
+  },
+  {
+    "word": "biotech",
+    "start": 134.409,
+    "end": 135.013
+  },
+  {
+    "word": "lab",
+    "start": 135.094,
+    "end": 135.303
+  },
+  {
+    "word": "in",
+    "start": 135.35,
+    "end": 135.408
+  },
+  {
+    "word": "Boston",
+    "start": 135.489,
+    "end": 136.058
+  },
+  {
+    "word": "the",
+    "start": 136.545,
+    "end": 136.662
+  },
+  {
+    "word": "young",
+    "start": 136.743,
+    "end": 136.917
+  },
+  {
+    "word": "and",
+    "start": 136.952,
+    "end": 137.021
+  },
+  {
+    "word": "brilliant",
+    "start": 137.056,
+    "end": 137.416
+  },
+  {
+    "word": "virologist",
+    "start": 137.463,
+    "end": 138.229
+  },
+  {
+    "word": "Dr",
+    "start": 138.275,
+    "end": 138.635
+  },
+  {
+    "word": "Lena",
+    "start": 138.693,
+    "end": 139.007
+  },
+  {
+    "word": "Hansen",
+    "start": 139.065,
+    "end": 139.564
+  },
+  {
+    "word": "worked",
+    "start": 139.669,
+    "end": 139.936
+  },
+  {
+    "word": "tirelessly",
+    "start": 139.97,
+    "end": 140.725
+  },
+  {
+    "word": "She",
+    "start": 141.422,
+    "end": 141.561
+  },
+  {
+    "word": "had",
+    "start": 141.642,
+    "end": 141.758
+  },
+  {
+    "word": "received",
+    "start": 141.84,
+    "end": 142.188
+  },
+  {
+    "word": "the",
+    "start": 142.211,
+    "end": 142.281
+  },
+  {
+    "word": "first",
+    "start": 142.362,
+    "end": 142.617
+  },
+  {
+    "word": "sample",
+    "start": 142.664,
+    "end": 143.082
+  },
+  {
+    "word": "of",
+    "start": 143.116,
+    "end": 143.175
+  },
+  {
+    "word": "the",
+    "start": 143.221,
+    "end": 143.291
+  },
+  {
+    "word": "virus",
+    "start": 143.325,
+    "end": 143.859
+  },
+  {
+    "word": "sent",
+    "start": 144.347,
+    "end": 144.614
+  },
+  {
+    "word": "in",
+    "start": 144.672,
+    "end": 144.742
+  },
+  {
+    "word": "a",
+    "start": 144.788,
+    "end": 144.812
+  },
+  {
+    "word": "biocontainment",
+    "start": 144.893,
+    "end": 145.868
+  },
+  {
+    "word": "box",
+    "start": 145.914,
+    "end": 146.228
+  },
+  {
+    "word": "through",
+    "start": 146.309,
+    "end": 146.541
+  },
+  {
+    "word": "a",
+    "start": 146.576,
+    "end": 146.599
+  },
+  {
+    "word": "labyrinth",
+    "start": 146.681,
+    "end": 147.168
+  },
+  {
+    "word": "of",
+    "start": 147.203,
+    "end": 147.273
+  },
+  {
+    "word": "international",
+    "start": 147.401,
+    "end": 148.12
+  },
+  {
+    "word": "protocols",
+    "start": 148.202,
+    "end": 148.968
+  },
+  {
+    "word": "Her",
+    "start": 149.688,
+    "end": 149.862
+  },
+  {
+    "word": "task",
+    "start": 149.943,
+    "end": 150.28
+  },
+  {
+    "word": "was",
+    "start": 150.338,
+    "end": 150.454
+  },
+  {
+    "word": "to",
+    "start": 150.535,
+    "end": 150.593
+  },
+  {
+    "word": "sequence",
+    "start": 150.698,
+    "end": 151.162
+  },
+  {
+    "word": "the",
+    "start": 151.209,
+    "end": 151.301
+  },
+  {
+    "word": "new",
+    "start": 151.394,
+    "end": 151.58
+  },
+  {
+    "word": "enemy",
+    "start": 151.661,
+    "end": 151.952
+  },
+  {
+    "word": "s",
+    "start": 151.986,
+    "end": 152.021
+  },
+  {
+    "word": "genome",
+    "start": 152.103,
+    "end": 152.776
+  },
+  {
+    "word": "Under",
+    "start": 153.356,
+    "end": 153.577
+  },
+  {
+    "word": "the",
+    "start": 153.635,
+    "end": 153.705
+  },
+  {
+    "word": "sterile",
+    "start": 153.751,
+    "end": 154.227
+  },
+  {
+    "word": "light",
+    "start": 154.262,
+    "end": 154.436
+  },
+  {
+    "word": "of",
+    "start": 154.471,
+    "end": 154.529
+  },
+  {
+    "word": "the",
+    "start": 154.576,
+    "end": 154.645
+  },
+  {
+    "word": "lab",
+    "start": 154.703,
+    "end": 155.052
+  },
+  {
+    "word": "she",
+    "start": 155.446,
+    "end": 155.667
+  },
+  {
+    "word": "and",
+    "start": 155.725,
+    "end": 155.806
+  },
+  {
+    "word": "her",
+    "start": 155.887,
+    "end": 155.992
+  },
+  {
+    "word": "team",
+    "start": 156.05,
+    "end": 156.329
+  },
+  {
+    "word": "raced",
+    "start": 156.433,
+    "end": 156.758
+  },
+  {
+    "word": "against",
+    "start": 156.793,
+    "end": 157.06
+  },
+  {
+    "word": "the",
+    "start": 157.106,
+    "end": 157.176
+  },
+  {
+    "word": "clock",
+    "start": 157.211,
+    "end": 157.606
+  },
+  {
+    "word": "knowing",
+    "start": 158.093,
+    "end": 158.395
+  },
+  {
+    "word": "that",
+    "start": 158.453,
+    "end": 158.593
+  },
+  {
+    "word": "each",
+    "start": 158.686,
+    "end": 158.918
+  },
+  {
+    "word": "nucleotide",
+    "start": 159.011,
+    "end": 159.73
+  },
+  {
+    "word": "they",
+    "start": 159.754,
+    "end": 159.858
+  },
+  {
+    "word": "identified",
+    "start": 159.916,
+    "end": 160.624
+  },
+  {
+    "word": "was",
+    "start": 160.787,
+    "end": 160.984
+  },
+  {
+    "word": "a",
+    "start": 161.042,
+    "end": 161.066
+  },
+  {
+    "word": "crucial",
+    "start": 161.147,
+    "end": 161.611
+  },
+  {
+    "word": "step",
+    "start": 161.693,
+    "end": 162.018
+  },
+  {
+    "word": "to",
+    "start": 162.099,
+    "end": 162.18
+  },
+  {
+    "word": "understanding",
+    "start": 162.308,
+    "end": 162.958
+  },
+  {
+    "word": "how",
+    "start": 163.016,
+    "end": 163.132
+  },
+  {
+    "word": "the",
+    "start": 163.19,
+    "end": 163.26
+  },
+  {
+    "word": "virus",
+    "start": 163.318,
+    "end": 163.759
+  },
+  {
+    "word": "attacked",
+    "start": 163.817,
+    "end": 164.363
+  },
+  {
+    "word": "how",
+    "start": 164.758,
+    "end": 164.908
+  },
+  {
+    "word": "it",
+    "start": 164.99,
+    "end": 165.071
+  },
+  {
+    "word": "spread",
+    "start": 165.129,
+    "end": 165.675
+  },
+  {
+    "word": "and",
+    "start": 166.069,
+    "end": 166.464
+  },
+  {
+    "word": "most",
+    "start": 166.708,
+    "end": 166.987
+  },
+  {
+    "word": "importantly",
+    "start": 167.033,
+    "end": 167.602
+  },
+  {
+    "word": "how",
+    "start": 167.765,
+    "end": 167.939
+  },
+  {
+    "word": "they",
+    "start": 167.997,
+    "end": 168.101
+  },
+  {
+    "word": "could",
+    "start": 168.124,
+    "end": 168.275
+  },
+  {
+    "word": "begin",
+    "start": 168.322,
+    "end": 168.589
+  },
+  {
+    "word": "to",
+    "start": 168.67,
+    "end": 168.728
+  },
+  {
+    "word": "design",
+    "start": 168.786,
+    "end": 169.146
+  },
+  {
+    "word": "a",
+    "start": 169.181,
+    "end": 169.204
+  },
+  {
+    "word": "vaccine",
+    "start": 169.251,
+    "end": 170.063
+  },
+  {
+    "word": "It",
+    "start": 170.342,
+    "end": 170.493
+  },
+  {
+    "word": "was",
+    "start": 170.539,
+    "end": 170.655
+  },
+  {
+    "word": "the",
+    "start": 170.713,
+    "end": 170.783
+  },
+  {
+    "word": "modern",
+    "start": 170.876,
+    "end": 171.248
+  },
+  {
+    "word": "era",
+    "start": 171.329,
+    "end": 171.573
+  },
+  {
+    "word": "arms",
+    "start": 171.654,
+    "end": 171.967
+  },
+  {
+    "word": "race",
+    "start": 172.049,
+    "end": 172.548
+  },
+  {
+    "word": "waged",
+    "start": 172.734,
+    "end": 173.151
+  },
+  {
+    "word": "at",
+    "start": 173.186,
+    "end": 173.268
+  },
+  {
+    "word": "a",
+    "start": 173.302,
+    "end": 173.326
+  },
+  {
+    "word": "molecular",
+    "start": 173.372,
+    "end": 173.976
+  },
+  {
+    "word": "level",
+    "start": 174.057,
+    "end": 174.417
+  },
+  {
+    "word": "Kenji",
+    "start": 174.893,
+    "end": 175.462
+  },
+  {
+    "word": "dragged",
+    "start": 175.787,
+    "end": 176.158
+  },
+  {
+    "word": "back",
+    "start": 176.193,
+    "end": 176.379
+  },
+  {
+    "word": "into",
+    "start": 176.437,
+    "end": 176.576
+  },
+  {
+    "word": "the",
+    "start": 176.658,
+    "end": 176.727
+  },
+  {
+    "word": "field",
+    "start": 176.785,
+    "end": 177.134
+  },
+  {
+    "word": "by",
+    "start": 177.215,
+    "end": 177.378
+  },
+  {
+    "word": "a",
+    "start": 177.424,
+    "end": 177.447
+  },
+  {
+    "word": "sense",
+    "start": 177.528,
+    "end": 177.784
+  },
+  {
+    "word": "of",
+    "start": 177.819,
+    "end": 177.877
+  },
+  {
+    "word": "duty",
+    "start": 177.97,
+    "end": 178.341
+  },
+  {
+    "word": "he",
+    "start": 178.422,
+    "end": 178.504
+  },
+  {
+    "word": "thought",
+    "start": 178.562,
+    "end": 178.782
+  },
+  {
+    "word": "he",
+    "start": 178.817,
+    "end": 178.875
+  },
+  {
+    "word": "had",
+    "start": 178.922,
+    "end": 179.026
+  },
+  {
+    "word": "buried",
+    "start": 179.107,
+    "end": 179.583
+  },
+  {
+    "word": "found",
+    "start": 179.804,
+    "end": 180.059
+  },
+  {
+    "word": "himself",
+    "start": 180.106,
+    "end": 180.419
+  },
+  {
+    "word": "coordinating",
+    "start": 180.512,
+    "end": 181.162
+  },
+  {
+    "word": "the",
+    "start": 181.209,
+    "end": 181.278
+  },
+  {
+    "word": "international",
+    "start": 181.325,
+    "end": 181.929
+  },
+  {
+    "word": "response",
+    "start": 182.022,
+    "end": 182.683
+  },
+  {
+    "word": "His",
+    "start": 183.194,
+    "end": 183.415
+  },
+  {
+    "word": "role",
+    "start": 183.508,
+    "end": 183.844
+  },
+  {
+    "word": "was",
+    "start": 183.879,
+    "end": 184.018
+  },
+  {
+    "word": "no",
+    "start": 184.111,
+    "end": 184.262
+  },
+  {
+    "word": "longer",
+    "start": 184.367,
+    "end": 184.703
+  },
+  {
+    "word": "that",
+    "start": 184.785,
+    "end": 184.936
+  },
+  {
+    "word": "of",
+    "start": 184.97,
+    "end": 185.029
+  },
+  {
+    "word": "a",
+    "start": 185.075,
+    "end": 185.098
+  },
+  {
+    "word": "frontline",
+    "start": 185.179,
+    "end": 185.679
+  },
+  {
+    "word": "doctor",
+    "start": 185.725,
+    "end": 186.259
+  },
+  {
+    "word": "but",
+    "start": 186.816,
+    "end": 187.002
+  },
+  {
+    "word": "that",
+    "start": 187.037,
+    "end": 187.176
+  },
+  {
+    "word": "of",
+    "start": 187.223,
+    "end": 187.269
+  },
+  {
+    "word": "a",
+    "start": 187.316,
+    "end": 187.339
+  },
+  {
+    "word": "strategist",
+    "start": 187.42,
+    "end": 188.187
+  },
+  {
+    "word": "fighting",
+    "start": 188.268,
+    "end": 188.628
+  },
+  {
+    "word": "on",
+    "start": 188.686,
+    "end": 188.755
+  },
+  {
+    "word": "a",
+    "start": 188.79,
+    "end": 188.825
+  },
+  {
+    "word": "global",
+    "start": 188.883,
+    "end": 189.289
+  },
+  {
+    "word": "map",
+    "start": 189.348,
+    "end": 189.673
+  },
+  {
+    "word": "He",
+    "start": 190.125,
+    "end": 190.265
+  },
+  {
+    "word": "faced",
+    "start": 190.358,
+    "end": 190.636
+  },
+  {
+    "word": "the",
+    "start": 190.659,
+    "end": 190.729
+  },
+  {
+    "word": "logistical",
+    "start": 190.787,
+    "end": 191.379
+  },
+  {
+    "word": "nightmare",
+    "start": 191.484,
+    "end": 191.937
+  },
+  {
+    "word": "of",
+    "start": 191.971,
+    "end": 192.041
+  },
+  {
+    "word": "pandemic",
+    "start": 192.122,
+    "end": 192.749
+  },
+  {
+    "word": "preparedness",
+    "start": 192.831,
+    "end": 193.678
+  },
+  {
+    "word": "broken",
+    "start": 194.282,
+    "end": 194.688
+  },
+  {
+    "word": "supply",
+    "start": 194.746,
+    "end": 195.164
+  },
+  {
+    "word": "chains",
+    "start": 195.257,
+    "end": 195.617
+  },
+  {
+    "word": "for",
+    "start": 195.675,
+    "end": 195.803
+  },
+  {
+    "word": "personal",
+    "start": 195.884,
+    "end": 196.314
+  },
+  {
+    "word": "protective",
+    "start": 196.395,
+    "end": 196.848
+  },
+  {
+    "word": "equipment",
+    "start": 196.871,
+    "end": 197.428
+  },
+  {
+    "word": "governments",
+    "start": 198.078,
+    "end": 198.612
+  },
+  {
+    "word": "closing",
+    "start": 198.67,
+    "end": 199.03
+  },
+  {
+    "word": "borders",
+    "start": 199.112,
+    "end": 199.506
+  },
+  {
+    "word": "out",
+    "start": 199.564,
+    "end": 199.704
+  },
+  {
+    "word": "of",
+    "start": 199.727,
+    "end": 199.785
+  },
+  {
+    "word": "panic",
+    "start": 199.878,
+    "end": 200.342
+  },
+  {
+    "word": "rather",
+    "start": 200.423,
+    "end": 200.725
+  },
+  {
+    "word": "than",
+    "start": 200.772,
+    "end": 200.899
+  },
+  {
+    "word": "strategy",
+    "start": 200.981,
+    "end": 201.689
+  },
+  {
+    "word": "and",
+    "start": 202.223,
+    "end": 202.374
+  },
+  {
+    "word": "an",
+    "start": 202.432,
+    "end": 202.49
+  },
+  {
+    "word": "increasingly",
+    "start": 202.525,
+    "end": 203.268
+  },
+  {
+    "word": "divided",
+    "start": 203.314,
+    "end": 203.732
+  },
+  {
+    "word": "public",
+    "start": 203.79,
+    "end": 204.22
+  },
+  {
+    "word": "over",
+    "start": 204.324,
+    "end": 204.568
+  },
+  {
+    "word": "the",
+    "start": 204.614,
+    "end": 204.684
+  },
+  {
+    "word": "politicization",
+    "start": 204.731,
+    "end": 205.706
+  },
+  {
+    "word": "of",
+    "start": 205.764,
+    "end": 205.822
+  },
+  {
+    "word": "science",
+    "start": 205.88,
+    "end": 206.518
+  },
+  {
+    "word": "Every",
+    "start": 206.774,
+    "end": 207.053
+  },
+  {
+    "word": "decision",
+    "start": 207.099,
+    "end": 207.552
+  },
+  {
+    "word": "he",
+    "start": 207.633,
+    "end": 207.726
+  },
+  {
+    "word": "made",
+    "start": 207.819,
+    "end": 208.237
+  },
+  {
+    "word": "every",
+    "start": 208.457,
+    "end": 208.748
+  },
+  {
+    "word": "resource",
+    "start": 208.852,
+    "end": 209.409
+  },
+  {
+    "word": "he",
+    "start": 209.444,
+    "end": 209.514
+  },
+  {
+    "word": "allocated",
+    "start": 209.607,
+    "end": 210.315
+  },
+  {
+    "word": "felt",
+    "start": 210.594,
+    "end": 210.814
+  },
+  {
+    "word": "like",
+    "start": 210.861,
+    "end": 211.012
+  },
+  {
+    "word": "a",
+    "start": 211.046,
+    "end": 211.081
+  },
+  {
+    "word": "move",
+    "start": 211.209,
+    "end": 211.546
+  },
+  {
+    "word": "in",
+    "start": 211.58,
+    "end": 211.638
+  },
+  {
+    "word": "a",
+    "start": 211.685,
+    "end": 211.72
+  },
+  {
+    "word": "chess",
+    "start": 211.766,
+    "end": 212.068
+  },
+  {
+    "word": "game",
+    "start": 212.126,
+    "end": 212.416
+  },
+  {
+    "word": "against",
+    "start": 212.498,
+    "end": 212.892
+  },
+  {
+    "word": "an",
+    "start": 212.939,
+    "end": 213.008
+  },
+  {
+    "word": "invisible",
+    "start": 213.055,
+    "end": 213.67
+  },
+  {
+    "word": "opponent",
+    "start": 213.705,
+    "end": 214.262
+  },
+  {
+    "word": "with",
+    "start": 214.529,
+    "end": 214.75
+  },
+  {
+    "word": "the",
+    "start": 214.785,
+    "end": 214.854
+  },
+  {
+    "word": "ability",
+    "start": 214.901,
+    "end": 215.342
+  },
+  {
+    "word": "to",
+    "start": 215.4,
+    "end": 215.47
+  },
+  {
+    "word": "be",
+    "start": 215.551,
+    "end": 215.69
+  },
+  {
+    "word": "everywhere",
+    "start": 215.818,
+    "end": 216.387
+  },
+  {
+    "word": "at",
+    "start": 216.422,
+    "end": 216.491
+  },
+  {
+    "word": "once",
+    "start": 216.584,
+    "end": 217.13
+  },
+  {
+    "word": "The",
+    "start": 217.42,
+    "end": 217.537
+  },
+  {
+    "word": "situation",
+    "start": 217.595,
+    "end": 218.28
+  },
+  {
+    "word": "on",
+    "start": 218.338,
+    "end": 218.408
+  },
+  {
+    "word": "the",
+    "start": 218.454,
+    "end": 218.524
+  },
+  {
+    "word": "ground",
+    "start": 218.57,
+    "end": 219
+  },
+  {
+    "word": "conveyed",
+    "start": 219.441,
+    "end": 219.905
+  },
+  {
+    "word": "through",
+    "start": 219.94,
+    "end": 220.172
+  },
+  {
+    "word": "Anya",
+    "start": 220.254,
+    "end": 220.555
+  },
+  {
+    "word": "s",
+    "start": 220.602,
+    "end": 220.637
+  },
+  {
+    "word": "late",
+    "start": 220.718,
+    "end": 220.939
+  },
+  {
+    "word": "night",
+    "start": 220.973,
+    "end": 221.159
+  },
+  {
+    "word": "calls",
+    "start": 221.217,
+    "end": 221.74
+  },
+  {
+    "word": "was",
+    "start": 222.25,
+    "end": 222.459
+  },
+  {
+    "word": "growing",
+    "start": 222.564,
+    "end": 222.982
+  },
+  {
+    "word": "increasingly",
+    "start": 223.04,
+    "end": 223.899
+  },
+  {
+    "word": "desperate",
+    "start": 223.957,
+    "end": 224.549
+  },
+  {
+    "word": "She",
+    "start": 225.188,
+    "end": 225.339
+  },
+  {
+    "word": "had",
+    "start": 225.42,
+    "end": 225.559
+  },
+  {
+    "word": "seen",
+    "start": 225.617,
+    "end": 225.873
+  },
+  {
+    "word": "entire",
+    "start": 225.931,
+    "end": 226.465
+  },
+  {
+    "word": "families",
+    "start": 226.558,
+    "end": 227.034
+  },
+  {
+    "word": "vanish",
+    "start": 227.092,
+    "end": 227.498
+  },
+  {
+    "word": "in",
+    "start": 227.556,
+    "end": 227.626
+  },
+  {
+    "word": "a",
+    "start": 227.672,
+    "end": 227.696
+  },
+  {
+    "word": "matter",
+    "start": 227.788,
+    "end": 228.079
+  },
+  {
+    "word": "of",
+    "start": 228.137,
+    "end": 228.195
+  },
+  {
+    "word": "days",
+    "start": 228.299,
+    "end": 228.764
+  },
+  {
+    "word": "Her",
+    "start": 229.344,
+    "end": 229.518
+  },
+  {
+    "word": "voice",
+    "start": 229.611,
+    "end": 230.134
+  },
+  {
+    "word": "strained",
+    "start": 230.424,
+    "end": 230.993
+  },
+  {
+    "word": "with",
+    "start": 231.028,
+    "end": 231.155
+  },
+  {
+    "word": "exhaustion",
+    "start": 231.202,
+    "end": 231.805
+  },
+  {
+    "word": "and",
+    "start": 231.852,
+    "end": 231.933
+  },
+  {
+    "word": "grief",
+    "start": 232.014,
+    "end": 232.363
+  },
+  {
+    "word": "described",
+    "start": 232.85,
+    "end": 233.396
+  },
+  {
+    "word": "the",
+    "start": 233.419,
+    "end": 233.489
+  },
+  {
+    "word": "harsh",
+    "start": 233.582,
+    "end": 233.906
+  },
+  {
+    "word": "reality",
+    "start": 233.988,
+    "end": 234.522
+  },
+  {
+    "word": "that",
+    "start": 234.58,
+    "end": 234.719
+  },
+  {
+    "word": "Kenji",
+    "start": 234.8,
+    "end": 235.172
+  },
+  {
+    "word": "s",
+    "start": 235.218,
+    "end": 235.253
+  },
+  {
+    "word": "computer",
+    "start": 235.3,
+    "end": 235.776
+  },
+  {
+    "word": "models",
+    "start": 235.834,
+    "end": 236.194
+  },
+  {
+    "word": "couldn",
+    "start": 236.286,
+    "end": 236.554
+  },
+  {
+    "word": "t",
+    "start": 236.588,
+    "end": 236.623
+  },
+  {
+    "word": "capture",
+    "start": 236.681,
+    "end": 237.378
+  },
+  {
+    "word": "the",
+    "start": 237.889,
+    "end": 237.993
+  },
+  {
+    "word": "terror",
+    "start": 238.086,
+    "end": 238.516
+  },
+  {
+    "word": "in",
+    "start": 238.597,
+    "end": 238.678
+  },
+  {
+    "word": "a",
+    "start": 238.736,
+    "end": 238.759
+  },
+  {
+    "word": "child",
+    "start": 238.841,
+    "end": 239.212
+  },
+  {
+    "word": "s",
+    "start": 239.247,
+    "end": 239.282
+  },
+  {
+    "word": "eyes",
+    "start": 239.363,
+    "end": 239.665
+  },
+  {
+    "word": "upon",
+    "start": 239.723,
+    "end": 240.037
+  },
+  {
+    "word": "being",
+    "start": 240.118,
+    "end": 240.304
+  },
+  {
+    "word": "separated",
+    "start": 240.396,
+    "end": 241
+  },
+  {
+    "word": "from",
+    "start": 241.047,
+    "end": 241.186
+  },
+  {
+    "word": "his",
+    "start": 241.232,
+    "end": 241.325
+  },
+  {
+    "word": "sick",
+    "start": 241.383,
+    "end": 241.627
+  },
+  {
+    "word": "mother",
+    "start": 241.708,
+    "end": 242.045
+  },
+  {
+    "word": "the",
+    "start": 242.66,
+    "end": 242.788
+  },
+  {
+    "word": "exhaustion",
+    "start": 242.869,
+    "end": 243.601
+  },
+  {
+    "word": "of",
+    "start": 243.647,
+    "end": 243.705
+  },
+  {
+    "word": "digging",
+    "start": 243.798,
+    "end": 244.1
+  },
+  {
+    "word": "new",
+    "start": 244.181,
+    "end": 244.321
+  },
+  {
+    "word": "graves",
+    "start": 244.379,
+    "end": 244.959
+  },
+  {
+    "word": "the",
+    "start": 245.47,
+    "end": 245.574
+  },
+  {
+    "word": "helplessness",
+    "start": 245.667,
+    "end": 246.341
+  },
+  {
+    "word": "of",
+    "start": 246.399,
+    "end": 246.48
+  },
+  {
+    "word": "watching",
+    "start": 246.573,
+    "end": 246.933
+  },
+  {
+    "word": "science",
+    "start": 247.037,
+    "end": 247.56
+  },
+  {
+    "word": "and",
+    "start": 247.595,
+    "end": 247.676
+  },
+  {
+    "word": "medicine",
+    "start": 247.722,
+    "end": 248.21
+  },
+  {
+    "word": "arrive",
+    "start": 248.268,
+    "end": 248.709
+  },
+  {
+    "word": "too",
+    "start": 248.756,
+    "end": 248.941
+  },
+  {
+    "word": "late",
+    "start": 249.034,
+    "end": 249.475
+  },
+  {
+    "word": "These",
+    "start": 249.986,
+    "end": 250.265
+  },
+  {
+    "word": "conversations",
+    "start": 250.323,
+    "end": 251.124
+  },
+  {
+    "word": "haunted",
+    "start": 251.205,
+    "end": 251.53
+  },
+  {
+    "word": "Kenji",
+    "start": 251.588,
+    "end": 252.076
+  },
+  {
+    "word": "reminding",
+    "start": 252.529,
+    "end": 252.981
+  },
+  {
+    "word": "him",
+    "start": 253.039,
+    "end": 253.155
+  },
+  {
+    "word": "that",
+    "start": 253.202,
+    "end": 253.33
+  },
+  {
+    "word": "every",
+    "start": 253.423,
+    "end": 253.701
+  },
+  {
+    "word": "data",
+    "start": 253.759,
+    "end": 254.003
+  },
+  {
+    "word": "point",
+    "start": 254.061,
+    "end": 254.27
+  },
+  {
+    "word": "on",
+    "start": 254.328,
+    "end": 254.421
+  },
+  {
+    "word": "his",
+    "start": 254.467,
+    "end": 254.56
+  },
+  {
+    "word": "charts",
+    "start": 254.618,
+    "end": 254.967
+  },
+  {
+    "word": "was",
+    "start": 255.025,
+    "end": 255.152
+  },
+  {
+    "word": "a",
+    "start": 255.199,
+    "end": 255.222
+  },
+  {
+    "word": "human",
+    "start": 255.315,
+    "end": 255.686
+  },
+  {
+    "word": "life",
+    "start": 255.768,
+    "end": 256.244
+  },
+  {
+    "word": "an",
+    "start": 256.592,
+    "end": 256.766
+  },
+  {
+    "word": "interrupted",
+    "start": 256.859,
+    "end": 257.451
+  },
+  {
+    "word": "story",
+    "start": 257.509,
+    "end": 258.02
+  },
+  {
+    "word": "Lena",
+    "start": 258.659,
+    "end": 258.984
+  },
+  {
+    "word": "s",
+    "start": 259.019,
+    "end": 259.053
+  },
+  {
+    "word": "breakthrough",
+    "start": 259.088,
+    "end": 259.483
+  },
+  {
+    "word": "in",
+    "start": 259.518,
+    "end": 259.564
+  },
+  {
+    "word": "Boston",
+    "start": 259.622,
+    "end": 260.087
+  },
+  {
+    "word": "came",
+    "start": 260.168,
+    "end": 260.388
+  },
+  {
+    "word": "as",
+    "start": 260.423,
+    "end": 260.493
+  },
+  {
+    "word": "a",
+    "start": 260.551,
+    "end": 260.586
+  },
+  {
+    "word": "ray",
+    "start": 260.714,
+    "end": 260.934
+  },
+  {
+    "word": "of",
+    "start": 260.992,
+    "end": 261.05
+  },
+  {
+    "word": "hope",
+    "start": 261.155,
+    "end": 261.399
+  },
+  {
+    "word": "in",
+    "start": 261.433,
+    "end": 261.491
+  },
+  {
+    "word": "the",
+    "start": 261.538,
+    "end": 261.608
+  },
+  {
+    "word": "darkness",
+    "start": 261.654,
+    "end": 262.258
+  },
+  {
+    "word": "Her",
+    "start": 262.861,
+    "end": 263.024
+  },
+  {
+    "word": "team",
+    "start": 263.105,
+    "end": 263.314
+  },
+  {
+    "word": "had",
+    "start": 263.372,
+    "end": 263.5
+  },
+  {
+    "word": "not",
+    "start": 263.581,
+    "end": 263.79
+  },
+  {
+    "word": "only",
+    "start": 263.848,
+    "end": 264.081
+  },
+  {
+    "word": "sequenced",
+    "start": 264.162,
+    "end": 264.603
+  },
+  {
+    "word": "the",
+    "start": 264.626,
+    "end": 264.696
+  },
+  {
+    "word": "virus",
+    "start": 264.743,
+    "end": 265.265
+  },
+  {
+    "word": "but",
+    "start": 265.532,
+    "end": 265.706
+  },
+  {
+    "word": "had",
+    "start": 265.741,
+    "end": 265.846
+  },
+  {
+    "word": "identified",
+    "start": 265.892,
+    "end": 266.484
+  },
+  {
+    "word": "a",
+    "start": 266.519,
+    "end": 266.542
+  },
+  {
+    "word": "unique",
+    "start": 266.67,
+    "end": 266.995
+  },
+  {
+    "word": "spike",
+    "start": 267.03,
+    "end": 267.378
+  },
+  {
+    "word": "protein",
+    "start": 267.413,
+    "end": 268.017
+  },
+  {
+    "word": "that",
+    "start": 268.284,
+    "end": 268.481
+  },
+  {
+    "word": "was",
+    "start": 268.516,
+    "end": 268.62
+  },
+  {
+    "word": "the",
+    "start": 268.678,
+    "end": 268.748
+  },
+  {
+    "word": "key",
+    "start": 268.806,
+    "end": 268.98
+  },
+  {
+    "word": "to",
+    "start": 269.038,
+    "end": 269.096
+  },
+  {
+    "word": "its",
+    "start": 269.189,
+    "end": 269.305
+  },
+  {
+    "word": "entry",
+    "start": 269.363,
+    "end": 269.665
+  },
+  {
+    "word": "into",
+    "start": 269.712,
+    "end": 269.863
+  },
+  {
+    "word": "human",
+    "start": 269.921,
+    "end": 270.199
+  },
+  {
+    "word": "cells",
+    "start": 270.281,
+    "end": 270.745
+  },
+  {
+    "word": "It",
+    "start": 271.36,
+    "end": 271.5
+  },
+  {
+    "word": "was",
+    "start": 271.546,
+    "end": 271.662
+  },
+  {
+    "word": "a",
+    "start": 271.709,
+    "end": 271.732
+  },
+  {
+    "word": "perfect",
+    "start": 271.813,
+    "end": 272.161
+  },
+  {
+    "word": "target",
+    "start": 272.196,
+    "end": 272.568
+  },
+  {
+    "word": "for",
+    "start": 272.614,
+    "end": 272.73
+  },
+  {
+    "word": "a",
+    "start": 272.765,
+    "end": 272.788
+  },
+  {
+    "word": "vaccine",
+    "start": 272.835,
+    "end": 273.555
+  },
+  {
+    "word": "This",
+    "start": 274.054,
+    "end": 274.274
+  },
+  {
+    "word": "discovery",
+    "start": 274.356,
+    "end": 274.948
+  },
+  {
+    "word": "triggered",
+    "start": 275.006,
+    "end": 275.377
+  },
+  {
+    "word": "an",
+    "start": 275.412,
+    "end": 275.482
+  },
+  {
+    "word": "unprecedented",
+    "start": 275.61,
+    "end": 276.48
+  },
+  {
+    "word": "global",
+    "start": 276.515,
+    "end": 276.91
+  },
+  {
+    "word": "effort",
+    "start": 276.991,
+    "end": 277.397
+  },
+  {
+    "word": "with",
+    "start": 277.885,
+    "end": 278.059
+  },
+  {
+    "word": "laboratories",
+    "start": 278.152,
+    "end": 278.861
+  },
+  {
+    "word": "around",
+    "start": 278.907,
+    "end": 279.128
+  },
+  {
+    "word": "the",
+    "start": 279.151,
+    "end": 279.221
+  },
+  {
+    "word": "world",
+    "start": 279.255,
+    "end": 279.464
+  },
+  {
+    "word": "collaborating",
+    "start": 279.522,
+    "end": 280.335
+  },
+  {
+    "word": "sharing",
+    "start": 280.73,
+    "end": 281.171
+  },
+  {
+    "word": "data",
+    "start": 281.229,
+    "end": 281.531
+  },
+  {
+    "word": "openly",
+    "start": 281.624,
+    "end": 282.123
+  },
+  {
+    "word": "in",
+    "start": 282.181,
+    "end": 282.239
+  },
+  {
+    "word": "a",
+    "start": 282.286,
+    "end": 282.32
+  },
+  {
+    "word": "unified",
+    "start": 282.448,
+    "end": 282.982
+  },
+  {
+    "word": "fight",
+    "start": 283.063,
+    "end": 283.296
+  },
+  {
+    "word": "against",
+    "start": 283.331,
+    "end": 283.598
+  },
+  {
+    "word": "the",
+    "start": 283.632,
+    "end": 283.702
+  },
+  {
+    "word": "common",
+    "start": 283.748,
+    "end": 284.097
+  },
+  {
+    "word": "enemy",
+    "start": 284.178,
+    "end": 284.538
+  },
+  {
+    "word": "It",
+    "start": 285.223,
+    "end": 285.362
+  },
+  {
+    "word": "represented",
+    "start": 285.42,
+    "end": 285.978
+  },
+  {
+    "word": "the",
+    "start": 286.012,
+    "end": 286.082
+  },
+  {
+    "word": "noblest",
+    "start": 286.187,
+    "end": 286.663
+  },
+  {
+    "word": "side",
+    "start": 286.697,
+    "end": 286.918
+  },
+  {
+    "word": "of",
+    "start": 286.941,
+    "end": 286.999
+  },
+  {
+    "word": "science",
+    "start": 287.046,
+    "end": 287.719
+  },
+  {
+    "word": "a",
+    "start": 288.056,
+    "end": 288.149
+  },
+  {
+    "word": "global",
+    "start": 288.242,
+    "end": 288.613
+  },
+  {
+    "word": "community",
+    "start": 288.694,
+    "end": 289.217
+  },
+  {
+    "word": "united",
+    "start": 289.321,
+    "end": 289.797
+  },
+  {
+    "word": "by",
+    "start": 289.844,
+    "end": 289.937
+  },
+  {
+    "word": "the",
+    "start": 289.995,
+    "end": 290.064
+  },
+  {
+    "word": "purpose",
+    "start": 290.146,
+    "end": 290.529
+  },
+  {
+    "word": "of",
+    "start": 290.564,
+    "end": 290.61
+  },
+  {
+    "word": "protecting",
+    "start": 290.691,
+    "end": 291.167
+  },
+  {
+    "word": "humanity",
+    "start": 291.225,
+    "end": 291.864
+  },
+  {
+    "word": "the",
+    "start": 292.398,
+    "end": 292.514
+  },
+  {
+    "word": "same",
+    "start": 292.607,
+    "end": 292.92
+  },
+  {
+    "word": "vision",
+    "start": 292.978,
+    "end": 293.292
+  },
+  {
+    "word": "that",
+    "start": 293.338,
+    "end": 293.454
+  },
+  {
+    "word": "had",
+    "start": 293.5,
+    "end": 293.605
+  },
+  {
+    "word": "driven",
+    "start": 293.64,
+    "end": 293.93
+  },
+  {
+    "word": "Kenji",
+    "start": 294.011,
+    "end": 294.534
+  },
+  {
+    "word": "at",
+    "start": 294.719,
+    "end": 294.882
+  },
+  {
+    "word": "the",
+    "start": 294.928,
+    "end": 294.998
+  },
+  {
+    "word": "beginning",
+    "start": 295.045,
+    "end": 295.346
+  },
+  {
+    "word": "of",
+    "start": 295.381,
+    "end": 295.428
+  },
+  {
+    "word": "his",
+    "start": 295.486,
+    "end": 295.579
+  },
+  {
+    "word": "career",
+    "start": 295.66,
+    "end": 296.008
+  },
+  {
+    "word": "In",
+    "start": 296.612,
+    "end": 296.774
+  },
+  {
+    "word": "the",
+    "start": 296.821,
+    "end": 296.914
+  },
+  {
+    "word": "end",
+    "start": 297.007,
+    "end": 297.297
+  },
+  {
+    "word": "there",
+    "start": 297.483,
+    "end": 297.692
+  },
+  {
+    "word": "was",
+    "start": 297.726,
+    "end": 297.854
+  },
+  {
+    "word": "no",
+    "start": 297.947,
+    "end": 298.156
+  },
+  {
+    "word": "single",
+    "start": 298.284,
+    "end": 298.806
+  },
+  {
+    "word": "decisive",
+    "start": 298.992,
+    "end": 299.7
+  },
+  {
+    "word": "victory",
+    "start": 299.747,
+    "end": 300.211
+  },
+  {
+    "word": "but",
+    "start": 300.675,
+    "end": 300.85
+  },
+  {
+    "word": "a",
+    "start": 300.884,
+    "end": 300.908
+  },
+  {
+    "word": "series",
+    "start": 300.989,
+    "end": 301.36
+  },
+  {
+    "word": "of",
+    "start": 301.395,
+    "end": 301.465
+  },
+  {
+    "word": "hard",
+    "start": 301.558,
+    "end": 301.755
+  },
+  {
+    "word": "won",
+    "start": 301.813,
+    "end": 301.976
+  },
+  {
+    "word": "battles",
+    "start": 302.057,
+    "end": 302.487
+  },
+  {
+    "word": "Anya",
+    "start": 302.696,
+    "end": 303.021
+  },
+  {
+    "word": "s",
+    "start": 303.067,
+    "end": 303.102
+  },
+  {
+    "word": "local",
+    "start": 303.16,
+    "end": 303.439
+  },
+  {
+    "word": "containment",
+    "start": 303.52,
+    "end": 304.17
+  },
+  {
+    "word": "aided",
+    "start": 304.379,
+    "end": 304.692
+  },
+  {
+    "word": "by",
+    "start": 304.739,
+    "end": 304.867
+  },
+  {
+    "word": "the",
+    "start": 304.925,
+    "end": 304.994
+  },
+  {
+    "word": "reinforcements",
+    "start": 305.076,
+    "end": 305.923
+  },
+  {
+    "word": "and",
+    "start": 305.958,
+    "end": 306.051
+  },
+  {
+    "word": "supplies",
+    "start": 306.097,
+    "end": 306.631
+  },
+  {
+    "word": "Kenji",
+    "start": 306.713,
+    "end": 307.072
+  },
+  {
+    "word": "finally",
+    "start": 307.165,
+    "end": 307.572
+  },
+  {
+    "word": "managed",
+    "start": 307.63,
+    "end": 307.943
+  },
+  {
+    "word": "to",
+    "start": 307.966,
+    "end": 308.013
+  },
+  {
+    "word": "get",
+    "start": 308.06,
+    "end": 308.199
+  },
+  {
+    "word": "through",
+    "start": 308.234,
+    "end": 308.524
+  },
+  {
+    "word": "slowed",
+    "start": 309,
+    "end": 309.464
+  },
+  {
+    "word": "the",
+    "start": 309.488,
+    "end": 309.557
+  },
+  {
+    "word": "initial",
+    "start": 309.615,
+    "end": 309.952
+  },
+  {
+    "word": "spread",
+    "start": 310.01,
+    "end": 310.393
+  },
+  {
+    "word": "Lena",
+    "start": 310.765,
+    "end": 311.078
+  },
+  {
+    "word": "s",
+    "start": 311.125,
+    "end": 311.148
+  },
+  {
+    "word": "scientific",
+    "start": 311.171,
+    "end": 311.74
+  },
+  {
+    "word": "breakthrough",
+    "start": 311.798,
+    "end": 312.286
+  },
+  {
+    "word": "laid",
+    "start": 312.332,
+    "end": 312.506
+  },
+  {
+    "word": "the",
+    "start": 312.541,
+    "end": 312.611
+  },
+  {
+    "word": "groundwork",
+    "start": 312.669,
+    "end": 313.18
+  },
+  {
+    "word": "for",
+    "start": 313.238,
+    "end": 313.354
+  },
+  {
+    "word": "vaccines",
+    "start": 313.435,
+    "end": 314.132
+  },
+  {
+    "word": "that",
+    "start": 314.178,
+    "end": 314.294
+  },
+  {
+    "word": "would",
+    "start": 314.317,
+    "end": 314.457
+  },
+  {
+    "word": "arrive",
+    "start": 314.492,
+    "end": 314.828
+  },
+  {
+    "word": "months",
+    "start": 314.956,
+    "end": 315.258
+  },
+  {
+    "word": "later",
+    "start": 315.316,
+    "end": 315.664
+  },
+  {
+    "word": "The",
+    "start": 316.024,
+    "end": 316.14
+  },
+  {
+    "word": "pandemic",
+    "start": 316.198,
+    "end": 316.674
+  },
+  {
+    "word": "was",
+    "start": 316.721,
+    "end": 316.837
+  },
+  {
+    "word": "not",
+    "start": 316.918,
+    "end": 317.081
+  },
+  {
+    "word": "entirely",
+    "start": 317.127,
+    "end": 317.661
+  },
+  {
+    "word": "avoided",
+    "start": 317.719,
+    "end": 318.323
+  },
+  {
+    "word": "but",
+    "start": 318.752,
+    "end": 318.915
+  },
+  {
+    "word": "it",
+    "start": 318.95,
+    "end": 319.008
+  },
+  {
+    "word": "was",
+    "start": 319.043,
+    "end": 319.147
+  },
+  {
+    "word": "mitigated",
+    "start": 319.24,
+    "end": 319.867
+  },
+  {
+    "word": "For",
+    "start": 320.378,
+    "end": 320.54
+  },
+  {
+    "word": "Kenji",
+    "start": 320.622,
+    "end": 321.144
+  },
+  {
+    "word": "the",
+    "start": 321.458,
+    "end": 321.562
+  },
+  {
+    "word": "crisis",
+    "start": 321.62,
+    "end": 322.003
+  },
+  {
+    "word": "was",
+    "start": 322.05,
+    "end": 322.166
+  },
+  {
+    "word": "a",
+    "start": 322.212,
+    "end": 322.247
+  },
+  {
+    "word": "brutal",
+    "start": 322.293,
+    "end": 322.653
+  },
+  {
+    "word": "and",
+    "start": 322.839,
+    "end": 323.106
+  },
+  {
+    "word": "necessary",
+    "start": 323.164,
+    "end": 323.745
+  },
+  {
+    "word": "reminder",
+    "start": 323.838,
+    "end": 324.383
+  },
+  {
+    "word": "The",
+    "start": 324.929,
+    "end": 325.057
+  },
+  {
+    "word": "world",
+    "start": 325.115,
+    "end": 325.382
+  },
+  {
+    "word": "was",
+    "start": 325.44,
+    "end": 325.567
+  },
+  {
+    "word": "not",
+    "start": 325.66,
+    "end": 325.927
+  },
+  {
+    "word": "saved",
+    "start": 326.009,
+    "end": 326.357
+  },
+  {
+    "word": "by",
+    "start": 326.392,
+    "end": 326.519
+  },
+  {
+    "word": "a",
+    "start": 326.566,
+    "end": 326.601
+  },
+  {
+    "word": "single",
+    "start": 326.682,
+    "end": 327.077
+  },
+  {
+    "word": "heroic",
+    "start": 327.135,
+    "end": 327.53
+  },
+  {
+    "word": "discovery",
+    "start": 327.588,
+    "end": 328.307
+  },
+  {
+    "word": "but",
+    "start": 328.923,
+    "end": 329.097
+  },
+  {
+    "word": "by",
+    "start": 329.132,
+    "end": 329.225
+  },
+  {
+    "word": "the",
+    "start": 329.283,
+    "end": 329.352
+  },
+  {
+    "word": "tireless",
+    "start": 329.41,
+    "end": 329.968
+  },
+  {
+    "word": "resistance",
+    "start": 330.026,
+    "end": 330.618
+  },
+  {
+    "word": "of",
+    "start": 330.653,
+    "end": 330.722
+  },
+  {
+    "word": "thousands",
+    "start": 330.85,
+    "end": 331.361
+  },
+  {
+    "word": "of",
+    "start": 331.396,
+    "end": 331.454
+  },
+  {
+    "word": "people",
+    "start": 331.535,
+    "end": 331.883
+  },
+  {
+    "word": "like",
+    "start": 331.93,
+    "end": 332.104
+  },
+  {
+    "word": "Anya",
+    "start": 332.197,
+    "end": 332.568
+  },
+  {
+    "word": "and",
+    "start": 332.626,
+    "end": 332.719
+  },
+  {
+    "word": "Lena",
+    "start": 332.8,
+    "end": 333.195
+  },
+  {
+    "word": "and",
+    "start": 333.729,
+    "end": 333.88
+  },
+  {
+    "word": "by",
+    "start": 333.938,
+    "end": 334.043
+  },
+  {
+    "word": "the",
+    "start": 334.101,
+    "end": 334.17
+  },
+  {
+    "word": "fragile",
+    "start": 334.263,
+    "end": 334.879
+  },
+  {
+    "word": "yet",
+    "start": 335.006,
+    "end": 335.227
+  },
+  {
+    "word": "vital",
+    "start": 335.308,
+    "end": 335.68
+  },
+  {
+    "word": "network",
+    "start": 335.773,
+    "end": 336.202
+  },
+  {
+    "word": "of",
+    "start": 336.283,
+    "end": 336.353
+  },
+  {
+    "word": "preparedness",
+    "start": 336.434,
+    "end": 337.247
+  },
+  {
+    "word": "surveillance",
+    "start": 337.665,
+    "end": 338.559
+  },
+  {
+    "word": "and",
+    "start": 338.733,
+    "end": 338.907
+  },
+  {
+    "word": "cooperation",
+    "start": 338.989,
+    "end": 339.894
+  },
+  {
+    "word": "The",
+    "start": 340.498,
+    "end": 340.626
+  },
+  {
+    "word": "invisible",
+    "start": 340.707,
+    "end": 341.229
+  },
+  {
+    "word": "thread",
+    "start": 341.276,
+    "end": 341.578
+  },
+  {
+    "word": "that",
+    "start": 341.624,
+    "end": 341.752
+  },
+  {
+    "word": "connected",
+    "start": 341.798,
+    "end": 342.239
+  },
+  {
+    "word": "the",
+    "start": 342.274,
+    "end": 342.344
+  },
+  {
+    "word": "remote",
+    "start": 342.437,
+    "end": 342.75
+  },
+  {
+    "word": "village",
+    "start": 342.785,
+    "end": 343.145
+  },
+  {
+    "word": "to",
+    "start": 343.191,
+    "end": 343.249
+  },
+  {
+    "word": "the",
+    "start": 343.331,
+    "end": 343.4
+  },
+  {
+    "word": "high",
+    "start": 343.458,
+    "end": 343.667
+  },
+  {
+    "word": "tech",
+    "start": 343.702,
+    "end": 343.934
+  },
+  {
+    "word": "lab",
+    "start": 344.027,
+    "end": 344.364
+  },
+  {
+    "word": "and",
+    "start": 344.817,
+    "end": 344.968
+  },
+  {
+    "word": "to",
+    "start": 345.014,
+    "end": 345.084
+  },
+  {
+    "word": "every",
+    "start": 345.188,
+    "end": 345.49
+  },
+  {
+    "word": "city",
+    "start": 345.571,
+    "end": 345.85
+  },
+  {
+    "word": "on",
+    "start": 345.908,
+    "end": 345.989
+  },
+  {
+    "word": "the",
+    "start": 346.024,
+    "end": 346.094
+  },
+  {
+    "word": "planet",
+    "start": 346.14,
+    "end": 346.628
+  },
+  {
+    "word": "was",
+    "start": 347.116,
+    "end": 347.29
+  },
+  {
+    "word": "the",
+    "start": 347.371,
+    "end": 347.452
+  },
+  {
+    "word": "same",
+    "start": 347.557,
+    "end": 347.882
+  },
+  {
+    "word": "one",
+    "start": 347.94,
+    "end": 348.16
+  },
+  {
+    "word": "that",
+    "start": 348.184,
+    "end": 348.311
+  },
+  {
+    "word": "made",
+    "start": 348.369,
+    "end": 348.567
+  },
+  {
+    "word": "them",
+    "start": 348.59,
+    "end": 348.718
+  },
+  {
+    "word": "all",
+    "start": 348.799,
+    "end": 349.02
+  },
+  {
+    "word": "vulnerable",
+    "start": 349.078,
+    "end": 349.786
+  },
+  {
+    "word": "but",
+    "start": 350.239,
+    "end": 350.436
+  },
+  {
+    "word": "also",
+    "start": 350.494,
+    "end": 350.877
+  },
+  {
+    "word": "the",
+    "start": 350.97,
+    "end": 351.051
+  },
+  {
+    "word": "one",
+    "start": 351.144,
+    "end": 351.365
+  },
+  {
+    "word": "that",
+    "start": 351.4,
+    "end": 351.539
+  },
+  {
+    "word": "wove",
+    "start": 351.62,
+    "end": 351.91
+  },
+  {
+    "word": "their",
+    "start": 351.945,
+    "end": 352.108
+  },
+  {
+    "word": "one",
+    "start": 352.201,
+    "end": 352.526
+  },
+  {
+    "word": "true",
+    "start": 352.572,
+    "end": 352.909
+  },
+  {
+    "word": "hope",
+    "start": 352.967,
+    "end": 353.385
+  }
+]
