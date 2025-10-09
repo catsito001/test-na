@@ -1,0 +1,3552 @@
+[
+  {
+    "word": "El",
+    "start": 0,
+    "end": 0.186
+  },
+  {
+    "word": "sol",
+    "start": 0.279,
+    "end": 0.488
+  },
+  {
+    "word": "de",
+    "start": 0.546,
+    "end": 0.604
+  },
+  {
+    "word": "la",
+    "start": 0.662,
+    "end": 0.743
+  },
+  {
+    "word": "tarde",
+    "start": 0.813,
+    "end": 1.242
+  },
+  {
+    "word": "acompa",
+    "start": 1.358,
+    "end": 1.869
+  },
+  {
+    "word": "aba",
+    "start": 1.985,
+    "end": 2.252
+  },
+  {
+    "word": "a",
+    "start": 2.299,
+    "end": 2.322
+  },
+  {
+    "word": "Sof",
+    "start": 2.415,
+    "end": 2.74
+  },
+  {
+    "word": "a",
+    "start": 2.914,
+    "end": 3.077
+  },
+  {
+    "word": "una",
+    "start": 3.553,
+    "end": 3.796
+  },
+  {
+    "word": "ni",
+    "start": 3.866,
+    "end": 4.017
+  },
+  {
+    "word": "a",
+    "start": 4.098,
+    "end": 4.18
+  },
+  {
+    "word": "de",
+    "start": 4.214,
+    "end": 4.284
+  },
+  {
+    "word": "siete",
+    "start": 4.354,
+    "end": 4.748
+  },
+  {
+    "word": "a",
+    "start": 4.818,
+    "end": 4.923
+  },
+  {
+    "word": "os",
+    "start": 5.016,
+    "end": 5.271
+  },
+  {
+    "word": "que",
+    "start": 5.503,
+    "end": 5.619
+  },
+  {
+    "word": "caminaba",
+    "start": 5.677,
+    "end": 6.2
+  },
+  {
+    "word": "feliz",
+    "start": 6.269,
+    "end": 6.757
+  },
+  {
+    "word": "de",
+    "start": 6.815,
+    "end": 6.873
+  },
+  {
+    "word": "la",
+    "start": 6.931,
+    "end": 7.012
+  },
+  {
+    "word": "mano",
+    "start": 7.07,
+    "end": 7.303
+  },
+  {
+    "word": "de",
+    "start": 7.361,
+    "end": 7.43
+  },
+  {
+    "word": "su",
+    "start": 7.465,
+    "end": 7.57
+  },
+  {
+    "word": "mam",
+    "start": 7.639,
+    "end": 7.837
+  },
+  {
+    "word": "al",
+    "start": 8.313,
+    "end": 8.464
+  },
+  {
+    "word": "salir",
+    "start": 8.545,
+    "end": 8.928
+  },
+  {
+    "word": "del",
+    "start": 8.986,
+    "end": 9.114
+  },
+  {
+    "word": "colegio",
+    "start": 9.16,
+    "end": 9.81
+  },
+  {
+    "word": "Mientras",
+    "start": 10.24,
+    "end": 10.681
+  },
+  {
+    "word": "le",
+    "start": 10.762,
+    "end": 10.82
+  },
+  {
+    "word": "contaba",
+    "start": 10.879,
+    "end": 11.32
+  },
+  {
+    "word": "sobre",
+    "start": 11.378,
+    "end": 11.656
+  },
+  {
+    "word": "sus",
+    "start": 11.703,
+    "end": 11.877
+  },
+  {
+    "word": "clases",
+    "start": 11.935,
+    "end": 12.574
+  },
+  {
+    "word": "sus",
+    "start": 12.98,
+    "end": 13.177
+  },
+  {
+    "word": "ojos",
+    "start": 13.27,
+    "end": 13.502
+  },
+  {
+    "word": "curiosos",
+    "start": 13.572,
+    "end": 14.234
+  },
+  {
+    "word": "descubrieron",
+    "start": 14.292,
+    "end": 15.035
+  },
+  {
+    "word": "algo",
+    "start": 15.116,
+    "end": 15.36
+  },
+  {
+    "word": "en",
+    "start": 15.395,
+    "end": 15.453
+  },
+  {
+    "word": "el",
+    "start": 15.511,
+    "end": 15.581
+  },
+  {
+    "word": "suelo",
+    "start": 15.662,
+    "end": 16.208
+  },
+  {
+    "word": "un",
+    "start": 16.684,
+    "end": 16.788
+  },
+  {
+    "word": "peque",
+    "start": 16.846,
+    "end": 17.218
+  },
+  {
+    "word": "o",
+    "start": 17.299,
+    "end": 17.38
+  },
+  {
+    "word": "peluche",
+    "start": 17.427,
+    "end": 17.903
+  },
+  {
+    "word": "de",
+    "start": 17.949,
+    "end": 18.03
+  },
+  {
+    "word": "gatito",
+    "start": 18.088,
+    "end": 18.797
+  },
+  {
+    "word": "incre",
+    "start": 19.319,
+    "end": 19.818
+  },
+  {
+    "word": "blemente",
+    "start": 19.876,
+    "end": 20.445
+  },
+  {
+    "word": "suave",
+    "start": 20.503,
+    "end": 20.991
+  },
+  {
+    "word": "y",
+    "start": 21.27,
+    "end": 21.386
+  },
+  {
+    "word": "con",
+    "start": 21.479,
+    "end": 21.618
+  },
+  {
+    "word": "una",
+    "start": 21.734,
+    "end": 21.897
+  },
+  {
+    "word": "etiqueta",
+    "start": 21.955,
+    "end": 22.547
+  },
+  {
+    "word": "que",
+    "start": 22.616,
+    "end": 22.721
+  },
+  {
+    "word": "dec",
+    "start": 22.767,
+    "end": 23.023
+  },
+  {
+    "word": "a",
+    "start": 23.197,
+    "end": 23.325
+  },
+  {
+    "word": "Dacoto",
+    "start": 23.673,
+    "end": 24.219
+  },
+  {
+    "word": "de",
+    "start": 24.277,
+    "end": 24.346
+  },
+  {
+    "word": "la",
+    "start": 24.393,
+    "end": 24.474
+  },
+  {
+    "word": "suerte",
+    "start": 24.544,
+    "end": 25.101
+  },
+  {
+    "word": "Llena",
+    "start": 25.519,
+    "end": 25.914
+  },
+  {
+    "word": "de",
+    "start": 25.972,
+    "end": 26.053
+  },
+  {
+    "word": "emoci",
+    "start": 26.088,
+    "end": 26.564
+  },
+  {
+    "word": "n",
+    "start": 26.68,
+    "end": 26.831
+  },
+  {
+    "word": "lo",
+    "start": 27.249,
+    "end": 27.365
+  },
+  {
+    "word": "recogi",
+    "start": 27.446,
+    "end": 27.957
+  },
+  {
+    "word": "con",
+    "start": 28.096,
+    "end": 28.236
+  },
+  {
+    "word": "cuidado",
+    "start": 28.294,
+    "end": 28.944
+  },
+  {
+    "word": "sintiendo",
+    "start": 29.246,
+    "end": 29.896
+  },
+  {
+    "word": "que",
+    "start": 29.965,
+    "end": 30.047
+  },
+  {
+    "word": "hab",
+    "start": 30.082,
+    "end": 30.209
+  },
+  {
+    "word": "a",
+    "start": 30.325,
+    "end": 30.349
+  },
+  {
+    "word": "encontrado",
+    "start": 30.383,
+    "end": 31.08
+  },
+  {
+    "word": "un",
+    "start": 31.138,
+    "end": 31.208
+  },
+  {
+    "word": "tesoro",
+    "start": 31.254,
+    "end": 31.893
+  },
+  {
+    "word": "Al",
+    "start": 32.253,
+    "end": 32.427
+  },
+  {
+    "word": "llegar",
+    "start": 32.473,
+    "end": 32.845
+  },
+  {
+    "word": "a",
+    "start": 32.903,
+    "end": 32.914
+  },
+  {
+    "word": "casa",
+    "start": 32.996,
+    "end": 33.541
+  },
+  {
+    "word": "Sof",
+    "start": 33.855,
+    "end": 34.145
+  },
+  {
+    "word": "a",
+    "start": 34.261,
+    "end": 34.319
+  },
+  {
+    "word": "corri",
+    "start": 34.389,
+    "end": 34.714
+  },
+  {
+    "word": "a",
+    "start": 34.853,
+    "end": 34.888
+  },
+  {
+    "word": "su",
+    "start": 34.946,
+    "end": 35.039
+  },
+  {
+    "word": "habitaci",
+    "start": 35.062,
+    "end": 35.596
+  },
+  {
+    "word": "n",
+    "start": 35.678,
+    "end": 35.712
+  },
+  {
+    "word": "para",
+    "start": 35.77,
+    "end": 35.956
+  },
+  {
+    "word": "presentar",
+    "start": 36.014,
+    "end": 36.56
+  },
+  {
+    "word": "a",
+    "start": 36.606,
+    "end": 36.629
+  },
+  {
+    "word": "Dacoto",
+    "start": 36.676,
+    "end": 37.128
+  },
+  {
+    "word": "a",
+    "start": 37.175,
+    "end": 37.198
+  },
+  {
+    "word": "sus",
+    "start": 37.233,
+    "end": 37.407
+  },
+  {
+    "word": "otros",
+    "start": 37.5,
+    "end": 37.779
+  },
+  {
+    "word": "juguetes",
+    "start": 37.837,
+    "end": 38.522
+  },
+  {
+    "word": "Lo",
+    "start": 39.021,
+    "end": 39.172
+  },
+  {
+    "word": "coloc",
+    "start": 39.218,
+    "end": 39.613
+  },
+  {
+    "word": "en",
+    "start": 39.822,
+    "end": 39.892
+  },
+  {
+    "word": "un",
+    "start": 40.008,
+    "end": 40.066
+  },
+  {
+    "word": "lugar",
+    "start": 40.124,
+    "end": 40.461
+  },
+  {
+    "word": "de",
+    "start": 40.519,
+    "end": 40.588
+  },
+  {
+    "word": "honor",
+    "start": 40.611,
+    "end": 41.076
+  },
+  {
+    "word": "entre",
+    "start": 41.471,
+    "end": 41.865
+  },
+  {
+    "word": "un",
+    "start": 41.935,
+    "end": 42.132
+  },
+  {
+    "word": "oso",
+    "start": 42.225,
+    "end": 42.632
+  },
+  {
+    "word": "y",
+    "start": 43.015,
+    "end": 43.084
+  },
+  {
+    "word": "una",
+    "start": 43.2,
+    "end": 43.398
+  },
+  {
+    "word": "jirafa",
+    "start": 43.456,
+    "end": 44.164
+  },
+  {
+    "word": "convencida",
+    "start": 44.582,
+    "end": 45.372
+  },
+  {
+    "word": "de",
+    "start": 45.441,
+    "end": 45.511
+  },
+  {
+    "word": "que",
+    "start": 45.569,
+    "end": 45.673
+  },
+  {
+    "word": "ser",
+    "start": 45.743,
+    "end": 45.987
+  },
+  {
+    "word": "a",
+    "start": 46.103,
+    "end": 46.161
+  },
+  {
+    "word": "su",
+    "start": 46.219,
+    "end": 46.37
+  },
+  {
+    "word": "nuevo",
+    "start": 46.463,
+    "end": 46.858
+  },
+  {
+    "word": "mejor",
+    "start": 46.916,
+    "end": 47.218
+  },
+  {
+    "word": "amigo",
+    "start": 47.287,
+    "end": 47.786
+  },
+  {
+    "word": "Le",
+    "start": 48.286,
+    "end": 48.425
+  },
+  {
+    "word": "dio",
+    "start": 48.471,
+    "end": 48.669
+  },
+  {
+    "word": "un",
+    "start": 48.727,
+    "end": 48.796
+  },
+  {
+    "word": "besito",
+    "start": 48.855,
+    "end": 49.319
+  },
+  {
+    "word": "de",
+    "start": 49.377,
+    "end": 49.447
+  },
+  {
+    "word": "buenas",
+    "start": 49.493,
+    "end": 49.853
+  },
+  {
+    "word": "noches",
+    "start": 49.946,
+    "end": 50.515
+  },
+  {
+    "word": "y",
+    "start": 50.84,
+    "end": 50.933
+  },
+  {
+    "word": "se",
+    "start": 51.026,
+    "end": 51.118
+  },
+  {
+    "word": "durmi",
+    "start": 51.177,
+    "end": 51.548
+  },
+  {
+    "word": "so",
+    "start": 51.676,
+    "end": 51.838
+  },
+  {
+    "word": "ando",
+    "start": 51.92,
+    "end": 52.256
+  },
+  {
+    "word": "con",
+    "start": 52.314,
+    "end": 52.454
+  },
+  {
+    "word": "las",
+    "start": 52.512,
+    "end": 52.628
+  },
+  {
+    "word": "aventuras",
+    "start": 52.709,
+    "end": 53.417
+  },
+  {
+    "word": "que",
+    "start": 53.487,
+    "end": 53.58
+  },
+  {
+    "word": "vivir",
+    "start": 53.626,
+    "end": 53.94
+  },
+  {
+    "word": "an",
+    "start": 54.033,
+    "end": 54.149
+  },
+  {
+    "word": "juntos",
+    "start": 54.195,
+    "end": 54.869
+  },
+  {
+    "word": "A",
+    "start": 55.345,
+    "end": 55.403
+  },
+  {
+    "word": "la",
+    "start": 55.484,
+    "end": 55.554
+  },
+  {
+    "word": "ma",
+    "start": 55.612,
+    "end": 55.728
+  },
+  {
+    "word": "ana",
+    "start": 55.797,
+    "end": 55.983
+  },
+  {
+    "word": "siguiente",
+    "start": 56.041,
+    "end": 56.703
+  },
+  {
+    "word": "un",
+    "start": 56.982,
+    "end": 57.086
+  },
+  {
+    "word": "sonido",
+    "start": 57.167,
+    "end": 57.597
+  },
+  {
+    "word": "muy",
+    "start": 57.678,
+    "end": 57.945
+  },
+  {
+    "word": "real",
+    "start": 58.061,
+    "end": 58.468
+  },
+  {
+    "word": "la",
+    "start": 58.526,
+    "end": 58.619
+  },
+  {
+    "word": "despert",
+    "start": 58.677,
+    "end": 59.118
+  },
+  {
+    "word": "Miau",
+    "start": 59.756,
+    "end": 60.221
+  },
+  {
+    "word": "miau",
+    "start": 60.511,
+    "end": 61.022
+  },
+  {
+    "word": "No",
+    "start": 61.451,
+    "end": 61.649
+  },
+  {
+    "word": "era",
+    "start": 61.718,
+    "end": 61.904
+  },
+  {
+    "word": "un",
+    "start": 62.02,
+    "end": 62.102
+  },
+  {
+    "word": "sonido",
+    "start": 62.171,
+    "end": 62.578
+  },
+  {
+    "word": "de",
+    "start": 62.636,
+    "end": 62.694
+  },
+  {
+    "word": "juguete",
+    "start": 62.74,
+    "end": 63.355
+  },
+  {
+    "word": "Al",
+    "start": 63.773,
+    "end": 63.936
+  },
+  {
+    "word": "mirar",
+    "start": 63.994,
+    "end": 64.296
+  },
+  {
+    "word": "hacia",
+    "start": 64.342,
+    "end": 64.563
+  },
+  {
+    "word": "su",
+    "start": 64.609,
+    "end": 64.714
+  },
+  {
+    "word": "rinc",
+    "start": 64.783,
+    "end": 65.016
+  },
+  {
+    "word": "n",
+    "start": 65.109,
+    "end": 65.132
+  },
+  {
+    "word": "de",
+    "start": 65.19,
+    "end": 65.259
+  },
+  {
+    "word": "juegos",
+    "start": 65.306,
+    "end": 65.84
+  },
+  {
+    "word": "vio",
+    "start": 66.153,
+    "end": 66.397
+  },
+  {
+    "word": "que",
+    "start": 66.444,
+    "end": 66.548
+  },
+  {
+    "word": "el",
+    "start": 66.595,
+    "end": 66.664
+  },
+  {
+    "word": "peluche",
+    "start": 66.734,
+    "end": 67.326
+  },
+  {
+    "word": "hab",
+    "start": 67.372,
+    "end": 67.581
+  },
+  {
+    "word": "a",
+    "start": 67.674,
+    "end": 67.709
+  },
+  {
+    "word": "desaparecido",
+    "start": 67.767,
+    "end": 68.812
+  },
+  {
+    "word": "y",
+    "start": 69.172,
+    "end": 69.288
+  },
+  {
+    "word": "en",
+    "start": 69.358,
+    "end": 69.439
+  },
+  {
+    "word": "su",
+    "start": 69.497,
+    "end": 69.59
+  },
+  {
+    "word": "lugar",
+    "start": 69.66,
+    "end": 70.089
+  },
+  {
+    "word": "hab",
+    "start": 70.426,
+    "end": 70.635
+  },
+  {
+    "word": "a",
+    "start": 70.739,
+    "end": 70.797
+  },
+  {
+    "word": "un",
+    "start": 70.855,
+    "end": 70.937
+  },
+  {
+    "word": "gatito",
+    "start": 71.006,
+    "end": 71.436
+  },
+  {
+    "word": "de",
+    "start": 71.482,
+    "end": 71.552
+  },
+  {
+    "word": "verdad",
+    "start": 71.598,
+    "end": 72.086
+  },
+  {
+    "word": "Era",
+    "start": 72.457,
+    "end": 72.678
+  },
+  {
+    "word": "peque",
+    "start": 72.724,
+    "end": 73.166
+  },
+  {
+    "word": "o",
+    "start": 73.258,
+    "end": 73.456
+  },
+  {
+    "word": "adorable",
+    "start": 73.735,
+    "end": 74.501
+  },
+  {
+    "word": "y",
+    "start": 74.733,
+    "end": 74.826
+  },
+  {
+    "word": "la",
+    "start": 74.907,
+    "end": 74.988
+  },
+  {
+    "word": "miraba",
+    "start": 75.035,
+    "end": 75.441
+  },
+  {
+    "word": "con",
+    "start": 75.499,
+    "end": 75.627
+  },
+  {
+    "word": "unos",
+    "start": 75.708,
+    "end": 75.917
+  },
+  {
+    "word": "enormes",
+    "start": 76.022,
+    "end": 76.567
+  },
+  {
+    "word": "ojos",
+    "start": 76.672,
+    "end": 76.939
+  },
+  {
+    "word": "verdes",
+    "start": 76.997,
+    "end": 77.485
+  },
+  {
+    "word": "La",
+    "start": 77.868,
+    "end": 77.984
+  },
+  {
+    "word": "sorpresa",
+    "start": 78.042,
+    "end": 78.506
+  },
+  {
+    "word": "de",
+    "start": 78.553,
+    "end": 78.611
+  },
+  {
+    "word": "Sof",
+    "start": 78.669,
+    "end": 78.959
+  },
+  {
+    "word": "a",
+    "start": 79.122,
+    "end": 79.261
+  },
+  {
+    "word": "se",
+    "start": 79.458,
+    "end": 79.621
+  },
+  {
+    "word": "convirti",
+    "start": 79.679,
+    "end": 80.132
+  },
+  {
+    "word": "en",
+    "start": 80.283,
+    "end": 80.341
+  },
+  {
+    "word": "una",
+    "start": 80.48,
+    "end": 80.689
+  },
+  {
+    "word": "alegr",
+    "start": 80.735,
+    "end": 81.118
+  },
+  {
+    "word": "a",
+    "start": 81.223,
+    "end": 81.269
+  },
+  {
+    "word": "inmensa",
+    "start": 81.316,
+    "end": 82.036
+  },
+  {
+    "word": "su",
+    "start": 82.407,
+    "end": 82.546
+  },
+  {
+    "word": "deseo",
+    "start": 82.616,
+    "end": 83.057
+  },
+  {
+    "word": "de",
+    "start": 83.115,
+    "end": 83.173
+  },
+  {
+    "word": "tener",
+    "start": 83.22,
+    "end": 83.487
+  },
+  {
+    "word": "una",
+    "start": 83.533,
+    "end": 83.684
+  },
+  {
+    "word": "mascota",
+    "start": 83.731,
+    "end": 84.392
+  },
+  {
+    "word": "se",
+    "start": 84.578,
+    "end": 84.764
+  },
+  {
+    "word": "hab",
+    "start": 84.81,
+    "end": 84.961
+  },
+  {
+    "word": "a",
+    "start": 85.077,
+    "end": 85.135
+  },
+  {
+    "word": "hecho",
+    "start": 85.217,
+    "end": 85.53
+  },
+  {
+    "word": "realidad",
+    "start": 85.612,
+    "end": 86.25
+  },
+  {
+    "word": "Feliz",
+    "start": 86.656,
+    "end": 87.237
+  },
+  {
+    "word": "se",
+    "start": 87.62,
+    "end": 87.736
+  },
+  {
+    "word": "acerc",
+    "start": 87.759,
+    "end": 88.05
+  },
+  {
+    "word": "para",
+    "start": 88.189,
+    "end": 88.386
+  },
+  {
+    "word": "acariciar",
+    "start": 88.421,
+    "end": 89.025
+  },
+  {
+    "word": "al",
+    "start": 89.083,
+    "end": 89.129
+  },
+  {
+    "word": "gatito",
+    "start": 89.187,
+    "end": 89.756
+  },
+  {
+    "word": "que",
+    "start": 90.011,
+    "end": 90.116
+  },
+  {
+    "word": "empez",
+    "start": 90.174,
+    "end": 90.534
+  },
+  {
+    "word": "a",
+    "start": 90.696,
+    "end": 90.72
+  },
+  {
+    "word": "ronronear",
+    "start": 90.778,
+    "end": 91.439
+  },
+  {
+    "word": "al",
+    "start": 91.497,
+    "end": 91.556
+  },
+  {
+    "word": "instante",
+    "start": 91.672,
+    "end": 92.322
+  },
+  {
+    "word": "Fue",
+    "start": 92.775,
+    "end": 92.995
+  },
+  {
+    "word": "entonces",
+    "start": 93.03,
+    "end": 93.796
+  },
+  {
+    "word": "cuando",
+    "start": 93.97,
+    "end": 94.284
+  },
+  {
+    "word": "not",
+    "start": 94.354,
+    "end": 94.586
+  },
+  {
+    "word": "que",
+    "start": 94.725,
+    "end": 94.818
+  },
+  {
+    "word": "ya",
+    "start": 94.934,
+    "end": 95.062
+  },
+  {
+    "word": "no",
+    "start": 95.143,
+    "end": 95.259
+  },
+  {
+    "word": "ten",
+    "start": 95.317,
+    "end": 95.526
+  },
+  {
+    "word": "a",
+    "start": 95.677,
+    "end": 95.735
+  },
+  {
+    "word": "la",
+    "start": 95.816,
+    "end": 95.898
+  },
+  {
+    "word": "etiqueta",
+    "start": 95.944,
+    "end": 96.525
+  },
+  {
+    "word": "de",
+    "start": 96.583,
+    "end": 96.664
+  },
+  {
+    "word": "cart",
+    "start": 96.71,
+    "end": 96.977
+  },
+  {
+    "word": "n",
+    "start": 97.128,
+    "end": 97.279
+  },
+  {
+    "word": "En",
+    "start": 97.674,
+    "end": 97.825
+  },
+  {
+    "word": "su",
+    "start": 97.895,
+    "end": 98.011
+  },
+  {
+    "word": "lugar",
+    "start": 98.08,
+    "end": 98.522
+  },
+  {
+    "word": "llevaba",
+    "start": 98.823,
+    "end": 99.346
+  },
+  {
+    "word": "un",
+    "start": 99.427,
+    "end": 99.508
+  },
+  {
+    "word": "peque",
+    "start": 99.555,
+    "end": 99.868
+  },
+  {
+    "word": "o",
+    "start": 99.95,
+    "end": 100.031
+  },
+  {
+    "word": "collar",
+    "start": 100.089,
+    "end": 100.565
+  },
+  {
+    "word": "con",
+    "start": 100.635,
+    "end": 100.774
+  },
+  {
+    "word": "una",
+    "start": 100.855,
+    "end": 101.018
+  },
+  {
+    "word": "medalla",
+    "start": 101.076,
+    "end": 101.517
+  },
+  {
+    "word": "brillante",
+    "start": 101.563,
+    "end": 102.26
+  },
+  {
+    "word": "Con",
+    "start": 102.701,
+    "end": 102.875
+  },
+  {
+    "word": "curiosidad",
+    "start": 102.922,
+    "end": 103.839
+  },
+  {
+    "word": "le",
+    "start": 104.129,
+    "end": 104.245
+  },
+  {
+    "word": "dio",
+    "start": 104.315,
+    "end": 104.489
+  },
+  {
+    "word": "la",
+    "start": 104.559,
+    "end": 104.652
+  },
+  {
+    "word": "vuelta",
+    "start": 104.71,
+    "end": 105.209
+  },
+  {
+    "word": "y",
+    "start": 105.534,
+    "end": 105.65
+  },
+  {
+    "word": "ley",
+    "start": 105.778,
+    "end": 106.091
+  },
+  {
+    "word": "unas",
+    "start": 106.254,
+    "end": 106.486
+  },
+  {
+    "word": "palabras",
+    "start": 106.556,
+    "end": 107.125
+  },
+  {
+    "word": "que",
+    "start": 107.183,
+    "end": 107.275
+  },
+  {
+    "word": "le",
+    "start": 107.345,
+    "end": 107.438
+  },
+  {
+    "word": "encogieron",
+    "start": 107.485,
+    "end": 108.147
+  },
+  {
+    "word": "un",
+    "start": 108.263,
+    "end": 108.321
+  },
+  {
+    "word": "poco",
+    "start": 108.402,
+    "end": 108.762
+  },
+  {
+    "word": "el",
+    "start": 108.797,
+    "end": 108.855
+  },
+  {
+    "word": "coraz",
+    "start": 108.901,
+    "end": 109.261
+  },
+  {
+    "word": "n",
+    "start": 109.412,
+    "end": 109.54
+  },
+  {
+    "word": "Devu",
+    "start": 110.062,
+    "end": 110.411
+  },
+  {
+    "word": "lveme",
+    "start": 110.48,
+    "end": 110.875
+  },
+  {
+    "word": "a",
+    "start": 110.921,
+    "end": 110.968
+  },
+  {
+    "word": "casita",
+    "start": 111.049,
+    "end": 111.792
+  },
+  {
+    "word": "junto",
+    "start": 112.082,
+    "end": 112.466
+  },
+  {
+    "word": "a",
+    "start": 112.524,
+    "end": 112.547
+  },
+  {
+    "word": "una",
+    "start": 112.64,
+    "end": 112.86
+  },
+  {
+    "word": "direcci",
+    "start": 112.895,
+    "end": 113.336
+  },
+  {
+    "word": "n",
+    "start": 113.441,
+    "end": 113.592
+  },
+  {
+    "word": "La",
+    "start": 113.998,
+    "end": 114.137
+  },
+  {
+    "word": "sonrisa",
+    "start": 114.184,
+    "end": 114.73
+  },
+  {
+    "word": "de",
+    "start": 114.788,
+    "end": 114.846
+  },
+  {
+    "word": "Sof",
+    "start": 114.915,
+    "end": 115.217
+  },
+  {
+    "word": "a",
+    "start": 115.38,
+    "end": 115.461
+  },
+  {
+    "word": "se",
+    "start": 115.519,
+    "end": 115.635
+  },
+  {
+    "word": "desvaneci",
+    "start": 115.682,
+    "end": 116.343
+  },
+  {
+    "word": "Ella",
+    "start": 116.854,
+    "end": 117.191
+  },
+  {
+    "word": "no",
+    "start": 117.353,
+    "end": 117.481
+  },
+  {
+    "word": "quer",
+    "start": 117.539,
+    "end": 117.725
+  },
+  {
+    "word": "a",
+    "start": 117.818,
+    "end": 117.864
+  },
+  {
+    "word": "devolverlo",
+    "start": 117.922,
+    "end": 118.735
+  },
+  {
+    "word": "ahora",
+    "start": 119.106,
+    "end": 119.524
+  },
+  {
+    "word": "era",
+    "start": 119.617,
+    "end": 119.815
+  },
+  {
+    "word": "su",
+    "start": 119.861,
+    "end": 119.977
+  },
+  {
+    "word": "gatito",
+    "start": 120.035,
+    "end": 120.593
+  },
+  {
+    "word": "Pero",
+    "start": 121.011,
+    "end": 121.266
+  },
+  {
+    "word": "justo",
+    "start": 121.324,
+    "end": 121.777
+  },
+  {
+    "word": "en",
+    "start": 121.835,
+    "end": 121.916
+  },
+  {
+    "word": "ese",
+    "start": 121.986,
+    "end": 122.137
+  },
+  {
+    "word": "momento",
+    "start": 122.195,
+    "end": 122.81
+  },
+  {
+    "word": "el",
+    "start": 123.182,
+    "end": 123.321
+  },
+  {
+    "word": "peque",
+    "start": 123.391,
+    "end": 123.716
+  },
+  {
+    "word": "o",
+    "start": 123.785,
+    "end": 123.867
+  },
+  {
+    "word": "Dacoto",
+    "start": 123.913,
+    "end": 124.447
+  },
+  {
+    "word": "comenz",
+    "start": 124.517,
+    "end": 124.946
+  },
+  {
+    "word": "a",
+    "start": 125.109,
+    "end": 125.144
+  },
+  {
+    "word": "llorar",
+    "start": 125.155,
+    "end": 125.562
+  },
+  {
+    "word": "con",
+    "start": 125.631,
+    "end": 125.782
+  },
+  {
+    "word": "un",
+    "start": 125.944,
+    "end": 126.026
+  },
+  {
+    "word": "maullido",
+    "start": 126.072,
+    "end": 126.629
+  },
+  {
+    "word": "triste",
+    "start": 126.699,
+    "end": 127.314
+  },
+  {
+    "word": "como",
+    "start": 127.721,
+    "end": 127.976
+  },
+  {
+    "word": "si",
+    "start": 128.034,
+    "end": 128.127
+  },
+  {
+    "word": "llamara",
+    "start": 128.15,
+    "end": 128.603
+  },
+  {
+    "word": "a",
+    "start": 128.649,
+    "end": 128.661
+  },
+  {
+    "word": "alguien",
+    "start": 128.766,
+    "end": 129.16
+  },
+  {
+    "word": "que",
+    "start": 129.218,
+    "end": 129.311
+  },
+  {
+    "word": "extra",
+    "start": 129.358,
+    "end": 129.752
+  },
+  {
+    "word": "aba",
+    "start": 129.822,
+    "end": 130.031
+  },
+  {
+    "word": "mucho",
+    "start": 130.078,
+    "end": 130.554
+  },
+  {
+    "word": "Sof",
+    "start": 131.006,
+    "end": 131.331
+  },
+  {
+    "word": "a",
+    "start": 131.471,
+    "end": 131.54
+  },
+  {
+    "word": "comprendi",
+    "start": 131.598,
+    "end": 132.121
+  },
+  {
+    "word": "que",
+    "start": 132.307,
+    "end": 132.608
+  },
+  {
+    "word": "a",
+    "start": 133.003,
+    "end": 133.061
+  },
+  {
+    "word": "pesar",
+    "start": 133.119,
+    "end": 133.537
+  },
+  {
+    "word": "de",
+    "start": 133.595,
+    "end": 133.665
+  },
+  {
+    "word": "su",
+    "start": 133.723,
+    "end": 133.839
+  },
+  {
+    "word": "deseo",
+    "start": 133.897,
+    "end": 134.547
+  },
+  {
+    "word": "la",
+    "start": 134.954,
+    "end": 135.058
+  },
+  {
+    "word": "felicidad",
+    "start": 135.116,
+    "end": 135.79
+  },
+  {
+    "word": "del",
+    "start": 135.813,
+    "end": 135.941
+  },
+  {
+    "word": "gatito",
+    "start": 135.999,
+    "end": 136.579
+  },
+  {
+    "word": "era",
+    "start": 136.637,
+    "end": 136.8
+  },
+  {
+    "word": "m",
+    "start": 136.881,
+    "end": 136.962
+  },
+  {
+    "word": "s",
+    "start": 137.067,
+    "end": 137.136
+  },
+  {
+    "word": "importante",
+    "start": 137.218,
+    "end": 138.007
+  },
+  {
+    "word": "Con",
+    "start": 138.413,
+    "end": 138.576
+  },
+  {
+    "word": "valent",
+    "start": 138.611,
+    "end": 139.064
+  },
+  {
+    "word": "a",
+    "start": 139.226,
+    "end": 139.377
+  },
+  {
+    "word": "le",
+    "start": 139.598,
+    "end": 139.691
+  },
+  {
+    "word": "cont",
+    "start": 139.737,
+    "end": 140.004
+  },
+  {
+    "word": "todo",
+    "start": 140.19,
+    "end": 140.515
+  },
+  {
+    "word": "a",
+    "start": 140.55,
+    "end": 140.573
+  },
+  {
+    "word": "su",
+    "start": 140.608,
+    "end": 140.735
+  },
+  {
+    "word": "mam",
+    "start": 140.794,
+    "end": 140.991
+  },
+  {
+    "word": "y",
+    "start": 141.56,
+    "end": 141.664
+  },
+  {
+    "word": "juntas",
+    "start": 141.757,
+    "end": 142.303
+  },
+  {
+    "word": "tomaron",
+    "start": 142.465,
+    "end": 142.895
+  },
+  {
+    "word": "la",
+    "start": 142.953,
+    "end": 143.011
+  },
+  {
+    "word": "decisi",
+    "start": 143.069,
+    "end": 143.51
+  },
+  {
+    "word": "n",
+    "start": 143.58,
+    "end": 143.603
+  },
+  {
+    "word": "correcta",
+    "start": 143.661,
+    "end": 144.265
+  },
+  {
+    "word": "llevar",
+    "start": 144.695,
+    "end": 145.136
+  },
+  {
+    "word": "an",
+    "start": 145.24,
+    "end": 145.368
+  },
+  {
+    "word": "a",
+    "start": 145.438,
+    "end": 145.461
+  },
+  {
+    "word": "Dacoto",
+    "start": 145.519,
+    "end": 146.006
+  },
+  {
+    "word": "de",
+    "start": 146.053,
+    "end": 146.134
+  },
+  {
+    "word": "regreso",
+    "start": 146.204,
+    "end": 146.691
+  },
+  {
+    "word": "a",
+    "start": 146.738,
+    "end": 146.761
+  },
+  {
+    "word": "su",
+    "start": 146.808,
+    "end": 146.877
+  },
+  {
+    "word": "hogar",
+    "start": 146.9,
+    "end": 147.318
+  },
+  {
+    "word": "La",
+    "start": 147.771,
+    "end": 147.899
+  },
+  {
+    "word": "direcci",
+    "start": 147.945,
+    "end": 148.363
+  },
+  {
+    "word": "n",
+    "start": 148.445,
+    "end": 148.561
+  },
+  {
+    "word": "las",
+    "start": 148.723,
+    "end": 148.897
+  },
+  {
+    "word": "condujo",
+    "start": 148.955,
+    "end": 149.489
+  },
+  {
+    "word": "a",
+    "start": 149.524,
+    "end": 149.548
+  },
+  {
+    "word": "un",
+    "start": 149.629,
+    "end": 149.71
+  },
+  {
+    "word": "lugar",
+    "start": 149.78,
+    "end": 150.105
+  },
+  {
+    "word": "m",
+    "start": 150.174,
+    "end": 150.233
+  },
+  {
+    "word": "gico",
+    "start": 150.372,
+    "end": 150.918
+  },
+  {
+    "word": "una",
+    "start": 151.394,
+    "end": 151.626
+  },
+  {
+    "word": "tienda",
+    "start": 151.695,
+    "end": 152.032
+  },
+  {
+    "word": "de",
+    "start": 152.067,
+    "end": 152.137
+  },
+  {
+    "word": "mascotas",
+    "start": 152.195,
+    "end": 152.914
+  },
+  {
+    "word": "llena",
+    "start": 153.054,
+    "end": 153.541
+  },
+  {
+    "word": "de",
+    "start": 153.588,
+    "end": 153.669
+  },
+  {
+    "word": "vida",
+    "start": 153.727,
+    "end": 154.133
+  },
+  {
+    "word": "En",
+    "start": 154.551,
+    "end": 154.726
+  },
+  {
+    "word": "el",
+    "start": 154.795,
+    "end": 154.865
+  },
+  {
+    "word": "centro",
+    "start": 154.935,
+    "end": 155.294
+  },
+  {
+    "word": "de",
+    "start": 155.364,
+    "end": 155.434
+  },
+  {
+    "word": "todo",
+    "start": 155.503,
+    "end": 155.945
+  },
+  {
+    "word": "sobre",
+    "start": 156.246,
+    "end": 156.572
+  },
+  {
+    "word": "un",
+    "start": 156.641,
+    "end": 156.746
+  },
+  {
+    "word": "coj",
+    "start": 156.804,
+    "end": 157.013
+  },
+  {
+    "word": "n",
+    "start": 157.094,
+    "end": 157.14
+  },
+  {
+    "word": "de",
+    "start": 157.175,
+    "end": 157.233
+  },
+  {
+    "word": "terciopelo",
+    "start": 157.28,
+    "end": 158.081
+  },
+  {
+    "word": "descansaba",
+    "start": 158.452,
+    "end": 159.126
+  },
+  {
+    "word": "la",
+    "start": 159.184,
+    "end": 159.242
+  },
+  {
+    "word": "gata",
+    "start": 159.312,
+    "end": 159.613
+  },
+  {
+    "word": "m",
+    "start": 159.695,
+    "end": 159.776
+  },
+  {
+    "word": "s",
+    "start": 159.88,
+    "end": 159.962
+  },
+  {
+    "word": "espectacular",
+    "start": 160.02,
+    "end": 160.856
+  },
+  {
+    "word": "que",
+    "start": 161.123,
+    "end": 161.239
+  },
+  {
+    "word": "Sof",
+    "start": 161.297,
+    "end": 161.552
+  },
+  {
+    "word": "a",
+    "start": 161.692,
+    "end": 161.761
+  },
+  {
+    "word": "hab",
+    "start": 161.773,
+    "end": 161.924
+  },
+  {
+    "word": "a",
+    "start": 161.994,
+    "end": 162.04
+  },
+  {
+    "word": "visto",
+    "start": 162.098,
+    "end": 162.388
+  },
+  {
+    "word": "jam",
+    "start": 162.446,
+    "end": 162.667
+  },
+  {
+    "word": "s",
+    "start": 162.818,
+    "end": 162.98
+  },
+  {
+    "word": "Se",
+    "start": 163.457,
+    "end": 163.619
+  },
+  {
+    "word": "llamaba",
+    "start": 163.642,
+    "end": 164.141
+  },
+  {
+    "word": "N",
+    "start": 164.246,
+    "end": 164.339
+  },
+  {
+    "word": "vea",
+    "start": 164.478,
+    "end": 164.815
+  },
+  {
+    "word": "y",
+    "start": 165.244,
+    "end": 165.302
+  },
+  {
+    "word": "su",
+    "start": 165.395,
+    "end": 165.477
+  },
+  {
+    "word": "pelaje",
+    "start": 165.535,
+    "end": 166.08
+  },
+  {
+    "word": "era",
+    "start": 166.243,
+    "end": 166.452
+  },
+  {
+    "word": "tan",
+    "start": 166.533,
+    "end": 166.754
+  },
+  {
+    "word": "blanco",
+    "start": 166.8,
+    "end": 167.241
+  },
+  {
+    "word": "y",
+    "start": 167.276,
+    "end": 167.299
+  },
+  {
+    "word": "brillante",
+    "start": 167.346,
+    "end": 168.031
+  },
+  {
+    "word": "que",
+    "start": 168.298,
+    "end": 168.414
+  },
+  {
+    "word": "parec",
+    "start": 168.46,
+    "end": 168.762
+  },
+  {
+    "word": "a",
+    "start": 168.867,
+    "end": 168.913
+  },
+  {
+    "word": "tejido",
+    "start": 168.971,
+    "end": 169.459
+  },
+  {
+    "word": "con",
+    "start": 169.54,
+    "end": 169.726
+  },
+  {
+    "word": "hilos",
+    "start": 169.772,
+    "end": 170.074
+  },
+  {
+    "word": "de",
+    "start": 170.121,
+    "end": 170.202
+  },
+  {
+    "word": "luna",
+    "start": 170.26,
+    "end": 170.69
+  },
+  {
+    "word": "Sus",
+    "start": 171.107,
+    "end": 171.34
+  },
+  {
+    "word": "ojos",
+    "start": 171.444,
+    "end": 171.874
+  },
+  {
+    "word": "de",
+    "start": 172.152,
+    "end": 172.245
+  },
+  {
+    "word": "un",
+    "start": 172.35,
+    "end": 172.454
+  },
+  {
+    "word": "verde",
+    "start": 172.501,
+    "end": 172.779
+  },
+  {
+    "word": "profundo",
+    "start": 172.837,
+    "end": 173.488
+  },
+  {
+    "word": "como",
+    "start": 173.546,
+    "end": 173.755
+  },
+  {
+    "word": "el",
+    "start": 173.789,
+    "end": 173.836
+  },
+  {
+    "word": "coraz",
+    "start": 173.894,
+    "end": 174.254
+  },
+  {
+    "word": "n",
+    "start": 174.393,
+    "end": 174.451
+  },
+  {
+    "word": "de",
+    "start": 174.486,
+    "end": 174.544
+  },
+  {
+    "word": "un",
+    "start": 174.66,
+    "end": 174.73
+  },
+  {
+    "word": "bosque",
+    "start": 174.776,
+    "end": 175.113
+  },
+  {
+    "word": "encantado",
+    "start": 175.159,
+    "end": 175.902
+  },
+  {
+    "word": "observaban",
+    "start": 176.378,
+    "end": 177.029
+  },
+  {
+    "word": "todo",
+    "start": 177.121,
+    "end": 177.423
+  },
+  {
+    "word": "con",
+    "start": 177.505,
+    "end": 177.632
+  },
+  {
+    "word": "una",
+    "start": 177.714,
+    "end": 177.864
+  },
+  {
+    "word": "calma",
+    "start": 177.946,
+    "end": 178.317
+  },
+  {
+    "word": "sabia",
+    "start": 178.387,
+    "end": 178.909
+  },
+  {
+    "word": "y",
+    "start": 179.362,
+    "end": 179.431
+  },
+  {
+    "word": "su",
+    "start": 179.524,
+    "end": 179.617
+  },
+  {
+    "word": "presencia",
+    "start": 179.664,
+    "end": 180.418
+  },
+  {
+    "word": "llenaba",
+    "start": 180.581,
+    "end": 181.115
+  },
+  {
+    "word": "el",
+    "start": 181.161,
+    "end": 181.231
+  },
+  {
+    "word": "lugar",
+    "start": 181.277,
+    "end": 181.626
+  },
+  {
+    "word": "de",
+    "start": 181.695,
+    "end": 181.765
+  },
+  {
+    "word": "una",
+    "start": 181.881,
+    "end": 182.137
+  },
+  {
+    "word": "paz",
+    "start": 182.218,
+    "end": 182.462
+  },
+  {
+    "word": "m",
+    "start": 182.578,
+    "end": 182.624
+  },
+  {
+    "word": "gica",
+    "start": 182.74,
+    "end": 183.216
+  },
+  {
+    "word": "El",
+    "start": 183.53,
+    "end": 183.727
+  },
+  {
+    "word": "due",
+    "start": 183.785,
+    "end": 183.983
+  },
+  {
+    "word": "o",
+    "start": 184.064,
+    "end": 184.133
+  },
+  {
+    "word": "de",
+    "start": 184.18,
+    "end": 184.25
+  },
+  {
+    "word": "la",
+    "start": 184.296,
+    "end": 184.377
+  },
+  {
+    "word": "tienda",
+    "start": 184.435,
+    "end": 184.946
+  },
+  {
+    "word": "las",
+    "start": 185.19,
+    "end": 185.411
+  },
+  {
+    "word": "recibi",
+    "start": 185.492,
+    "end": 185.968
+  },
+  {
+    "word": "con",
+    "start": 186.142,
+    "end": 186.293
+  },
+  {
+    "word": "una",
+    "start": 186.397,
+    "end": 186.583
+  },
+  {
+    "word": "sonrisa",
+    "start": 186.641,
+    "end": 187.326
+  },
+  {
+    "word": "y",
+    "start": 187.756,
+    "end": 187.86
+  },
+  {
+    "word": "al",
+    "start": 187.918,
+    "end": 188.011
+  },
+  {
+    "word": "ver",
+    "start": 188.069,
+    "end": 188.232
+  },
+  {
+    "word": "a",
+    "start": 188.29,
+    "end": 188.313
+  },
+  {
+    "word": "Dacoto",
+    "start": 188.371,
+    "end": 188.975
+  },
+  {
+    "word": "les",
+    "start": 189.242,
+    "end": 189.416
+  },
+  {
+    "word": "revel",
+    "start": 189.497,
+    "end": 189.834
+  },
+  {
+    "word": "un",
+    "start": 190.008,
+    "end": 190.089
+  },
+  {
+    "word": "secreto",
+    "start": 190.171,
+    "end": 190.67
+  },
+  {
+    "word": "fascinante",
+    "start": 190.728,
+    "end": 191.634
+  },
+  {
+    "word": "N",
+    "start": 192.04,
+    "end": 192.156
+  },
+  {
+    "word": "vea",
+    "start": 192.319,
+    "end": 192.713
+  },
+  {
+    "word": "les",
+    "start": 192.992,
+    "end": 193.154
+  },
+  {
+    "word": "susurr",
+    "start": 193.178,
+    "end": 193.654
+  },
+  {
+    "word": "es",
+    "start": 194.246,
+    "end": 194.443
+  },
+  {
+    "word": "la",
+    "start": 194.536,
+    "end": 194.617
+  },
+  {
+    "word": "protectora",
+    "start": 194.664,
+    "end": 195.267
+  },
+  {
+    "word": "de",
+    "start": 195.326,
+    "end": 195.407
+  },
+  {
+    "word": "todos",
+    "start": 195.523,
+    "end": 195.929
+  },
+  {
+    "word": "los",
+    "start": 196.01,
+    "end": 196.161
+  },
+  {
+    "word": "animales",
+    "start": 196.219,
+    "end": 196.742
+  },
+  {
+    "word": "de",
+    "start": 196.777,
+    "end": 196.823
+  },
+  {
+    "word": "aqu",
+    "start": 196.87,
+    "end": 197.044
+  },
+  {
+    "word": "Su",
+    "start": 197.578,
+    "end": 197.775
+  },
+  {
+    "word": "magia",
+    "start": 197.845,
+    "end": 198.205
+  },
+  {
+    "word": "convierte",
+    "start": 198.263,
+    "end": 198.774
+  },
+  {
+    "word": "en",
+    "start": 198.832,
+    "end": 198.89
+  },
+  {
+    "word": "peluche",
+    "start": 198.948,
+    "end": 199.575
+  },
+  {
+    "word": "a",
+    "start": 199.784,
+    "end": 199.877
+  },
+  {
+    "word": "cualquier",
+    "start": 199.947,
+    "end": 200.434
+  },
+  {
+    "word": "mascota",
+    "start": 200.504,
+    "end": 201.038
+  },
+  {
+    "word": "que",
+    "start": 201.108,
+    "end": 201.224
+  },
+  {
+    "word": "es",
+    "start": 201.282,
+    "end": 201.363
+  },
+  {
+    "word": "adoptada",
+    "start": 201.444,
+    "end": 201.955
+  },
+  {
+    "word": "por",
+    "start": 202.013,
+    "end": 202.187
+  },
+  {
+    "word": "alguien",
+    "start": 202.257,
+    "end": 202.582
+  },
+  {
+    "word": "con",
+    "start": 202.64,
+    "end": 202.791
+  },
+  {
+    "word": "un",
+    "start": 202.919,
+    "end": 202.988
+  },
+  {
+    "word": "mal",
+    "start": 203.07,
+    "end": 203.267
+  },
+  {
+    "word": "coraz",
+    "start": 203.337,
+    "end": 203.731
+  },
+  {
+    "word": "n",
+    "start": 203.882,
+    "end": 203.998
+  },
+  {
+    "word": "para",
+    "start": 204.474,
+    "end": 204.695
+  },
+  {
+    "word": "que",
+    "start": 204.765,
+    "end": 204.869
+  },
+  {
+    "word": "una",
+    "start": 204.95,
+    "end": 205.148
+  },
+  {
+    "word": "persona",
+    "start": 205.206,
+    "end": 205.717
+  },
+  {
+    "word": "buena",
+    "start": 205.775,
+    "end": 206.251
+  },
+  {
+    "word": "como",
+    "start": 206.518,
+    "end": 206.854
+  },
+  {
+    "word": "t",
+    "start": 206.924,
+    "end": 206.994
+  },
+  {
+    "word": "la",
+    "start": 207.656,
+    "end": 207.795
+  },
+  {
+    "word": "encuentre",
+    "start": 207.841,
+    "end": 208.573
+  },
+  {
+    "word": "y",
+    "start": 208.817,
+    "end": 208.909
+  },
+  {
+    "word": "la",
+    "start": 209.026,
+    "end": 209.13
+  },
+  {
+    "word": "traiga",
+    "start": 209.188,
+    "end": 209.641
+  },
+  {
+    "word": "de",
+    "start": 209.699,
+    "end": 209.792
+  },
+  {
+    "word": "vuelta",
+    "start": 209.85,
+    "end": 210.303
+  },
+  {
+    "word": "a",
+    "start": 210.349,
+    "end": 210.372
+  },
+  {
+    "word": "salvo",
+    "start": 210.442,
+    "end": 211.011
+  },
+  {
+    "word": "En",
+    "start": 211.452,
+    "end": 211.673
+  },
+  {
+    "word": "ese",
+    "start": 211.742,
+    "end": 211.94
+  },
+  {
+    "word": "instante",
+    "start": 212.009,
+    "end": 212.787
+  },
+  {
+    "word": "Dacoto",
+    "start": 213.205,
+    "end": 213.786
+  },
+  {
+    "word": "salt",
+    "start": 213.855,
+    "end": 214.18
+  },
+  {
+    "word": "de",
+    "start": 214.331,
+    "end": 214.401
+  },
+  {
+    "word": "los",
+    "start": 214.447,
+    "end": 214.598
+  },
+  {
+    "word": "brazos",
+    "start": 214.656,
+    "end": 215.074
+  },
+  {
+    "word": "de",
+    "start": 215.132,
+    "end": 215.213
+  },
+  {
+    "word": "Sof",
+    "start": 215.271,
+    "end": 215.597
+  },
+  {
+    "word": "a",
+    "start": 215.771,
+    "end": 215.887
+  },
+  {
+    "word": "y",
+    "start": 216.27,
+    "end": 216.386
+  },
+  {
+    "word": "corri",
+    "start": 216.502,
+    "end": 216.85
+  },
+  {
+    "word": "hacia",
+    "start": 217.001,
+    "end": 217.257
+  },
+  {
+    "word": "una",
+    "start": 217.338,
+    "end": 217.547
+  },
+  {
+    "word": "camita",
+    "start": 217.593,
+    "end": 218.104
+  },
+  {
+    "word": "donde",
+    "start": 218.151,
+    "end": 218.36
+  },
+  {
+    "word": "lo",
+    "start": 218.406,
+    "end": 218.487
+  },
+  {
+    "word": "esperaba",
+    "start": 218.522,
+    "end": 218.952
+  },
+  {
+    "word": "su",
+    "start": 218.998,
+    "end": 219.103
+  },
+  {
+    "word": "mam",
+    "start": 219.161,
+    "end": 219.323
+  },
+  {
+    "word": "gata",
+    "start": 219.439,
+    "end": 219.823
+  },
+  {
+    "word": "y",
+    "start": 219.892,
+    "end": 219.927
+  },
+  {
+    "word": "sus",
+    "start": 219.985,
+    "end": 220.148
+  },
+  {
+    "word": "hermanitos",
+    "start": 220.194,
+    "end": 220.914
+  },
+  {
+    "word": "La",
+    "start": 221.436,
+    "end": 221.622
+  },
+  {
+    "word": "escena",
+    "start": 221.657,
+    "end": 222.226
+  },
+  {
+    "word": "era",
+    "start": 222.284,
+    "end": 222.47
+  },
+  {
+    "word": "pura",
+    "start": 222.586,
+    "end": 222.899
+  },
+  {
+    "word": "felicidad",
+    "start": 222.969,
+    "end": 223.793
+  },
+  {
+    "word": "los",
+    "start": 224.211,
+    "end": 224.35
+  },
+  {
+    "word": "gatitos",
+    "start": 224.42,
+    "end": 224.861
+  },
+  {
+    "word": "jugaban",
+    "start": 224.919,
+    "end": 225.558
+  },
+  {
+    "word": "y",
+    "start": 225.79,
+    "end": 225.895
+  },
+  {
+    "word": "ronroneaban",
+    "start": 226.011,
+    "end": 226.812
+  },
+  {
+    "word": "juntos",
+    "start": 226.87,
+    "end": 227.508
+  },
+  {
+    "word": "Sof",
+    "start": 227.984,
+    "end": 228.286
+  },
+  {
+    "word": "a",
+    "start": 228.426,
+    "end": 228.484
+  },
+  {
+    "word": "sinti",
+    "start": 228.542,
+    "end": 228.878
+  },
+  {
+    "word": "una",
+    "start": 228.994,
+    "end": 229.169
+  },
+  {
+    "word": "calidez",
+    "start": 229.227,
+    "end": 229.714
+  },
+  {
+    "word": "en",
+    "start": 229.784,
+    "end": 229.83
+  },
+  {
+    "word": "su",
+    "start": 229.877,
+    "end": 229.993
+  },
+  {
+    "word": "pecho",
+    "start": 230.063,
+    "end": 230.539
+  },
+  {
+    "word": "al",
+    "start": 230.759,
+    "end": 230.899
+  },
+  {
+    "word": "ver",
+    "start": 230.945,
+    "end": 231.096
+  },
+  {
+    "word": "a",
+    "start": 231.142,
+    "end": 231.166
+  },
+  {
+    "word": "Dacoto",
+    "start": 231.224,
+    "end": 231.653
+  },
+  {
+    "word": "tan",
+    "start": 231.746,
+    "end": 231.943
+  },
+  {
+    "word": "contento",
+    "start": 232.001,
+    "end": 232.698
+  },
+  {
+    "word": "y",
+    "start": 232.768,
+    "end": 232.814
+  },
+  {
+    "word": "seguro",
+    "start": 232.884,
+    "end": 233.441
+  },
+  {
+    "word": "con",
+    "start": 233.755,
+    "end": 233.929
+  },
+  {
+    "word": "su",
+    "start": 233.975,
+    "end": 234.08
+  },
+  {
+    "word": "verdadera",
+    "start": 234.126,
+    "end": 234.614
+  },
+  {
+    "word": "familia",
+    "start": 234.672,
+    "end": 235.38
+  },
+  {
+    "word": "tan",
+    "start": 235.751,
+    "end": 235.972
+  },
+  {
+    "word": "distinta",
+    "start": 236.03,
+    "end": 236.657
+  },
+  {
+    "word": "de",
+    "start": 236.808,
+    "end": 236.901
+  },
+  {
+    "word": "la",
+    "start": 236.959,
+    "end": 237.017
+  },
+  {
+    "word": "majestuosa",
+    "start": 237.063,
+    "end": 237.876
+  },
+  {
+    "word": "y",
+    "start": 237.934,
+    "end": 237.957
+  },
+  {
+    "word": "solitaria",
+    "start": 238.027,
+    "end": 238.654
+  },
+  {
+    "word": "N",
+    "start": 238.782,
+    "end": 238.863
+  },
+  {
+    "word": "vea",
+    "start": 238.991,
+    "end": 239.293
+  },
+  {
+    "word": "Mientras",
+    "start": 239.676,
+    "end": 240.175
+  },
+  {
+    "word": "Sof",
+    "start": 240.245,
+    "end": 240.604
+  },
+  {
+    "word": "a",
+    "start": 240.755,
+    "end": 240.837
+  },
+  {
+    "word": "observaba",
+    "start": 240.906,
+    "end": 241.475
+  },
+  {
+    "word": "con",
+    "start": 241.522,
+    "end": 241.661
+  },
+  {
+    "word": "una",
+    "start": 241.742,
+    "end": 241.882
+  },
+  {
+    "word": "sonrisa",
+    "start": 241.94,
+    "end": 242.578
+  },
+  {
+    "word": "la",
+    "start": 242.95,
+    "end": 243.112
+  },
+  {
+    "word": "hermosa",
+    "start": 243.135,
+    "end": 243.635
+  },
+  {
+    "word": "N",
+    "start": 243.693,
+    "end": 243.728
+  },
+  {
+    "word": "vea",
+    "start": 243.867,
+    "end": 244.122
+  },
+  {
+    "word": "se",
+    "start": 244.273,
+    "end": 244.436
+  },
+  {
+    "word": "le",
+    "start": 244.494,
+    "end": 244.563
+  },
+  {
+    "word": "acerc",
+    "start": 244.61,
+    "end": 245.005
+  },
+  {
+    "word": "movi",
+    "start": 245.597,
+    "end": 245.864
+  },
+  {
+    "word": "ndose",
+    "start": 245.922,
+    "end": 246.259
+  },
+  {
+    "word": "con",
+    "start": 246.363,
+    "end": 246.514
+  },
+  {
+    "word": "una",
+    "start": 246.607,
+    "end": 246.781
+  },
+  {
+    "word": "gracia",
+    "start": 246.851,
+    "end": 247.234
+  },
+  {
+    "word": "silenciosa",
+    "start": 247.292,
+    "end": 248.105
+  },
+  {
+    "word": "En",
+    "start": 248.441,
+    "end": 248.592
+  },
+  {
+    "word": "su",
+    "start": 248.65,
+    "end": 248.766
+  },
+  {
+    "word": "boca",
+    "start": 248.801,
+    "end": 249.115
+  },
+  {
+    "word": "tra",
+    "start": 249.161,
+    "end": 249.37
+  },
+  {
+    "word": "a",
+    "start": 249.474,
+    "end": 249.521
+  },
+  {
+    "word": "un",
+    "start": 249.602,
+    "end": 249.695
+  },
+  {
+    "word": "regalo",
+    "start": 249.776,
+    "end": 250.148
+  },
+  {
+    "word": "para",
+    "start": 250.206,
+    "end": 250.426
+  },
+  {
+    "word": "ella",
+    "start": 250.531,
+    "end": 250.833
+  },
+  {
+    "word": "una",
+    "start": 251.216,
+    "end": 251.436
+  },
+  {
+    "word": "peque",
+    "start": 251.494,
+    "end": 251.82
+  },
+  {
+    "word": "a",
+    "start": 251.889,
+    "end": 251.97
+  },
+  {
+    "word": "bolsita",
+    "start": 252.005,
+    "end": 252.528
+  },
+  {
+    "word": "de",
+    "start": 252.574,
+    "end": 252.644
+  },
+  {
+    "word": "tela",
+    "start": 252.714,
+    "end": 253.12
+  },
+  {
+    "word": "Con",
+    "start": 253.491,
+    "end": 253.654
+  },
+  {
+    "word": "una",
+    "start": 253.735,
+    "end": 253.863
+  },
+  {
+    "word": "delicadeza",
+    "start": 253.909,
+    "end": 254.629
+  },
+  {
+    "word": "incre",
+    "start": 254.71,
+    "end": 255.14
+  },
+  {
+    "word": "ble",
+    "start": 255.221,
+    "end": 255.558
+  },
+  {
+    "word": "la",
+    "start": 255.918,
+    "end": 256.011
+  },
+  {
+    "word": "dej",
+    "start": 256.057,
+    "end": 256.243
+  },
+  {
+    "word": "a",
+    "start": 256.347,
+    "end": 256.371
+  },
+  {
+    "word": "sus",
+    "start": 256.417,
+    "end": 256.614
+  },
+  {
+    "word": "pies",
+    "start": 256.684,
+    "end": 257.09
+  },
+  {
+    "word": "d",
+    "start": 257.578,
+    "end": 257.648
+  },
+  {
+    "word": "ndole",
+    "start": 257.741,
+    "end": 258.101
+  },
+  {
+    "word": "un",
+    "start": 258.182,
+    "end": 258.31
+  },
+  {
+    "word": "suave",
+    "start": 258.402,
+    "end": 258.809
+  },
+  {
+    "word": "roce",
+    "start": 258.902,
+    "end": 259.447
+  },
+  {
+    "word": "con",
+    "start": 259.621,
+    "end": 259.796
+  },
+  {
+    "word": "su",
+    "start": 259.842,
+    "end": 259.958
+  },
+  {
+    "word": "cabeza",
+    "start": 260.016,
+    "end": 260.562
+  },
+  {
+    "word": "en",
+    "start": 260.643,
+    "end": 260.724
+  },
+  {
+    "word": "se",
+    "start": 260.794,
+    "end": 260.957
+  },
+  {
+    "word": "al",
+    "start": 261.05,
+    "end": 261.247
+  },
+  {
+    "word": "de",
+    "start": 261.317,
+    "end": 261.363
+  },
+  {
+    "word": "agradecimiento",
+    "start": 261.386,
+    "end": 262.408
+  },
+  {
+    "word": "De",
+    "start": 262.849,
+    "end": 262.977
+  },
+  {
+    "word": "vuelta",
+    "start": 263.012,
+    "end": 263.371
+  },
+  {
+    "word": "en",
+    "start": 263.406,
+    "end": 263.453
+  },
+  {
+    "word": "casa",
+    "start": 263.511,
+    "end": 264.022
+  },
+  {
+    "word": "Sof",
+    "start": 264.382,
+    "end": 264.683
+  },
+  {
+    "word": "a",
+    "start": 264.834,
+    "end": 264.904
+  },
+  {
+    "word": "coloc",
+    "start": 264.962,
+    "end": 265.287
+  },
+  {
+    "word": "sus",
+    "start": 265.415,
+    "end": 265.589
+  },
+  {
+    "word": "nuevos",
+    "start": 265.659,
+    "end": 266.065
+  },
+  {
+    "word": "y",
+    "start": 266.216,
+    "end": 266.309
+  },
+  {
+    "word": "especiales",
+    "start": 266.378,
+    "end": 267.11
+  },
+  {
+    "word": "peluches",
+    "start": 267.168,
+    "end": 267.841
+  },
+  {
+    "word": "en",
+    "start": 268.05,
+    "end": 268.201
+  },
+  {
+    "word": "un",
+    "start": 268.329,
+    "end": 268.399
+  },
+  {
+    "word": "lugar",
+    "start": 268.468,
+    "end": 268.805
+  },
+  {
+    "word": "de",
+    "start": 268.863,
+    "end": 268.933
+  },
+  {
+    "word": "honor",
+    "start": 268.956,
+    "end": 269.362
+  },
+  {
+    "word": "Los",
+    "start": 269.803,
+    "end": 269.966
+  },
+  {
+    "word": "cuidaba",
+    "start": 270.024,
+    "end": 270.442
+  },
+  {
+    "word": "con",
+    "start": 270.5,
+    "end": 270.639
+  },
+  {
+    "word": "todo",
+    "start": 270.732,
+    "end": 271.011
+  },
+  {
+    "word": "su",
+    "start": 271.08,
+    "end": 271.185
+  },
+  {
+    "word": "cari",
+    "start": 271.231,
+    "end": 271.545
+  },
+  {
+    "word": "o",
+    "start": 271.661,
+    "end": 271.835
+  },
+  {
+    "word": "porque",
+    "start": 272.206,
+    "end": 272.578
+  },
+  {
+    "word": "ese",
+    "start": 272.613,
+    "end": 272.845
+  },
+  {
+    "word": "d",
+    "start": 272.903,
+    "end": 272.973
+  },
+  {
+    "word": "a",
+    "start": 273.147,
+    "end": 273.298
+  },
+  {
+    "word": "hab",
+    "start": 273.576,
+    "end": 273.82
+  },
+  {
+    "word": "a",
+    "start": 273.948,
+    "end": 274.006
+  },
+  {
+    "word": "aprendido",
+    "start": 274.029,
+    "end": 274.575
+  },
+  {
+    "word": "una",
+    "start": 274.691,
+    "end": 274.888
+  },
+  {
+    "word": "lecci",
+    "start": 274.946,
+    "end": 275.271
+  },
+  {
+    "word": "n",
+    "start": 275.341,
+    "end": 275.388
+  },
+  {
+    "word": "maravillosa",
+    "start": 275.457,
+    "end": 276.386
+  },
+  {
+    "word": "el",
+    "start": 276.885,
+    "end": 277.048
+  },
+  {
+    "word": "verdadero",
+    "start": 277.117,
+    "end": 277.744
+  },
+  {
+    "word": "amor",
+    "start": 277.802,
+    "end": 278.209
+  },
+  {
+    "word": "significa",
+    "start": 278.487,
+    "end": 279.207
+  },
+  {
+    "word": "desear",
+    "start": 279.254,
+    "end": 279.741
+  },
+  {
+    "word": "la",
+    "start": 279.823,
+    "end": 279.892
+  },
+  {
+    "word": "felicidad",
+    "start": 279.95,
+    "end": 280.67
+  },
+  {
+    "word": "de",
+    "start": 280.705,
+    "end": 280.786
+  },
+  {
+    "word": "los",
+    "start": 280.833,
+    "end": 281.018
+  },
+  {
+    "word": "dem",
+    "start": 281.076,
+    "end": 281.285
+  },
+  {
+    "word": "s",
+    "start": 281.46,
+    "end": 281.634
+  },
+  {
+    "word": "y",
+    "start": 282.075,
+    "end": 282.156
+  },
+  {
+    "word": "la",
+    "start": 282.272,
+    "end": 282.342
+  },
+  {
+    "word": "mayor",
+    "start": 282.4,
+    "end": 282.725
+  },
+  {
+    "word": "alegr",
+    "start": 282.783,
+    "end": 283.108
+  },
+  {
+    "word": "a",
+    "start": 283.259,
+    "end": 283.387
+  },
+  {
+    "word": "es",
+    "start": 283.712,
+    "end": 283.898
+  },
+  {
+    "word": "ayudar",
+    "start": 283.979,
+    "end": 284.409
+  },
+  {
+    "word": "a",
+    "start": 284.467,
+    "end": 284.49
+  },
+  {
+    "word": "una",
+    "start": 284.583,
+    "end": 284.792
+  },
+  {
+    "word": "familia",
+    "start": 284.861,
+    "end": 285.616
+  },
+  {
+    "word": "a",
+    "start": 285.732,
+    "end": 285.848
+  },
+  {
+    "word": "estar",
+    "start": 285.918,
+    "end": 286.313
+  },
+  {
+    "word": "unida",
+    "start": 286.405,
+    "end": 286.951
+  }
+]
