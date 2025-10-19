@@ -1,0 +1,2362 @@
+[
+  {
+    "word": "Once",
+    "start": 0,
+    "end": 0.337
+  },
+  {
+    "word": "upon",
+    "start": 0.453,
+    "end": 0.743
+  },
+  {
+    "word": "a",
+    "start": 0.801,
+    "end": 0.824
+  },
+  {
+    "word": "time",
+    "start": 0.894,
+    "end": 1.335
+  },
+  {
+    "word": "in",
+    "start": 1.416,
+    "end": 1.509
+  },
+  {
+    "word": "a",
+    "start": 1.567,
+    "end": 1.591
+  },
+  {
+    "word": "cozy",
+    "start": 1.66,
+    "end": 2.02
+  },
+  {
+    "word": "little",
+    "start": 2.101,
+    "end": 2.368
+  },
+  {
+    "word": "village",
+    "start": 2.415,
+    "end": 2.844
+  },
+  {
+    "word": "nestled",
+    "start": 2.902,
+    "end": 3.32
+  },
+  {
+    "word": "beside",
+    "start": 3.367,
+    "end": 3.773
+  },
+  {
+    "word": "a",
+    "start": 3.808,
+    "end": 3.831
+  },
+  {
+    "word": "whispering",
+    "start": 3.889,
+    "end": 4.377
+  },
+  {
+    "word": "forest",
+    "start": 4.47,
+    "end": 5.004
+  },
+  {
+    "word": "lived",
+    "start": 5.596,
+    "end": 5.851
+  },
+  {
+    "word": "a",
+    "start": 5.898,
+    "end": 5.933
+  },
+  {
+    "word": "young",
+    "start": 6.026,
+    "end": 6.235
+  },
+  {
+    "word": "girl",
+    "start": 6.304,
+    "end": 6.641
+  },
+  {
+    "word": "named",
+    "start": 6.757,
+    "end": 7.024
+  },
+  {
+    "word": "Lily",
+    "start": 7.105,
+    "end": 7.477
+  },
+  {
+    "word": "Lily",
+    "start": 8.348,
+    "end": 8.719
+  },
+  {
+    "word": "had",
+    "start": 8.893,
+    "end": 9.067
+  },
+  {
+    "word": "a",
+    "start": 9.114,
+    "end": 9.149
+  },
+  {
+    "word": "kind",
+    "start": 9.218,
+    "end": 9.497
+  },
+  {
+    "word": "heart",
+    "start": 9.59,
+    "end": 9.927
+  },
+  {
+    "word": "and",
+    "start": 10.31,
+    "end": 10.565
+  },
+  {
+    "word": "a",
+    "start": 10.635,
+    "end": 10.658
+  },
+  {
+    "word": "special",
+    "start": 10.728,
+    "end": 11.157
+  },
+  {
+    "word": "connection",
+    "start": 11.25,
+    "end": 11.749
+  },
+  {
+    "word": "with",
+    "start": 11.807,
+    "end": 11.97
+  },
+  {
+    "word": "animals",
+    "start": 12.028,
+    "end": 12.574
+  },
+  {
+    "word": "She",
+    "start": 13.259,
+    "end": 13.41
+  },
+  {
+    "word": "believed",
+    "start": 13.502,
+    "end": 13.932
+  },
+  {
+    "word": "that",
+    "start": 13.967,
+    "end": 14.118
+  },
+  {
+    "word": "every",
+    "start": 14.211,
+    "end": 14.571
+  },
+  {
+    "word": "creature",
+    "start": 14.652,
+    "end": 15.105
+  },
+  {
+    "word": "big",
+    "start": 15.174,
+    "end": 15.499
+  },
+  {
+    "word": "or",
+    "start": 15.592,
+    "end": 15.766
+  },
+  {
+    "word": "small",
+    "start": 15.848,
+    "end": 16.289
+  },
+  {
+    "word": "had",
+    "start": 16.904,
+    "end": 17.067
+  },
+  {
+    "word": "a",
+    "start": 17.113,
+    "end": 17.148
+  },
+  {
+    "word": "unique",
+    "start": 17.229,
+    "end": 17.624
+  },
+  {
+    "word": "lesson",
+    "start": 17.67,
+    "end": 17.995
+  },
+  {
+    "word": "to",
+    "start": 18.053,
+    "end": 18.123
+  },
+  {
+    "word": "teach",
+    "start": 18.204,
+    "end": 18.599
+  },
+  {
+    "word": "Her",
+    "start": 19.284,
+    "end": 19.447
+  },
+  {
+    "word": "best",
+    "start": 19.528,
+    "end": 19.783
+  },
+  {
+    "word": "friend",
+    "start": 19.853,
+    "end": 20.12
+  },
+  {
+    "word": "was",
+    "start": 20.19,
+    "end": 20.317
+  },
+  {
+    "word": "a",
+    "start": 20.375,
+    "end": 20.41
+  },
+  {
+    "word": "scruffy",
+    "start": 20.468,
+    "end": 20.909
+  },
+  {
+    "word": "but",
+    "start": 20.956,
+    "end": 21.107
+  },
+  {
+    "word": "lovable",
+    "start": 21.223,
+    "end": 21.722
+  },
+  {
+    "word": "dog",
+    "start": 21.78,
+    "end": 22.163
+  },
+  {
+    "word": "named",
+    "start": 22.256,
+    "end": 22.512
+  },
+  {
+    "word": "Buster",
+    "start": 22.581,
+    "end": 23.069
+  },
+  {
+    "word": "who",
+    "start": 23.626,
+    "end": 23.777
+  },
+  {
+    "word": "was",
+    "start": 23.835,
+    "end": 23.974
+  },
+  {
+    "word": "always",
+    "start": 24.067,
+    "end": 24.567
+  },
+  {
+    "word": "by",
+    "start": 24.636,
+    "end": 24.764
+  },
+  {
+    "word": "her",
+    "start": 24.834,
+    "end": 24.938
+  },
+  {
+    "word": "side",
+    "start": 25.008,
+    "end": 25.542
+  },
+  {
+    "word": "a",
+    "start": 26.111,
+    "end": 26.192
+  },
+  {
+    "word": "furry",
+    "start": 26.308,
+    "end": 26.645
+  },
+  {
+    "word": "shadow",
+    "start": 26.726,
+    "end": 27.098
+  },
+  {
+    "word": "full",
+    "start": 27.167,
+    "end": 27.353
+  },
+  {
+    "word": "of",
+    "start": 27.411,
+    "end": 27.481
+  },
+  {
+    "word": "loyalty",
+    "start": 27.597,
+    "end": 28.084
+  },
+  {
+    "word": "and",
+    "start": 28.142,
+    "end": 28.224
+  },
+  {
+    "word": "warmth",
+    "start": 28.293,
+    "end": 28.746
+  },
+  {
+    "word": "One",
+    "start": 29.617,
+    "end": 29.861
+  },
+  {
+    "word": "day",
+    "start": 29.907,
+    "end": 30.197
+  },
+  {
+    "word": "a",
+    "start": 30.546,
+    "end": 30.627
+  },
+  {
+    "word": "strange",
+    "start": 30.743,
+    "end": 31.173
+  },
+  {
+    "word": "quiet",
+    "start": 31.231,
+    "end": 31.625
+  },
+  {
+    "word": "fell",
+    "start": 31.695,
+    "end": 31.881
+  },
+  {
+    "word": "over",
+    "start": 31.939,
+    "end": 32.113
+  },
+  {
+    "word": "the",
+    "start": 32.171,
+    "end": 32.252
+  },
+  {
+    "word": "village",
+    "start": 32.322,
+    "end": 32.868
+  },
+  {
+    "word": "The",
+    "start": 33.1,
+    "end": 33.239
+  },
+  {
+    "word": "birds",
+    "start": 33.332,
+    "end": 33.657
+  },
+  {
+    "word": "stopped",
+    "start": 33.692,
+    "end": 34.063
+  },
+  {
+    "word": "singing",
+    "start": 34.098,
+    "end": 34.504
+  },
+  {
+    "word": "and",
+    "start": 35.062,
+    "end": 35.213
+  },
+  {
+    "word": "the",
+    "start": 35.271,
+    "end": 35.352
+  },
+  {
+    "word": "usually",
+    "start": 35.445,
+    "end": 35.921
+  },
+  {
+    "word": "bustling",
+    "start": 36.002,
+    "end": 36.466
+  },
+  {
+    "word": "forest",
+    "start": 36.559,
+    "end": 37.024
+  },
+  {
+    "word": "seemed",
+    "start": 37.082,
+    "end": 37.384
+  },
+  {
+    "word": "hushed",
+    "start": 37.442,
+    "end": 37.895
+  },
+  {
+    "word": "A",
+    "start": 38.487,
+    "end": 38.568
+  },
+  {
+    "word": "mysterious",
+    "start": 38.661,
+    "end": 39.357
+  },
+  {
+    "word": "illness",
+    "start": 39.45,
+    "end": 39.926
+  },
+  {
+    "word": "began",
+    "start": 39.984,
+    "end": 40.286
+  },
+  {
+    "word": "to",
+    "start": 40.344,
+    "end": 40.402
+  },
+  {
+    "word": "spread",
+    "start": 40.472,
+    "end": 40.936
+  },
+  {
+    "word": "making",
+    "start": 41.552,
+    "end": 41.877
+  },
+  {
+    "word": "people",
+    "start": 41.946,
+    "end": 42.271
+  },
+  {
+    "word": "feel",
+    "start": 42.318,
+    "end": 42.573
+  },
+  {
+    "word": "weak",
+    "start": 42.655,
+    "end": 42.945
+  },
+  {
+    "word": "and",
+    "start": 43.073,
+    "end": 43.247
+  },
+  {
+    "word": "tired",
+    "start": 43.316,
+    "end": 43.827
+  },
+  {
+    "word": "The",
+    "start": 44.582,
+    "end": 44.71
+  },
+  {
+    "word": "village",
+    "start": 44.779,
+    "end": 45.186
+  },
+  {
+    "word": "doctor",
+    "start": 45.232,
+    "end": 45.72
+  },
+  {
+    "word": "a",
+    "start": 45.859,
+    "end": 45.952
+  },
+  {
+    "word": "wise",
+    "start": 46.068,
+    "end": 46.347
+  },
+  {
+    "word": "old",
+    "start": 46.393,
+    "end": 46.567
+  },
+  {
+    "word": "man",
+    "start": 46.625,
+    "end": 46.985
+  },
+  {
+    "word": "was",
+    "start": 47.542,
+    "end": 47.717
+  },
+  {
+    "word": "at",
+    "start": 47.775,
+    "end": 47.867
+  },
+  {
+    "word": "a",
+    "start": 47.914,
+    "end": 47.949
+  },
+  {
+    "word": "loss",
+    "start": 48.018,
+    "end": 48.483
+  },
+  {
+    "word": "He",
+    "start": 49.168,
+    "end": 49.307
+  },
+  {
+    "word": "tried",
+    "start": 49.365,
+    "end": 49.772
+  },
+  {
+    "word": "every",
+    "start": 49.888,
+    "end": 50.224
+  },
+  {
+    "word": "remedy",
+    "start": 50.317,
+    "end": 50.689
+  },
+  {
+    "word": "he",
+    "start": 50.758,
+    "end": 50.84
+  },
+  {
+    "word": "knew",
+    "start": 50.921,
+    "end": 51.176
+  },
+  {
+    "word": "but",
+    "start": 51.826,
+    "end": 52.012
+  },
+  {
+    "word": "nothing",
+    "start": 52.082,
+    "end": 52.419
+  },
+  {
+    "word": "seemed",
+    "start": 52.477,
+    "end": 52.767
+  },
+  {
+    "word": "to",
+    "start": 52.802,
+    "end": 52.86
+  },
+  {
+    "word": "work",
+    "start": 52.93,
+    "end": 53.255
+  },
+  {
+    "word": "Despair",
+    "start": 53.94,
+    "end": 54.543
+  },
+  {
+    "word": "started",
+    "start": 54.66,
+    "end": 55.089
+  },
+  {
+    "word": "to",
+    "start": 55.124,
+    "end": 55.194
+  },
+  {
+    "word": "settle",
+    "start": 55.275,
+    "end": 55.612
+  },
+  {
+    "word": "in",
+    "start": 55.646,
+    "end": 55.716
+  },
+  {
+    "word": "the",
+    "start": 55.751,
+    "end": 55.832
+  },
+  {
+    "word": "hearts",
+    "start": 55.902,
+    "end": 56.192
+  },
+  {
+    "word": "of",
+    "start": 56.239,
+    "end": 56.308
+  },
+  {
+    "word": "the",
+    "start": 56.355,
+    "end": 56.424
+  },
+  {
+    "word": "villagers",
+    "start": 56.494,
+    "end": 57.109
+  },
+  {
+    "word": "Lily",
+    "start": 57.829,
+    "end": 58.224
+  },
+  {
+    "word": "however",
+    "start": 58.375,
+    "end": 58.862
+  },
+  {
+    "word": "noticed",
+    "start": 59.478,
+    "end": 59.861
+  },
+  {
+    "word": "something",
+    "start": 59.896,
+    "end": 60.256
+  },
+  {
+    "word": "peculiar",
+    "start": 60.325,
+    "end": 60.952
+  },
+  {
+    "word": "While",
+    "start": 61.765,
+    "end": 62.136
+  },
+  {
+    "word": "humans",
+    "start": 62.206,
+    "end": 62.659
+  },
+  {
+    "word": "were",
+    "start": 62.717,
+    "end": 62.868
+  },
+  {
+    "word": "getting",
+    "start": 62.914,
+    "end": 63.181
+  },
+  {
+    "word": "sick",
+    "start": 63.274,
+    "end": 63.611
+  },
+  {
+    "word": "the",
+    "start": 64.226,
+    "end": 64.342
+  },
+  {
+    "word": "animals",
+    "start": 64.4,
+    "end": 64.795
+  },
+  {
+    "word": "in",
+    "start": 64.841,
+    "end": 64.911
+  },
+  {
+    "word": "the",
+    "start": 64.958,
+    "end": 65.027
+  },
+  {
+    "word": "village",
+    "start": 65.109,
+    "end": 65.48
+  },
+  {
+    "word": "seemed",
+    "start": 65.515,
+    "end": 65.805
+  },
+  {
+    "word": "unaffected",
+    "start": 65.863,
+    "end": 66.548
+  },
+  {
+    "word": "Buster",
+    "start": 67.14,
+    "end": 67.686
+  },
+  {
+    "word": "still",
+    "start": 67.872,
+    "end": 68.185
+  },
+  {
+    "word": "full",
+    "start": 68.255,
+    "end": 68.452
+  },
+  {
+    "word": "of",
+    "start": 68.499,
+    "end": 68.568
+  },
+  {
+    "word": "energy",
+    "start": 68.626,
+    "end": 69.137
+  },
+  {
+    "word": "would",
+    "start": 69.694,
+    "end": 69.903
+  },
+  {
+    "word": "often",
+    "start": 69.95,
+    "end": 70.252
+  },
+  {
+    "word": "nudge",
+    "start": 70.344,
+    "end": 70.635
+  },
+  {
+    "word": "her",
+    "start": 70.67,
+    "end": 70.786
+  },
+  {
+    "word": "hand",
+    "start": 70.867,
+    "end": 71.296
+  },
+  {
+    "word": "as",
+    "start": 71.831,
+    "end": 71.993
+  },
+  {
+    "word": "if",
+    "start": 72.063,
+    "end": 72.202
+  },
+  {
+    "word": "trying",
+    "start": 72.411,
+    "end": 72.759
+  },
+  {
+    "word": "to",
+    "start": 72.817,
+    "end": 72.887
+  },
+  {
+    "word": "tell",
+    "start": 72.968,
+    "end": 73.177
+  },
+  {
+    "word": "her",
+    "start": 73.235,
+    "end": 73.328
+  },
+  {
+    "word": "something",
+    "start": 73.398,
+    "end": 73.862
+  },
+  {
+    "word": "Lily",
+    "start": 74.303,
+    "end": 74.687
+  },
+  {
+    "word": "remembered",
+    "start": 74.861,
+    "end": 75.372
+  },
+  {
+    "word": "her",
+    "start": 75.418,
+    "end": 75.522
+  },
+  {
+    "word": "grandmother",
+    "start": 75.592,
+    "end": 76.149
+  },
+  {
+    "word": "s",
+    "start": 76.196,
+    "end": 76.231
+  },
+  {
+    "word": "old",
+    "start": 76.289,
+    "end": 76.486
+  },
+  {
+    "word": "tales",
+    "start": 76.544,
+    "end": 77.009
+  },
+  {
+    "word": "about",
+    "start": 77.078,
+    "end": 77.345
+  },
+  {
+    "word": "animals",
+    "start": 77.403,
+    "end": 77.81
+  },
+  {
+    "word": "sensing",
+    "start": 77.868,
+    "end": 78.262
+  },
+  {
+    "word": "danger",
+    "start": 78.355,
+    "end": 78.855
+  },
+  {
+    "word": "and",
+    "start": 79.238,
+    "end": 79.447
+  },
+  {
+    "word": "possessing",
+    "start": 79.505,
+    "end": 80.05
+  },
+  {
+    "word": "ancient",
+    "start": 80.166,
+    "end": 80.596
+  },
+  {
+    "word": "wisdom",
+    "start": 80.666,
+    "end": 81.13
+  },
+  {
+    "word": "She",
+    "start": 81.664,
+    "end": 81.827
+  },
+  {
+    "word": "wondered",
+    "start": 81.92,
+    "end": 82.338
+  },
+  {
+    "word": "if",
+    "start": 82.384,
+    "end": 82.465
+  },
+  {
+    "word": "the",
+    "start": 82.512,
+    "end": 82.605
+  },
+  {
+    "word": "animals",
+    "start": 82.663,
+    "end": 83.057
+  },
+  {
+    "word": "held",
+    "start": 83.115,
+    "end": 83.336
+  },
+  {
+    "word": "a",
+    "start": 83.382,
+    "end": 83.417
+  },
+  {
+    "word": "secret",
+    "start": 83.499,
+    "end": 83.893
+  },
+  {
+    "word": "to",
+    "start": 83.928,
+    "end": 83.998
+  },
+  {
+    "word": "their",
+    "start": 84.079,
+    "end": 84.253
+  },
+  {
+    "word": "recovery",
+    "start": 84.323,
+    "end": 84.973
+  },
+  {
+    "word": "With",
+    "start": 85.321,
+    "end": 85.542
+  },
+  {
+    "word": "Buster",
+    "start": 85.623,
+    "end": 86.053
+  },
+  {
+    "word": "leading",
+    "start": 86.122,
+    "end": 86.436
+  },
+  {
+    "word": "the",
+    "start": 86.494,
+    "end": 86.575
+  },
+  {
+    "word": "way",
+    "start": 86.645,
+    "end": 86.97
+  },
+  {
+    "word": "Lily",
+    "start": 87.585,
+    "end": 87.887
+  },
+  {
+    "word": "ventured",
+    "start": 88.003,
+    "end": 88.444
+  },
+  {
+    "word": "into",
+    "start": 88.491,
+    "end": 88.665
+  },
+  {
+    "word": "the",
+    "start": 88.746,
+    "end": 88.828
+  },
+  {
+    "word": "deepest",
+    "start": 88.92,
+    "end": 89.35
+  },
+  {
+    "word": "part",
+    "start": 89.42,
+    "end": 89.64
+  },
+  {
+    "word": "of",
+    "start": 89.675,
+    "end": 89.733
+  },
+  {
+    "word": "the",
+    "start": 89.791,
+    "end": 89.861
+  },
+  {
+    "word": "forest",
+    "start": 89.942,
+    "end": 90.499
+  },
+  {
+    "word": "a",
+    "start": 91.033,
+    "end": 91.115
+  },
+  {
+    "word": "place",
+    "start": 91.231,
+    "end": 91.637
+  },
+  {
+    "word": "where",
+    "start": 91.672,
+    "end": 91.904
+  },
+  {
+    "word": "few",
+    "start": 91.974,
+    "end": 92.206
+  },
+  {
+    "word": "villagers",
+    "start": 92.276,
+    "end": 92.798
+  },
+  {
+    "word": "dared",
+    "start": 92.891,
+    "end": 93.228
+  },
+  {
+    "word": "to",
+    "start": 93.274,
+    "end": 93.344
+  },
+  {
+    "word": "go",
+    "start": 93.413,
+    "end": 93.669
+  },
+  {
+    "word": "They",
+    "start": 94.516,
+    "end": 94.702
+  },
+  {
+    "word": "met",
+    "start": 94.772,
+    "end": 95.027
+  },
+  {
+    "word": "a",
+    "start": 95.12,
+    "end": 95.213
+  },
+  {
+    "word": "wise",
+    "start": 95.329,
+    "end": 95.724
+  },
+  {
+    "word": "old",
+    "start": 95.77,
+    "end": 95.956
+  },
+  {
+    "word": "owl",
+    "start": 96.014,
+    "end": 96.339
+  },
+  {
+    "word": "named",
+    "start": 96.455,
+    "end": 96.722
+  },
+  {
+    "word": "Hoot",
+    "start": 96.792,
+    "end": 97.117
+  },
+  {
+    "word": "whose",
+    "start": 97.732,
+    "end": 98.011
+  },
+  {
+    "word": "eyes",
+    "start": 98.057,
+    "end": 98.359
+  },
+  {
+    "word": "sparkled",
+    "start": 98.429,
+    "end": 98.951
+  },
+  {
+    "word": "with",
+    "start": 98.998,
+    "end": 99.16
+  },
+  {
+    "word": "ancient",
+    "start": 99.276,
+    "end": 99.706
+  },
+  {
+    "word": "knowledge",
+    "start": 99.764,
+    "end": 100.368
+  },
+  {
+    "word": "Hoot",
+    "start": 100.681,
+    "end": 100.972
+  },
+  {
+    "word": "listened",
+    "start": 101.053,
+    "end": 101.436
+  },
+  {
+    "word": "patiently",
+    "start": 101.506,
+    "end": 102.074
+  },
+  {
+    "word": "to",
+    "start": 102.133,
+    "end": 102.214
+  },
+  {
+    "word": "Lily",
+    "start": 102.295,
+    "end": 102.551
+  },
+  {
+    "word": "s",
+    "start": 102.597,
+    "end": 102.632
+  },
+  {
+    "word": "concerns",
+    "start": 102.69,
+    "end": 103.41
+  },
+  {
+    "word": "and",
+    "start": 103.793,
+    "end": 103.99
+  },
+  {
+    "word": "then",
+    "start": 104.048,
+    "end": 104.199
+  },
+  {
+    "word": "hooted",
+    "start": 104.269,
+    "end": 104.606
+  },
+  {
+    "word": "softly",
+    "start": 104.675,
+    "end": 105.209
+  },
+  {
+    "word": "guiding",
+    "start": 105.825,
+    "end": 106.196
+  },
+  {
+    "word": "them",
+    "start": 106.243,
+    "end": 106.382
+  },
+  {
+    "word": "towards",
+    "start": 106.44,
+    "end": 106.765
+  },
+  {
+    "word": "a",
+    "start": 106.812,
+    "end": 106.846
+  },
+  {
+    "word": "hidden",
+    "start": 106.928,
+    "end": 107.218
+  },
+  {
+    "word": "grove",
+    "start": 107.288,
+    "end": 107.903
+  },
+  {
+    "word": "filled",
+    "start": 108.228,
+    "end": 108.553
+  },
+  {
+    "word": "with",
+    "start": 108.588,
+    "end": 108.75
+  },
+  {
+    "word": "glowing",
+    "start": 108.82,
+    "end": 109.273
+  },
+  {
+    "word": "ethereal",
+    "start": 109.343,
+    "end": 109.853
+  },
+  {
+    "word": "flowers",
+    "start": 109.935,
+    "end": 110.527
+  },
+  {
+    "word": "Hoot",
+    "start": 111.397,
+    "end": 111.746
+  },
+  {
+    "word": "explained",
+    "start": 111.92,
+    "end": 112.477
+  },
+  {
+    "word": "that",
+    "start": 112.5,
+    "end": 112.628
+  },
+  {
+    "word": "these",
+    "start": 112.675,
+    "end": 113.116
+  },
+  {
+    "word": "Moonpetal",
+    "start": 113.441,
+    "end": 114.045
+  },
+  {
+    "word": "flowers",
+    "start": 114.114,
+    "end": 114.637
+  },
+  {
+    "word": "bloomed",
+    "start": 114.718,
+    "end": 115.078
+  },
+  {
+    "word": "only",
+    "start": 115.136,
+    "end": 115.356
+  },
+  {
+    "word": "under",
+    "start": 115.415,
+    "end": 115.624
+  },
+  {
+    "word": "specific",
+    "start": 115.693,
+    "end": 116.216
+  },
+  {
+    "word": "conditions",
+    "start": 116.262,
+    "end": 116.924
+  },
+  {
+    "word": "and",
+    "start": 117.307,
+    "end": 117.516
+  },
+  {
+    "word": "possessed",
+    "start": 117.574,
+    "end": 118.027
+  },
+  {
+    "word": "potent",
+    "start": 118.096,
+    "end": 118.491
+  },
+  {
+    "word": "healing",
+    "start": 118.538,
+    "end": 118.886
+  },
+  {
+    "word": "properties",
+    "start": 118.956,
+    "end": 119.559
+  },
+  {
+    "word": "The",
+    "start": 120.43,
+    "end": 120.558
+  },
+  {
+    "word": "animals",
+    "start": 120.627,
+    "end": 121.011
+  },
+  {
+    "word": "of",
+    "start": 121.057,
+    "end": 121.127
+  },
+  {
+    "word": "the",
+    "start": 121.173,
+    "end": 121.254
+  },
+  {
+    "word": "forest",
+    "start": 121.336,
+    "end": 121.777
+  },
+  {
+    "word": "knew",
+    "start": 121.847,
+    "end": 122.021
+  },
+  {
+    "word": "of",
+    "start": 122.09,
+    "end": 122.16
+  },
+  {
+    "word": "them",
+    "start": 122.218,
+    "end": 122.439
+  },
+  {
+    "word": "and",
+    "start": 122.764,
+    "end": 123.008
+  },
+  {
+    "word": "used",
+    "start": 123.1,
+    "end": 123.356
+  },
+  {
+    "word": "them",
+    "start": 123.402,
+    "end": 123.542
+  },
+  {
+    "word": "for",
+    "start": 123.611,
+    "end": 123.716
+  },
+  {
+    "word": "their",
+    "start": 123.762,
+    "end": 123.936
+  },
+  {
+    "word": "own",
+    "start": 124.006,
+    "end": 124.145
+  },
+  {
+    "word": "ailments",
+    "start": 124.203,
+    "end": 124.714
+  },
+  {
+    "word": "The",
+    "start": 125.434,
+    "end": 125.573
+  },
+  {
+    "word": "illness",
+    "start": 125.666,
+    "end": 126.096
+  },
+  {
+    "word": "in",
+    "start": 126.142,
+    "end": 126.212
+  },
+  {
+    "word": "the",
+    "start": 126.258,
+    "end": 126.328
+  },
+  {
+    "word": "village",
+    "start": 126.398,
+    "end": 126.955
+  },
+  {
+    "word": "Hoot",
+    "start": 127.083,
+    "end": 127.315
+  },
+  {
+    "word": "explained",
+    "start": 127.373,
+    "end": 127.988
+  },
+  {
+    "word": "was",
+    "start": 128.545,
+    "end": 128.708
+  },
+  {
+    "word": "caused",
+    "start": 128.801,
+    "end": 129.172
+  },
+  {
+    "word": "by",
+    "start": 129.219,
+    "end": 129.358
+  },
+  {
+    "word": "an",
+    "start": 129.416,
+    "end": 129.486
+  },
+  {
+    "word": "imbalance",
+    "start": 129.532,
+    "end": 130.345
+  },
+  {
+    "word": "and",
+    "start": 130.751,
+    "end": 130.902
+  },
+  {
+    "word": "the",
+    "start": 130.96,
+    "end": 131.03
+  },
+  {
+    "word": "Moonpetals",
+    "start": 131.111,
+    "end": 131.75
+  },
+  {
+    "word": "could",
+    "start": 131.808,
+    "end": 131.994
+  },
+  {
+    "word": "restore",
+    "start": 132.052,
+    "end": 132.481
+  },
+  {
+    "word": "harmony",
+    "start": 132.563,
+    "end": 133.05
+  },
+  {
+    "word": "Lily",
+    "start": 133.921,
+    "end": 134.292
+  },
+  {
+    "word": "carefully",
+    "start": 134.467,
+    "end": 134.977
+  },
+  {
+    "word": "gathered",
+    "start": 135.059,
+    "end": 135.488
+  },
+  {
+    "word": "the",
+    "start": 135.523,
+    "end": 135.593
+  },
+  {
+    "word": "Moonpetals",
+    "start": 135.674,
+    "end": 136.405
+  },
+  {
+    "word": "her",
+    "start": 136.963,
+    "end": 137.102
+  },
+  {
+    "word": "heart",
+    "start": 137.195,
+    "end": 137.462
+  },
+  {
+    "word": "filled",
+    "start": 137.532,
+    "end": 137.88
+  },
+  {
+    "word": "with",
+    "start": 137.926,
+    "end": 138.089
+  },
+  {
+    "word": "hope",
+    "start": 138.147,
+    "end": 138.53
+  },
+  {
+    "word": "Buster",
+    "start": 139.18,
+    "end": 139.726
+  },
+  {
+    "word": "ever",
+    "start": 139.958,
+    "end": 140.237
+  },
+  {
+    "word": "vigilant",
+    "start": 140.318,
+    "end": 140.898
+  },
+  {
+    "word": "guarded",
+    "start": 141.514,
+    "end": 141.897
+  },
+  {
+    "word": "her",
+    "start": 141.955,
+    "end": 142.059
+  },
+  {
+    "word": "as",
+    "start": 142.129,
+    "end": 142.199
+  },
+  {
+    "word": "she",
+    "start": 142.245,
+    "end": 142.373
+  },
+  {
+    "word": "worked",
+    "start": 142.454,
+    "end": 142.872
+  },
+  {
+    "word": "Upon",
+    "start": 143.534,
+    "end": 143.847
+  },
+  {
+    "word": "returning",
+    "start": 143.929,
+    "end": 144.416
+  },
+  {
+    "word": "to",
+    "start": 144.474,
+    "end": 144.544
+  },
+  {
+    "word": "the",
+    "start": 144.625,
+    "end": 144.695
+  },
+  {
+    "word": "village",
+    "start": 144.753,
+    "end": 145.299
+  },
+  {
+    "word": "Lily",
+    "start": 145.566,
+    "end": 145.96
+  },
+  {
+    "word": "with",
+    "start": 146.065,
+    "end": 146.274
+  },
+  {
+    "word": "the",
+    "start": 146.309,
+    "end": 146.378
+  },
+  {
+    "word": "help",
+    "start": 146.448,
+    "end": 146.657
+  },
+  {
+    "word": "of",
+    "start": 146.715,
+    "end": 146.773
+  },
+  {
+    "word": "the",
+    "start": 146.831,
+    "end": 146.901
+  },
+  {
+    "word": "doctor",
+    "start": 146.97,
+    "end": 147.435
+  },
+  {
+    "word": "prepared",
+    "start": 148.05,
+    "end": 148.503
+  },
+  {
+    "word": "a",
+    "start": 148.538,
+    "end": 148.573
+  },
+  {
+    "word": "special",
+    "start": 148.619,
+    "end": 149.037
+  },
+  {
+    "word": "herbal",
+    "start": 149.153,
+    "end": 149.501
+  },
+  {
+    "word": "tea",
+    "start": 149.583,
+    "end": 149.908
+  },
+  {
+    "word": "using",
+    "start": 150.024,
+    "end": 150.337
+  },
+  {
+    "word": "the",
+    "start": 150.395,
+    "end": 150.465
+  },
+  {
+    "word": "magical",
+    "start": 150.523,
+    "end": 150.941
+  },
+  {
+    "word": "flowers",
+    "start": 151.034,
+    "end": 151.649
+  },
+  {
+    "word": "The",
+    "start": 152.427,
+    "end": 152.555
+  },
+  {
+    "word": "villagers",
+    "start": 152.625,
+    "end": 153.252
+  },
+  {
+    "word": "though",
+    "start": 153.6,
+    "end": 153.832
+  },
+  {
+    "word": "skeptical",
+    "start": 153.879,
+    "end": 154.424
+  },
+  {
+    "word": "at",
+    "start": 154.482,
+    "end": 154.564
+  },
+  {
+    "word": "first",
+    "start": 154.633,
+    "end": 155.086
+  },
+  {
+    "word": "trusted",
+    "start": 155.434,
+    "end": 155.887
+  },
+  {
+    "word": "Lily",
+    "start": 155.957,
+    "end": 156.305
+  },
+  {
+    "word": "and",
+    "start": 156.479,
+    "end": 156.677
+  },
+  {
+    "word": "her",
+    "start": 156.746,
+    "end": 156.862
+  },
+  {
+    "word": "animal",
+    "start": 156.932,
+    "end": 157.257
+  },
+  {
+    "word": "friends",
+    "start": 157.338,
+    "end": 157.826
+  },
+  {
+    "word": "Slowly",
+    "start": 158.511,
+    "end": 159.08
+  },
+  {
+    "word": "but",
+    "start": 159.254,
+    "end": 159.475
+  },
+  {
+    "word": "surely",
+    "start": 159.533,
+    "end": 160.055
+  },
+  {
+    "word": "the",
+    "start": 160.624,
+    "end": 160.74
+  },
+  {
+    "word": "tea",
+    "start": 160.798,
+    "end": 161.065
+  },
+  {
+    "word": "began",
+    "start": 161.158,
+    "end": 161.495
+  },
+  {
+    "word": "to",
+    "start": 161.553,
+    "end": 161.622
+  },
+  {
+    "word": "work",
+    "start": 161.692,
+    "end": 161.924
+  },
+  {
+    "word": "its",
+    "start": 161.982,
+    "end": 162.122
+  },
+  {
+    "word": "magic",
+    "start": 162.191,
+    "end": 162.644
+  },
+  {
+    "word": "The",
+    "start": 163.329,
+    "end": 163.468
+  },
+  {
+    "word": "villagers",
+    "start": 163.526,
+    "end": 164.026
+  },
+  {
+    "word": "regained",
+    "start": 164.107,
+    "end": 164.525
+  },
+  {
+    "word": "their",
+    "start": 164.571,
+    "end": 164.734
+  },
+  {
+    "word": "strength",
+    "start": 164.792,
+    "end": 165.28
+  },
+  {
+    "word": "and",
+    "start": 165.628,
+    "end": 165.79
+  },
+  {
+    "word": "the",
+    "start": 165.837,
+    "end": 165.918
+  },
+  {
+    "word": "joyful",
+    "start": 166.011,
+    "end": 166.441
+  },
+  {
+    "word": "sounds",
+    "start": 166.522,
+    "end": 166.835
+  },
+  {
+    "word": "of",
+    "start": 166.882,
+    "end": 166.951
+  },
+  {
+    "word": "life",
+    "start": 167.044,
+    "end": 167.381
+  },
+  {
+    "word": "returned",
+    "start": 167.439,
+    "end": 167.892
+  },
+  {
+    "word": "to",
+    "start": 167.927,
+    "end": 167.996
+  },
+  {
+    "word": "the",
+    "start": 168.078,
+    "end": 168.147
+  },
+  {
+    "word": "village",
+    "start": 168.205,
+    "end": 168.763
+  },
+  {
+    "word": "The",
+    "start": 169.006,
+    "end": 169.146
+  },
+  {
+    "word": "birds",
+    "start": 169.239,
+    "end": 169.691
+  },
+  {
+    "word": "sang",
+    "start": 169.842,
+    "end": 170.133
+  },
+  {
+    "word": "again",
+    "start": 170.202,
+    "end": 170.609
+  },
+  {
+    "word": "and",
+    "start": 171.108,
+    "end": 171.27
+  },
+  {
+    "word": "the",
+    "start": 171.317,
+    "end": 171.398
+  },
+  {
+    "word": "forest",
+    "start": 171.479,
+    "end": 171.886
+  },
+  {
+    "word": "animals",
+    "start": 171.944,
+    "end": 172.385
+  },
+  {
+    "word": "resumed",
+    "start": 172.478,
+    "end": 173.024
+  },
+  {
+    "word": "their",
+    "start": 173.082,
+    "end": 173.256
+  },
+  {
+    "word": "playful",
+    "start": 173.314,
+    "end": 173.732
+  },
+  {
+    "word": "antics",
+    "start": 173.801,
+    "end": 174.335
+  },
+  {
+    "word": "The",
+    "start": 175.113,
+    "end": 175.241
+  },
+  {
+    "word": "experience",
+    "start": 175.311,
+    "end": 175.996
+  },
+  {
+    "word": "taught",
+    "start": 176.042,
+    "end": 176.332
+  },
+  {
+    "word": "everyone",
+    "start": 176.379,
+    "end": 176.878
+  },
+  {
+    "word": "a",
+    "start": 176.959,
+    "end": 177.052
+  },
+  {
+    "word": "profound",
+    "start": 177.145,
+    "end": 177.598
+  },
+  {
+    "word": "lesson",
+    "start": 177.679,
+    "end": 178.074
+  },
+  {
+    "word": "that",
+    "start": 178.887,
+    "end": 179.061
+  },
+  {
+    "word": "animals",
+    "start": 179.119,
+    "end": 179.595
+  },
+  {
+    "word": "are",
+    "start": 179.688,
+    "end": 179.885
+  },
+  {
+    "word": "not",
+    "start": 179.931,
+    "end": 180.082
+  },
+  {
+    "word": "just",
+    "start": 180.14,
+    "end": 180.338
+  },
+  {
+    "word": "companions",
+    "start": 180.396,
+    "end": 181.185
+  },
+  {
+    "word": "but",
+    "start": 181.603,
+    "end": 181.766
+  },
+  {
+    "word": "also",
+    "start": 181.812,
+    "end": 182.114
+  },
+  {
+    "word": "guides",
+    "start": 182.207,
+    "end": 182.741
+  },
+  {
+    "word": "healers",
+    "start": 182.997,
+    "end": 183.565
+  },
+  {
+    "word": "and",
+    "start": 184.018,
+    "end": 184.181
+  },
+  {
+    "word": "an",
+    "start": 184.25,
+    "end": 184.32
+  },
+  {
+    "word": "integral",
+    "start": 184.413,
+    "end": 184.947
+  },
+  {
+    "word": "part",
+    "start": 185.028,
+    "end": 185.284
+  },
+  {
+    "word": "of",
+    "start": 185.319,
+    "end": 185.377
+  },
+  {
+    "word": "our",
+    "start": 185.435,
+    "end": 185.562
+  },
+  {
+    "word": "well",
+    "start": 185.632,
+    "end": 185.841
+  },
+  {
+    "word": "being",
+    "start": 185.911,
+    "end": 186.271
+  },
+  {
+    "word": "From",
+    "start": 187.142,
+    "end": 187.339
+  },
+  {
+    "word": "that",
+    "start": 187.397,
+    "end": 187.56
+  },
+  {
+    "word": "day",
+    "start": 187.629,
+    "end": 187.804
+  },
+  {
+    "word": "forward",
+    "start": 187.885,
+    "end": 188.372
+  },
+  {
+    "word": "the",
+    "start": 188.697,
+    "end": 188.814
+  },
+  {
+    "word": "village",
+    "start": 188.895,
+    "end": 189.266
+  },
+  {
+    "word": "held",
+    "start": 189.313,
+    "end": 189.533
+  },
+  {
+    "word": "an",
+    "start": 189.591,
+    "end": 189.661
+  },
+  {
+    "word": "annual",
+    "start": 189.754,
+    "end": 190.184
+  },
+  {
+    "word": "festival",
+    "start": 190.276,
+    "end": 190.764
+  },
+  {
+    "word": "to",
+    "start": 190.834,
+    "end": 190.915
+  },
+  {
+    "word": "honor",
+    "start": 191.031,
+    "end": 191.31
+  },
+  {
+    "word": "their",
+    "start": 191.368,
+    "end": 191.542
+  },
+  {
+    "word": "animal",
+    "start": 191.612,
+    "end": 191.971
+  },
+  {
+    "word": "friends",
+    "start": 192.053,
+    "end": 192.529
+  },
+  {
+    "word": "celebrating",
+    "start": 192.912,
+    "end": 193.574
+  },
+  {
+    "word": "the",
+    "start": 193.655,
+    "end": 193.736
+  },
+  {
+    "word": "deep",
+    "start": 193.829,
+    "end": 194.061
+  },
+  {
+    "word": "bond",
+    "start": 194.143,
+    "end": 194.502
+  },
+  {
+    "word": "between",
+    "start": 194.584,
+    "end": 194.944
+  },
+  {
+    "word": "humans",
+    "start": 195.013,
+    "end": 195.536
+  },
+  {
+    "word": "and",
+    "start": 195.861,
+    "end": 196.07
+  },
+  {
+    "word": "the",
+    "start": 196.128,
+    "end": 196.198
+  },
+  {
+    "word": "natural",
+    "start": 196.256,
+    "end": 196.662
+  },
+  {
+    "word": "world",
+    "start": 196.755,
+    "end": 197.184
+  },
+  {
+    "word": "Lily",
+    "start": 197.718,
+    "end": 198.102
+  },
+  {
+    "word": "and",
+    "start": 198.276,
+    "end": 198.461
+  },
+  {
+    "word": "Buster",
+    "start": 198.543,
+    "end": 199.042
+  },
+  {
+    "word": "forever",
+    "start": 199.541,
+    "end": 199.948
+  },
+  {
+    "word": "remembered",
+    "start": 200.017,
+    "end": 200.516
+  },
+  {
+    "word": "as",
+    "start": 200.563,
+    "end": 200.644
+  },
+  {
+    "word": "heroes",
+    "start": 200.737,
+    "end": 201.259
+  },
+  {
+    "word": "continued",
+    "start": 201.875,
+    "end": 202.386
+  },
+  {
+    "word": "to",
+    "start": 202.432,
+    "end": 202.513
+  },
+  {
+    "word": "advocate",
+    "start": 202.629,
+    "end": 203.129
+  },
+  {
+    "word": "for",
+    "start": 203.164,
+    "end": 203.268
+  },
+  {
+    "word": "the",
+    "start": 203.314,
+    "end": 203.407
+  },
+  {
+    "word": "animals",
+    "start": 203.477,
+    "end": 203.999
+  },
+  {
+    "word": "reminding",
+    "start": 204.557,
+    "end": 205.056
+  },
+  {
+    "word": "everyone",
+    "start": 205.114,
+    "end": 205.613
+  },
+  {
+    "word": "that",
+    "start": 205.66,
+    "end": 205.811
+  },
+  {
+    "word": "empathy",
+    "start": 205.869,
+    "end": 206.403
+  },
+  {
+    "word": "observation",
+    "start": 206.937,
+    "end": 207.784
+  },
+  {
+    "word": "and",
+    "start": 208.179,
+    "end": 208.353
+  },
+  {
+    "word": "respect",
+    "start": 208.423,
+    "end": 208.899
+  },
+  {
+    "word": "for",
+    "start": 208.957,
+    "end": 209.096
+  },
+  {
+    "word": "all",
+    "start": 209.154,
+    "end": 209.317
+  },
+  {
+    "word": "living",
+    "start": 209.386,
+    "end": 209.653
+  },
+  {
+    "word": "creatures",
+    "start": 209.735,
+    "end": 210.222
+  },
+  {
+    "word": "can",
+    "start": 210.28,
+    "end": 210.42
+  },
+  {
+    "word": "bring",
+    "start": 210.478,
+    "end": 210.687
+  },
+  {
+    "word": "about",
+    "start": 210.745,
+    "end": 211
+  },
+  {
+    "word": "the",
+    "start": 211.035,
+    "end": 211.105
+  },
+  {
+    "word": "most",
+    "start": 211.163,
+    "end": 211.383
+  },
+  {
+    "word": "unexpected",
+    "start": 211.499,
+    "end": 212.301
+  },
+  {
+    "word": "and",
+    "start": 212.626,
+    "end": 212.893
+  },
+  {
+    "word": "beautiful",
+    "start": 212.974,
+    "end": 213.508
+  },
+  {
+    "word": "solutions",
+    "start": 213.578,
+    "end": 214.274
+  }
+]
