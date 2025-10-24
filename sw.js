@@ -2,7 +2,7 @@
 
 // IMPORTANTE: Cambia este número de versión CADA VEZ que hagas una actualización.
 // Por ejemplo: 'interactive-stories-cache-v2', 'v3', etc.
-const CACHE_NAME = 'interactive-stories-cache-v23';
+const CACHE_NAME = 'interactive-stories-cache-v25';
 
 // Archivos y recursos que queremos cachear. Ya tenías esta lista.
 const urlsToCache = [
